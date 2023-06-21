@@ -1,0 +1,1 @@
+- A phenomenon that has a role in the shared reality we call the universe.
