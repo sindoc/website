@@ -1,0 +1,41 @@
+:root {
+    font-size: 18px !important;
+}
+
+h1, h2, h3 {
+    color: rgb(72, 46, 83);
+}
+
+a.tag[65d7a100-0e0e-4c3a-a23f-f808d65a0550] {
+    font-size: 18px !important;
+    background-color: blue !important;
+}
+
+.blocks-container i {
+    color: red !important;
+    font-size: smaller !important;
+}
+
+a.priority {
+    font-size: 0.75em;
+    background: var(--ct-block-reference-background);
+    /* color: var(--ls-primary-text-color); */
+    color: red;
+    padding: 2px 2px 2px 2px;
+    line-height: 1em;
+    font-weight: 550;
+    border-radius: 5px 5px 5px 5px;
+    border-style: solid;
+    /* border-color: var(--ls-link-ref-text-color); */
+    border-color: red;
+    border-width: 2px;
+  }
+  
+  a[href='#/page/A']::after {
+    content: 'A';
+    font-size: 0.75rem;
+    color: red;
+    border: 2px solid red;
+    border-radius: 5px;
+    padding: 2px;
+  }
