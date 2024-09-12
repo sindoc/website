@@ -1,40 +1,27 @@
 name: CI
 
+# Controls when the workflow will run
 on:
   push:
     branches: [main]
+    permissions:
+      contents: write
+
+  # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
 jobs:
   build:
+    # The type of runner that the job will run on
     runs-on: ubuntu-latest
 
+    # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-      # Checkout the repository
       - uses: actions/checkout@v4
-
-      # Logseq Publish step
-      - name: Logseq Publish 🚩
-        uses: pengx17/logseq-publish@main
-        with:
-          version: "master"
-
-      # Add a .nojekyll file to disable Jekyll on GitHub Pages
-      - name: add a nojekyll file
+      - uses: logseq/publish-spa@v0.3.0
+      - name: Add a nojekyll file # to make sure asset paths are correctly identified
         run: touch $GITHUB_WORKSPACE/www/.nojekyll
-
-      # Deploy to GitHub Pages
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
         with:
-          branch: gh-pages
           folder: www
-          clean: true
-          single-commit: true
-
-      # Upload artifact (if applicable)
-      - name: Upload artifact
-        uses: actions/upload-artifact@v3
-        with:
-          name: logseq-output
-          path: path/to/output
