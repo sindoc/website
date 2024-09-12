@@ -1,2 +1,2 @@
-- I use this label to tag areas in [[this knowledge graph]]
+- In case you have any questions regarding the content of specific portions or the entirety of [[this knowledge graph]], please feel free to reach out to its maintainer [[Sina K. Heshmati]]
 -
