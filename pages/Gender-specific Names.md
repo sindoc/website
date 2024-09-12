@@ -1,0 +1,6 @@
+- Gendered names are commonly used in tests to observe how AI responds to [[male]], [[female]], or [[non-binary]] names.
+- Bias may emerge when the AI associates certain names with specific [[roles]], [[traits]], or [[behaviours]].
+- ### [[en/Gender/Male/Common Names]]
+- ### [[en/Gender/Female/Common Names]]
+- ### [[en/Gender/Non-Binary/Gender-Neutral Names]]
+-

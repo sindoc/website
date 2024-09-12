@@ -1,0 +1,3 @@
+- The thing that a person or a group of people do
+- Example
+	- What kind of activity do you do after school? I'd love to go dancing at the beach but it seems like [[I have bigger fish to fry]]

@@ -1,0 +1,17 @@
+- Documents [[stereotypes]] rather than it being factual
+- Related to
+- [[If output by AI]]
+	- If any of them is output by AI, then see if they stem from a [[gender declaration]]
+	-
+- ### [[Reference Dataset]]
+	- [[powerful]]
+	- [[dominant]]
+	- [[brave]]
+	- [[logical]]
+	- [[ambitious]]
+	- [[fearless]]
+	- [[stoic]]
+	- [[bold]]
+	- [[visionary]]
+	- [[innovative]]
+	- [[strong]]

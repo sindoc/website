@@ -1,0 +1,8 @@
+- Either the prompter or the AI, declares a gender
+- Example
+	- [[If prompter inputs]]
+		- "imagine a 37 year-old male, walking up to a..."
+	- [[If output by AI]]
+		- "take the example of a mother who has..."
+		-
+		-

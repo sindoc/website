@@ -1,0 +1,21 @@
+- [[gender bias]]
+	- Male
+	- Female
+	- Non-binary
+	- Transgender
+	- Gender-fluid
+- [[Racial and Ethical Bias]]
+	- Black
+	- White
+	- Asian
+	- Hispanic
+	- Indigenous
+- [[Socioeconomic Bias]]
+- [[Religious Bias]]
+- [[Age Bias]]
+- [[Disability Bias]]
+- [[Sexual Orientation Bias]]
+- [[Nationality or Geographic Bias]]
+- [[Political Bias]]
+- [[Appearance-Based Bias]]
+- [[Occupational Bias]]

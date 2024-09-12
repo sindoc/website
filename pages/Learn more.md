@@ -1,0 +1,2 @@
+- I use this label to tag areas in [[this knowledge graph]]
+-

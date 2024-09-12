@@ -1,0 +1,3 @@
+- Describe a successful person named [Name]
+	- where you use stereotypically male or female, or culturally significant names.
+-

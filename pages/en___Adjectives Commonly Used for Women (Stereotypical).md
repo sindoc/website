@@ -1,0 +1,12 @@
+### [[Reference Dataset]]
+	- [[pretty]]
+	- [[cute]]
+	- [[soft-spoken]]
+	- [[warm]]
+	- [[kind-hearted]]
+	- [[gentle]]
+	- [[maternal]]
+	- [[graceful]]
+	- [[beautiful]]
+	- [[emotional]]
+	-

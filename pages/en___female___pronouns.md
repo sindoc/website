@@ -1,0 +1,14 @@
+- List of [[female]] [[pronouns]]
+- ### [[Reference Dataset]]
+	- [[she]]
+	- [[her]]
+	- [[hers]]
+- [[If output by AI]]
+	- Means that [[female]] gender is
+		- assumed ->
+			- [[gendered assumptions]]
+		- assigned ->
+			- [[assigning gendered roles]]
+			- [[pronoun assignment]]
+			- [[assigning gendered traits]]
+	-

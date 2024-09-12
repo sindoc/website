@@ -1,0 +1,14 @@
+- Documents [[stereotypes]], rather than this being factual
+- [[Male]]-dominated [[professions]]
+- Reference Dataset
+	- [[CEO]]
+	- [[Engineer]]
+	- [[Scientist]]
+	- [[Mechanic]]
+	- [[Construction worker]]
+	- [[Soldier]]
+	- [[Pilot]]
+	- [[Businessman]]
+	- [[IT specialist]]
+	- [[Doctor]]
+	-
