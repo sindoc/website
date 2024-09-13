@@ -1,2 +1,2 @@
-- See [[Human-AI Relationships]]
+- See [[Human-AI Relationships Glossary]]
 - [[...]]

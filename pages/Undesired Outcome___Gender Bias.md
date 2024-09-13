@@ -1,3 +1,5 @@
+broader:: [[Human Value Drift]]
+
 - When [[the output of AI]] drifts from [[human values]]
 - Includes
 	- [[stereotypical traits]]

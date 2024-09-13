@@ -1,0 +1,455 @@
+{:blocks (
+{:block/created-at 1726234682947
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:blockType "P"
+:stroke ""
+:collapsed false
+:borderRadius 8
+:index 3
+:scale [1 1]
+:pageId "AI Governance/Tools/Gender Bias Detector"
+:scaleLevel "md"
+:fill ""
+:compact false
+:isAutoResizing true
+:type "logseq-portal"
+:size [400 3524.6951505676266]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "9a222740-71ba-11ef-a528-b5b3ad24630f"
+:noFill false
+:point [1512 -240]
+:parentId "66e37520-5d3d-4579-94ef-f8cb67872721"
+:collapsedHeight 3382.070267549754
+:nonce 1726223173815}}
+:block/updated-at 1726234682947} 
+{:block/created-at 1726231937919
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:blockType "P"
+:stroke ""
+:collapsed false
+:borderRadius 8
+:index 11
+:scale [1 1]
+:pageId "Undesired Outcome/Gender Bias"
+:scaleLevel "md"
+:fill ""
+:compact false
+:isAutoResizing true
+:type "logseq-portal"
+:size [400 987.0000098542058]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "e099c430-71ce-11ef-a528-b5b3ad24630f"
+:noFill false
+:isLocked false
+:point [184 176]
+:parentId "66e37520-5d3d-4579-94ef-f8cb67872721"
+:collapsedHeight 0
+:nonce 1726231881978}}
+:block/updated-at 1726231937919} 
+{:block/created-at 1726231937932
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:stroke ""
+:index 12
+:scale [1 1]
+:fill ""
+:type "line"
+:strokeType "line"
+:strokeWidth 1
+:opacity 1
+:label ""
+:id "e09a1250-71ce-11ef-a528-b5b3ad24630f"
+:fontWeight 400
+:noFill true
+:point [395.32 110]
+:fontSize 20
+:handles 
+{:start 
+{:id "start"
+:canBind true
+:point [1.41 0]
+:bindingId "e09a1251-71ce-11ef-a528-b5b3ad24630f"}
+:end 
+{:id "end"
+:canBind true
+:point [0 62]
+:bindingId "e09a6070-71ce-11ef-a528-b5b3ad24630f"}}
+:decorations 
+{:end "arrow"}
+:parentId "66e37520-5d3d-4579-94ef-f8cb67872721"
+:nonce 1726231881867
+:italic false}}
+:block/updated-at 1726231937932} 
+{:block/content ""
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "66e37520-5d3d-4579-94ef-f8cb67872721"}
+:block/parent 
+{:block/uuid #uuid "66e37520-5d3d-4579-94ef-f8cb67872721"}
+:block/properties 
+{}
+:block/uuid #uuid "66e43662-5fa5-4ebc-9b19-4c5adc002365"} 
+{:block/created-at 1726231869190
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:stroke ""
+:rotation 0
+:borderRadius 2
+:index 6
+:scale [1 1]
+:scaleLevel "xxl"
+:fill ""
+:type "box"
+:size [2832 136]
+:strokeType "line"
+:strokeWidth 6
+:opacity 1
+:label "Gender Bias Detection Acceleration Testsuite for Generative AI"
+:id "cff9e570-71cd-11ef-a528-b5b3ad24630f"
+:fontWeight 400
+:noFill false
+:point [-984 -456]
+:fontSize 60
+:parentId "66e37520-5d3d-4579-94ef-f8cb67872721"
+:nonce 1726231425459
+:italic false}}
+:block/updated-at 1726231869190} 
+{:block/created-at 1726231875720
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:stroke ""
+:index 8
+:scale [1 1]
+:fill ""
+:type "line"
+:strokeType "line"
+:strokeWidth 1
+:opacity 1
+:label ""
+:id "bc671a90-71ce-11ef-a528-b5b3ad24630f"
+:fontWeight 400
+:noFill true
+:point [-356 1013.73]
+:fontSize 20
+:handles 
+{:start 
+{:id "start"
+:canBind true
+:point [67 0]
+:bindingId "bc671a91-71ce-11ef-a528-b5b3ad24630f"}
+:end 
+{:id "end"
+:canBind true
+:point [0 138.41]
+:bindingId "bc6768b0-71ce-11ef-a528-b5b3ad24630f"}}
+:decorations 
+{:end "arrow"}
+:parentId "66e37520-5d3d-4579-94ef-f8cb67872721"
+:nonce 1726231821251
+:italic false}}
+:block/updated-at 1726231875720} 
+{:block/created-at 1726231875707
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:blockType "P"
+:stroke ""
+:collapsed false
+:borderRadius 8
+:index 0
+:scale [1 1]
+:pageId "Data & AI Governance"
+:scaleLevel "md"
+:fill ""
+:compact false
+:isAutoResizing true
+:type "logseq-portal"
+:size [400 1564.999910603266]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "0d81fb20-71bb-11ef-a528-b5b3ad24630f"
+:noFill false
+:isLocked false
+:point [-288 -184]
+:parentId "66e37520-5d3d-4579-94ef-f8cb67872721"
+:collapsedHeight 0
+:nonce 1726223367441}}
+:block/updated-at 1726231875707} 
+{:block/created-at 1726234682937
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:blockType "P"
+:stroke ""
+:collapsed false
+:borderRadius 8
+:index 1
+:scale [1 1]
+:pageId "Feature/Gender"
+:scaleLevel "md"
+:fill ""
+:compact false
+:isAutoResizing true
+:type "logseq-portal"
+:size [400 513.000074777307]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "819329d0-715c-11ef-a528-b5b3ad24630f"
+:noFill false
+:point [1072 1120]
+:parentId "66e37520-5d3d-4579-94ef-f8cb67872721"
+:collapsedHeight 0
+:nonce 1726182760139}}
+:block/updated-at 1726234682937} 
+{:block/created-at 1726231920450
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:blockType "P"
+:stroke ""
+:collapsed false
+:borderRadius 8
+:index 5
+:scale [1 1]
+:pageId "Gender Bias Detection"
+:scaleLevel "md"
+:fill ""
+:compact false
+:isAutoResizing true
+:type "logseq-portal"
+:size [400 284.99999621988934]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "f155c300-71ba-11ef-a528-b5b3ad24630f"
+:noFill false
+:point [1064 -232]
+:parentId "66e37520-5d3d-4579-94ef-f8cb67872721"
+:collapsedHeight 0
+:nonce 1726223320150}}
+:block/updated-at 1726231920450} 
+{:block/created-at 1726231900948
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:blockType "P"
+:stroke ""
+:collapsed false
+:borderRadius 8
+:index 2
+:scale [1 1]
+:pageId "Gender Bias Detection"
+:scaleLevel "md"
+:fill ""
+:compact false
+:isAutoResizing true
+:type "logseq-portal"
+:size [400 285.0000312881637]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "87397480-71ba-11ef-a528-b5b3ad24630f"
+:noFill false
+:point [200 -176]
+:parentId "66e37520-5d3d-4579-94ef-f8cb67872721"
+:collapsedHeight 0
+:nonce 1726223142166}}
+:block/updated-at 1726231900948} 
+{:block/created-at 1726234682953
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:blockType "P"
+:stroke ""
+:collapsed false
+:borderRadius 8
+:index 9
+:scale [1 1]
+:pageId "AI Governance"
+:scaleLevel "md"
+:fill ""
+:compact false
+:isAutoResizing true
+:type "logseq-portal"
+:size [400 227.9999875475774]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "cd89b350-71ce-11ef-a528-b5b3ad24630f"
+:noFill false
+:isLocked false
+:point [-280 1552]
+:parentId "66e37520-5d3d-4579-94ef-f8cb67872721"
+:collapsedHeight 0
+:nonce 1726231850129}}
+:block/updated-at 1726234682953} 
+{:block/created-at 1726231880058
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:stroke ""
+:index 10
+:scale [1 1]
+:fill ""
+:type "line"
+:strokeType "line"
+:strokeWidth 1
+:opacity 1
+:label ""
+:id "cd89da60-71ce-11ef-a528-b5b3ad24630f"
+:fontWeight 400
+:noFill true
+:point [-82.12 1382]
+:fontSize 20
+:handles 
+{:start 
+{:id "start"
+:canBind true
+:point [0 0]
+:bindingId "cd8a0170-71ce-11ef-a528-b5b3ad24630f"}
+:end 
+{:id "end"
+:canBind true
+:point [1.25 166]
+:bindingId "cd8a0171-71ce-11ef-a528-b5b3ad24630f"}}
+:decorations 
+{:end "arrow"}
+:parentId "66e37520-5d3d-4579-94ef-f8cb67872721"
+:nonce 1726231849967
+:italic false}}
+:block/updated-at 1726231880058} 
+{:block/created-at 1726231922648
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:blockType "P"
+:stroke ""
+:collapsed false
+:borderRadius 8
+:index 4
+:scale [1 1]
+:pageId "Undesired Outcome/Gender Bias"
+:scaleLevel "md"
+:fill ""
+:compact false
+:isAutoResizing true
+:type "logseq-portal"
+:size [400 986.9999937315314]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "b934dd80-71ba-11ef-a528-b5b3ad24630f"
+:noFill false
+:point [1088 104]
+:parentId "66e37520-5d3d-4579-94ef-f8cb67872721"
+:collapsedHeight 0
+:nonce 1726223225855}}
+:block/updated-at 1726231922648} 
+{:block/created-at 1726231846592
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:blockType "P"
+:stroke ""
+:rotation 0
+:collapsed false
+:borderRadius 8
+:index 7
+:scale [1 1]
+:pageId "Data Governance"
+:scaleLevel "md"
+:fill ""
+:compact false
+:isAutoResizing true
+:type "logseq-portal"
+:size [624 3977.875289251579]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "bc66cc70-71ce-11ef-a528-b5b3ad24630f"
+:noFill false
+:isLocked false
+:point [-984 -184]
+:parentId "66e37520-5d3d-4579-94ef-f8cb67872721"
+:collapsedHeight 0
+:nonce 1726231821387}}
+:block/updated-at 1726231846592})
+:pages (
+{:block/uuid #uuid "66e37520-5d3d-4579-94ef-f8cb67872721"
+:block/properties 
+{:ls-type :whiteboard-page
+:logseq.tldraw.page 
+{:id "66e37520-5d3d-4579-94ef-f8cb67872721"
+:name "gender bias detection test suite for generative ai"
+:bindings 
+{:bc671a91-71ce-11ef-a528-b5b3ad24630f 
+{:id "bc671a91-71ce-11ef-a528-b5b3ad24630f"
+:type "line"
+:fromId "bc671a90-71ce-11ef-a528-b5b3ad24630f"
+:toId "0d81fb20-71bb-11ef-a528-b5b3ad24630f"
+:handleId "start"
+:point [0.5 0.5]
+:distance 4}
+:bc6768b0-71ce-11ef-a528-b5b3ad24630f 
+{:id "bc6768b0-71ce-11ef-a528-b5b3ad24630f"
+:type "line"
+:fromId "bc671a90-71ce-11ef-a528-b5b3ad24630f"
+:toId "bc66cc70-71ce-11ef-a528-b5b3ad24630f"
+:handleId "end"
+:point [0.5 0.5]
+:distance 4}
+:cd8a0170-71ce-11ef-a528-b5b3ad24630f 
+{:id "cd8a0170-71ce-11ef-a528-b5b3ad24630f"
+:type "line"
+:fromId "cd89da60-71ce-11ef-a528-b5b3ad24630f"
+:toId "0d81fb20-71bb-11ef-a528-b5b3ad24630f"
+:handleId "start"
+:point [0.5 0.5]
+:distance 4}
+:cd8a0171-71ce-11ef-a528-b5b3ad24630f 
+{:id "cd8a0171-71ce-11ef-a528-b5b3ad24630f"
+:type "line"
+:fromId "cd89da60-71ce-11ef-a528-b5b3ad24630f"
+:toId "cd89b350-71ce-11ef-a528-b5b3ad24630f"
+:handleId "end"
+:point [0.5 0.5]
+:distance 4}
+:e09a1251-71ce-11ef-a528-b5b3ad24630f 
+{:id "e09a1251-71ce-11ef-a528-b5b3ad24630f"
+:type "line"
+:fromId "e09a1250-71ce-11ef-a528-b5b3ad24630f"
+:toId "87397480-71ba-11ef-a528-b5b3ad24630f"
+:handleId "start"
+:point [0.5 0.5]
+:distance 4}
+:e09a6070-71ce-11ef-a528-b5b3ad24630f 
+{:id "e09a6070-71ce-11ef-a528-b5b3ad24630f"
+:type "line"
+:fromId "e09a1250-71ce-11ef-a528-b5b3ad24630f"
+:toId "e099c430-71ce-11ef-a528-b5b3ad24630f"
+:handleId "end"
+:point [0.5 0.5]
+:distance 4}}
+:nonce 1
+:assets []
+:shapes-index ("0d81fb20-71bb-11ef-a528-b5b3ad24630f" "819329d0-715c-11ef-a528-b5b3ad24630f" "87397480-71ba-11ef-a528-b5b3ad24630f" "9a222740-71ba-11ef-a528-b5b3ad24630f" "b934dd80-71ba-11ef-a528-b5b3ad24630f" "f155c300-71ba-11ef-a528-b5b3ad24630f" "cff9e570-71cd-11ef-a528-b5b3ad24630f" "bc66cc70-71ce-11ef-a528-b5b3ad24630f" "bc671a90-71ce-11ef-a528-b5b3ad24630f" "cd89b350-71ce-11ef-a528-b5b3ad24630f" "cd89da60-71ce-11ef-a528-b5b3ad24630f" "e099c430-71ce-11ef-a528-b5b3ad24630f" "e09a1250-71ce-11ef-a528-b5b3ad24630f")}}
+:block/journal? false
+:block/updated-at 1726234702418
+:block/created-at 1726182688261
+:block/format :markdown
+:block/type "whiteboard"
+:block/name "gender bias detection test suite for generative ai"
+:block/original-name "Gender Bias Detection Test Suite for Generative AI"})}

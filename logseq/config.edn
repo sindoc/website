@@ -84,6 +84,8 @@
  ;; 3. Setup page "home" as home page with multiple pages in sidebar
  ;; :default-home {:page "home" :sidebar ["page a" "page b"]}
 
+:default-home {:page "Homepage"}
+
  ;; Tell logseq to use a specific folder in the repo as a default location for notes
  ;; if not specified, notes are stored in `pages` directory
  ;; :pages-directory "your-directory"
@@ -218,7 +220,7 @@
  :ref/linked-references-collapsed-threshold 50
 
  ;; Favorites to list on the left sidebar
- :favorites ["AI Governance/Tools/Gender Bias Detector" "Mar 2nd, 2024" "Homepage"]
+ :favorites ["homepage" "data & ai governance" "reference data" "reference datasets for gender bias detection" "list of countries in the world" "knowyourai" "human-ai relationships glossary" "gender bias test suite for generative ai" "ai governance/tools/gender bias detector"]
 
  ;; any number between 0 and 1 (the greater it is the faster the changes of the next-interval of card reviews) (default 0.5)
  ;; :srs/learning-fraction 0.5
@@ -315,5 +317,5 @@
  ;;     ;use Percent-encoding for other invalid characters
  :file/name-format :triple-lowbar
  :publishing/all-pages-public? true
- :feature/enable-flashcards? false
+ :feature/enable-flashcards? true
  }

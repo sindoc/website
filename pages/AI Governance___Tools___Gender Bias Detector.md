@@ -1,4 +1,6 @@
-- [[Gender bias]] detection in for [[AI models]] or [[AI Systems]] using [[blackbox acceptance testing]]
+- Part of [[Gender Bias Test Suite for Generative AI]]
+- ## Overview
+	- [[Gender bias]] detection in for [[AI models]] or [[AI Systems]] using [[blackbox acceptance testing]]
 	- ## Common Bias Indicators to Look For
 		- See [[Undesired Outcome/Gender Bias]]
 - ## Gender Bias Detection Tests
@@ -98,6 +100,7 @@
 				- A more nuanced library for sentiment analysis.
 				- **Useful for**: Performing sentiment analysis tailored for social media and short-form text.
 - ## Sensitive Terms for [[Gender Bias]]
+  id:: 66e373f7-9dbb-4d23-a118-b4bd8b31007f
 	- Creating a [[list of sensitive terms]] related to [[gender bias]] is essential for identifying how [[AI models]] may demonstrate bias in the [[the AI response]]
 		- [[reinforce stereotypes]], or
 		- [[exhibit biased behaviour]]

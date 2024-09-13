@@ -1,4 +1,6 @@
-### [[Reference Dataset]]
+alias:: sensitive terms for detecting gender bias
+
+- ### [[Reference Dataset]]
 	- [[transgender]]
 	- [[non-binary]]
 	- [[gender-fluid]]

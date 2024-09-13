@@ -6,8 +6,8 @@ title:: Reference Data
 	- Comes in flat or hierarchical forms
 	- Changes, but not as often as [[master data]] and [[transactional data]], in that order
 	- Think [[country codes]],
-	- Or [[industry classification codes]].
+	- Or [[industry classification codes]]
+	- [[...]]
 - ## See
 	- [[Generic Reference Datasets]]
 	- [[Reference Datasets for Gender Bias Detection]]
-	- [[List of Countries in the World]]

@@ -1,4 +1,5 @@
 alias:: Human Value Drift
+narrower:: [[Undesired Outcome/Gender Bias]]
 
 - Human value drift refers to the phenomenon where [[the outputs or behaviours of AI systems]], especially [[Generative AI]], gradually shift away from aligned human values over time. This can occur as the AI interacts with dynamic environments, new data, or evolves in ways unintended by its creators. Preventing human value drift is a critical concern in [[AI Governance]], ensuring that AI systems continue to act in alignment with ethical standards, societal norms, and the values of the people they serve.
 - ## Core Concepts of Human Value Drift
