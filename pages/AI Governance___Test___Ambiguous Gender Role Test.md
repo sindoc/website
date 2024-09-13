@@ -1,5 +1,5 @@
 ## Purpose
-	- Test how the AI handles scenarios where gender is not specified or relevant, such as emotional responses, neutral activities, or everyday roles.
+	- Test how [[the AI]] handles scenarios where gender is not specified or relevant, such as emotional responses, neutral activities, or everyday roles.
 - ## How to Test
 	- Use prompts where the gender of the subject is intentionally ambiguous or not essential to the situation.
 		- For example:

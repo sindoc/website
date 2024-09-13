@@ -1,4 +1,6 @@
 - [[Gender bias]] detection in for [[AI models]] or [[AI Systems]] using [[blackbox acceptance testing]]
+	- ## Common Bias Indicators to Look For
+		- See [[Undesired Outcome/Gender Bias]]
 - ## Gender Bias Detection Tests
   background-color:: purple
 	- [[AI Governance/Test/Gender Role Stereotyping]]
@@ -9,11 +11,11 @@
 	- [[AI Governance/Test/Gender-Specific Language and Descriptors]]
 	- [[AI Governance/Test/Non-Binary and Gender-Inclusive Language Test]]
 	- [[AI Governance/Test/Ambiguous Gender Role Test]]
-	- ## Useful Information for running these tests as a serverless function
+	- ### Useful Information for running these tests as a serverless function
 		- ### Running These Tests on [[AWS Lambda]]
 		  id:: 66e33e8f-1375-42e4-b12c-b750b348799e
 		  background-color:: green
-			- Each of the test functions is invoked through the lambda_handler which will route the request based on the test type provided in the event.
+			- Each of the test functions is invoked through the `lambda_handler` which will route the request based on the test type provided in the event.
 			- ```python
 			  def lambda_handler(event, context):
 			      # Entry point for AWS Lambda
@@ -21,12 +23,13 @@
 			      prompt = event.get("prompt")
 			      return run_test(test_type, prompt)
 			  ```
-		- #### Lambda Environment Setup
+		- #### Lambda Environment Setup with API Keys
 		  background-color:: yellow
 		  collapsed:: true
-			- 1.	Ensure API keys for services like OpenAI or Hugging Face are set as environment variables.
-			  	2.	Adjust the timeout and memory settings for Lambda based on the complexity of the responses you’re processing.
-			  	3.	Package dependencies (e.g., openai, textblob) either by using Lambda Layers or bundling them within the Lambda deployment package.
+			- collapsed:: true
+			  1.	Ensure API keys for services like OpenAI or Hugging Face are set as environment variables.
+				- 2.	Adjust the timeout and memory settings for Lambda based on the complexity of the responses you’re processing.
+				- 3.	Package dependencies (e.g., openai, textblob) either by using Lambda Layers or bundling them within the Lambda deployment package.
 			- ```python
 			  import os
 			  import json
@@ -75,6 +78,7 @@
 		- ### Useful Python Libraries for Extending These Tests
 		  id:: 66e33dfb-69e0-4562-be4c-9bdbcbdeeb59
 		  background-color:: green
+		  collapsed:: true
 			- [[Transformers]] from [[Hugging Face]]
 				- For model-based comparisons between different prompt outputs.
 			- [[NLTK]]
@@ -93,9 +97,8 @@
 			- [[VADER Sentiment Analysis]] (from [[NLTK]]):
 				- A more nuanced library for sentiment analysis.
 				- **Useful for**: Performing sentiment analysis tailored for social media and short-form text.
-- ## Sensitive Terms
-	- Creating a [[list of sensitive terms]] related to [[gender bias]] is essential for identifying how [[AI models]] may
-	  collapsed:: true
+- ## Sensitive Terms for [[Gender Bias]]
+	- Creating a [[list of sensitive terms]] related to [[gender bias]] is essential for identifying how [[AI models]] may demonstrate bias in the [[the AI response]]
 		- [[reinforce stereotypes]], or
 		- [[exhibit biased behaviour]]
 		- These keywords, phrases, or concepts are often linked to any of the following:
@@ -103,26 +106,17 @@
 			- [[societal expectations]]
 			- [[cultural associations]]
 		- Testing an AI model against these terms can help evaluate whether the system perpetuates gender bias.
-	- ### [[Gender-specific Names]]
-	- ### [[Gender-Stereotypical Phrases]]
-	- ### [[Gendered Occupational Roles]]
-	- ### [[Personality Traits & Emotional Descriptors]]
-	- ### [[Stereotypically Gender Roles]]
-	- ### [[Gendered Adjectives]]
-	- ### [[Gender-specific Pronouns]]
-	- ### [[Gendered Social Roles]]
-	- ### [[Gender-Related Concepts and Activities]]
-	- ### [[Stereotypes Around Gender Identity]]
-	- ### [[Cultural Markers and Gender Norms]]
+	- #### Some useful [[Reference Datasets for Gender Bias Detection]]
+	- ###  [[Stereotypes Around Gender Identity]]
+		- #### [[Gendered Occupational Roles]]
+		- #### [[Personality Traits & Emotional Descriptors]]
+		- #### [[Stereotypically Gender Roles]]
+		- #### [[Gendered Adjectives]]
+		- #### [[Gender-Stereotypical Phrases]]
+		- #### [[Gendered Social Roles]]
+		- #### [[Cultural Markers and Gender Norms]]
+		- #### [[Gender-Related Concepts and Activities]]
+	- ### [[Generic Reference Datasets]]
+		- #### [[Gender-specific Names]]
+		- #### [[Gender-specific Pronouns]]
 	- These [[terms]] and [[phrases]] can be used in specific [[test cases]] or [[prompts]] designed to explore how the [[AI system]] responds to or [[reinforces gender bias]]. Here’s how:
-- ## Common Bias Indicators to Look For
-	- [[stereotypical traits]]
-		- Describing men as strong, logical, or assertive and women as emotional, nurturing, or passive.
-	- [[pronoun bias]]
-		- Defaulting to male pronouns in neutral or gender-ambiguous prompts.
-	- [[emotional language]]
-		- Assigning more emotional language to women and more rational language to men.
-	- [[role bias]]
-		- Assigning men to leadership or technical roles and women to caregiving or support roles.
-	- [[sentiment disparity]]
-		- Generating more positive sentiment for male figures and more neutral or negative sentiment for female figures in similar contexts.

@@ -1,0 +1,2 @@
+- Typically happens after a software developer [[commits code to Git]]
+	- In [[Git]], this is done using the command `git push origin main (or master)`

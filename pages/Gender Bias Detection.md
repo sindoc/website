@@ -1,0 +1,3 @@
+- Refers to a [[business activity]] for detecting [[gender bias]] in [[generated language]] to prevent [[Undesired Outcome/Gender Bias]]
+- See [[AI Governance/Tools/Gender Bias Detector]]
+-

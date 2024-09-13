@@ -1,3 +1,5 @@
+alias:: the maintainer of this public graph
+
 - My [GitHub](https://github.com/sindoc)
 - My [twitter](https://twitter.com/sindoc) (X, sorry)
 - My [LinkedIn](https://www.linkedin.com/in/sinaheshmati/)

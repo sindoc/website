@@ -2,7 +2,6 @@
 	- [[Gendered Adjectives]]
 	- [[Personality Traits & Emotional Descriptors]]
 - are used in the language when the value of [[Feature/Gender]] is known.
--
 - ## Purpose
 	- Examine the language used to describe men vs. women and identify whether certain [[gender-specific adjectives]] or [[stereotypical traits]] are **overused**
 		- Example

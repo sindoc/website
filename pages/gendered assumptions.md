@@ -1,3 +1,1 @@
-- related to
-	- [[AI Governance/Test/Gender Role Stereotyping]]
-	-
+- gemd

@@ -1,0 +1,6 @@
+- Pertains to the conversational aspect of a human's interaction with [[the AI]].
+	- Same as [[Generative AI]], but from the [[human]]'s perspective
+	- The human converses, hence Conversational AI, while [[the AI]] generates, hence [[Generative AI]].
+	- Also see
+		- [[Data Science/Conversational <-> Generative]]
+		-

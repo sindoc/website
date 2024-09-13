@@ -10,11 +10,11 @@
 		- Although, the YouTube videos unfortunately don't feature the random news pieces he so brilliantly presents. You might require an HBO Max subscription for that, or equivalent.
 	- Or read my substack publication called "[The Diary of a #DataCitizen](https://lutino.substack.com/) or [my reddit](https://www.reddit.com/user/sindoc42/)
 	-
-	-
 - ### Ongoing Topics
   id:: 65d7a100-0e0e-4c3a-a23f-f808d65a0550
+  background-color:: blue
 	- ### Top Priority Ongoing Actions
-	  background-color:: red
+	  background-color:: yellow
 		- {{query (and (task DOING WAITING) (priority A))}}
 		  query-table:: true
 		  query-properties:: [:block]

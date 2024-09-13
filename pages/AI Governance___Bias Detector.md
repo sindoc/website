@@ -1,2 +1,3 @@
-- [[AI Governance/Tools/Gender Bias Detector]]
--
+- Contains
+	- [[AI Governance/Tools/Gender Bias Detector]]
+	-
