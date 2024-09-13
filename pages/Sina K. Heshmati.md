@@ -1,4 +1,4 @@
-alias:: the maintainer of this public graph
+alias:: the maintainer of this public graph, contact me
 
 - My [GitHub](https://github.com/sindoc)
 - My [twitter](https://twitter.com/sindoc) (X, sorry)

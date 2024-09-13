@@ -7,12 +7,7 @@
 		- And at this stage, the content is aimed at the professionals in this field.
 		- In order to follow my writings, which are a tad easier to follow, please feel free to [[consider reading my blog on Substack]].
 	- Stay tuned and Happy Hacking!
-		- In the meantime, don't forget to watch [[John Oliver]]'s [[Last Week Tonight]]
-		  collapsed:: true
-			- [Last Week Tonight's YouTube Channel](https://www.youtube.com/user/LastWeekTonight)
-			- Although, the YouTube videos unfortunately don't feature the random news pieces he so brilliantly presents. You might require an HBO Max subscription for that, or equivalent.
-		- Or [[read Hacker News]]
-		- [[...]]
+	- [[...]]
 		-
 		-
 - ### Ongoing Topics
