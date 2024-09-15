@@ -1,4 +1,4 @@
-alias:: your company's, enterprise, an organisation, an enterprise, industry classification codes, industry classification, organisations, organisation, your organisation
+alias:: your company's, enterprise, an organisation, an enterprise, industry classification codes, industry classification, organisations, organisation, your organisation, the organisation
 title:: Types of Organisations
 
 - Organisations vary in size, structure, and purpose, and these factors influence not only how they are perceived but also how they function internally and externally.

@@ -4,7 +4,6 @@ title:: Undesired Outcome/Data Drift
 	- Data drift occurs when the statistical properties of data change over time, causing models that were once accurate to become less effective.
 	- This phenomenon is particularly significant in [[Machine Learning]], where models are trained on historical data and expected to make predictions on future or real-time data. When data drifts, the relationship between input data and predicted output can deteriorate, leading to poor model performance.
 - ## Types of Data Drift
-  collapsed:: true
   Data drift can manifest in different ways depending on how the data is changing over time:
 	- **Covariate Drift**: Occurs when the distribution of independent variables (features) changes. The relationship between the features and target variable may remain the same, but the distribution of the input data changes.
 		- Example: A retail company's customer base shifts over time, leading to changes in purchasing behavior without changes in the purchasing patterns themselves.

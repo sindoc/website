@@ -1,6 +1,6 @@
 alias:: Bias Detection Test Suite for Generative AI, Bias Detection Test Suite
 
-- Contains fine-grained tests for detecting
+- Contains fine-grained tests suites for detecting the following [[undesired outcomes]]
 	- [[Gender Bias]] -> [[Gender Bias Detection]]
 		- [[AI Governance/Tools/Gender Bias Detector]]
 	- [[Age Bias]] -> [[Age Bias Detection]]
