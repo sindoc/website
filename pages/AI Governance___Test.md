@@ -1,3 +1,3 @@
-alias:: Automated Mitigation of AI risks, AI Governance test
+alias:: Automated Mitigation of AI risks, AI Governance tests
 
 -

@@ -1,3 +1,5 @@
+type:: TestSuite
+
 - Part of [[Gender Bias Test Suite for Generative AI]]
 - By [[Sina K. Heshmati]]
 - ## Overview

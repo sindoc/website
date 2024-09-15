@@ -24,7 +24,7 @@
 	- #### 1. **Bias Detection and Fairness Monitoring**
 		- **Objective**: Ensure that AI models do not introduce or amplify biases (e.g., based on age, gender, race, socioeconomic status).
 		- **Frequency**: Bias detection tests will be run on a weekly basis.
-		- **Tools**: Use of automated bias detection tools such as [[AI Governance/Test Suite/Age Bias Detection Suite]] to monitor biases.
+		- **Tools**: Use of automated bias detection tools such as [[AI Governance/Tools/Bias Detector]] to monitor biases.
 		- **Action Plan**: If bias is detected, the AI model will be retrained or adjusted based on the severity of the issue.
 	- #### 2. **Performance Monitoring**
 		- **Objective**: Monitor the accuracy, reliability, and responsiveness of AI models in production.
