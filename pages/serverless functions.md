@@ -1,0 +1,7 @@
+- Makes sense in the context of [[Cloud/Providers]]:
+	- [[AWS Lambda]] for [[Cloud/Providers/AWS]]
+	- [[Google Cloud Functions]] for [[Google/Cloud]]
+	- [[Azure Functions]] for [[Microsoft/Azure]]
+	- [[...]]
+- Related to
+	- [[Computer Science/Lambda]]

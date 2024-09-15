@@ -1,4 +1,4 @@
-alias:: the AI System, the AI, the AI's, AI systems, AI system's
+alias:: the AI System, the AI, the AI's, AI systems, AI system's, an AI system, an AI system's
 
 - Not the same as [[an AI model]], in that we consider the AI system as [[the system]] responsible for holding a [[textual conversation]] with a human being.
 - However, an AI system relies heavily on [[an AI model]] as its [[blackbox]] source of knowledge to interact with its [[human user]].

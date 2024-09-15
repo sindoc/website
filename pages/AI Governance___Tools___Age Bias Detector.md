@@ -1,0 +1,8 @@
+- {{embed ((66e71132-d847-4808-a59b-f75426e54786))}}
+- [[Age Bias Testing/Age Role Stereotyping Test]]
+- [[Age Bias Testing/Age Representation in Leadership Roles]]
+- [[Age Bias Testing/Age-Related Sentiment Analysis]]
+- [[Age Bias Testing/Age-Swap Test]]
+- [[Age Bias Testing/Age-Specific Adjectives and Descriptors Test]]
+- [[Age Bias Testing/Professional Role Assignment by Age]]
+- [[Age Bias Testing/Assumptions About Technological Capabilities]]

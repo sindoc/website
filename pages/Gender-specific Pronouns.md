@@ -1,7 +1,7 @@
 alias:: pronoun bias
 
 -
-- [[pronouns]] can reveal [[Bias]] in [[AI systems]] when they are used [[to assign gender]] inappropriately in [[gender-neutral contexts]].
+- [[pronouns]] can reveal [[Types of Bias]] in [[AI systems]] when they are used [[to assign gender]] inappropriately in [[gender-neutral contexts]].
 - Contains [[reference datasets]]
 	- [[en/Gender/Male/pronouns]]
 	- [[en/female/pronouns]]

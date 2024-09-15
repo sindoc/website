@@ -1,0 +1,2 @@
+- Sensitive features are data attributes that are either set by [[machines]] or [[humans]] to track the behaviour of [[an AI system]]. The goal is to ensure that we a [[Human Value Drift]] doesn't occur.
+-

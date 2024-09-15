@@ -1,6 +1,6 @@
 - Non-exhaustive list
+	- [[AI Governance/Tools/Bias Detector]]
 	- [[AI Governance/NannyML]]
-	- [[AI Governance/Bias Detector]]
 	- [[...]]
 	-
 	-

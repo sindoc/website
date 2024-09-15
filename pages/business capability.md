@@ -30,7 +30,7 @@
 - **Identifying Gaps and Opportunities**: Capability mapping and assessments reveal areas for improvement, gaps in execution, and new opportunities for growth.
 - ## Practical Applications of Business Capability
   Business capabilities are critical across different contexts:
-- **Digital Transformation**: In digital transformation efforts, businesses often focus on enhancing or acquiring new capabilities such as [[Data Analytics]], [[Artificial Intelligence]], and [[Cloud Computing]].
+- **Digital Transformation**: In digital transformation efforts, businesses often focus on enhancing or acquiring new capabilities such as [[Data Analytics]], [[AI]], and [[Cloud Computing]].
 - **Mergers and Acquisitions**: When assessing a potential merger or acquisition, business capabilities help identify synergies or gaps between two companies.
 - **Strategic Planning**: During strategic planning, capabilities guide decisions around resource allocation, process improvements, and technological investments.
   

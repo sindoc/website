@@ -1,15 +1,6 @@
-- [[gender bias]]
-	- Male
-	- Female
-	- Non-binary
-	- Transgender
-	- Gender-fluid
-- [[Racial and Ethical Bias]]
-	- Black
-	- White
-	- Asian
-	- Hispanic
-	- Indigenous
+alias:: bias, biases
+title:: Types of Bias
+
 - [[Socioeconomic Bias]]
 - [[Religious Bias]]
 - [[Age Bias]]

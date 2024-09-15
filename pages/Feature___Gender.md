@@ -1,4 +1,4 @@
-alias:: en/Gender
+alias:: en/Gender, gender
 
 - Values
 	- Male
