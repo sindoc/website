@@ -2,7 +2,6 @@
 - Sub-categories
 	- [[Cloud & Storage/File Hosting Service]]
 		- [[File Hosting Service/Dropbox]]
-		  collapsed:: true
 			- **Website**: [Dropbox](https://www.dropbox.com/)
 			- **Country**: [[USA]]
 			- **Subscription Plans**:
@@ -76,7 +75,6 @@
 			- **Cancel Subscription**: [Cancel Sync Subscription](https://www.sync.com/help/how-do-i-cancel-my-subscription/)
 	- [[Cloud & Storage/Cloud Storage]]
 		- [[Cloud Storage/Amazon S3]]
-		  collapsed:: true
 			- **Website**: [Amazon S3](https://aws.amazon.com/s3/)
 			- **Country**: [[USA]]
 			- **Pricing**:
@@ -118,6 +116,7 @@
 				- $5.99 per TB/month (no egress fees or API request charges)
 			- **Cancel Subscription**: [Cancel Wasabi Account](https://wasabi-support.zendesk.com/hc/en-us/articles/360061116832-Canceling-a-Wasabi-Account)
 		- [[Cloud Storage/DigitalOcean Spaces]]
+		  collapsed:: true
 			- **Website**: [DigitalOcean Spaces](https://www.digitalocean.com/products/spaces/)
 			- **Country**: [[USA]]
 			- **Pricing**:
@@ -126,6 +125,7 @@
 				- $0.01/GB for additional bandwidth
 			- **Cancel Subscription**: [Cancel DigitalOcean Subscription](https://docs.digitalocean.com/support/cancel-account/)
 		- [[Cloud Storage/IBM Cloud Object Storage]]
+		  collapsed:: true
 			- **Website**: [IBM Cloud Object Storage](https://www.ibm.com/cloud/object-storage)
 			- **Country**: [[USA]]
 			- **Pricing**:
@@ -133,6 +133,7 @@
 				- Vault (cold storage): $0.0011 per GB/month
 			- **Cancel Subscription**: [Cancel IBM Cloud Subscription](https://cloud.ibm.com/docs/account?topic=account-close-account)
 		- [[Cloud Storage/Oracle Cloud Storage]]
+		  collapsed:: true
 			- **Website**: [Oracle Cloud Storage](https://www.oracle.com/cloud/storage/)
 			- **Country**: [[USA]]
 			- **Pricing**:
@@ -140,7 +141,6 @@
 				- Archive Storage: $0.0026 per GB/month
 			- **Cancel Subscription**: [Cancel Oracle Cloud Subscription](https://docs.oracle.com/en/cloud/get-started/subscriptions-cloud/manage-your-services/3-cancel-subscription.html)
 	- [[Cloud & Storage/Cloud Computing Platform]]
-	  collapsed:: true
 		- [[Cloud/Provider/Amazon Web Services (AWS)]]
 		  collapsed:: true
 			- **Website**: [AWS](https://aws.amazon.com/)
@@ -166,6 +166,7 @@
 				- On-Demand: Based on instance type, storage, and bandwidth (starts at $0.0105 per hour for e2-micro)
 			- **Cancel Subscription**: [Cancel Google Cloud Subscription](https://cloud.google.com/billing/docs/how-to/cancel-service)
 		- [[Cloud/Provider/IBM Cloud]]
+		  collapsed:: true
 			- **Website**: [IBM Cloud](https://www.ibm.com/cloud)
 			- **Country**: [[USA]]
 			- **Pricing**:
@@ -173,12 +174,14 @@
 				- Virtual Servers: Pricing starts at $0.028 per hour for standard instances
 			- **Cancel Subscription**: [Cancel IBM Cloud Subscription](https://cloud.ibm.com/docs/account?topic=account-close-account)
 		- [[Cloud/Provider/Alibaba Cloud]]
+		  collapsed:: true
 			- **Website**: [Alibaba Cloud](https://www.alibabacloud.com/)
 			- **Country**: [[China]]
 			- **Pricing**:
 				- Pay-as-you-go instances starting at $0.01/hour for ECS (Elastic Compute Service)
 			- **Cancel Subscription**: [Cancel Alibaba Cloud Subscription](https://www.alibabacloud.com/help/doc-detail/59909.htm)
 		- [[Cloud/Provider/Oracle Cloud Infrastructure]]
+		  collapsed:: true
 			- **Website**: [Oracle Cloud](https://www.oracle.com/cloud/)
 			- **Country**: [[USA]]
 			- **Pricing**:
@@ -186,6 +189,7 @@
 				- On-Demand: Pricing based on compute instance type, starts at $0.0245 per OCPU hour
 			- **Cancel Subscription**: [Cancel Oracle Cloud Subscription](https://docs.oracle.com/en/cloud/get-started/subscriptions-cloud/manage-your-services/3-cancel-subscription.html)
 		- [[Cloud/Provider/DigitalOcean]]
+		  collapsed:: true
 			- **Website**: [DigitalOcean](https://www.digitalocean.com/)
 			- **Country**: [[USA]]
 			- **Pricing**:
@@ -193,12 +197,14 @@
 				- Premium Droplets: Starts at $6/month (1GB RAM, 1vCPU, 25GB SSD, faster networking)
 			- **Cancel Subscription**: [Cancel DigitalOcean Subscription](https://docs.digitalocean.com/support/cancel-account/)
 		- [[Cloud/Provider/Vultr]]
+		  collapsed:: true
 			- **Website**: [Vultr](https://www.vultr.com/)
 			- **Country**: [[USA]]
 			- **Pricing**:
 				- Compute instances starting at $2.50/month for 1vCPU, 512MB RAM
 			- **Cancel Subscription**: [Cancel Vultr Subscription](https://www.vultr.com/resources/faq/)
 		- [[Cloud/Provider/Linode]]
+		  collapsed:: true
 			- **Website**: [Linode](https://www.linode.com/)
 			- **Country**: [[USA]]
 			- **Pricing**:
@@ -228,7 +234,6 @@
 				- Prime: $12/month (includes courier recovery)
 			- **Cancel Subscription**: [Cancel Carbonite Subscription](https://support.carbonite.com/articles/Personal-Cancelling-your-subscription)
 	- [[Cloud & Storage/CDN Services]]
-	  collapsed:: true
 		- [[CDN Services/Cloudflare]]
 			- **Website**: [Cloudflare](https://www.cloudflare.com/)
 			- **Country**: [[USA]]
@@ -238,12 +243,14 @@
 				- Business: $200/month for enterprise-grade features
 			- **Cancel Subscription**: [Cancel Cloudflare Account](https://support.cloudflare.com/hc/en-us/articles/200171896-How-do-I-cancel-my-Cloudflare-service-)
 		- [[CDN Services/Amazon CloudFront]]
+		  collapsed:: true
 			- **Website**: [Amazon CloudFront](https://aws.amazon.com/cloudfront/)
 			- **Country**: [[USA]]
 			- **Pricing**:
 				- Pay-as-you-go: Starts at $0.085/GB for the first 10TB of data
 			- **Cancel Subscription**: [Cancel AWS Subscription](https://aws.amazon.com/premiumsupport/knowledge-center/cancel-aws-service/)
 		- [[CDN Services/Fastly]]
+		  collapsed:: true
 			- **Website**: [Fastly](https://www.fastly.com/)
 			- **Country**: [[USA]]
 			- **Pricing**:

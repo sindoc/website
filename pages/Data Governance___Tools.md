@@ -1,2 +1,6 @@
-- See [[Lutino.io/Catalog/Enterprise Software/Data Governance]]
+alias:: Data Governance tools
+
+- See
+	- [[Lutino.io/Catalog/Enterprise Software/Data Governance]]
+-
 -

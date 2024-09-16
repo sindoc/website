@@ -1,5 +1,30 @@
 - {{embed ((66e83921-7aec-45e6-9c41-4a0709e53317))}}
-- Data Engineering vendors and tools
+- [[Data Engineering/Data Monitoring]]
+  collapsed:: true
+	- [[Data Engineering Tool/Soda]]
+	- [[Data Engineering Tool/Great Expectations]]
+	- [[Data Engineering Tool/Monte Carlo]]
+	- [[Data Engineering Tool/Datafold]]
+	- [[Data Engineering Tool/Databricks]]
+- [[Data Engineering/Data Movement]]
+  collapsed:: true
+	- [[Data Engineering Tool/Apache Airflow]]
+	- [[Data Engineering Tool/Apache Kafka]]
+	- [[Data Engineering Tool/Databricks]]
+	- [[Data Engineering Tool/Fivetran]]
+	- [[Data Engineering Tool/Matillion]]
+	- [[Data Engineering Tool/Conveyor by Dataminded]]
+	- [[Data Engineering Tool/Google Dataflow]]
+- [[Data Engineering/Data Warehousing]]
+  collapsed:: true
+	- [[Data Engineering Tool/Snowflake]]
+	- [[Data Engineering Tool/Google BigQuery]]
+	- [[Data Engineering Tool/Amazon Redshift]]
+	- [[Data Engineering Tool/Azure Synapse Analytics]]
+	- [[Data Engineering Tool/ClickHouse]]
+	- [[Data Engineering Tool/Databricks SQL]]
+- [[...]]
+- Flat list of data engineering tools
 	- [[Data Engineering Tool/Apache Airflow]]
 	  collapsed:: true
 		- **Company**: [[Apache]]
@@ -26,6 +51,18 @@
 			- AI-driven stream processing for real-time data analytics.
 			- Automated fault detection using AI for real-time data flows.
 		- **Cancel Subscription**: Managed services canceled via respective cloud provider.
+	- [[Data Engineering Tool/Soda]]
+	  collapsed:: true
+		- **Company**: [[Soda]]
+		- **Country**: [[Belgium]]
+		- **Core Function**: Data quality monitoring and observability platform for testing and ensuring data reliability.
+		- **Pricing**: Custom pricing based on usage.
+		- **Cloud/On-Prem**:
+			- Available in the cloud. Can be integrated with AWS, GCP, and Azure.
+		- [[AI Features]]:
+			- See SodaGPT
+			- AI-driven anomaly detection for data quality.
+			- Automated data tests and monitoring using machine learning.
 	- [[Data Engineering Tool/Databricks]]
 	  collapsed:: true
 		- **Company**: [[Databricks]]
@@ -37,7 +74,6 @@
 		- [[AI Features]]:
 			- AI-driven data engineering workflows with built-in machine learning support.
 			- Automated machine learning model management and data quality assurance.
-		- **Cancel Subscription**: [Cancel Databricks Subscription](https://databricks.com/legal/terms-of-service)
 	- [[Data Engineering Tool/Fivetran]]
 	  collapsed:: true
 		- **Company**: [[Fivetran]]
@@ -75,17 +111,6 @@
 			- AI-powered pipeline automation for efficient data management.
 			- Data product lifecycle management using AI.
 		- **Cancel Subscription**: [Cancel Conveyor Subscription](https://www.dataminded.be/legal)
-	- [[Data Engineering Tool/Soda]]
-	  collapsed:: true
-		- **Company**: [[Soda]]
-		- **Country**: [[Belgium]]
-		- **Core Function**: Data quality monitoring and observability platform for testing and ensuring data reliability.
-		- **Pricing**: Custom pricing based on usage.
-		- **Cloud/On-Prem**:
-			- Available in the cloud. Can be integrated with AWS, GCP, and Azure.
-		- [[AI Features]]:
-			- AI-driven anomaly detection for data quality.
-			- Automated data tests and monitoring using machine learning.
 	- [[Data Engineering Tool/Great Expectations]]
 	  collapsed:: true
 		- **Company**: [[Great Expectations]]
@@ -182,3 +207,4 @@
 			- AI-powered real-time analytics for faster query execution.
 			- Machine learning model integration for predictive data insights.
 		- **Cancel Subscription**: [Cancel ClickHouse Subscription](https://clickhouse.com/legal)
+	- [[...]]

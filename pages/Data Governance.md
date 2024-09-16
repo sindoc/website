@@ -26,7 +26,7 @@ broader:: [[Data Management]]
 - ## Data Governance Tools
   Several tools are available to help manage data governance initiatives. These tools automate and streamline tasks related to data quality, policy enforcement, and compliance. Popular [[Data Governance Tools]] include:
 	- **[[Collibra]]**: A leading data governance tool that provides a central platform for managing and governing data assets.
-	- TODO [#A] Complete the list of [[Data Governance Tools]]
+	- DONE [#A] Complete the list of [[Data Governance Tools]]
 	-
 - ## Data Governance Best Practices
 	- Effective [[Data Governance]] requires adherence to several best practices:

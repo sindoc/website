@@ -1,6 +1,6 @@
 - {{embed ((66e83921-7aec-45e6-9c41-4a0709e53317))}}
 - In this category
-	- [[Data Governance Tool/Collibra]]
+	- [[Data Governance/Tools/Collibra]]
 	  collapsed:: true
 		- **Website**: [Collibra](https://www.collibra.com/)
 		- **Company**: [[Collibra]]
@@ -11,7 +11,7 @@
 		- [[AI Features]]:
 			- AI-powered data quality and governance automation
 			- AI-based insights for metadata management
-	- [[Data Governance Tool/Talend Data Fabric]]
+	- [[Data Governance/Tools/Talend Data Fabric]]
 	  collapsed:: true
 		- **Website**: [Talend Data Fabric](https://www.talend.com/)
 		- **Company**: [[Talend]]
@@ -23,7 +23,7 @@
 			- AI-powered data integration and quality
 			- AI-based anomaly detection for data governance
 		- **Cancel Subscription**: [Cancel Talend Subscription](https://www.talend.com/terms/)
-	- [[Data Governance Tool/Ataccama ONE]]
+	- [[Data Governance/Tools/Ataccama ONE]]
 	  collapsed:: true
 		- **Website**: [Ataccama ONE](https://www.ataccama.com/)
 		- **Company**: [[Ataccama]]
@@ -35,7 +35,7 @@
 			- AI-powered data quality and MDM (Master Data Management)
 			- Automated data governance with AI-based workflows
 		- **Cancel Subscription**: [Cancel Ataccama Subscription](https://www.ataccama.com/legal)
-	- [[Data Governance Tool/BigID]]
+	- [[Data Governance/Tools/BigID]]
 	  collapsed:: true
 		- **Website**: [BigID](https://bigid.com/)
 		- **Company**: [[BigID]]
@@ -47,7 +47,7 @@
 			- AI-driven data discovery and privacy management
 			- Machine learning for sensitive data identification and classification
 		- **Cancel Subscription**: [Cancel BigID Subscription](https://bigid.com/legal/)
-	- [[Data Governance Tool/Immuta]]
+	- [[Data Governance/Tools/Immuta]]
 	  collapsed:: true
 		- **Website**: [Immuta](https://www.immuta.com/)
 		- **Company**: [[Immuta]]
@@ -59,7 +59,7 @@
 			- AI-driven policy enforcement for data access management
 			- AI-based recommendations for data privacy and compliance
 		- **Cancel Subscription**: [Cancel Immuta Subscription](https://www.immuta.com/legal/)
-	- [[Data Governance Tool/Raito]]
+	- [[Data Governance/Tools/Raito]]
 	  collapsed:: true
 		- **Website**: [Raito](https://www.raito.io/)
 		- **Company**: [[Raito]]
