@@ -51,10 +51,9 @@
 			- AI-driven stream processing for real-time data analytics.
 			- Automated fault detection using AI for real-time data flows.
 		- **Cancel Subscription**: Managed services canceled via respective cloud provider.
-	- [[Data Engineering Tool/Soda]]
-	  collapsed:: true
+	- [[Data Engineering Tool/Soda DQ]]
 		- **Company**: [[Soda]]
-		- **Country**: [[Belgium]]
+		- **Country**: [[Belgium]], [[USA]]
 		- **Core Function**: Data quality monitoring and observability platform for testing and ensuring data reliability.
 		- **Pricing**: Custom pricing based on usage.
 		- **Cloud/On-Prem**:

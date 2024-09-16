@@ -1,10 +1,9 @@
 - {{embed ((66e83921-7aec-45e6-9c41-4a0709e53317))}}
 - In this category
 	- [[Data Governance/Tools/Collibra]]
-	  collapsed:: true
 		- **Website**: [Collibra](https://www.collibra.com/)
 		- **Company**: [[Collibra]]
-		- **Country**: [[Belgium]]
+		- **Country**: [[Belgium]], [[USA]]
 		- **Subscription Plans**:
 			- **Base Plan**: Custom pricing based on company size and data needs
 			- **Enterprise Plan**: Tailored pricing for large organizations
