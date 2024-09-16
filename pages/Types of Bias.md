@@ -1,4 +1,4 @@
-alias:: bias, biases
+alias:: bias, biases, biased behaviour
 title:: Types of Bias
 
 - [[Socioeconomic Bias]]

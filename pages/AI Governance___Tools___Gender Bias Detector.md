@@ -104,25 +104,25 @@ type:: TestSuite
 				- **Useful for**: Performing sentiment analysis tailored for social media and short-form text.
 - ## Sensitive Terms for [[Gender Bias]]
   id:: 66e373f7-9dbb-4d23-a118-b4bd8b31007f
-	- Creating a [[sensitive terms]] related to [[Types of Bias/Gender]] is essential for identifying how [[AI models]] may demonstrate bias in the [[the AI response]]
-		- [[reinforce stereotypes]], or
-		- [[exhibit biased behaviour]]
+	- Creating a [[sensitive terms]] related to [[Types of Bias/Gender]] is essential for identifying how [[AI models]] may demonstrate bias in the [[the AI response]] reinforce stereotypes, or exhibit [[biased behaviour]]
+	  collapsed:: true
 		- These keywords, phrases, or concepts are often linked to any of the following:
-			- [[traditional gender roles]]
-			- [[societal expectations]]
-			- [[cultural associations]]
+			- traditional gender roles
+			- societal expectations
+			- cultural associations
 		- Testing an AI model against these terms can help evaluate whether the system perpetuates gender bias.
-	- #### Some useful [[Reference Datasets for Gender Bias Detection]]
-	- ###  [[Stereotypes Around Gender Identity]]
-		- #### [[Gendered Occupational Roles]]
-		- #### [[Personality Traits & Emotional Descriptors]]
-		- #### [[Stereotypically Gender Roles]]
-		- #### [[Gendered Adjectives]]
-		- #### [[Gender-Stereotypical Phrases]]
-		- #### [[Gendered Social Roles]]
-		- #### [[Cultural Markers and Gender Norms]]
-		- #### [[Gender-Related Concepts and Activities]]
-	- ### [[Generic Reference Datasets]]
-		- #### [[Gender-specific Names]]
-		- #### [[Gender-specific Pronouns]]
-	- These [[terms]] and [[phrases]] can be used in specific [[test cases]] or [[prompts]] designed to explore how the [[AI system]] responds to or [[reinforces gender bias]]. Here’s how:
+	- ### Some useful [[Reference Datasets for Gender Bias Detection]]
+	  collapsed:: true
+		- ###  [[Stereotypes Around Gender Identity]]
+			- #### [[Gendered Occupational Roles]]
+			- #### [[Personality Traits & Emotional Descriptors]]
+			- #### [[Stereotypically Gender Roles]]
+			- #### [[Gendered Adjectives]]
+			- #### [[Gender-Stereotypical Phrases]]
+			- #### [[Gendered Social Roles]]
+			- #### [[Cultural Markers and Gender Norms]]
+			- #### [[Gender-Related Concepts and Activities]]
+			- ### [[Generic Reference Datasets]]
+				- #### [[Gender-specific Names]]
+				- #### [[Gender-specific Pronouns]]
+			- These [[terms]] and [[phrases]] can be used in specific [[test cases]] or [[prompts]] designed to explore how the [[AI system]] responds to or [[reinforces gender bias]]. Here’s how:
