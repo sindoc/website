@@ -22,12 +22,14 @@
 		  collapsed:: true
 			- In a healthy [[data management organisation]], we could have any of the following hierarchies in two different [[organisations]]
 				- Data Management Office (A)
+				  collapsed:: true
 					- Data Governance Unit
 						- AI Governance Unit
 					- Data Engineering Unit
 					- Data Science & Predictive Analytics Unit
 					- ...
 				- Data Management Office (B)
+				  collapsed:: true
 					- Data & AI Governance Unit
 					- Data Governance Unit
 					- Data Engineering Unit
@@ -40,6 +42,9 @@
 					- Data Science Unit
 - #### Relevant Policies
 	- [[AI Governance/Policies/AI Monitoring Policy]]
+	- [[AI Governance/Policies/AI Use Case Documentation Policy]]
 - #### Required Capabilities to Implement the [[AI Governance/Policies]]
 	- [[AI Monitoring/Continuous AI Ethics check]]
+	- [[Human-AI Relationships]] Glossary
+	-
 	-

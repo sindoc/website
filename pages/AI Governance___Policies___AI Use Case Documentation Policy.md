@@ -1,0 +1,40 @@
+## 1. Purpose
+	- This policy aims to establish a framework for documenting and maintaining all AI use cases within the organization. It ensures that the role of AI is clearly defined in each use case and linked to the organization's glossary to automatically deduce the associated risk profile. The policy promotes transparency, accountability, and responsible AI usage aligned with the organization's governance, risk, and compliance (GRC) strategy.
+- ## 2. Scope
+	- This policy applies to all AI projects and use cases across the organization, including AI systems, tools, and platforms used or developed within the business. It covers the roles of AI in the organization and defines the responsibilities of producers, sponsors, and users of AI systems.
+- ## 3. AI Use Case Documentation and Roles
+	- For each AI use case, the following must be clearly documented:
+	- **Objective and Description**: A clear explanation of the problem the AI system addresses.
+	- **AI Role**: The specific role that AI plays in this use case, categorized into one of the five roles as defined below:
+		- *Note*: [[the KnowYourAI framework]] provides a glossary for the following terms in PDF, RDF/SKOS/XML, as well as a CSV, which you can import into [[Collibra]]
+		- 1. **AI as a Tool (Human-Controlled AI)**: AI acts as a fully human-controlled tool to automate tasks and provide insights. Human retains full control over decisions.
+		- 2. **AI as an Assistant (Collaborative AI)**: AI works collaboratively with humans, providing recommendations and insights, but humans make the final decisions.
+		- 3. **AI as an Augmenter (Human-AI Symbiosis)**: AI augments human abilities, such as enhancing creativity or sensory functions, creating a partnership between human and machine.
+		- 4. **AI as a Manager (AI-Led Decision Making)**: AI takes on a managerial role, making decisions within predefined limits with minimal human oversight.
+		- 5. **AI as an Autonomous Agent (AI Independence)**: AI operates independently with little to no human intervention, adapting to new conditions on its own.
+- ## 4. Linking Use Cases to Glossary Terms for Risk Inheritance
+	- **Glossary Integration**: Each AI use case must be linked to the appropriate terms in the organization's data governance platform (e.g., Collibra).
+	- **Risk Profile Inheritance**: By linking the use case to the correct glossary term, the AI use case automatically inherits the risk profile associated with the selected role of AI (e.g., **Tool**, **Assistant**, **Manager**, etc.).
+		- **High-Risk Use Cases**: Use cases involving AI as a **Manager** or **Autonomous Agent** typically inherit a high-risk profile, requiring extensive oversight.
+		- **Medium-Risk Use Cases**: AI in the roles of **Assistant** or **Augmenter** carries medium risk, needing regular monitoring and clear decision-making boundaries.
+		- **Low-Risk Use Cases**: AI as a **Tool** typically inherits a low-risk profile, as human oversight is direct and controls are easily implemented.
+	- **Dynamic Risk Assessment**: AI use cases will be regularly reassessed based on changes in AI capabilities, human oversight, and other operational factors, with adjustments made to the risk profile as necessary.
+- ## 5. Responsibilities
+	- **Producers of AI Use Cases**:
+		- Must document the AI use case in full, including its objective, scope, and the AI role as defined in this policy.
+		- Ensure proper linkage to glossary terms to enable risk inheritance.
+		- Maintain regular updates on the use case documentation, ensuring that any changes in AI role, performance, or impact are captured.
+	- **Sponsors of AI Use Cases**:
+		- Responsible for overseeing the appropriate risk management practices.
+		- Ensure compliance with this policy by conducting regular reviews of the AI use case portfolio.
+	- **Governance and Risk Management Team**:
+		- Monitor and assess the linkage of AI use cases to glossary terms and ensure that the correct risk profiles are assigned.
+		- Provide guidance on mitigating high-risk AI use cases and enforcing compliance with governance regulations.
+- ## 6. Risk Mitigation and Compliance
+	- **Risk Management**: For AI use cases with high or medium-risk profiles, additional scrutiny and compliance measures will be enforced, such as:
+		- Implementing appropriate human oversight or fail-safes.
+		- Ensuring the AI system operates within ethical and legal constraints.
+		- Applying additional testing and auditing for bias, fairness, and accountability.
+	- **Compliance with Regulations**: All AI use cases must adhere to relevant industry regulations and ethical guidelines to ensure responsible AI use and avoid unintended negative consequences.
+- ## 7. Periodic Review and Updates
+	- This policy shall be reviewed annually, or as needed, to ensure its relevance and effectiveness in managing AI-related risks. Updates will be made to reflect advancements in AI technology, changes in regulatory landscapes, and feedback from stakeholders.

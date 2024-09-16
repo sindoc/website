@@ -11,4 +11,3 @@ title:: Human-AI Relationships Glossary
 	- If you cannot access the PDF, above, please download the PDF from GitHub:
 		- https://github.com/sindoc/knowyourai-framework/blob/main/knowyourai-human-ai-relationships.pdf
 - Latest glossary in a format for easy import into [[Collibra]].
--
