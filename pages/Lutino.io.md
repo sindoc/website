@@ -1,2 +1,5 @@
-- ## *A Metadata Company*
-	- Focused on efficient methods to turn RAW data into fit-for-purpose and viable data products.
+- Take back control of subscriptions and recurring payments
+	- Go to [Lutino.io](https://lutino.io/)
+	- See also [[Lutino.io/Catalog]] where we publish the datasets used in the product
+- We also provide consulting services in [[Data & AI Governance]]
+	- Check out [our blog](https://lutino.substack.com/).

@@ -1,0 +1,72 @@
+- {{embed ((66e83921-7aec-45e6-9c41-4a0709e53317))}}
+- In this category
+	- [[Data Governance Tool/Collibra]]
+	  collapsed:: true
+		- **Website**: [Collibra](https://www.collibra.com/)
+		- **Company**: [[Collibra]]
+		- **Country**: [[Belgium]]
+		- **Subscription Plans**:
+			- **Base Plan**: Custom pricing based on company size and data needs
+			- **Enterprise Plan**: Tailored pricing for large organizations
+		- [[AI Features]]:
+			- AI-powered data quality and governance automation
+			- AI-based insights for metadata management
+	- [[Data Governance Tool/Talend Data Fabric]]
+	  collapsed:: true
+		- **Website**: [Talend Data Fabric](https://www.talend.com/)
+		- **Company**: [[Talend]]
+		- **Country**: [[France]]
+		- **Subscription Plans**:
+			- **Basic Plan**: Starts at $1,170/user/year
+			- **Enterprise Plan**: Tailored pricing for larger deployments
+		- [[AI Features]]:
+			- AI-powered data integration and quality
+			- AI-based anomaly detection for data governance
+		- **Cancel Subscription**: [Cancel Talend Subscription](https://www.talend.com/terms/)
+	- [[Data Governance Tool/Ataccama ONE]]
+	  collapsed:: true
+		- **Website**: [Ataccama ONE](https://www.ataccama.com/)
+		- **Company**: [[Ataccama]]
+		- **Country**: [[Czech Republic]]
+		- **Subscription Plans**:
+			- **Professional Plan**: Custom pricing based on data needs
+			- **Enterprise Plan**: Tailored pricing for large companies
+		- [[AI Features]]:
+			- AI-powered data quality and MDM (Master Data Management)
+			- Automated data governance with AI-based workflows
+		- **Cancel Subscription**: [Cancel Ataccama Subscription](https://www.ataccama.com/legal)
+	- [[Data Governance Tool/BigID]]
+	  collapsed:: true
+		- **Website**: [BigID](https://bigid.com/)
+		- **Company**: [[BigID]]
+		- **Country**: [[USA]]
+		- **Subscription Plans**:
+			- **Base Plan**: Custom pricing depending on data volume and organization size
+			- **Enterprise Plan**: Tailored pricing for large enterprises
+		- [[AI Features]]:
+			- AI-driven data discovery and privacy management
+			- Machine learning for sensitive data identification and classification
+		- **Cancel Subscription**: [Cancel BigID Subscription](https://bigid.com/legal/)
+	- [[Data Governance Tool/Immuta]]
+	  collapsed:: true
+		- **Website**: [Immuta](https://www.immuta.com/)
+		- **Company**: [[Immuta]]
+		- **Country**: [[USA]]
+		- **Subscription Plans**:
+			- **Base Plan**: Custom pricing based on data policies and scale
+			- **Enterprise Plan**: Tailored pricing for large organizations
+		- [[AI Features]]:
+			- AI-driven policy enforcement for data access management
+			- AI-based recommendations for data privacy and compliance
+		- **Cancel Subscription**: [Cancel Immuta Subscription](https://www.immuta.com/legal/)
+	- [[Data Governance Tool/Raito]]
+	  collapsed:: true
+		- **Website**: [Raito](https://www.raito.io/)
+		- **Company**: [[Raito]]
+		- **Country**: [[Belgium]]
+		- **Subscription Plans**:
+			- **Base Plan**: Custom pricing based on the number of data access controls
+			- **Enterprise Plan**: Tailored pricing for large organizations with advanced data access needs
+		- [[AI Features]]:
+			- AI-powered access control recommendations
+			- Automated compliance monitoring using AI

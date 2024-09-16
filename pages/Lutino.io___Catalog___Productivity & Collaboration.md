@@ -1,0 +1,298 @@
+- {{embed ((66e83921-7aec-45e6-9c41-4a0709e53317))}}
+- Sub-categories
+	- [[Productivity & Collaboration/Office Productivity Software]]
+	  collapsed:: true
+		- [[Office Productivity Software/Google Workspace]]
+		  collapsed:: true
+			- **Website**: [Google Workspace](https://workspace.google.com/)
+			- **Country**: [[USA]]
+			- **Subscription Plans**:
+				- Business Starter: $6/user/month
+				- Business Standard: $12/user/month
+				- Business Plus: $18/user/month
+			- **AI Features**: [[AI Features/Google Workspace]]
+				- AI-powered **Smart Compose** and **Smart Reply** in Gmail and Google Docs.
+				- **AI-driven meeting summaries** in Google Meet.
+				- **Google Assistant integration** for scheduling and reminders.
+			- **AI Model Provider**: Uses Google's in-house AI models, such as **LaMDA** and **PaLM**.
+			- **Cancel Subscription**: [Cancel Google Workspace Subscription](https://support.google.com/a/answer/1257646?hl=en)
+		- [[Office Productivity Software/Microsoft 365]]
+		  collapsed:: true
+			- **Website**: [Microsoft 365](https://www.microsoft.com/en-us/microsoft-365)
+			- **Country**: [[USA]]
+			- **Subscription Plans**:
+				- Microsoft 365 Personal: $6.99/month
+				- Microsoft 365 Family: $9.99/month
+				- Microsoft 365 Business Basic: $6/user/month
+				- Microsoft 365 Business Standard: $12.50/user/month
+			- **AI Features**: [[AI Features/Microsoft 365]]
+				- **Copilot** in Microsoft Word, Excel, and PowerPoint, powered by **GPT-4**.
+				- AI-based suggestions in Outlook for writing emails and summarizing content.
+				- **AI-powered data analysis** in Excel through **Power BI** integration.
+			- **AI Model Provider**: Uses **OpenAI's GPT-4**, integrated into Microsoft products through the **Azure OpenAI Service**.
+			- **Cancel Subscription**: [Cancel Microsoft 365 Subscription](https://support.microsoft.com/en-us/office/cancel-a-microsoft-subscription-46f31d1e-6e3c-4926-78a3-b1056f142407)
+		- [[Office Productivity Software/Zoho Office Suite]]
+		  collapsed:: true
+			- **Website**: [Zoho Office Suite](https://www.zoho.com/office-suite/)
+			- **Country**: [[India]]
+			- **Subscription Plans**:
+				- Zoho Workplace Standard: $3/user/month
+				- Zoho Workplace Professional: $6/user/month
+			- **AI Features**: [[AI Features/Zoho Office Suite]]
+				- **Zia**, Zoho's AI assistant, helps with document creation, email sorting, and task management.
+				- **AI-based grammar and style checks** in Zoho Writer.
+			- **AI Model Provider**: In-house AI engine, **Zia**, developed by Zoho.
+			- **Cancel Subscription**: [Cancel Zoho Subscription](https://www.zoho.com/subscriptions/help/cancel-zoho-subscription.html)
+		- [[Office Productivity Software/LibreOffice]]
+		  collapsed:: true
+			- **Website**: [LibreOffice](https://www.libreoffice.org/)
+			- **Country**: [[Worldwide]]
+			- **Subscription Plans**:
+				- **FOSS**: Free and open-source software.
+			- **AI Features**: [[AI Features/LibreOffice]]
+				- No direct AI features announced, but the community is exploring AI integration for improving grammar checks and formatting.
+			- **AI Model Provider**: None at the moment; community-driven future AI projects.
+			- **Cancel Subscription**: N/A (FOSS)
+		- [[Office Productivity Software/OnlyOffice]]
+		  collapsed:: true
+			- **Website**: [OnlyOffice](https://www.onlyoffice.com/)
+			- **Country**: [[Latvia]]
+			- **Subscription Plans**:
+				- Free for personal use.
+				- Enterprise Edition: $5/user/month
+			- **AI Features**: [[AI Features/OnlyOffice]]
+				- No significant AI features announced yet.
+			- **AI Model Provider**: N/A
+			- **Cancel Subscription**: [Cancel OnlyOffice Subscription](https://helpdesk.onlyoffice.com/)
+		- [[Office Productivity Software/WPS Office]]
+		  collapsed:: true
+			- **Website**: [WPS Office](https://www.wps.com/)
+			- **Country**: [[China]]
+			- **Subscription Plans**:
+				- Premium: $29.99/year or $119.99/lifetime
+			- **AI Features**: [[AI Features/WPS Office]]
+				- Basic AI features such as **text prediction** and **grammar suggestions**.
+			- **AI Model Provider**: Uses proprietary in-house AI algorithms.
+			- **Cancel Subscription**: [Cancel WPS Office Subscription](https://help.wps.com/support/solutions/articles/11000094261-how-to-cancel-the-wps-vip-subscription)
+		- [[Office Productivity Software/Apache OpenOffice]]
+		  collapsed:: true
+			- **Website**: [Apache OpenOffice](https://www.openoffice.org/)
+			- **Country**: [[Worldwide]]
+			- **Subscription Plans**:
+				- **FOSS**: Free and open-source software.
+			- **AI Features**: [[AI Features/Apache OpenOffice]]
+				- No AI features integrated; community-driven FOSS model.
+			- **AI Model Provider**: N/A
+			- **Cancel Subscription**: N/A (FOSS)
+	- [[Productivity & Collaboration/Project Management Software]]
+	  collapsed:: true
+		- [[Project Management Software/Trello]]
+		  collapsed:: true
+			- **Website**: [Trello](https://trello.com/)
+			- **Country**: [[USA]]
+			- **Subscription Plans**:
+				- Free: $0/month (basic features, unlimited cards)
+				- Standard: $5/user/month
+				- Premium: $10/user/month
+				- Enterprise: $17.50/user/month
+			- **AI Features**: [[AI Features/Trello]]
+				- AI-powered **Butler automation**: Helps automate tasks such as moving cards, sending reminders, and managing workflows.
+			- **AI Model Provider**: Uses in-house AI automation system (Butler).
+			- **Cancel Subscription**: [Cancel Trello Subscription](https://help.trello.com/article/794-canceling-trello-premium)
+		- [[Project Management Software/Asana]]
+		  collapsed:: true
+			- **Website**: [Asana](https://asana.com/)
+			- **Country**: [[USA]]
+			- **Subscription Plans**:
+				- Basic: Free
+				- Premium: $10.99/user/month (billed annually)
+				- Business: $24.99/user/month (billed annually)
+			- **AI Features**: [[AI Features/Asana]]
+				- **AI-powered task recommendations**: Suggests tasks and due dates based on project progress.
+				- AI-powered project insights and reporting.
+			- **AI Model Provider**: Asana uses its own machine learning algorithms for AI-powered insights.
+			- **Cancel Subscription**: [Cancel Asana Subscription](https://asana.com/guide/help/premium/billing)
+		- [[Project Management Software/Atlassian JIRA]]
+		  collapsed:: true
+			- **Website**: [Atlassian JIRA](https://www.atlassian.com/software/jira)
+			- **Country**: [[Australia]]
+			- **Subscription Plans**:
+				- Free: $0 for up to 10 users
+				- Standard: $7.75/user/month
+				- Premium: $15.25/user/month
+				- Enterprise: Custom pricing
+			- **AI Features**: [[AI Features/JIRA]]
+				- **Smart automation**: AI-driven workflows for automating repetitive tasks such as ticket creation, status updates, and notifications.
+				- AI-assisted search suggestions based on previous queries and activity history.
+			- **AI Model Provider**: Atlassian's proprietary AI and automation engine.
+			- **Cancel Subscription**: [Cancel JIRA Subscription](https://support.atlassian.com/subscriptions-and-billing/docs/cancel-a-subscription/)
+		- [[Project Management Software/ClickUp]]
+		  collapsed:: true
+			- **Website**: [ClickUp](https://clickup.com/)
+			- **Country**: [[USA]]
+			- **Subscription Plans**:
+				- Free: $0/month (limited features)
+				- Unlimited: $5/user/month
+				- Business: $12/user/month
+				- Enterprise: Custom pricing
+			- **AI Features**: [[AI Features/ClickUp]]
+				- **AI task automation**: Automatically assigns tasks, sets deadlines, and prioritizes tasks based on workload and timelines.
+				- AI-powered goal tracking and reporting.
+			- **AI Model Provider**: ClickUp's in-house AI for task automation and tracking.
+			- **Cancel Subscription**: [Cancel ClickUp Subscription](https://help.clickup.com/hc/en-us/articles/6323484761367-Cancel-Subscription)
+		- [[Project Management Software/Notion]]
+		  collapsed:: true
+			- **Website**: [Notion](https://www.notion.so/)
+			- **Country**: [[USA]]
+			- **Subscription Plans**:
+				- Free: $0/month (basic features)
+				- Plus: $8/user/month (billed annually)
+				- Business: $15/user/month (billed annually)
+			- **AI Features**: [[AI Features/Notion]]
+				- **Notion AI**: Assists in writing, summarizing notes, generating task lists, and providing task insights.
+			- **AI Model Provider**: **OpenAI's GPT-4**, integrated with Notion AI.
+			- **Cancel Subscription**: [Cancel Notion Subscription](https://www.notion.so/help/cancel-billing-subscription)
+		- [[Project Management Software/Monday.com]]
+		  collapsed:: true
+			- **Website**: [Monday.com](https://monday.com/)
+			- **Country**: [[Israel]]
+			- **Subscription Plans**:
+				- Basic: $8/user/month
+				- Standard: $10/user/month
+				- Pro: $16/user/month
+				- Enterprise: Custom pricing
+			- **AI Features**: [[AI Features/Monday.com]]
+				- **AI-powered automation**: Automatically assigns tasks, sends reminders, and monitors project progress based on data insights.
+				- AI-based project performance analytics and reports.
+			- **AI Model Provider**: Uses proprietary AI and machine learning systems for task automation and reporting.
+			- **Cancel Subscription**: [Cancel Monday.com Subscription](https://support.monday.com/hc/en-us/articles/115005319049-Canceling-your-paid-account)
+		- [[Project Management Software/Wrike]]
+		  collapsed:: true
+			- **Website**: [Wrike](https://www.wrike.com/)
+			- **Country**: [[USA]]
+			- **Subscription Plans**:
+				- Free: $0/month
+				- Professional: $9.80/user/month
+				- Business: $24.80/user/month
+				- Enterprise: Custom pricing
+			- **AI Features**: [[AI Features/Wrike]]
+				- **AI-powered workflow automation**: Assigns tasks, sets deadlines, and tracks project milestones.
+				- AI-driven project insights and resource management.
+			- **AI Model Provider**: Proprietary AI and automation systems developed by Wrike.
+			- **Cancel Subscription**: [Cancel Wrike Subscription](https://help.wrike.com/hc/en-us/articles/210324085-Delete-or-Cancel-Your-Subscription)
+		- [[Project Management Software/Teamwork]]
+		  collapsed:: true
+			- **Website**: [Teamwork](https://www.teamwork.com/)
+			- **Country**: [[Ireland]]
+			- **Subscription Plans**:
+				- Free: $0/month (limited features)
+				- Deliver: $10/user/month
+				- Grow: $18/user/month
+				- Scale: Custom pricing
+			- **AI Features**: [[AI Features/Teamwork]]
+				- **AI-driven time tracking**: Automatically logs and tracks time spent on tasks.
+				- AI-powered resource planning and task automation.
+			- **AI Model Provider**: In-house AI tools for automation and resource management.
+			- **Cancel Subscription**: [Cancel Teamwork Subscription](https://support.teamwork.com/projects/subscriptions/cancel-a-subscription)
+		- [[Project Management Software/Smartsheet]]
+		  collapsed:: true
+			- **Website**: [Smartsheet](https://www.smartsheet.com/)
+			- **Country**: [[USA]]
+			- **Subscription Plans**:
+				- Individual: $14/user/month
+				- Business: $25/user/month
+				- Enterprise: Custom pricing
+			- **AI Features**: [[AI Features/Smartsheet]]
+				- **AI-powered project automation**: Automated workflows, reminders, and task management.
+				- AI-driven project reporting and insights.
+			- **AI Model Provider**: Proprietary AI for automation and reporting.
+			- **Cancel Subscription**: [Cancel Smartsheet Subscription](https://help.smartsheet.com/articles/506774-canceling-your-smartsheet-account)
+		- [[Project Management Software/Airtable]]
+		  collapsed:: true
+			- **Website**: [Airtable](https://airtable.com/)
+			- **Country**: [[USA]]
+			- **Subscription Plans**:
+				- Free: $0/month (limited features)
+				- Plus: $10/user/month
+				- Pro: $20/user/month
+				- Enterprise: Custom pricing
+			- **AI Features**: [[AI Features/Airtable]]
+				- **AI-powered automations**: Automates repetitive tasks, sends notifications, and tracks project progress.
+				- AI-driven data analysis and reporting.
+			- **AI Model Provider**: Airtable's in-house AI and automation engine.
+			- **Cancel Subscription**: [Cancel Airtable Subscription](https://support.airtable.com/hc/en-us/articles/115013162088-Cancelling-or-downgrading-a-premium-workspace-subscription)
+	- [[Productivity & Collaboration/Note Taking Software]]
+	  collapsed:: true
+		- [[Note Taking Software/OneNote]]
+			- **Website**: [OneNote](https://www.onenote.com/)
+			- **Company**: [[Microsoft]]
+			- **Country**: [[USA]]
+			- **Subscription Plans**:
+				- Free: $0 (limited features, part of Microsoft 365 suite)
+				- Microsoft 365 Personal: $6.99/month (includes OneNote)
+				- Microsoft 365 Family: $9.99/month (includes OneNote)
+			- **AI Features**: [[AI Features/OneNote]]
+				- **AI-powered text recognition**: Converts handwritten notes into digital text.
+				- **Smart search** powered by Microsoft's AI helps locate notes quickly.
+				- **Integration with Microsoft 365 Copilot** for AI-based insights and suggestions.
+			- **AI Model Provider**: Uses **OpenAI's GPT-4** via **Azure OpenAI Service**.
+			- **Cancel Subscription**: [Cancel Microsoft 365 Subscription](https://support.microsoft.com/en-us/office/cancel-a-microsoft-subscription-46f31d1e-6e3c-4926-78a3-b1056f142407)
+		- [[Note Taking Software/Evernote]]
+			- **Website**: [Evernote](https://evernote.com/)
+			- **Company**: [[Evernote Corporation]]
+			- **Country**: [[USA]]
+			- **Subscription Plans**:
+				- Free: $0/month (limited features)
+				- Personal: $7.99/month
+				- Professional: $9.99/month
+			- **AI Features**: [[AI Features/Evernote]]
+				- AI-powered **Smart Search** for faster note retrieval.
+				- **AI-based content suggestions** to improve productivity by recommending related notes or tasks.
+			- **AI Model Provider**: Uses proprietary AI tools developed by **Evernote**.
+			- **Cancel Subscription**: [Cancel Evernote Subscription](https://help.evernote.com/hc/en-us/articles/208313528)
+		- [[Note Taking Software/Notion]]
+			- **Website**: [Notion](https://www.notion.so/)
+			- **Company**: [[Notion Labs Inc.]]
+			- **Country**: [[USA]]
+			- **Subscription Plans**:
+				- Free: $0/month (basic features)
+				- Plus: $8/user/month (billed annually)
+				- Business: $15/user/month (billed annually)
+			- **AI Features**: [[AI Features/Notion]]
+				- **Notion AI**: Assists with writing, summarizing notes, generating task lists, and providing task insights.
+			- **AI Model Provider**: **OpenAI's GPT-4** integrated with Notion AI.
+			- **Cancel Subscription**: [Cancel Notion Subscription](https://www.notion.so/help/cancel-billing-subscription)
+		- [[Note Taking Software/Zoho Notebook]]
+			- **Website**: [Zoho Notebook](https://www.zoho.com/notebook/)
+			- **Company**: [[Zoho Corporation]]
+			- **Country**: [[India]]
+			- **Subscription Plans**:
+				- Free: $0/month (Zoho Notebook is entirely free with no paid tier)
+			- **AI Features**: [[AI Features/Zoho Notebook]]
+				- **Zia AI** helps organize notes, generate reminders, and sort tasks.
+				- AI-based text search across all notebooks.
+			- **AI Model Provider**: In-house AI assistant, **Zia**, developed by Zoho.
+			- **Cancel Subscription**: N/A (Free software)
+		- [[Note Taking Software/Simplenote]]
+			- **Website**: [Simplenote](https://simplenote.com/)
+			- **Company**: [[Automattic]]
+			- **Country**: [[USA]]
+			- **Subscription Plans**:
+				- Free: $0/month (completely free with no paid tier)
+			- **AI Features**: [[AI Features/Simplenote]]
+				- No significant AI features currently implemented.
+			- **AI Model Provider**: N/A
+			- **Cancel Subscription**: N/A (Free software)
+		- [[Note Taking Software/Apple Notes]]
+			- **Website**: [Apple Notes](https://www.apple.com/notes/)
+			- **Company**: [[Apple Inc.]]
+			- **Country**: [[USA]]
+			- **Subscription Plans**:
+				- Free: $0 (part of Apple ecosystem)
+				- iCloud Storage (for additional space): Starts at $0.99/month for 50GB
+			- **AI Features**: [[AI Features/Apple Notes]]
+				- AI-powered **handwriting recognition** for converting handwritten notes into searchable text.
+				- AI-based organization with smart suggestions for folders and tags.
+			- **AI Model Provider**: Apple’s proprietary **machine learning models** used in Notes and other iCloud features.
+			- **Cancel Subscription**: N/A (Part of Apple ecosystem)
+		-

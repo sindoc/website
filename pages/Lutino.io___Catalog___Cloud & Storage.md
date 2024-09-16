@@ -1,0 +1,251 @@
+- {{embed ((66e83921-7aec-45e6-9c41-4a0709e53317))}}
+- Sub-categories
+	- [[Cloud & Storage/File Hosting Service]]
+		- [[File Hosting Service/Dropbox]]
+		  collapsed:: true
+			- **Website**: [Dropbox](https://www.dropbox.com/)
+			- **Country**: [[USA]]
+			- **Subscription Plans**:
+				- Basic (Free): $0/month
+				- Plus: $9.99/month or $99.99/year
+				- Family: $16.99/month or $203.88/year
+				- Professional: $19.99/month or $199.00/year
+			- **Cancel Subscription**: [Cancel Dropbox Subscription](https://www.dropbox.com/help/billing/cancel-dropbox)
+		- [[File Hosting Service/Google Drive]]
+		  collapsed:: true
+			- **Website**: [Google Drive](https://drive.google.com/)
+			- **Country**: [[USA]]
+			- **Subscription Plans** (Google One):
+				- 100GB: $1.99/month or $19.99/year
+				- 200GB: $2.99/month or $29.99/year
+				- 2TB: $9.99/month or $99.99/year
+			- **Cancel Subscription**: [Cancel Google One](https://support.google.com/googleone/answer/9369338?hl=en)
+		- [[File Hosting Service/Microsoft OneDrive]]
+		  collapsed:: true
+			- **Website**: [OneDrive](https://onedrive.live.com/)
+			- **Country**: [[USA]]
+			- **Subscription Plans**:
+				- 100GB: $1.99/month
+				- Microsoft 365 Personal (1TB): $6.99/month or $69.99/year
+				- Microsoft 365 Family (6TB): $9.99/month or $99.99/year
+			- **Cancel Subscription**: [Cancel OneDrive or Microsoft 365](https://support.microsoft.com/en-us/office/cancel-a-microsoft-365-subscription-46f31d1e-6e3c-4926-78a3-b1056f142407)
+		- [[File Hosting Service/Box]]
+		  collapsed:: true
+			- **Website**: [Box](https://www.box.com/)
+			- **Country**: [[USA]]
+			- **Subscription Plans**:
+				- Individual: Free (10GB)
+				- Personal Pro: $10/month (100GB)
+				- Business Starter: $7/month/user (3 users minimum)
+			- **Cancel Subscription**: [Cancel Box Subscription](https://support.box.com/hc/en-us/articles/360044195273-How-do-I-cancel-my-Box-Account-)
+		- [[File Hosting Service/iCloud Drive]]
+		  collapsed:: true
+			- **Website**: [iCloud Drive](https://www.icloud.com/)
+			- **Country**: [[USA]]
+			- **Subscription Plans**:
+				- 50GB: $0.99/month
+				- 200GB: $2.99/month
+				- 2TB: $9.99/month
+			- **Cancel Subscription**: [Cancel iCloud Storage](https://support.apple.com/en-us/HT207594)
+		- [[File Hosting Service/pCloud]]
+		  collapsed:: true
+			- **Website**: [pCloud](https://www.pcloud.com/)
+			- **Country**: [[Switzerland]]
+			- **Subscription Plans**:
+				- Premium 500GB: $4.99/month or $175 lifetime
+				- Premium Plus 2TB: $9.99/month or $350 lifetime
+			- **Cancel Subscription**: [Cancel pCloud Subscription](https://www.pcloud.com/help/general-help/how-to-cancel-your-pcloud-account.html)
+		- [[File Hosting Service/Mega]]
+		  collapsed:: true
+			- **Website**: [Mega](https://mega.nz/)
+			- **Country**: [[New Zealand]]
+			- **Subscription Plans**:
+				- Pro Lite: €4.99/month (400GB)
+				- Pro I: €9.99/month (2TB)
+				- Pro II: €19.99/month (8TB)
+				- Pro III: €29.99/month (16TB)
+			- **Cancel Subscription**: [Cancel MEGA Account](https://mega.io/terms)
+		- [[File Hosting Service/Sync.com]]
+		  collapsed:: true
+			- **Website**: [Sync.com](https://www.sync.com/)
+			- **Country**: [[Canada]]
+			- **Subscription Plans**:
+				- Basic (Free): $0/month (5GB)
+				- Personal Pro Solo Basic (2TB): $8/month or $96/year
+				- Teams Standard (1TB/user): $6/month/user (minimum 2 users)
+			- **Cancel Subscription**: [Cancel Sync Subscription](https://www.sync.com/help/how-do-i-cancel-my-subscription/)
+	- [[Cloud & Storage/Cloud Storage]]
+		- [[Cloud Storage/Amazon S3]]
+		  collapsed:: true
+			- **Website**: [Amazon S3](https://aws.amazon.com/s3/)
+			- **Country**: [[USA]]
+			- **Pricing**:
+				- First 50TB/month: $0.023 per GB
+				- Next 450TB/month: $0.022 per GB
+				- Over 500TB/month: $0.021 per GB
+			- **Cancel Subscription**: [Cancel AWS Subscription](https://aws.amazon.com/premiumsupport/knowledge-center/cancel-aws-service/)
+		- [[Cloud Storage/Google Cloud Storage]]
+		  collapsed:: true
+			- **Website**: [Google Cloud Storage](https://cloud.google.com/storage)
+			- **Country**: [[USA]]
+			- **Pricing**:
+				- Standard Storage: $0.020 per GB/month
+				- Nearline Storage: $0.010 per GB/month
+				- Coldline Storage: $0.004 per GB/month
+			- **Cancel Subscription**: [Cancel Google Cloud Subscription](https://cloud.google.com/billing/docs/how-to/cancel-service)
+		- [[Cloud Storage/Microsoft Azure Blob Storage]]
+		  collapsed:: true
+			- **Website**: [Azure Blob Storage](https://azure.microsoft.com/en-us/services/storage/blobs/)
+			- **Country**: [[USA]]
+			- **Pricing**:
+				- Hot: $0.0184 per GB/month
+				- Cool: $0.01 per GB/month
+				- Archive: $0.00099 per GB/month
+			- **Cancel Subscription**: [Cancel Azure Subscription](https://learn.microsoft.com/en-us/azure/cost-management-billing/manage/cancel-azure-subscription)
+		- [[Cloud Storage/Backblaze B2 Cloud Storage]]
+		  collapsed:: true
+			- **Website**: [Backblaze B2 Cloud Storage](https://www.backblaze.com/b2/cloud-storage.html)
+			- **Country**: [[USA]]
+			- **Pricing**:
+				- Storage: $0.005 per GB/month
+				- Download: $0.01 per GB
+			- **Cancel Subscription**: [Cancel Backblaze Account](https://help.backblaze.com/hc/en-us/articles/217664558-How-to-Cancel-Backblaze)
+		- [[Cloud Storage/Wasabi Hot Cloud Storage]]
+		  collapsed:: true
+			- **Website**: [Wasabi Hot Cloud Storage](https://wasabi.com/)
+			- **Country**: [[USA]]
+			- **Pricing**:
+				- $5.99 per TB/month (no egress fees or API request charges)
+			- **Cancel Subscription**: [Cancel Wasabi Account](https://wasabi-support.zendesk.com/hc/en-us/articles/360061116832-Canceling-a-Wasabi-Account)
+		- [[Cloud Storage/DigitalOcean Spaces]]
+			- **Website**: [DigitalOcean Spaces](https://www.digitalocean.com/products/spaces/)
+			- **Country**: [[USA]]
+			- **Pricing**:
+				- $5/month for 250GB storage and 1TB bandwidth
+				- $0.02/GB for extra storage
+				- $0.01/GB for additional bandwidth
+			- **Cancel Subscription**: [Cancel DigitalOcean Subscription](https://docs.digitalocean.com/support/cancel-account/)
+		- [[Cloud Storage/IBM Cloud Object Storage]]
+			- **Website**: [IBM Cloud Object Storage](https://www.ibm.com/cloud/object-storage)
+			- **Country**: [[USA]]
+			- **Pricing**:
+				- Standard Storage: $0.020 per GB/month
+				- Vault (cold storage): $0.0011 per GB/month
+			- **Cancel Subscription**: [Cancel IBM Cloud Subscription](https://cloud.ibm.com/docs/account?topic=account-close-account)
+		- [[Cloud Storage/Oracle Cloud Storage]]
+			- **Website**: [Oracle Cloud Storage](https://www.oracle.com/cloud/storage/)
+			- **Country**: [[USA]]
+			- **Pricing**:
+				- Standard Storage: $0.0255 per GB/month
+				- Archive Storage: $0.0026 per GB/month
+			- **Cancel Subscription**: [Cancel Oracle Cloud Subscription](https://docs.oracle.com/en/cloud/get-started/subscriptions-cloud/manage-your-services/3-cancel-subscription.html)
+	- [[Cloud & Storage/Cloud Computing Platform]]
+	  collapsed:: true
+		- [[Cloud/Provider/Amazon Web Services (AWS)]]
+		  collapsed:: true
+			- **Website**: [AWS](https://aws.amazon.com/)
+			- **Country**: [[USA]]
+			- **Pricing**:
+				- Free Tier: 750 hours/month of EC2, 5GB S3 storage, 25GB DynamoDB storage, and more
+				- On-Demand Instances: Pricing depends on instance type (starts at $0.0059 per hour for t4g.nano)
+				- Reserved Instances: Discounted long-term pricing options
+			- **Cancel Subscription**: [Cancel AWS Subscription](https://aws.amazon.com/premiumsupport/knowledge-center/cancel-aws-service/)
+		- [[Cloud/Provider/Microsoft Azure]]
+		  collapsed:: true
+			- **Website**: [Microsoft Azure](https://azure.microsoft.com/)
+			- **Country**: [[USA]]
+			- **Pricing**:
+				- Free Tier: 12 months of select services, 750 hours of B1S Windows/Linux virtual machines
+				- Pay-as-you-go: Based on usage, VM pricing starts from $0.013 per hour (B1S)
+			- **Cancel Subscription**: [Cancel Azure Subscription](https://learn.microsoft.com/en-us/azure/cost-management-billing/manage/cancel-azure-subscription)
+		- [[Cloud/Provider/Google Cloud Platform (GCP)]]
+			- **Website**: [Google Cloud Platform](https://cloud.google.com/)
+			- **Country**: [[USA]]
+			- **Pricing**:
+				- Free Tier: 28 hours/day of F1-micro VM instance, 5GB of standard storage, and more
+				- On-Demand: Based on instance type, storage, and bandwidth (starts at $0.0105 per hour for e2-micro)
+			- **Cancel Subscription**: [Cancel Google Cloud Subscription](https://cloud.google.com/billing/docs/how-to/cancel-service)
+		- [[Cloud/Provider/IBM Cloud]]
+			- **Website**: [IBM Cloud](https://www.ibm.com/cloud)
+			- **Country**: [[USA]]
+			- **Pricing**:
+				- Lite Plan: Free tier with limited services (e.g., 256MB Cloud Foundry memory)
+				- Virtual Servers: Pricing starts at $0.028 per hour for standard instances
+			- **Cancel Subscription**: [Cancel IBM Cloud Subscription](https://cloud.ibm.com/docs/account?topic=account-close-account)
+		- [[Cloud/Provider/Alibaba Cloud]]
+			- **Website**: [Alibaba Cloud](https://www.alibabacloud.com/)
+			- **Country**: [[China]]
+			- **Pricing**:
+				- Pay-as-you-go instances starting at $0.01/hour for ECS (Elastic Compute Service)
+			- **Cancel Subscription**: [Cancel Alibaba Cloud Subscription](https://www.alibabacloud.com/help/doc-detail/59909.htm)
+		- [[Cloud/Provider/Oracle Cloud Infrastructure]]
+			- **Website**: [Oracle Cloud](https://www.oracle.com/cloud/)
+			- **Country**: [[USA]]
+			- **Pricing**:
+				- Free Tier: Includes 2 Oracle Autonomous Databases with 1 OCPU and 20GB each, 2 AMD-based compute VMs, and more
+				- On-Demand: Pricing based on compute instance type, starts at $0.0245 per OCPU hour
+			- **Cancel Subscription**: [Cancel Oracle Cloud Subscription](https://docs.oracle.com/en/cloud/get-started/subscriptions-cloud/manage-your-services/3-cancel-subscription.html)
+		- [[Cloud/Provider/DigitalOcean]]
+			- **Website**: [DigitalOcean](https://www.digitalocean.com/)
+			- **Country**: [[USA]]
+			- **Pricing**:
+				- Basic Droplets: Starts at $5/month (1GB RAM, 1vCPU, 25GB SSD)
+				- Premium Droplets: Starts at $6/month (1GB RAM, 1vCPU, 25GB SSD, faster networking)
+			- **Cancel Subscription**: [Cancel DigitalOcean Subscription](https://docs.digitalocean.com/support/cancel-account/)
+		- [[Cloud/Provider/Vultr]]
+			- **Website**: [Vultr](https://www.vultr.com/)
+			- **Country**: [[USA]]
+			- **Pricing**:
+				- Compute instances starting at $2.50/month for 1vCPU, 512MB RAM
+			- **Cancel Subscription**: [Cancel Vultr Subscription](https://www.vultr.com/resources/faq/)
+		- [[Cloud/Provider/Linode]]
+			- **Website**: [Linode](https://www.linode.com/)
+			- **Country**: [[USA]]
+			- **Pricing**:
+				- Nanode: Starts at $5/month for 1GB RAM, 1vCPU, 25GB SSD
+			- **Cancel Subscription**: [Cancel Linode Subscription](https://www.linode.com/docs/guides/cancel-your-account/)
+	- [[Cloud & Storage/Backup & Disaster Recovery Services]]
+	  collapsed:: true
+		- [[Backup & Disaster Recovery Services/Backblaze]]
+			- **Website**: [Backblaze](https://www.backblaze.com/)
+			- **Country**: [[USA]]
+			- **Pricing**:
+				- Personal Backup: $7/month or $70/year for unlimited storage
+				- Business Backup: $70/year/computer for unlimited storage
+			- **Cancel Subscription**: [Cancel Backblaze Account](https://help.backblaze.com/hc/en-us/articles/217664558-How-to-Cancel-Backblaze)
+		- [[Backup & Disaster Recovery Services/CrashPlan]]
+			- **Website**: [CrashPlan](https://www.crashplan.com/)
+			- **Country**: [[USA]]
+			- **Pricing**:
+				- Small Business: $10/month/computer
+			- **Cancel Subscription**: [Cancel CrashPlan Subscription](https://support.crashplan.com/hc/en-us/articles/203045100-How-Do-I-Cancel-My-Subscription-)
+		- [[Backup & Disaster Recovery Services/Carbonite]]
+			- **Website**: [Carbonite](https://www.carbonite.com/)
+			- **Country**: [[USA]]
+			- **Pricing**:
+				- Basic: $6/month (unlimited storage, automatic backup)
+				- Plus: $9/month (includes external drive backup)
+				- Prime: $12/month (includes courier recovery)
+			- **Cancel Subscription**: [Cancel Carbonite Subscription](https://support.carbonite.com/articles/Personal-Cancelling-your-subscription)
+	- [[Cloud & Storage/CDN Services]]
+	  collapsed:: true
+		- [[CDN Services/Cloudflare]]
+			- **Website**: [Cloudflare](https://www.cloudflare.com/)
+			- **Country**: [[USA]]
+			- **Pricing**:
+				- Free Plan: Basic CDN and security services
+				- Pro: $20/month for advanced performance and security
+				- Business: $200/month for enterprise-grade features
+			- **Cancel Subscription**: [Cancel Cloudflare Account](https://support.cloudflare.com/hc/en-us/articles/200171896-How-do-I-cancel-my-Cloudflare-service-)
+		- [[CDN Services/Amazon CloudFront]]
+			- **Website**: [Amazon CloudFront](https://aws.amazon.com/cloudfront/)
+			- **Country**: [[USA]]
+			- **Pricing**:
+				- Pay-as-you-go: Starts at $0.085/GB for the first 10TB of data
+			- **Cancel Subscription**: [Cancel AWS Subscription](https://aws.amazon.com/premiumsupport/knowledge-center/cancel-aws-service/)
+		- [[CDN Services/Fastly]]
+			- **Website**: [Fastly](https://www.fastly.com/)
+			- **Country**: [[USA]]
+			- **Pricing**:
+				- Pay-as-you-go: $0.12/GB for the first 10TB
+			- **Cancel Subscription**: [Cancel Fastly Subscription](https://docs.fastly.com/en/guides/cancelling-a-service)

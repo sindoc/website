@@ -1,4 +1,4 @@
-- Makes sense in the context of [[Cloud/Providers]]:
+- Makes sense in the context of [[Cloud/Provider]]:
 	- [[AWS Lambda]] for [[Cloud/Providers/AWS]]
 	- [[Google Cloud Functions]] for [[Google/Cloud]]
 	- [[Azure Functions]] for [[Microsoft/Azure]]
