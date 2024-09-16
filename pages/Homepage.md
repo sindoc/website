@@ -6,7 +6,7 @@
 	  background-color:: green
 		- And at this stage, the content is aimed at the professionals in this field.
 		- In order to follow my writings, which are a tad easier to follow, please feel free to [[consider reading my blog on Substack]].
-	- In this graph, we also maintain the raw data behind the [[Lutino.io]] product
+	- In this graph, we also maintain the raw data (product taxonomy) behind the [[Lutino.io]] subscription tracker product.
 	- Stay tuned and Happy Hacking!
 	- [[...]]
 		-

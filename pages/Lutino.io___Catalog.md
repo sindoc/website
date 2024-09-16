@@ -1,3 +1,4 @@
+- This is where we maintain the product taxonomy that is used inside the Lutino.io product, in order to help you understand the different product and service categories that are out there and which vendors or service providers serve in their respective categories.
 - Each of the following categories have sub-categories you can access by drilling down into each of them.
 	- [[Lutino.io/Catalog/Cloud & Storage]]
 	- [[Lutino.io/Catalog/News & Magazines]]
