@@ -1,2 +1,4 @@
-# website
- Sina's personal site on Web --hence, website. This site is equipped with a digital garden of my thoughts on a wide range of topics.
+# SinDoc's General-Purpose Public Graph
+ My knowledge graph, published using Logseq.
+
+ I typically work on topics related to Data & AI Governance and Reference Data Management.
