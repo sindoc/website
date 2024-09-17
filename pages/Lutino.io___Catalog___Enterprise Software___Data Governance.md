@@ -1,6 +1,5 @@
 - {{embed ((66e83921-7aec-45e6-9c41-4a0709e53317))}}
 - In this category
-  collapsed:: true
 	- [[Data Governance/Tools/Collibra]]
 		- **Website**: [Collibra](https://www.collibra.com/)
 		- **Company**: [[Collibra]]

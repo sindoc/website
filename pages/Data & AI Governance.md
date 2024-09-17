@@ -40,11 +40,17 @@
 					- AI Governance Unit
 					- Data Engineering Unit
 					- Data Science Unit
-- #### Relevant Policies
+- #### Relevant Policies Covered Until Now
 	- [[AI Governance/Policies/AI Monitoring Policy]]
 	- [[AI Governance/Policies/AI Use Case Documentation Policy]]
-- #### Required Capabilities to Implement the [[AI Governance/Policies]]
+- #### Practical Tools for Implementing Data & AI Governance Policies
 	- [[AI Monitoring/Continuous AI Ethics check]]
-	- [[Human-AI Relationships]] Glossary
-	-
-	-
+		- For continuous blackbox testing of [[AI systems]] to ensure that
+			- Unhealthy biases are avoided
+			- Healthy values are reinforced
+	- [[Human-AI Relationships Glossary]]
+		- For documenting AI use cases based on the role played by [[an AI system]]
+		- Automatically deducing the risk profiles associated with each use case
+	- [[Data Governance/Tools]]
+		- We have a good understanding of the tools that are available for [[Data Governance]] and [[AI Governance]]
+		- We continuously evaluate their features and update our findings here.
