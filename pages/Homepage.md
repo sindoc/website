@@ -9,13 +9,9 @@
 	- In this graph, we also maintain the raw data (product taxonomy) behind the [[Lutino.io]] subscription tracker product.
 	- Stay tuned and Happy Hacking!
 	- [[...]]
-		-
-		-
 - ### Ongoing Topics
-  background-color:: blue
-	- ### Top Priority Ongoing Actions
-	  background-color:: yellow
-		- {{query (and (task TODO DOING WAITING) (priority A B C))}}
-		  query-table:: true
-		  query-properties:: [:block]
-		-
+  background-color:: yellow
+	- {{query (and (task TODO DOING WAITING) (priority A))}}
+	  query-table:: true
+	  query-properties:: [:block]
+	-
