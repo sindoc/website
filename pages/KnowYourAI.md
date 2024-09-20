@@ -6,6 +6,7 @@ alias:: the KnowYourAI framework
 	- [[AI Governance/Tools/Bias Detector]]
 		- [[AI Governance/Tools/Gender Bias Detector]]
 		- [[AI Governance/Tools/Age Bias Detector]]
+	- [[MIT/AI Risks/Database]]
 - Repository Home on **GitHub**
   collapsed:: true
 	- https://github.com/sindoc/knowyourai-framework

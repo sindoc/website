@@ -1,2 +1,2 @@
 - See [[AI system]]
-- As defined by [[MIT/AI Risk Database]]
+- As defined by [[MIT/AI Risks/Database]]
