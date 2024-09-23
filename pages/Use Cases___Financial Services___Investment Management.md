@@ -121,12 +121,10 @@ collapsed:: true
 			- See also [[Human Value Drift]]
 		- [[...]]
 - ### [[Risk Assessment and Mitigation]]
-  collapsed:: true
 	- AI Use Case: Predict potential risks and recommend mitigation strategies.
 	- Data Use Case: Analyze historical financial data to assess risk factors.
 	- **Description**: Predicts potential financial risks and recommends mitigation strategies using historical and real-time data.
 	- **Datasets**:
-	  collapsed:: true
 		- [[Financial Services/Investment Management/Market Data/Asset Prices/Historical Stock Prices]]
 		- [[Financial Services/Investment Management/Market Data/Asset Prices/Historical Bond Prices]]
 		- [[Financial Services/Investment Management/Market Data/Indices/Historical Benchmark Index Data]]
@@ -135,7 +133,6 @@ collapsed:: true
 		- [[Financial Services/Investment Management/Client Data/Investor Portfolios/Current Holdings]]
 		- [[Financial Services/Investment Management/Client Data/Investor Portfolios/Transaction History]]
 	- **Applicable Policies**:
-	  collapsed:: true
 		- [[Policies/Data Governance/Data Classification]]
 		- [[Policies/Data Governance/Sensitivity Classification]]
 		- [[Policies/Data Governance/Usage Classification]]
@@ -167,7 +164,6 @@ collapsed:: true
 		- [[Policies/AI Governance/Value Alignment Policy]]
 		- [[Policies/AI Governance/AI Risk Management]]
 	- #### AI Risks
-	  collapsed:: true
 		- [[AI Risks/Bias and fairness/Bias and fairness]] in [[Credit Scoring]] and [[Risk Assessment]]
 		- [[AI Risks/Explainability & Transparency]]
 		- [[AI Risks/Untruthful Content/Factuality Errors]]
@@ -511,6 +507,7 @@ collapsed:: true
 		- [[Data Management/Risks/Data Leakage]]
 			- Exposure of sensitive financial and liability data.
 - ### [[ESG Investment Strategy]]
+  collapsed:: true
 	- **Description**: Integrates environmental, social, and governance (ESG) factors into the investment process to align with the fund's sustainability goals.
 	- **Datasets**:
 		- [[Financial Services/Investment Management/Market Data/ESG Data/Company ESG Ratings]]
