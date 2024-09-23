@@ -1,0 +1,763 @@
+## Financial Services Industry
+- ### [[Use Cases/Financial Services/Investment Management]]
+	- {{embed [[Use Cases/Financial Services/Investment Management]]}}
+- ### [[Use Cases/Financial Services/Retail Banking]]
+	- **[[Fraud Detection and Prevention]]**
+	  collapsed:: true
+		- **Description**: Detects and prevents fraudulent activities in real-time using transaction data analysis.
+		- **Datasets**:
+			- [[Financial Services/Retail Banking/Transaction Data/Bank Transactions]]
+			- [[Financial Services/Retail Banking/Customer Data/Customer Profiles]]
+		- **Applicable Policies**:
+			- [[Policies/Data Governance/Fraud Detection]]
+			- [[Policies/Security/Incident Response]]
+		- **MIT AI Risk Database**:
+			- [[MIT AI Risk/Financial Services/Retail Banking/Fraud Detection and Prevention]]
+	- **[[Customer Churn Prediction]]**
+	  collapsed:: true
+		- **Description**: Predicts the likelihood of customers leaving the bank by analyzing their transaction and interaction history.
+		- **Datasets**:
+			- [[Financial Services/Retail Banking/Customer Data/Customer Transactions]]
+			- [[Financial Services/Retail Banking/Customer Data/Customer Support Interactions]]
+		- **Applicable Policies**:
+			- [[Policies/Data Governance/Data Privacy]]
+			- [[Policies/Data Governance/GDPR Compliance]]
+		- **MIT AI Risk Database**:
+			- [[MIT AI Risk/Financial Services/Retail Banking/Customer Churn Prediction]]
+	- **[[Personalized Banking Recommendations]]**
+	  collapsed:: true
+		- **Description**: Provides personalized financial products and services to customers based on their profile and behavior.
+		- **Datasets**:
+			- [[Financial Services/Retail Banking/Customer Data/Customer Profiles]]
+			- [[Financial Services/Retail Banking/Transaction Data/Customer Spending Patterns]]
+		- **Applicable Policies**:
+			- [[Policies/Data Governance/Usage Classification]]
+			- [[Policies/AI Governance/Fairness and Transparency Policy]]
+		- **MIT AI Risk Database**:
+			- [[MIT AI Risk/Financial Services/Retail Banking/Personalized Banking Recommendations]]
+	- **[[Loan Approval Automation]]**
+	  collapsed:: true
+		- **Description**: Automates the loan approval process using predictive models that assess creditworthiness.
+		- **Datasets**:
+			- [[Financial Services/Retail Banking/Customer Data/Credit Scores]]
+			- [[Financial Services/Retail Banking/Financial Data/Income and Employment History]]
+		- **Applicable Policies**:
+			- [[Policies/Data Governance/Data Privacy]]
+			- [[Policies/AI Governance/Bias Detection Policy]]
+		- **MIT AI Risk Database**:
+			- [[MIT AI Risk/Financial Services/Retail Banking/Loan Approval Automation]]
+- ### [[Use Cases/Financial Services/Insurance]]
+	- **Claims Processing Automation**
+	  collapsed:: true
+		- **Description**: Uses AI to process insurance claims automatically, reducing time and errors in claims management.
+		- **Datasets**:
+			- [[Financial Services/Insurance/Claims Data/Insurance Claims]]
+			- [[Financial Services/Insurance/Customer Data/Policyholder Information]]
+		- **Applicable Policies**:
+			- [[Policies/Data Governance/Data Classification]]
+			- [[Policies/AI Governance/Model Validation]]
+		- **MIT AI Risk Database**:
+			- [[MIT AI Risk/Financial Services/Insurance/Claims Processing Automation]]
+	- **Risk Assessment and Pricing**
+	  collapsed:: true
+		- **Description**: Uses predictive analytics to assess insurance risks and determine appropriate pricing for policies.
+		- **Datasets**:
+			- [[Financial Services/Insurance/Customer Data/Policyholder Risk Profiles]]
+			- [[Financial Services/Insurance/Claims Data/Historical Claims]]
+		- **Applicable Policies**:
+			- [[Policies/Data Governance/Data Access]]
+			- [[Policies/AI Governance/Risk Identification and Assessment]]
+		- **MIT AI Risk Database**:
+			- [[MIT AI Risk/Financial Services/Insurance/Risk Assessment and Pricing]]
+	- **Fraud Detection in Claims**
+	  collapsed:: true
+		- **Description**: Detects fraudulent claims by analyzing historical claims data for patterns and anomalies.
+		- **Datasets**:
+			- [[Financial Services/Insurance/Claims Data/Historical Claims]]
+			- [[Financial Services/Insurance/Customer Data/Claimant Profiles]]
+		- **Applicable Policies**:
+			- [[Policies/Data Governance/Fraud Detection]]
+			- [[Policies/Security/Data Breach Response]]
+		- **MIT AI Risk Database**:
+			- [[MIT AI Risk/Financial Services/Insurance/Fraud Detection in Claims]]
+	- **Customer Support Automation**
+	  collapsed:: true
+		- **Description**: Automates customer interactions using AI chatbots for insurance inquiries and policy management.
+		- **Datasets**:
+			- [[Financial Services/Insurance/Customer Data/Customer Interactions]]
+			- [[Financial Services/Insurance/Policy Data/Insurance Policies]]
+		- **Applicable Policies**:
+			- [[Policies/AI Governance/Ethical AI Usage Guidelines]]
+			- [[Policies/Security/Identity and Access Management (IAM)]]
+		- **MIT AI Risk Database**:
+			- [[MIT AI Risk/Financial Services/Insurance/Customer Support Automation]]
+- ### [[Use Cases/Financial Services/Wealth Management]]
+	- **Personalized Investment Recommendations**
+	  collapsed:: true
+		- **Description**: Recommends investment strategies tailored to individual client goals and risk tolerance.
+		- **Datasets**:
+			- [[Financial Services/Wealth Management/Customer Data/Client Profiles]]
+			- [[Financial Services/Wealth Management/Market Data/Investment Opportunities]]
+		- **Applicable Policies**:
+			- [[Policies/Data Governance/Data Privacy]]
+			- [[Policies/AI Governance/Fairness and Transparency Policy]]
+		- **MIT AI Risk Database**:
+			- [[MIT AI Risk/Financial Services/Wealth Management/Personalized Investment Recommendations]]
+	- **Client Segmentation and Profiling**
+	  collapsed:: true
+		- **Description**: Groups clients based on investment behavior and preferences to offer personalized services.
+		- **Datasets**:
+			- [[Financial Services/Wealth Management/Customer Data/Client Demographics]]
+			- [[Financial Services/Wealth Management/Transaction Data/Investment Patterns]]
+		- **Applicable Policies**:
+			- [[Policies/Data Governance/Data Classification]]
+			- [[Policies/AI Governance/Bias Detection Policy]]
+		- **MIT AI Risk Database**:
+			- [[MIT AI Risk/Financial Services/Wealth Management/Client Segmentation and Profiling]]
+	- **Tax Optimization Strategies**
+	  collapsed:: true
+		- **Description**: Uses financial data to provide clients with strategies to minimize tax liabilities.
+		- **Datasets**:
+			- [[Financial Services/Wealth Management/Financial Data/Tax Data]]
+			- [[Financial Services/Wealth Management/Transaction Data/Investment Transactions]]
+		- **Applicable Policies**:
+			- [[Policies/Data Governance/Data Privacy]]
+			- [[Policies/AI Governance/Ethical AI Usage Guidelines]]
+		- **MIT AI Risk Database**:
+			- [[MIT AI Risk/Financial Services/Wealth Management/Tax Optimization Strategies]]
+	- **Automated Portfolio Rebalancing**
+	  collapsed:: true
+		- **Description**: Automatically adjusts client portfolios based on predefined rules and market conditions.
+		- **Datasets**:
+			- [[Financial Services/Wealth Management/Market Data/Asset Performance]]
+			- [[Financial Services/Wealth Management/Customer Data/Portfolio Holdings]]
+		- **Applicable Policies**:
+			- [[Policies/Data Governance/Usage Classification]]
+			- [[Policies/AI Governance/Model Monitoring]]
+		- **MIT AI Risk Database**:
+			- [[MIT AI Risk/Financial Services/Wealth Management/Automated Portfolio Rebalancing]]
+- ### [[Use Cases/Financial Services/Payments & Transactions]]
+- **Fraud Detection in Transactions**
+  collapsed:: true
+	- **Description**: Real-time detection and prevention of fraudulent transactions using advanced analytics.
+	- **Datasets**:
+		- [[Financial Services/Payments & Transactions/Transaction Data/Transaction History]]
+		- [[Financial Services/Payments & Transactions/Customer Data/Customer Profiles]]
+	- **Applicable Policies**:
+		- [[Policies/Security/Fraud Detection]]
+		- [[Policies/Data Governance/Data Privacy]]
+	- **MIT AI Risk Database**:
+		- [[MIT AI Risk/Financial Services/Payments & Transactions/Fraud Detection in Transactions]]
+- **Payment Gateway Optimization**
+  collapsed:: true
+	- **Description**: Optimizes the payment process to reduce failures and improve transaction speed.
+	- **Datasets**:
+		- [[Financial Services/Payments & Transactions/Transaction Data/Payment Gateway Logs]]
+		- [[Financial Services/Payments & Transactions/Transaction Data/Transaction History]]
+	- **Applicable Policies**:
+		- [[Policies/AI Governance/Model Monitoring]]
+		- [[Policies/Data Governance/Data Quality]]
+	- **MIT AI Risk Database**:
+		- [[MIT AI Risk/Financial Services/Payments & Transactions/Payment Gateway Optimization]]
+- **Customer Behavior Analysis**
+  collapsed:: true
+	- **Description**: Analyzes customer transaction data to understand spending behavior and preferences.
+	- **Datasets**:
+		- [[Financial Services/Payments & Transactions/Transaction Data/Transaction History]]
+		- [[Financial Services/Payments & Transactions/Customer Data/Customer Profiles]]
+	- **Applicable Policies**:
+		- [[Policies/Data Governance/Data Privacy]]
+		- [[Policies/AI Governance/Fairness and Transparency Policy]]
+	- **MIT AI Risk Database**:
+		- [[MIT AI Risk/Financial Services/Payments & Transactions/Customer Behavior Analysis]]
+- **Real-Time Transaction Monitoring**
+  collapsed:: true
+	- **Description**: Monitors transactions in real-time to detect anomalies and prevent fraudulent activities.
+	- **Datasets**:
+		- [[Financial Services/Payments & Transactions/Transaction Data/Real-Time Transactions]]
+		- [[Financial Services/Payments & Transactions/Transaction Data/Transaction History]]
+	- **Applicable Policies**:
+		- [[Policies/Security/Incident Response]]
+		- [[Policies/Data Governance/Data Privacy]]
+	- **MIT AI Risk Database**:
+		- [[MIT AI Risk/Financial Services/Payments & Transactions/Real-Time Transaction Monitoring]]
+- # Healthcare Industry
+- ### [[Use Cases/Healthcare/Hospitals and Healthcare Providers]]
+- **Predictive Patient Diagnostics**
+	- **Description**: Predicts patient health outcomes using historical medical data to support early diagnosis and treatment.
+	- **Datasets**:
+		- [[Healthcare/Hospitals and Healthcare Providers/Patient Data/EHR]]
+		- [[Healthcare/Hospitals and Healthcare Providers/Patient Data/Lab Results]]
+	- **Applicable Policies**:
+		- [[Policies/Data Governance/Data Privacy]]
+		- [[Policies/AI Governance/Model Validation]]
+	- **MIT AI Risk Database**:
+		- [[MIT AI Risk/Healthcare/Hospitals and Healthcare Providers/Predictive Patient Diagnostics]]
+- **Medical Image Analysis**
+	- **Description**: Uses computer vision to analyze medical images for disease detection and diagnosis.
+	- **Datasets**:
+		- [[Healthcare/Hospitals and Healthcare Providers/Image Data/MRI Scans]]
+		- [[Healthcare/Hospitals and Healthcare Providers/Image Data/X-Ray Images]]
+	- **Applicable Policies**:
+		- [[Policies/Data Governance/Data Accuracy Standards]]
+		- [[Policies/AI Governance/Ethical AI Usage Guidelines]]
+	- **MIT AI Risk Database**:
+		- [[MIT AI Risk/Healthcare/Hospitals and Healthcare Providers/Medical Image Analysis]]
+- **Electronic Health Record (EHR) Management**
+	- **Description**: Organizes and standardizes patient data to improve accessibility and quality of care.
+	- **Datasets**:
+		- [[Healthcare/Hospitals and Healthcare Providers/Patient Data/EHR]]
+	- **Applicable Policies**:
+		- [[Policies/Data Governance/Data Provenance]]
+		- [[Policies/Data Governance/Data Privacy]]
+	- **MIT AI Risk Database**:
+		- [[MIT AI Risk/Healthcare/Hospitals and Healthcare Providers/EHR Management]]
+- **Patient Risk Scoring**
+	- **Description**: Scores patient risk levels for developing certain conditions based on health records.
+	- **Datasets**:
+		- [[Healthcare/Hospitals and Healthcare Providers/Patient Data/EHR]]
+		- [[Healthcare/Hospitals and Healthcare Providers/Patient Data/Demographics]]
+	- **Applicable Policies**:
+		- [[Policies/AI Governance/Model Validation]]
+		- [[Policies/Data Governance/Data Privacy]]
+	- **MIT AI Risk Database**:
+		- [[MIT AI Risk/Healthcare/Hospitals and Healthcare Providers/Patient Risk Scoring]]
+- ### [[Use Cases/Healthcare/Pharmaceuticals]]
+- **Drug Discovery and Development**
+	- **Description**: Accelerates the process of drug discovery using AI to identify potential compounds and predict their effectiveness.
+	- **Datasets**:
+		- [[Healthcare/Pharmaceuticals/Research Data/Chemical Properties]]
+		- [[Healthcare/Pharmaceuticals/Research Data/Genomic Data]]
+	- **Applicable Policies**:
+		- [[Policies/Data Governance/Data Accuracy Standards]]
+		- [[Policies/AI Governance/Model Validation]]
+	- **MIT AI Risk Database**:
+		- [[MIT AI Risk/Healthcare/Pharmaceuticals/Drug Discovery and Development]]
+- **Clinical Trial Optimization**
+	- **Description**: Optimizes the selection of participants and design of clinical trials to increase their efficiency and success rate.
+	- **Datasets**:
+		- [[Healthcare/Pharmaceuticals/Clinical Data/Trial Participants]]
+		- [[Healthcare/Pharmaceuticals/Clinical Data/Study Results]]
+	- **Applicable Policies**:
+		- [[Policies/Data Governance/Data Privacy]]
+		- [[Policies/AI Governance/Bias Detection Policy]]
+	- **MIT AI Risk Database**:
+		- [[MIT AI Risk/Healthcare/Pharmaceuticals/Clinical Trial Optimization]]
+- **Adverse Event Detection**
+	- **Description**: Predicts and identifies adverse drug reactions using patient data.
+	- **Datasets**:
+		- [[Healthcare/Pharmaceuticals/Clinical Data/Patient Reports]]
+		- [[Healthcare/Pharmaceuticals/Clinical Data/Drug Usage]]
+	- **Applicable Policies**:
+		- [[Policies/Data Governance/Data Privacy]]
+		- [[Policies/AI Governance/Model Monitoring]]
+	- **MIT AI Risk Database**:
+		- [[MIT AI Risk/Healthcare/Pharmaceuticals/Adverse Event Detection]]
+- **Supply Chain Management for Drugs**
+	- **Description**: Optimizes the pharmaceutical supply chain to ensure timely delivery and minimize wastage.
+	- **Datasets**:
+		- [[Healthcare/Pharmaceuticals/Supply Chain Data/Inventory Levels]]
+		- [[Healthcare/Pharmaceuticals/Logistics Data/Distribution Data]]
+	- **Applicable Policies**:
+		- [[Policies/Data Governance/Operational Data Retention]]
+		- [[Policies/AI Governance/Risk Management]]
+	- **MIT AI Risk Database**:
+		- [[MIT AI Risk/Healthcare/Pharmaceuticals/Supply Chain Management for Drugs]]
+- # Retail & E-commerce Industry
+- ### [[Use Cases/Retail/Brick-and-Mortar Retail]]
+- **Demand Forecasting and Inventory Management**
+	- **Description**: Predicts product demand to optimize inventory levels and reduce overstocking or stockouts.
+	- **Datasets**:
+		- [[Retail/Brick-and-Mortar Retail/Sales Data/Past Sales]]
+		- [[Retail/Brick-and-Mortar Retail/Inventory Data/Stock Levels]]
+	- **Applicable Policies**:
+		- [[Policies/Data Governance/Data Accuracy Standards]]
+		- [[Policies/AI Governance/Performance Metrics Threshold]]
+	- **MIT AI Risk Database**:
+		- [[MIT AI Risk/Retail/Brick-and-Mortar Retail/Demand Forecasting and Inventory Management]]
+- **Store Layout Optimization**
+	- **Description**: Uses data to design store layouts that maximize customer engagement and sales.
+	- **Datasets**:
+		- [[Retail/Brick-and-Mortar Retail/Customer Data/Foot Traffic Patterns]]
+		- [[Retail/Brick-and-Mortar Retail/Sales Data/Product Sales]]
+	- **Applicable Policies**:
+		- [[Policies/Data Governance/Data Privacy]]
+		- [[Policies/AI Governance/Fairness and Transparency Policy]]
+	- **MIT AI Risk Database**:
+		- [[MIT AI Risk/Retail/Brick-and-Mortar Retail/Store Layout Optimization]]
+- **Customer Sentiment Analysis**
+	- **Description**: Analyzes customer feedback from multiple channels to gauge sentiment and improve service.
+	- **Datasets**:
+		- [[Retail/Brick-and-Mortar Retail/Customer Feedback/Reviews and Ratings]]
+		- [[Retail/Brick-and-Mortar Retail/Social Media Data/Mentions and Comments]]
+	- **Applicable Policies**:
+		- [[Policies/Data Governance/Data Privacy]]
+		- [[Policies/AI Governance/Fairness and Transparency Policy]]
+	- **MIT AI Risk Database**:
+		- [[MIT AI Risk/Retail/Brick-and-Mortar Retail/Customer Sentiment Analysis]]
+- **Loyalty Program Personalization**
+	- **Description**: Tailors loyalty rewards based on individual customer behavior and preferences.
+	- **Datasets**:
+		- [[Retail/Brick-and-Mortar Retail/Customer Data/Loyalty Program Participation]]
+		- [[Retail/Brick-and-Mortar Retail/Transaction Data/Purchase History]]
+	- **Applicable Policies**:
+		- [[Policies/Data Governance/Data Privacy]]
+		- [[Policies/AI Governance/Fairness and Transparency Policy]]
+	- **MIT AI Risk Database**:
+		- [[MIT AI Risk/Retail/Brick-and-Mortar Retail/Loyalty Program Personalization]]
+- ### [[Use Cases/Retail/Online Retail & Marketplaces]]
+- **Personalized Product Recommendations**
+	- **Description**: Suggests products to customers based on their browsing history and past purchases.
+	- **Datasets**:
+		- [[Retail/Online Retail & Marketplaces/Customer Data/Browsing History]]
+		- [[Retail/Online Retail & Marketplaces/Transaction Data/Purchase History]]
+	- **Applicable Policies**:
+		- [[Policies/Data Governance/Data Privacy]]
+		- [[Policies/AI Governance/Bias Detection Policy]]
+	- **MIT AI Risk Database**:
+		- [[MIT AI Risk/Retail/Online Retail & Marketplaces/Personalized Product Recommendations]]
+- **Chatbots for Customer Support**
+	- **Description**: Provides automated responses to common customer inquiries, improving response time and efficiency.
+	- **Datasets**:
+		- [[Retail/Online Retail & Marketplaces/Customer Data/Support Interactions]]
+		- [[Retail/Online Retail & Marketplaces/FAQ Data/Support Topics]]
+	- **Applicable Policies**:
+		- [[Policies/AI Governance/Ethical AI Usage Guidelines]]
+		- [[Policies/Security/Identity and Access Management (IAM)]]
+	- **MIT AI Risk Database**:
+		- [[MIT AI Risk/Retail/Online Retail & Marketplaces/Chatbots for Customer Support]]
+- **Supply Chain and Logistics Optimization**
+	- **Description**: Uses predictive analytics to optimize the supply chain, ensuring efficient product delivery.
+	- **Datasets**:
+		- [[Retail/Online Retail & Marketplaces/Logistics Data/Shipment Tracking]]
+		- [[Retail/Online Retail & Marketplaces/Supply Chain Data/Warehouse Inventory]]
+	- **Applicable Policies**:
+		- [[Policies/Data Governance/Data Quality]]
+		- [[Policies/AI Governance/Performance Monitoring]]
+	- **MIT AI Risk Database**:
+		- [[MIT AI Risk/Retail/Online Retail & Marketplaces/Supply Chain and Logistics Optimization]]
+- **Fraud Detection in Transactions**
+	- **Description**: Identifies suspicious activities in online transactions to prevent fraud.
+	- **Datasets**:
+		- [[Retail/Online Retail & Marketplaces/Transaction Data/Payment Transactions]]
+		- [[Retail/Online Retail & Marketplaces/Customer Data/User Profiles]]
+	- **Applicable Policies**:
+		- [[Policies/Security/Fraud Detection]]
+		- [[Policies/Data Governance/Data Privacy]]
+	- **MIT AI Risk Database**:
+		- [[MIT AI Risk/Retail/Online Retail & Marketplaces/Fraud Detection in Transactions]]
+- # Manufacturing Industry
+- ### [[Use Cases/Manufacturing/Discrete Manufacturing]]
+- **Predictive Maintenance**
+	- **Description**: Predicts equipment failures before they occur, minimizing downtime and repair costs.
+	- **Datasets**:
+		- [[Manufacturing/Discrete Manufacturing/Equipment Data/Sensor Readings]]
+		- [[Manufacturing/Discrete Manufacturing/Maintenance Data/Service Records]]
+	- **Applicable Policies**:
+		- [[Policies/Data Governance/Data Accuracy Standards]]
+		- [[Policies/AI Governance/Model Validation]]
+	- **MIT AI Risk Database**:
+		- [[MIT AI Risk/Manufacturing/Discrete Manufacturing/Predictive Maintenance]]
+- **Quality Control and Defect Detection**
+	- **Description**: Uses AI to detect defects in products during the manufacturing process.
+	- **Datasets**:
+		- [[Manufacturing/Discrete Manufacturing/Image Data/Product Images]]
+		- [[Manufacturing/Discrete Manufacturing/Production Data/Quality Metrics]]
+	- **Applicable Policies**:
+		- [[Policies/Data Governance/Data Privacy]]
+		- [[Policies/AI Governance/Ethical AI Usage Guidelines]]
+	- **MIT AI Risk Database**:
+		- [[MIT AI Risk/Manufacturing/Discrete Manufacturing/Quality Control and Defect Detection]]
+- **Supply Chain Optimization**
+	- **Description**: Optimizes supply chain operations to reduce costs and improve delivery times.
+	- **Datasets**:
+		- [[Manufacturing/Discrete Manufacturing/Supply Chain Data/Logistics]]
+		- [[Manufacturing/Discrete Manufacturing/Inventory Data/Stock Levels]]
+	- **Applicable Policies**:
+		- [[Policies/Data Governance/Operational Data Retention]]
+		- [[Policies/AI Governance/Performance Metrics Threshold]]
+	- **MIT AI Risk Database**:
+		- [[MIT AI Risk/Manufacturing/Discrete Manufacturing/Supply Chain Optimization]]
+- **Production Planning and Scheduling**
+	- **Description**: Plans and schedules production runs to meet demand while minimizing costs and maximizing efficiency.
+	- **Datasets**:
+		- [[Manufacturing/Discrete Manufacturing/Production Data/Production Schedules]]
+		- [[Manufacturing/Discrete Manufacturing/Demand Data/Forecasts]]
+	- **Applicable Policies**:
+		- [[Policies/Data Governance/Data Quality]]
+		- [[Policies/AI Governance/Performance Monitoring]]
+	- **MIT AI Risk Database**:
+		- [[MIT AI Risk/Manufacturing/Discrete Manufacturing/Production Planning and Scheduling]]
+- ### [[Use Cases/Manufacturing/Process Manufacturing]]
+- **Process Optimization and Control**
+	- **Description**: Uses data analytics to optimize manufacturing processes and control production quality.
+	- **Datasets**:
+		- [[Manufacturing/Process Manufacturing/Process Data/Operational Data]]
+		- [[Manufacturing/Process Manufacturing/Product Data/Quality Metrics]]
+	- **Applicable Policies**:
+		- [[Policies/Data Governance/Data Provenance]]
+		- [[Policies/AI Governance/Model Validation]]
+	- **MIT AI Risk Database**:
+		- [[MIT AI Risk/Manufacturing/Process Manufacturing/Process Optimization and Control]]
+- **Yield Optimization**
+	- **Description**: Optimizes production processes to maximize yield and minimize waste.
+	- **Datasets**:
+		- [[Manufacturing/Process Manufacturing/Production Data/Yield Data]]
+		- [[Manufacturing/Process Manufacturing/Resource Data/Raw Material Usage]]
+	- **Applicable Policies**:
+		- [[Policies/Data Governance/Data Quality]]
+		- [[Policies/AI Governance/Performance Metrics Threshold]]
+	- **MIT AI Risk Database**:
+		- [[MIT AI Risk/Manufacturing/Process Manufacturing/Yield Optimization]]
+- **Predictive Maintenance for Equipment**
+	- **Description**: Predicts when equipment will fail so that maintenance can be performed just in time to avoid downtime.
+	- **Datasets**:
+		- [[Manufacturing/Process Manufacturing/Equipment Data/Sensor Readings]]
+		- [[Manufacturing/Process Manufacturing/Maintenance Data/Service Records]]
+	- **Applicable Policies**:
+		- [[Policies/Data Governance/Data Accuracy Standards]]
+		- [[Policies/AI Governance/Model Validation]]
+	- **MIT AI Risk Database**:
+		- [[MIT AI Risk/Manufacturing/Process Manufacturing/Predictive Maintenance for Equipment]]
+- **Energy Consumption Optimization**
+	- **Description**: Optimizes energy usage during the manufacturing process to reduce costs and environmental impact.
+	- **Datasets**:
+		- [[Manufacturing/Process Manufacturing/Energy Data/Consumption Metrics]]
+		- [[Manufacturing/Process Manufacturing/Production Data/Process Efficiency]]
+	- **Applicable Policies**:
+		- [[Policies/Data Governance/Data Quality]]
+		- [[Policies/AI Governance/Performance Metrics Threshold]]
+	- **MIT AI Risk Database**:
+		- [[MIT AI Risk/Manufacturing/Process Manufacturing/Energy Consumption Optimization]]
+- # Energy & Utilities Industry
+- ### [[Use Cases/Energy/Electric Utilities]]
+- **Smart Grid Management**
+	- **Description**: Manages the distribution of electricity more efficiently using real-time data from the grid.
+	- **Datasets**:
+		- [[Energy/Electric Utilities/Grid Data/Smart Meter Data]]
+		- [[Energy/Electric Utilities/Load Data/Consumption Patterns]]
+	- **Applicable Policies**:
+		- [[Policies/Data Governance/Data Privacy]]
+		- [[Policies/AI Governance/Risk Management]]
+	- **MIT AI Risk Database**:
+		- [[MIT AI Risk/Energy/Electric Utilities/Smart Grid Management]]
+- **Predictive Maintenance for Equipment**
+	- **Description**: Predicts when utility equipment will fail so that maintenance can be scheduled proactively.
+	- **Datasets**:
+		- [[Energy/Electric Utilities/Equipment Data/Sensor Readings]]
+		- [[Energy/Electric Utilities/Maintenance Data/Service Records]]
+	- **Applicable Policies**:
+		- [[Policies/Data Governance/Data Accuracy Standards]]
+		- [[Policies/AI Governance/Model Validation]]
+	- **MIT AI Risk Database**:
+		- [[MIT AI Risk/Energy/Electric Utilities/Predictive Maintenance for Equipment]]
+- **Energy Demand Forecasting**
+	- **Description**: Predicts future energy demand to help utilities plan for production and distribution.
+	- **Datasets**:
+		- [[Energy/Electric Utilities/Demand Data/Historical Demand]]
+		- [[Energy/Electric Utilities/Weather Data/Weather Forecasts]]
+	- **Applicable Policies**:
+		- [[Policies/Data Governance/Data Quality]]
+		- [[Policies/AI Governance/Performance Monitoring]]
+	- **MIT AI Risk Database**:
+		- [[MIT AI Risk/Energy/Electric Utilities/Energy Demand Forecasting]]
+- **Renewable Energy Integration**
+	- **Description**: Integrates renewable energy sources into the power grid while maintaining grid stability.
+	- **Datasets**:
+		- [[Energy/Electric Utilities/Renewable Energy Data/Generation Data]]
+		- [[Energy/Electric Utilities/Grid Data/Grid Stability Metrics]]
+	- **Applicable Policies**:
+		- [[Policies/Data Governance/Data Privacy]]
+		- [[Policies/AI Governance/Risk Management]]
+	- **MIT AI Risk Database**:
+		- [[MIT AI Risk/Energy/Electric Utilities/Renewable Energy Integration]]
+- ### [[Use Cases/Energy/Oil & Gas]]
+- **Predictive Maintenance for Equipment**
+	- **Description**: Uses data from sensors and historical maintenance records to predict when equipment is likely to fail.
+	- **Datasets**:
+		- [[Energy/Oil & Gas/Equipment Data/Sensor Data]]
+		- [[Energy/Oil & Gas/Maintenance Data/Service History]]
+	- **Applicable Policies**:
+		- [[Policies/Data Governance/Data Accuracy Standards]]
+		- [[Policies/AI Governance/Model Validation]]
+	- **MIT AI Risk Database**:
+		- [[MIT AI Risk/Energy/Oil & Gas/Predictive Maintenance for Equipment]]
+- **Reservoir Optimization**
+	- **Description**: Optimizes oil and gas reservoir management to maximize extraction efficiency and reduce costs.
+	- **Datasets**:
+		- [[Energy/Oil & Gas/Geological Data/Reservoir Characteristics]]
+		- [[Energy/Oil & Gas/Production Data/Extraction Rates]]
+	- **Applicable Policies**:
+		- [[Policies/Data Governance/Data Provenance]]
+		- [[Policies/AI Governance/Model Validation]]
+	- **MIT AI Risk Database**:
+		- [[MIT AI Risk/Energy/Oil & Gas/Reservoir Optimization]]
+- **Supply Chain and Logistics Optimization**
+	- **Description**: Uses predictive analytics to optimize the supply chain for oil and gas distribution.
+	- **Datasets**:
+		- [[Energy/Oil & Gas/Logistics Data/Shipment Data]]
+		- [[Energy/Oil & Gas/Supply Chain Data/Inventory Levels]]
+	- **Applicable Policies**:
+		- [[Policies/Data Governance/Operational Data Retention]]
+		- [[Policies/AI Governance/Risk Management]]
+	- **MIT AI Risk Database**:
+		- [[MIT AI Risk/Energy/Oil & Gas/Supply Chain and Logistics Optimization]]
+- **Energy Consumption Optimization**
+	- **Description**: Analyzes energy consumption data to find ways to reduce usage and improve efficiency.
+	- **Datasets**:
+		- [[Energy/Oil & Gas/Energy Data/Consumption Data]]
+		- [[Energy/Oil & Gas/Production Data/Efficiency Data]]
+	- **Applicable Policies**:
+		- [[Policies/Data Governance/Data Quality]]
+		- [[Policies/AI Governance/Performance Metrics Threshold]]
+	- **MIT AI Risk Database**:
+		- [[MIT AI Risk/Energy/Oil & Gas/Energy Consumption Optimization]]
+- # Transportation & Logistics Industry
+- ### [[Use Cases/Transportation/Freight & Logistics]]
+- **Route Optimization**
+	- **Description**: Optimizes delivery routes to reduce fuel consumption and delivery times.
+	- **Datasets**:
+		- [[Transportation/Freight & Logistics/Route Data/Delivery Routes]]
+		- [[Transportation/Freight & Logistics/Traffic Data/Traffic Conditions]]
+	- **Applicable Policies**:
+		- [[Policies/Data Governance/Data Privacy]]
+		- [[Policies/AI Governance/Performance Metrics Threshold]]
+	- **MIT AI Risk Database**:
+		- [[MIT AI Risk/Transportation/Freight & Logistics/Route Optimization]]
+- **Predictive Maintenance for Vehicles**
+	- **Description**: Predicts when fleet vehicles will need maintenance to avoid unexpected breakdowns.
+	- **Datasets**:
+		- [[Transportation/Freight & Logistics/Vehicle Data/Sensor Readings]]
+		- [[Transportation/Freight & Logistics/Maintenance Data/Service Records]]
+	- **Applicable Policies**:
+		- [[Policies/Data Governance/Data Accuracy Standards]]
+		- [[Policies/AI Governance/Model Validation]]
+	- **MIT AI Risk Database**:
+		- [[MIT AI Risk/Transportation/Freight & Logistics/Predictive Maintenance for Vehicles]]
+- **Supply Chain and Inventory Optimization**
+	- **Description**: Optimizes the supply chain and inventory management to reduce costs and improve efficiency.
+	- **Datasets**:
+		- [[Transportation/Freight & Logistics/Supply Chain Data/Inventory Levels]]
+		- [[Transportation/Freight & Logistics/Logistics Data/Shipment Data]]
+	- **Applicable Policies**:
+		- [[Policies/Data Governance/Data Quality]]
+		- [[Policies/AI Governance/Performance Monitoring]]
+	- **MIT AI Risk Database**:
+		- [[MIT AI Risk/Transportation/Freight & Logistics/Supply Chain and Inventory Optimization]]
+- **Fleet Management and Optimization**
+	- **Description**: Manages the fleet of vehicles to improve efficiency and reduce operational costs.
+	- **Datasets**:
+		- [[Transportation/Freight & Logistics/Fleet Data/Vehicle Usage]]
+		- [[Transportation/Freight & Logistics/Logistics Data/Shipment Data]]
+	- **Applicable Policies**:
+		- [[Policies/Data Governance/Data Quality]]
+		- [[Policies/AI Governance/Performance Metrics Threshold]]
+	- **MIT AI Risk Database**:
+		- [[MIT AI Risk/Transportation/Freight & Logistics/Fleet Management and Optimization]]
+- ### [[Use Cases/Transportation/Public Transportation]]
+- **Passenger Flow Prediction**
+	- **Description**: Predicts passenger flow to optimize scheduling and reduce congestion.
+	- **Datasets**:
+		- [[Transportation/Public Transportation/Passenger Data/Historical Passenger Counts]]
+		- [[Transportation/Public Transportation/Route Data/Route Usage]]
+	- **Applicable Policies**:
+		- [[Policies/Data Governance/Data Privacy]]
+		- [[Policies/AI Governance/Performance Metrics Threshold]]
+	- **MIT AI Risk Database**:
+		- [[MIT AI Risk/Transportation/Public Transportation/Passenger Flow Prediction]]
+- **Route Optimization and Planning**
+	- **Description**: Uses data to plan and optimize public transportation routes for efficiency.
+	- **Datasets**:
+		- [[Transportation/Public Transportation/Route Data/Current Routes]]
+		- [[Transportation/Public Transportation/Traffic Data/Traffic Conditions]]
+	- **Applicable Policies**:
+		- [[Policies/Data Governance/Data Quality]]
+		- [[Policies/AI Governance/Performance Metrics Threshold]]
+	- **MIT AI Risk Database**:
+		- [[MIT AI Risk/Transportation/Public Transportation/Route Optimization and Planning]]
+- **Predictive Maintenance for Infrastructure**
+	- **Description**: Predicts when public transportation infrastructure will need maintenance to avoid failures.
+	- **Datasets**:
+		- [[Transportation/Public Transportation/Infrastructure Data/Sensor Readings]]
+		- [[Transportation/Public Transportation/Maintenance Data/Service Records]]
+	- **Applicable Policies**:
+		- [[Policies/Data Governance/Data Accuracy Standards]]
+		- [[Policies/AI Governance/Model Validation]]
+	- **MIT AI Risk Database**:
+		- [[MIT AI Risk/Transportation/Public Transportation/Predictive Maintenance for Infrastructure]]
+- **Fare Evasion Detection**
+	- **Description**: Detects fare evasion using data from ticketing systems and surveillance cameras.
+	- **Datasets**:
+		- [[Transportation/Public Transportation/Ticketing Data/Fare Data]]
+		- [[Transportation/Public Transportation/Surveillance Data/CCTV Footage]]
+	- **Applicable Policies**:
+		- [[Policies/Data Governance/Data Privacy]]
+		- [[Policies/AI Governance/Performance Metrics Threshold]]
+	- **MIT AI Risk Database**:
+		- [[MIT AI Risk/Transportation/Public Transportation/Fare Evasion Detection]]
+- # Telecommunications Industry
+- ### [[Use Cases/Telecommunications/Network Providers]]
+- **Network Optimization and Management**
+	- **Description**: Uses data analytics to optimize network performance and manage resources efficiently.
+	- **Datasets**:
+		- [[Telecommunications/Network Providers/Network Data/Usage Statistics]]
+		- [[Telecommunications/Network Providers/Equipment Data/Performance Metrics]]
+	- **Applicable Policies**:
+		- [[Policies/Data Governance/Data Privacy]]
+		- [[Policies/AI Governance/Performance Metrics Threshold]]
+	- **MIT AI Risk Database**:
+		- [[MIT AI Risk/Telecommunications/Network Providers/Network Optimization and Management]]
+- **Predictive Maintenance for Network Equipment**
+	- **Description**: Predicts when network equipment will fail to minimize outages and service disruptions.
+	- **Datasets**:
+		- [[Telecommunications/Network Providers/Equipment Data/Sensor Readings]]
+		- [[Telecommunications/Network Providers/Maintenance Data/Service Records]]
+	- **Applicable Policies**:
+		- [[Policies/Data Governance/Data Accuracy Standards]]
+		- [[Policies/AI Governance/Model Validation]]
+	- **MIT AI Risk Database**:
+		- [[MIT AI Risk/Telecommunications/Network Providers/Predictive Maintenance for Network Equipment]]
+- **Customer Churn Prediction**
+	- **Description**: Predicts which customers are likely to leave the service to enable proactive retention efforts.
+	- **Datasets**:
+		- [[Telecommunications/Network Providers/Customer Data/Service Usage]]
+		- [[Telecommunications/Network Providers/Customer Data/Support Interactions]]
+	- **Applicable Policies**:
+		- [[Policies/Data Governance/Data Privacy]]
+		- [[Policies/AI Governance/Bias Detection Policy]]
+	- **MIT AI Risk Database**:
+		- [[MIT AI Risk/Telecommunications/Network Providers/Customer Churn Prediction]]
+- **Fraud Detection**
+	- **Description**: Detects fraudulent activities such as unauthorized access or billing anomalies in the network.
+	- **Datasets**:
+		- [[Telecommunications/Network Providers/Network Data/Usage Data]]
+		- [[Telecommunications/Network Providers/Customer Data/Billing Data]]
+	- **Applicable Policies**:
+		- [[Policies/Data Governance/Fraud Detection]]
+		- [[Policies/Data Governance/Data Privacy]]
+	- **MIT AI Risk Database**:
+		- [[MIT AI Risk/Telecommunications/Network Providers/Fraud Detection]]
+- ### [[Use Cases/Telecommunications/Internet Service Providers (ISPs)]]
+- **Bandwidth Optimization**
+	- **Description**: Analyzes network usage data to optimize bandwidth allocation and prevent congestion.
+	- **Datasets**:
+		- [[Telecommunications/ISPs/Network Data/Bandwidth Usage]]
+		- [[Telecommunications/ISPs/Customer Data/Service Usage]]
+	- **Applicable Policies**:
+		- [[Policies/Data Governance/Data Quality]]
+		- [[Policies/AI Governance/Performance Metrics Threshold]]
+	- **MIT AI Risk Database**:
+		- [[MIT AI Risk/Telecommunications/ISPs/Bandwidth Optimization]]
+- **Customer Support Automation**
+	- **Description**: Uses chatbots and virtual assistants to handle common customer support inquiries.
+	- **Datasets**:
+		- [[Telecommunications/ISPs/Customer Data/Support Interactions]]
+		- [[Telecommunications/ISPs/FAQ Data/Common Issues]]
+	- **Applicable Policies**:
+		- [[Policies/AI Governance/Ethical AI Usage Guidelines]]
+		- [[Policies/Security/Identity and Access Management (IAM)]]
+	- **MIT AI Risk Database**:
+		- [[MIT AI Risk/Telecommunications/ISPs/Customer Support Automation]]
+- **Predictive Customer Behavior Analysis**
+	- **Description**: Predicts customer behavior, such as data usage patterns, to offer personalized services.
+	- **Datasets**:
+		- [[Telecommunications/ISPs/Customer Data/Service Usage]]
+		- [[Telecommunications/ISPs/Customer Data/Support Interactions]]
+	- **Applicable Policies**:
+		- [[Policies/Data Governance/Data Privacy]]
+		- [[Policies/AI Governance/Bias Detection Policy]]
+	- **MIT AI Risk Database**:
+		- [[MIT AI Risk/Telecommunications/ISPs/Predictive Customer Behavior Analysis]]
+- **Fraud Detection and Prevention**
+	- **Description**: Identifies and prevents fraudulent activities such as identity theft or unauthorized access to services.
+	- **Datasets**:
+		- [[Telecommunications/ISPs/Network Data/Usage Data]]
+		- [[Telecommunications/ISPs/Customer Data/Billing Data]]
+	- **Applicable Policies**:
+		- [[Policies/Data Governance/Fraud Detection]]
+		- [[Policies/Data Governance/Data Privacy]]
+	- **MIT AI Risk Database**:
+		- [[MIT AI Risk/Telecommunications/ISPs/Fraud Detection and Prevention]]
+- # Public Sector & Government Industry
+- ### [[Use Cases/Public Sector/Law Enforcement & Public Safety]]
+- **Predictive Policing**
+	- **Description**: Uses historical crime data to predict where crimes are likely to occur and allocate resources accordingly.
+	- **Datasets**:
+		- [[Public Sector/Law Enforcement/Crime Data/Incident Reports]]
+		- [[Public Sector/Law Enforcement/Demographic Data/Population Data]]
+	- **Applicable Policies**:
+		- [[Policies/Data Governance/Data Privacy]]
+		- [[Policies/AI Governance/Bias Detection Policy]]
+	- **MIT AI Risk Database**:
+		- [[MIT AI Risk/Public Sector/Law Enforcement & Public Safety/Predictive Policing]]
+- **Crime Pattern Analysis**
+	- **Description**: Analyzes crime data to identify patterns and trends that can inform law enforcement strategies.
+	- **Datasets**:
+		- [[Public Sector/Law Enforcement/Crime Data/Incident Reports]]
+		- [[Public Sector/Law Enforcement/Crime Data/Arrest Records]]
+	- **Applicable Policies**:
+		- [[Policies/Data Governance/Data Privacy]]
+		- [[Policies/AI Governance/Bias Detection Policy]]
+	- **MIT AI Risk Database**:
+		- [[MIT AI Risk/Public Sector/Law Enforcement & Public Safety/Crime Pattern Analysis]]
+- **Fraud Detection in Welfare Programs**
+	- **Description**: Detects fraudulent claims and activities within government welfare programs.
+	- **Datasets**:
+		- [[Public Sector/Welfare Programs/Claims Data/Welfare Claims]]
+		- [[Public Sector/Welfare Programs/Beneficiary Data/Eligibility Information]]
+	- **Applicable Policies**:
+		- [[Policies/Data Governance/Fraud Detection]]
+		- [[Policies/Data Governance/Data Privacy]]
+	- **MIT AI Risk Database**:
+		- [[MIT AI Risk/Public Sector/Law Enforcement & Public Safety/Fraud Detection in Welfare Programs]]
+- **Public Health Monitoring**
+	- **Description**: Monitors public health data to detect early signs of outbreaks and inform public health interventions.
+	- **Datasets**:
+		- [[Public Sector/Public Health/Health Data/Outbreak Reports]]
+		- [[Public Sector/Public Health/Demographic Data/Population Health Data]]
+	- **Applicable Policies**:
+		- [[Policies/Data Governance/Data Privacy]]
+		- [[Policies/AI Governance/Performance Metrics Threshold]]
+	- **MIT AI Risk Database**:
+		- [[MIT AI Risk/Public Sector/Law Enforcement & Public Safety/Public Health Monitoring]]
+- ### [[Use Cases/Public Sector/Public Administration]]
+- **Tax Fraud Detection**
+	- **Description**: Uses data analytics to detect fraudulent activities in tax filings and payments.
+	- **Datasets**:
+		- [[Public Sector/Taxation/Tax Data/Income Reports]]
+		- [[Public Sector/Taxation/Transaction Data/Financial Transactions]]
+	- **Applicable Policies**:
+		- [[Policies/Data Governance/Fraud Detection]]
+		- [[Policies/Data Governance/Data Privacy]]
+	- **MIT AI Risk Database**:
+		- [[MIT AI Risk/Public Sector/Public Administration/Tax Fraud Detection]]
+- **Citizen Support Automation**
+	- **Description**: Automates responses to citizen inquiries and provides information on government services using AI chatbots.
+	- **Datasets**:
+		- [[Public Sector/Public Administration/Citizen Data/Support Inquiries]]
+		- [[Public Sector/Public Administration/Service Data/Government Services]]
+	- **Applicable Policies**:
+		- [[Policies/AI Governance/Ethical AI Usage Guidelines]]
+		- [[Policies/Security/Identity and Access Management (IAM)]]
+	- **MIT AI Risk Database**:
+		- [[MIT AI Risk/Public Sector/Public Administration/Citizen Support Automation]]
+- **Smart City Infrastructure Management**
+	- **Description**: Uses data analytics to optimize city infrastructure operations, such as traffic lights and public transportation.
+	- **Datasets**:
+		- [[Public Sector/Smart City/Infrastructure Data/Traffic Data]]
+		- [[Public Sector/Smart City/Utility Data/Water and Energy Usage]]
+	- **Applicable Policies**:
+		- [[Policies/Data Governance/Data Privacy]]
+		- [[Policies/AI Governance/Performance Metrics Threshold]]
+	- **MIT AI Risk Database**:
+		- [[MIT AI Risk/Public Sector/Public Administration/Smart City Infrastructure Management]]
+- **Natural Disaster Prediction and Response**
+	- **Description**: Predicts natural disasters and coordinates response efforts using real-time data.
+	- **Datasets**:
+		- [[Public Sector/Natural Disasters/Environmental Data/Weather Data]]
+		- [[Public Sector/Natural Disasters/Response Data/Emergency Response]]
+	- **Applicable Policies**:
+		- [[Policies/Data Governance/Data Privacy]]
+		- [[Policies/AI Governance/Risk Management]]
+	- **MIT AI Risk Database**:
+		- [[MIT AI Risk/Public Sector/Public Administration/Natural Disaster Prediction and Response]]

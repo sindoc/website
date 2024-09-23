@@ -1,0 +1,5 @@
+- Typically a [[data domain]], containing data about participants of a particular market.
+	- Examples
+		- [[Energy Market Data]]
+		- [[Financial Market Data]]
+		- [[...]]
