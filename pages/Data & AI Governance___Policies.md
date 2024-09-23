@@ -158,6 +158,270 @@
 	- **Standards**:
 		- [[Standards/ISO 15489 - Records Management]]
 		- [[Standards/SOX - Sarbanes-Oxley Act]]
+- ## [[Policies/Data Governance/Operational Data Retention]]
+  collapsed:: true
+	- **Description**: Defines the duration for retaining operational data to support business processes, compliance, and analytics. It includes guidelines for data archiving and secure disposal once the retention period has elapsed.
+	- **Implementation**:
+		- Establish retention periods based on legal, regulatory, and business requirements.
+		- Use automated tools for data archiving and secure deletion after the retention period.
+		- Regularly review and update retention schedules.
+	- **Conditions for Application**:
+		- **Mandatory**:
+			- For data required to meet regulatory compliance or legal obligations.
+			- For data necessary for financial and operational audits.
+		- **Optional**:
+			- For non-sensitive operational data with no legal retention requirements.
+	- **Sensitive Attributes Triggering Application**:
+		- Financial Data (e.g., transaction records, audit logs)
+		- Operational Data (e.g., system logs, usage data)
+	- **Standards**:
+		- [[Standards/ISO 15489 - Records Management]]
+		- [[Standards/ISO/IEC 27001 - Information Security]]
+- ## [[Policies/Data Governance/Data Quality]]
+  collapsed:: true
+	- **Description**: Ensures that data is fit for its intended purpose, meeting business requirements for accuracy, completeness, consistency, and timeliness.
+	- **Implementation**:
+		- Develop and monitor data quality metrics and KPIs for critical data elements.
+		- Implement data quality monitoring tools and dashboards.
+		- Establish a data stewardship program to manage data quality issues.
+	- **Conditions for Application**:
+		- **Mandatory**:
+			- For all critical data used in decision-making processes.
+			- For data shared with external partners.
+		- **Optional**:
+			- For internal, non-critical data used for exploratory analysis.
+	- **Sensitive Attributes Triggering Application**:
+		- PII (e.g., customer names, addresses)
+		- Financial Data (e.g., financial statements, transaction history)
+	- **Standards**:
+		- [[Standards/ISO 8000 - Data Quality]]
+		- [[Standards/DAMA-DMBOK - Data Quality Management]]
+- ## [[Policies/Data Governance/Data Accuracy Standards]]
+  collapsed:: true
+	- **Description**: Establishes criteria and processes to ensure data is correct, precise, and reliable, minimizing errors in data entry and processing.
+	- **Implementation**:
+		- Define accuracy thresholds and validation rules for key data elements.
+		- Implement automated data validation checks at data entry points.
+		- Regularly review and update data accuracy standards.
+	- **Conditions for Application**:
+		- **Mandatory**:
+			- For data used in financial reporting or compliance.
+			- For data integrated from multiple sources.
+		- **Optional**:
+			- For non-critical internal reports or exploratory data analysis.
+	- **Sensitive Attributes Triggering Application**:
+		- PII (e.g., social security numbers, birth dates)
+		- Financial Data (e.g., transaction amounts, account balances)
+	- **Standards**:
+		- [[Standards/ISO 8000 - Data Quality]]
+		- [[Standards/ISO 25012 - Data Quality Model]]
+- ## [[Policies/Data Governance/Completeness and Consistency Checks]]
+  collapsed:: true
+	- **Description**: Ensures that all required data is captured and that it is consistently recorded and represented across systems.
+	- **Implementation**:
+		- Define completeness criteria for critical data elements.
+		- Implement automated tools to check for missing or inconsistent data.
+		- Regularly audit data for completeness and consistency issues.
+	- **Conditions for Application**:
+		- **Mandatory**:
+			- For data integrated into enterprise systems or warehouses.
+			- For data used in compliance reporting.
+		- **Optional**:
+			- For internal data used in ad-hoc analysis.
+	- **Sensitive Attributes Triggering Application**:
+		- PII (e.g., complete customer profiles)
+		- Financial Data (e.g., complete transaction records)
+	- **Standards**:
+		- [[Standards/ISO 8000 - Data Quality]]
+		- [[Standards/ISO 25012 - Data Quality Model]]
+- ## [[Policies/Data Governance/Data Provenance]]
+  collapsed:: true
+	- **Description**: Tracks the origin, history, and transformations of data to ensure transparency and trust in data usage.
+	- **Implementation**:
+		- Implement data lineage tools to capture the full lifecycle of critical data elements.
+		- Document data sources, transformations, and processing steps.
+		- Regularly audit data provenance records for accuracy.
+	- **Conditions for Application**:
+		- **Mandatory**:
+			- For data used in regulatory or compliance reporting.
+			- For data shared with external partners.
+		- **Optional**:
+			- For internal use data where lineage is not critical.
+	- **Sensitive Attributes Triggering Application**:
+		- PII (e.g., tracking data sources for customer information)
+		- Financial Data (e.g., audit trails for financial transactions)
+	- **Standards**:
+		- [[Standards/ISO 8000 - Data Quality]]
+		- [[Standards/ISO/IEC 27001 - Information Security]]
+- ## [[Policies/Data Governance/Data Lineage Tracking]]
+  collapsed:: true
+	- **Description**: Provides a detailed record of data movement and transformations across systems, ensuring data traceability and accountability.
+	- **Implementation**:
+		- Use data lineage tools to map data flow and transformations.
+		- Maintain up-to-date documentation of data pipelines and processes.
+		- Conduct regular reviews to verify the accuracy of data lineage records.
+	- **Conditions for Application**:
+		- **Mandatory**:
+			- For data used in regulatory compliance and audit processes.
+			- For data used in critical business decisions.
+		- **Optional**:
+			- For exploratory data where lineage is less critical.
+	- **Sensitive Attributes Triggering Application**:
+		- PII (e.g., tracking the flow of sensitive personal data)
+		- Financial Data (e.g., ensuring accurate financial reporting)
+	- **Standards**:
+		- [[Standards/ISO 8000 - Data Quality]]
+		- [[Standards/ISO/IEC 27001 - Information Security]]
+- ## [[Policies/Data Governance/Metadata Management]]
+  collapsed:: true
+	- **Description**: Establishes standards and processes for managing metadata to improve data discovery, understanding, and governance.
+	- **Implementation**:
+		- Define and document metadata standards for all data assets.
+		- Implement metadata management tools for cataloging and maintaining metadata.
+		- Regularly update metadata to reflect changes in data assets and structures.
+	- **Conditions for Application**:
+		- **Mandatory**:
+			- For all critical data assets managed in enterprise systems.
+			- For data shared with external stakeholders.
+		- **Optional**:
+			- For non-critical data with limited scope and usage.
+	- **Sensitive Attributes Triggering Application**:
+		- PII (e.g., metadata for customer data elements)
+		- Financial Data (e.g., metadata for financial reports and transactions)
+	- **Standards**:
+		- [[Standards/ISO 23081 - Metadata for Records]]
+		- [[Standards/ISO/IEC 11179 - Metadata Registries]]
+- ## [[Policies/Data Governance/Data Privacy]]
+  collapsed:: true
+	- **Description**: Protects the privacy rights of individuals by ensuring that personal data is collected, processed, and stored in compliance with relevant privacy laws and regulations.
+	- **Implementation**:
+		- Implement privacy impact assessments (PIAs) for new data projects.
+		- Use data masking and anonymization techniques to protect sensitive data.
+		- Establish data access controls and monitoring to prevent unauthorized access.
+	- **Conditions for Application**:
+		- **Mandatory**:
+			- For all data containing personal or sensitive information.
+			- For data shared with third parties.
+		- **Optional**:
+			- For anonymized data where re-identification risk is low.
+	- **Sensitive Attributes Triggering Application**:
+		- PII (e.g., names, addresses, social security numbers)
+		- Health Data (e.g., medical records, diagnostic data)
+	- **Standards**:
+		- [[Standards/ISO/IEC 27001 - Information Security]]
+		- [[Standards/ISO/IEC 27701 - Privacy Information Management]]
+- ## [[Policies/Data Governance/GDPR Compliance]]
+  collapsed:: true
+	- **Description**: Ensures compliance with the General Data Protection Regulation (GDPR) for the collection, processing, and storage of personal data of EU citizens.
+	- **Implementation**:
+		- Conduct data protection impact assessments (DPIAs) for high-risk data processing activities.
+		- Implement processes for data subject rights, such as access, rectification, and deletion.
+		- Establish a breach notification process for reporting data breaches within 72 hours.
+	- **Conditions for Application**:
+		- **Mandatory**:
+			- For all data collected from or about EU citizens.
+			- For data processing activities involving personal data of EU citizens.
+		- **Optional**:
+			- For non-personal data or data outside the scope of GDPR.
+	- **Sensitive Attributes Triggering Application**:
+		- PII (e.g., names, addresses, email addresses)
+		- Financial Data (e.g., bank account details, transaction history)
+	- **Standards**:
+		- [[Standards/ISO/IEC 27701 - Privacy Information Management]]
+		- [[Standards/ISO/IEC 29100 - Privacy Framework]]
+- ## [[Policies/Data Governance/CCPA Compliance]]
+  collapsed:: true
+	- **Description**: Ensures compliance with the California Consumer Privacy Act (CCPA) for the collection, processing, and storage of personal data of California residents.
+	- **Implementation**:
+		- Implement processes for responding to consumer requests for data access, deletion, and opt-out of sale.
+		- Provide clear and transparent information about data collection and processing practices.
+		- Establish procedures for verifying consumer requests and securing personal data.
+	- **Conditions for Application**:
+		- **Mandatory**:
+			- For all data collected from or about California residents.
+			- For businesses that meet the CCPA applicability criteria (e.g., revenue thresholds, data sale activities).
+		- **Optional**:
+			- For non-personal data or data outside the scope of CCPA.
+	- **Sensitive Attributes Triggering Application**:
+		- PII (e.g., names, addresses, email addresses)
+		- Financial Data (e.g., credit card numbers, transaction data)
+	- **Standards**:
+		- [[Standards/ISO/IEC 27701 - Privacy Information Management]]
+		- [[Standards/ISO/IEC 29100 - Privacy Framework]]
+- ## [[Policies/Data Governance/Data Anonymization and Masking]]
+  collapsed:: true
+	- **Description**: Establishes guidelines for anonymizing and masking data to protect sensitive information while enabling its use for analytics and testing.
+	- **Implementation**:
+		- Use data anonymization techniques (e.g., k-anonymity, differential privacy) for data shared outside the organization.
+		- Implement data masking tools to obfuscate sensitive information in non-production environments.
+		- Regularly review and update anonymization and masking techniques to address evolving risks.
+	- **Conditions for Application**:
+		- **Mandatory**:
+			- For data used in testing or analytics where direct identifiers are not required.
+			- For data shared with third parties for research or collaboration.
+		- **Optional**:
+			- For internal data where re-identification risk is low.
+	- **Sensitive Attributes Triggering Application**:
+		- PII (e.g., names, addresses, social security numbers)
+		- Health Data (e.g., medical records, diagnostic data)
+	- **Standards**:
+		- [[Standards/ISO/IEC 20889 - Privacy Enhancing Data De-Identification Techniques]]
+		- [[Standards/ISO/IEC 27001 - Information Security]]
+- ## [[Policies/Data Governance/Data Sharing]]
+	- **Description**: Establishes rules and controls for sharing data within and outside the organization to ensure security, privacy, and compliance.
+	- **Implementation**:
+		- Define data sharing agreements with clear terms and conditions for data use.
+		- Implement secure data transfer mechanisms and access controls.
+		- Regularly audit data sharing activities for compliance with policies.
+	- **Conditions for Application**:
+		- **Mandatory**:
+			- For data shared with external partners or third parties.
+			- For data used in joint ventures or collaborations.
+		- **Optional**:
+			- For internal data sharing within secured environments.
+	- **Sensitive Attributes Triggering Application**:
+		- PII (e.g., names, addresses, email addresses)
+		- Financial Data (e.g., transaction data, account details)
+	- **Standards**:
+		- [[Standards/ISO/IEC 27001 - Information Security]]
+		- [[Standards/ISO/IEC 27002 - Information Security Controls]]
+- ## [[Policies/Data Governance/Internal Data Sharing]]
+	- **Description**: Governs the sharing of data between different departments and teams within the organization to ensure data is used appropriately and securely.
+	- **Implementation**:
+		- Define roles and responsibilities for internal data access and sharing.
+		- Use role-based access controls (RBAC) to manage internal data sharing.
+		- Monitor and log internal data sharing activities to detect unauthorized access.
+	- **Conditions for Application**:
+		- **Mandatory**:
+			- For sensitive data shared between business units or departments.
+			- For data used in enterprise-wide analytics or reporting.
+		- **Optional**:
+			- For non-sensitive data shared within a single department.
+	- **Sensitive Attributes Triggering Application**:
+		- PII (e.g., employee information, customer data)
+		- Financial Data (e.g., financial statements, transaction data)
+	- **Standards**:
+		- [[Standards/ISO/IEC 27001 - Information Security]]
+		- [[Standards/ISO/IEC 27002 - Information Security Controls]]
+- ## [[Policies/Data Governance/External Data Sharing]]
+  collapsed:: true
+	- **Description**: Sets the standards and controls for sharing data with external entities, including partners, vendors, and regulatory bodies, to ensure compliance and data security.
+	- **Implementation**:
+		- Establish data sharing agreements with external parties, specifying data usage, protection, and compliance requirements.
+		- Use encryption and secure data transfer protocols for external data sharing.
+		- Conduct regular audits of external data sharing practices for compliance with agreements.
+	- **Conditions for Application**:
+		- **Mandatory**:
+			- For data shared with external partners, vendors, or regulatory authorities.
+			- For data used in external research or collaborative projects.
+		- **Optional**:
+			- For anonymized or aggregated data shared for public reporting.
+	- **Sensitive Attributes Triggering Application**:
+		- PII (e.g., customer data shared with third-party service providers)
+		- Financial Data (e.g., financial information shared for audits)
+	- **Standards**:
+		- [[Standards/ISO/IEC 27001 - Information Security]]
+		- [[Standards/ISO/IEC 27002 - Information Security Controls]]
 - # AI Governance Policies
 - ## [[Policies/AI Governance/Model Development]]
   collapsed:: true
