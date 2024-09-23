@@ -1,847 +1,855 @@
-# Data Governance Policies
-- ## [[Policies/Data Governance/Data Classification]]
+### Data Governance Policies
+id:: 66f13c1f-9776-4ed9-99dd-ead00c8ded90
+	- ### [[Policies/Data Governance/Data Classification]]
+	  collapsed:: true
+		- **Description**: Defines the process of categorizing data into predefined classes such as public, internal, confidential, and highly confidential.
+		- **Implementation**:
+			- Establish a data classification framework with clear definitions for each class.
+			- Use metadata tags to label data based on its classification.
+			- Implement automated tools to detect and label data according to classification rules.
+		- **Conditions for Application**:
+			- **Mandatory**:
+				- When collecting, storing, or processing data that includes sensitive attributes like PII, financial data, or health data.
+				- For all datasets used in AI model training and predictions.
+			- **Optional**:
+				- For internal data that does not include sensitive attributes but requires controlled access.
+		- **Sensitive Attributes Triggering Application**:
+			- PII (e.g., names, addresses, social security numbers)
+			- Financial Data (e.g., bank account details, transaction history)
+			- Health Data (e.g., medical records, diagnostic data)
+		- **Standards**:
+			- [[Standards/ISO 8000 - Data Quality]]
+			- [[Standards/ISO/IEC 27001 - Information Security]]
+		- ## [[Policies/Data Governance/Sensitivity Classification]]
+		  collapsed:: true
+			- **Description**: Establishes guidelines for classifying data based on its sensitivity, such as public, internal use, restricted, and confidential.
+			- **Implementation**:
+				- Develop sensitivity classification criteria aligned with business and regulatory requirements.
+				- Use data tagging and labeling tools to classify data automatically.
+				- Regularly review and update classification criteria.
+			- **Conditions for Application**:
+				- **Mandatory**:
+					- For all datasets containing sensitive attributes like PII, financial data, and proprietary information.
+					- During data integration and sharing processes.
+				- **Optional**:
+					- For public data or data that has been anonymized.
+			- **Sensitive Attributes Triggering Application**:
+				- [[PII Data]]
+				- [[Financial Data]]
+				- [[Proprietary Information]]
+			- **Standards**:
+				- [[Standards/ISO/IEC 27001 - Information Security]]
+				- [[Standards/ISO/IEC 27701 - Privacy Information Management]]
+		- ## [[Policies/Data Governance/Usage Classification]]
+		  collapsed:: true
+			- **Description**: Defines the permissible use of data based on its classification, ensuring data is used in accordance with its intended purpose.
+			- **Implementation**:
+				- Develop usage classification guidelines for each data category.
+				- Monitor data access and usage to ensure compliance with classification guidelines.
+				- Provide training and awareness programs on data usage policies.
+			- **Conditions for Application**:
+				- **Mandatory**:
+					- For all data accessed or shared across business units or with third parties.
+					- During the deployment of new data analytics or AI use cases.
+				- **Optional**:
+					- For internal use of non-sensitive data within a secure environment.
+			- **Sensitive Attributes Triggering Application**:
+				- PII
+				- Financial Data
+				- Health Data
+			- **Standards**:
+				- [[Standards/ISO 38505 - Data Governance of IT]]
+		- ## [[Policies/Data Governance/Data Access]]
+		  collapsed:: true
+			- **Description**: Establishes rules and controls for granting and managing access to data based on role and necessity.
+			- **Implementation**:
+				- Implement Role-Based Access Control (RBAC) and the principle of least privilege.
+				- Use automated tools for managing and monitoring access requests.
+				- Regularly review access permissions and update as necessary.
+			- **Conditions for Application**:
+				- **Mandatory**:
+					- For all data containing sensitive attributes like PII, financial data, or proprietary information.
+					- For data accessed or shared with external entities.
+				- **Optional**:
+					- For public data or data used within a controlled environment.
+			- **Sensitive Attributes Triggering Application**:
+				- PII
+				- Financial Data
+				- Intellectual Property
+			- **Standards**:
+				- [[Standards/NIST SP 800-53 - Access Control]]
+				- [[Standards/ISO/IEC 27002 - Information Security Controls]]
+		- ## [[Policies/Data Governance/Role-Based Access Control]]
+		  collapsed:: true
+			- **Description**: Ensures that data access is granted based on user roles and responsibilities, minimizing the risk of unauthorized access.
+			- **Implementation**:
+				- Define roles and associated permissions for accessing different data types.
+				- Use RBAC tools to enforce access controls.
+				- Regularly review and update roles and permissions as needed.
+			- **Conditions for Application**:
+				- **Mandatory**:
+					- For all systems containing sensitive data, including financial information, PII, and proprietary data.
+					- When sharing data with third parties or external partners.
+				- **Optional**:
+					- For non-sensitive data accessed within secure environments.
+			- **Sensitive Attributes Triggering Application**:
+				- PII
+				- Financial Data
+				- Proprietary Information
+			- **Standards**:
+				- [[Standards/ISO/IEC 27001 - Information Security Management]]
+				- [[Standards/NIST SP 800-53 - Access Control]]
+		- ## [[Policies/Data Governance/Least Privilege Principle]]
+		  collapsed:: true
+			- **Description**: Limits data access to only those individuals who need it to perform their job functions, minimizing potential data breaches.
+			- **Implementation**:
+				- Implement access controls that enforce the least privilege principle.
+				- Use auditing and monitoring tools to detect and revoke unnecessary access.
+				- Educate users on the importance of least privilege.
+			- **Conditions for Application**:
+				- **Mandatory**:
+					- For all data containing sensitive attributes like PII, financial data, or health data.
+					- When implementing access controls in new systems or applications.
+				- **Optional**:
+					- For non-sensitive internal data accessed within a secure environment.
+			- **Sensitive Attributes Triggering Application**:
+				- PII
+				- Financial Data
+				- Health Data
+			- **Standards**:
+				- [[Standards/NIST SP 800-53 - Access Control]]
+				- [[Standards/ISO/IEC 27002 - Information Security Controls]]
+	- ### [[Policies/Data Governance/Data Retention]]
+	  collapsed:: true
+		- **Description**: Specifies how long different types of data should be retained, including policies for data archiving and disposal.
+		- **Implementation**:
+			- Define retention periods based on legal, regulatory, and business requirements.
+			- Implement automated data archiving and deletion processes.
+			- Regularly review and update retention schedules.
+		- **Conditions for Application**:
+			- **Mandatory**:
+				- For all data containing PII, financial information, or health data.
+				- For data that must be retained due to legal or regulatory obligations.
+			- **Optional**:
+				- For non-sensitive data where retention is determined by business needs.
+		- **Sensitive Attributes Triggering Application**:
+			- PII
+			- Financial Data
+			- Health Data
+			- Intellectual Property
+		- **Standards**:
+			- [[Standards/ISO 15489 - Records Management]]
+		- ## [[Policies/Data Governance/Legal Compliance Retention]]
+		  collapsed:: true
+			- **Description**: Ensures data retention policies comply with relevant legal and regulatory requirements.
+			- **Implementation**:
+				- Identify all relevant legal and regulatory data retention requirements.
+				- Develop a compliance matrix mapping data types to retention periods.
+				- Implement processes for legal hold and data preservation when necessary.
+			- **Conditions for Application**:
+				- **Mandatory**:
+					- For data subject to legal or regulatory retention requirements.
+					- During legal proceedings or audits.
+				- **Optional**:
+					- For internal data where business-specific retention policies apply.
+			- **Sensitive Attributes Triggering Application**:
+				- Legal Documents
+				- Financial Data
+				- PII
+			- **Standards**:
+				- [[Standards/ISO 15489 - Records Management]]
+				- [[Standards/SOX - Sarbanes-Oxley Act]]
+		- ## [[Policies/Data Governance/Operational Data Retention]]
+		  collapsed:: true
+			- **Description**: Defines the duration for retaining operational data to support business processes, compliance, and analytics. It includes guidelines for data archiving and secure disposal once the retention period has elapsed.
+			- **Implementation**:
+				- Establish retention periods based on legal, regulatory, and business requirements.
+				- Use automated tools for data archiving and secure deletion after the retention period.
+				- Regularly review and update retention schedules.
+			- **Conditions for Application**:
+				- **Mandatory**:
+					- For data required to meet regulatory compliance or legal obligations.
+					- For data necessary for financial and operational audits.
+				- **Optional**:
+					- For non-sensitive operational data with no legal retention requirements.
+			- **Sensitive Attributes Triggering Application**:
+				- Financial Data (e.g., transaction records, audit logs)
+				- Operational Data (e.g., system logs, usage data)
+			- **Standards**:
+				- [[Standards/ISO 15489 - Records Management]]
+				- [[Standards/ISO/IEC 27001 - Information Security]]
+	- ### [[Policies/Data Governance/Data Quality]]
+	  collapsed:: true
+		- **Description**: Ensures that data is fit for its intended purpose, meeting business requirements for accuracy, completeness, consistency, and timeliness.
+		- **Implementation**:
+			- Develop and monitor data quality metrics and KPIs for critical data elements.
+			- Implement data quality monitoring tools and dashboards.
+			- Establish a data stewardship program to manage data quality issues.
+		- **Conditions for Application**:
+			- **Mandatory**:
+				- For all critical data used in decision-making processes.
+				- For data shared with external partners.
+			- **Optional**:
+				- For internal, non-critical data used for exploratory analysis.
+		- **Sensitive Attributes Triggering Application**:
+			- PII (e.g., customer names, addresses)
+			- Financial Data (e.g., financial statements, transaction history)
+		- **Standards**:
+			- [[Standards/ISO 8000 - Data Quality]]
+			- [[Standards/DAMA-DMBOK - Data Quality Management]]
+		- ## [[Policies/Data Governance/Data Accuracy Standards]]
+		  collapsed:: true
+			- **Description**: Establishes criteria and processes to ensure data is correct, precise, and reliable, minimizing errors in data entry and processing.
+			- **Implementation**:
+				- Define accuracy thresholds and validation rules for key data elements.
+				- Implement automated data validation checks at data entry points.
+				- Regularly review and update data accuracy standards.
+			- **Conditions for Application**:
+				- **Mandatory**:
+					- For data used in financial reporting or compliance.
+					- For data integrated from multiple sources.
+				- **Optional**:
+					- For non-critical internal reports or exploratory data analysis.
+			- **Sensitive Attributes Triggering Application**:
+				- PII (e.g., social security numbers, birth dates)
+				- Financial Data (e.g., transaction amounts, account balances)
+			- **Standards**:
+				- [[Standards/ISO 8000 - Data Quality]]
+				- [[Standards/ISO 25012 - Data Quality Model]]
+		- ## [[Policies/Data Governance/Completeness and Consistency Checks]]
+		  collapsed:: true
+			- **Description**: Ensures that all required data is captured and that it is consistently recorded and represented across systems.
+			- **Implementation**:
+				- Define completeness criteria for critical data elements.
+				- Implement automated tools to check for missing or inconsistent data.
+				- Regularly audit data for completeness and consistency issues.
+			- **Conditions for Application**:
+				- **Mandatory**:
+					- For data integrated into enterprise systems or warehouses.
+					- For data used in compliance reporting.
+				- **Optional**:
+					- For internal data used in ad-hoc analysis.
+			- **Sensitive Attributes Triggering Application**:
+				- PII (e.g., complete customer profiles)
+				- Financial Data (e.g., complete transaction records)
+			- **Standards**:
+				- [[Standards/ISO 8000 - Data Quality]]
+				- [[Standards/ISO 25012 - Data Quality Model]]
+	- ### [[Policies/Data Governance/Data Provenance]]
+	  collapsed:: true
+		- **Description**: Tracks the origin, history, and transformations of data to ensure transparency and trust in data usage.
+		- **Implementation**:
+			- Implement data lineage tools to capture the full lifecycle of critical data elements.
+			- Document data sources, transformations, and processing steps.
+			- Regularly audit data provenance records for accuracy.
+		- **Conditions for Application**:
+			- **Mandatory**:
+				- For data used in regulatory or compliance reporting.
+				- For data shared with external partners.
+			- **Optional**:
+				- For internal use data where lineage is not critical.
+		- **Sensitive Attributes Triggering Application**:
+			- PII (e.g., tracking data sources for customer information)
+			- Financial Data (e.g., audit trails for financial transactions)
+		- **Standards**:
+			- [[Standards/ISO 8000 - Data Quality]]
+			- [[Standards/ISO/IEC 27001 - Information Security]]
+		- ## [[Policies/Data Governance/Data Lineage Tracking]]
+		  collapsed:: true
+			- **Description**: Provides a detailed record of data movement and transformations across systems, ensuring data traceability and accountability.
+			- **Implementation**:
+				- Use data lineage tools to map data flow and transformations.
+				- Maintain up-to-date documentation of data pipelines and processes.
+				- Conduct regular reviews to verify the accuracy of data lineage records.
+			- **Conditions for Application**:
+				- **Mandatory**:
+					- For data used in regulatory compliance and audit processes.
+					- For data used in critical business decisions.
+				- **Optional**:
+					- For exploratory data where lineage is less critical.
+			- **Sensitive Attributes Triggering Application**:
+				- PII (e.g., tracking the flow of sensitive personal data)
+				- Financial Data (e.g., ensuring accurate financial reporting)
+			- **Standards**:
+				- [[Standards/ISO 8000 - Data Quality]]
+				- [[Standards/ISO/IEC 27001 - Information Security]]
+		- ## [[Policies/Data Governance/Metadata Management]]
+		  collapsed:: true
+			- **Description**: Establishes standards and processes for managing metadata to improve data discovery, understanding, and governance.
+			- **Implementation**:
+				- Define and document metadata standards for all data assets.
+				- Implement metadata management tools for cataloging and maintaining metadata.
+				- Regularly update metadata to reflect changes in data assets and structures.
+			- **Conditions for Application**:
+				- **Mandatory**:
+					- For all critical data assets managed in enterprise systems.
+					- For data shared with external stakeholders.
+				- **Optional**:
+					- For non-critical data with limited scope and usage.
+			- **Sensitive Attributes Triggering Application**:
+				- PII (e.g., metadata for customer data elements)
+				- Financial Data (e.g., metadata for financial reports and transactions)
+			- **Standards**:
+				- [[Standards/ISO 23081 - Metadata for Records]]
+				- [[Standards/ISO/IEC 11179 - Metadata Registries]]
+	- ### [[Policies/Data Governance/Data Privacy]]
+	  collapsed:: true
+		- **Description**: Protects the privacy rights of individuals by ensuring that personal data is collected, processed, and stored in compliance with relevant privacy laws and regulations.
+		- **Implementation**:
+			- Implement privacy impact assessments (PIAs) for new data projects.
+			- Use data masking and anonymization techniques to protect sensitive data.
+			- Establish data access controls and monitoring to prevent unauthorized access.
+		- **Conditions for Application**:
+			- **Mandatory**:
+				- For all data containing personal or sensitive information.
+				- For data shared with third parties.
+			- **Optional**:
+				- For anonymized data where re-identification risk is low.
+		- **Sensitive Attributes Triggering Application**:
+			- PII (e.g., names, addresses, social security numbers)
+			- Health Data (e.g., medical records, diagnostic data)
+		- **Standards**:
+			- [[Standards/ISO/IEC 27001 - Information Security]]
+			- [[Standards/ISO/IEC 27701 - Privacy Information Management]]
+		- ## [[Policies/Data Governance/GDPR Compliance]]
+		  collapsed:: true
+			- **Description**: Ensures compliance with the General Data Protection Regulation (GDPR) for the collection, processing, and storage of personal data of EU citizens.
+			- **Implementation**:
+				- Conduct data protection impact assessments (DPIAs) for high-risk data processing activities.
+				- Implement processes for data subject rights, such as access, rectification, and deletion.
+				- Establish a breach notification process for reporting data breaches within 72 hours.
+			- **Conditions for Application**:
+				- **Mandatory**:
+					- For all data collected from or about EU citizens.
+					- For data processing activities involving personal data of EU citizens.
+				- **Optional**:
+					- For non-personal data or data outside the scope of GDPR.
+			- **Sensitive Attributes Triggering Application**:
+				- PII (e.g., names, addresses, email addresses)
+				- Financial Data (e.g., bank account details, transaction history)
+			- **Standards**:
+				- [[Standards/ISO/IEC 27701 - Privacy Information Management]]
+				- [[Standards/ISO/IEC 29100 - Privacy Framework]]
+		- ## [[Policies/Data Governance/CCPA Compliance]]
+		  collapsed:: true
+			- **Description**: Ensures compliance with the California Consumer Privacy Act (CCPA) for the collection, processing, and storage of personal data of California residents.
+			- **Implementation**:
+				- Implement processes for responding to consumer requests for data access, deletion, and opt-out of sale.
+				- Provide clear and transparent information about data collection and processing practices.
+				- Establish procedures for verifying consumer requests and securing personal data.
+			- **Conditions for Application**:
+				- **Mandatory**:
+					- For all data collected from or about California residents.
+					- For businesses that meet the CCPA applicability criteria (e.g., revenue thresholds, data sale activities).
+				- **Optional**:
+					- For non-personal data or data outside the scope of CCPA.
+			- **Sensitive Attributes Triggering Application**:
+				- PII (e.g., names, addresses, email addresses)
+				- Financial Data (e.g., credit card numbers, transaction data)
+			- **Standards**:
+				- [[Standards/ISO/IEC 27701 - Privacy Information Management]]
+				- [[Standards/ISO/IEC 29100 - Privacy Framework]]
+		- ## [[Policies/Data Governance/Data Anonymization and Masking]]
+		  collapsed:: true
+			- **Description**: Establishes guidelines for anonymizing and masking data to protect sensitive information while enabling its use for analytics and testing.
+			- **Implementation**:
+				- Use data anonymization techniques (e.g., k-anonymity, differential privacy) for data shared outside the organization.
+				- Implement data masking tools to obfuscate sensitive information in non-production environments.
+				- Regularly review and update anonymization and masking techniques to address evolving risks.
+			- **Conditions for Application**:
+				- **Mandatory**:
+					- For data used in testing or analytics where direct identifiers are not required.
+					- For data shared with third parties for research or collaboration.
+				- **Optional**:
+					- For internal data where re-identification risk is low.
+			- **Sensitive Attributes Triggering Application**:
+				- PII (e.g., names, addresses, social security numbers)
+				- Health Data (e.g., medical records, diagnostic data)
+			- **Standards**:
+				- [[Standards/ISO/IEC 20889 - Privacy Enhancing Data De-Identification Techniques]]
+				- [[Standards/ISO/IEC 27001 - Information Security]]
+	- ### [[Policies/Data Governance/Data Sharing]]
+	  collapsed:: true
+		- **Description**: Establishes rules and controls for sharing data within and outside the organization to ensure security, privacy, and compliance.
+		- **Implementation**:
+			- Define data sharing agreements with clear terms and conditions for data use.
+			- Implement secure data transfer mechanisms and access controls.
+			- Regularly audit data sharing activities for compliance with policies.
+		- **Conditions for Application**:
+			- **Mandatory**:
+				- For data shared with external partners or third parties.
+				- For data used in joint ventures or collaborations.
+			- **Optional**:
+				- For internal data sharing within secured environments.
+		- **Sensitive Attributes Triggering Application**:
+			- PII (e.g., names, addresses, email addresses)
+			- Financial Data (e.g., transaction data, account details)
+		- **Standards**:
+			- [[Standards/ISO/IEC 27001 - Information Security]]
+			- [[Standards/ISO/IEC 27002 - Information Security Controls]]
+		- ## [[Policies/Data Governance/Internal Data Sharing]]
+		  collapsed:: true
+			- **Description**: Governs the sharing of data between different departments and teams within the organization to ensure data is used appropriately and securely.
+			- **Implementation**:
+				- Define roles and responsibilities for internal data access and sharing.
+				- Use role-based access controls (RBAC) to manage internal data sharing.
+				- Monitor and log internal data sharing activities to detect unauthorized access.
+			- **Conditions for Application**:
+				- **Mandatory**:
+					- For sensitive data shared between business units or departments.
+					- For data used in enterprise-wide analytics or reporting.
+				- **Optional**:
+					- For non-sensitive data shared within a single department.
+			- **Sensitive Attributes Triggering Application**:
+				- PII (e.g., employee information, customer data)
+				- Financial Data (e.g., financial statements, transaction data)
+			- **Standards**:
+				- [[Standards/ISO/IEC 27001 - Information Security]]
+				- [[Standards/ISO/IEC 27002 - Information Security Controls]]
+		- ## [[Policies/Data Governance/External Data Sharing]]
+		  collapsed:: true
+			- **Description**: Sets the standards and controls for sharing data with external entities, including partners, vendors, and regulatory bodies, to ensure compliance and data security.
+			- **Implementation**:
+				- Establish data sharing agreements with external parties, specifying data usage, protection, and compliance requirements.
+				- Use encryption and secure data transfer protocols for external data sharing.
+				- Conduct regular audits of external data sharing practices for compliance with agreements.
+			- **Conditions for Application**:
+				- **Mandatory**:
+					- For data shared with external partners, vendors, or regulatory authorities.
+					- For data used in external research or collaborative projects.
+				- **Optional**:
+					- For anonymized or aggregated data shared for public reporting.
+			- **Sensitive Attributes Triggering Application**:
+				- PII (e.g., customer data shared with third-party service providers)
+				- Financial Data (e.g., financial information shared for audits)
+			- **Standards**:
+				- [[Standards/ISO/IEC 27001 - Information Security]]
+				- [[Standards/ISO/IEC 27002 - Information Security Controls]]
+- ### AI Governance Policies
+  id:: 66f13c1f-5c84-4769-b150-2f23504f1d0f
+	- ### [[Policies/AI Governance/Model Development]]
+	  collapsed:: true
+		- **Description**: Establishes a structured approach for developing and maintaining AI models, ensuring they meet business and technical requirements.
+		- **Implementation**:
+			- Use established methodologies like CRISP-DM for model development.
+			- Document model development processes and decisions.
+			- Conduct peer reviews and validation of model outputs.
+		- **Conditions for Application**:
+			- **Mandatory**:
+				- For all models used in critical business operations.
+				- For models trained on sensitive data.
+			- **Optional**:
+				- For experimental or proof-of-concept models not deployed in production.
+		- **Standards**:
+			- [[Standards/ISO/IEC 23053 - Framework for AI Systems]]
+		- ## [[Policies/AI Governance/Feature Engineering Guidelines]]
+		  collapsed:: true
+			- **Description**: Provides guidance on the selection, transformation, and creation of features used in AI models to ensure data quality and model performance.
+			- **Implementation**:
+				- Define standard practices for feature selection and transformation.
+				- Document feature engineering processes and rationale.
+				- Regularly review and update feature sets based on model performance.
+			- **Conditions for Application**:
+				- **Mandatory**:
+					- For all models used in production environments.
+					- For features derived from sensitive or proprietary data.
+				- **Optional**:
+					- For experimental models used for internal research.
+			- **Standards**:
+				- [[Standards/ISO/IEC 20547 - Big Data Reference Architecture]]
+		- ## [[Policies/AI Governance/Data Preparation Standards]]
+		  collapsed:: true
+			- **Description**: Ensures that data used for training AI models is clean, relevant, and representative of the real-world scenarios it will encounter.
+			- **Implementation**:
+				- Define data preparation steps, including cleaning, normalization, and augmentation.
+				- Use automated tools for data preprocessing and validation.
+				- Maintain documentation of data sources and preparation processes.
+			- **Conditions for Application**:
+				- **Mandatory**:
+					- For all models used in production.
+					- For data containing sensitive attributes.
+				- **Optional**:
+					- For data used in non-production environments or testing.
+			- **Standards**:
+				- [[Standards/ISO/IEC 25024 - Data Quality Measurement]]
+	- ### [[Policies/AI Governance/Model Validation]]
+	  collapsed:: true
+		- **Description**: Establishes processes for validating AI models to ensure they perform as expected and meet business requirements.
+		- **Implementation**:
+			- Define validation criteria based on model performance metrics.
+			- Conduct testing on representative datasets.
+			- Implement automated validation pipelines for continuous testing.
+		- **Conditions for Application**:
+			- **Mandatory**:
+				- For all models before deployment.
+				- For models retrained or updated with new data.
+			- **Optional**:
+				- For experimental models not used in production.
+		- **Standards**:
+			- [[Standards/ISO/IEC 29119 - Software Testing]]
+		- ## [[Policies/AI Governance/Bias Detection Policy]]
+		  collapsed:: true
+			- **Description**: Sets guidelines for identifying and mitigating bias in AI models to ensure fairness and reduce unintended discrimination.
+			- **Implementation**:
+				- Develop bias detection and mitigation frameworks.
+				- Regularly audit models for potential biases.
+				- Use fairness metrics and testing methodologies.
+			- **Conditions for Application**:
+				- **Mandatory**:
+					- For all models used in decision-making processes.
+					- For models trained on demographic data.
+				- **Optional**:
+					- For non-critical models or models used for internal research.
+			- **Standards**:
+				- [[Standards/ISO/IEC TR 24027 - Bias in AI Systems]]
+		- ## [[Policies/AI Governance/Fairness and Transparency Policy]]
+		  collapsed:: true
+			- **Description**: Promotes fairness and transparency in AI systems by defining guidelines for explainability and equitable treatment of individuals.
+			- **Implementation**:
+				- Implement tools and methods for model explainability.
+				- Document decisions and rationale behind model design choices.
+				- Engage with stakeholders to gather feedback on AI system fairness.
+			- **Conditions for Application**:
+				- **Mandatory**:
+					- For models affecting human lives, such as in hiring or lending decisions.
+					- For all high-impact AI systems deployed in production.
+				- **Optional**:
+					- For internal-use models where transparency is less critical.
+			- **Standards**:
+				- [[Standards/ISO/IEC 24030 - AI Explainability]]
+		- ## [[Policies/AI Governance/Performance Metrics Threshold]]
+		  collapsed:: true
+			- **Description**: Establishes minimum acceptable performance metrics for AI models to ensure they meet business and technical objectives.
+			- **Implementation**:
+				- Define key performance indicators (KPIs) for each model.
+				- Set performance thresholds based on business needs.
+				- Continuously monitor and evaluate model performance.
+			- **Conditions for Application**:
+				- **Mandatory**:
+					- For models used in production or critical business functions.
+					- For models impacting customer experience or operational efficiency.
+				- **Optional**:
+					- For experimental models or those used in non-critical applications.
+			- **Standards**:
+				- [[Standards/ISO/IEC 25051 - Quality Requirements for COTS Software]]
+	- ### [[Policies/AI Governance/Model Monitoring]]
+	  collapsed:: true
+		- **Description**: Ensures ongoing monitoring of AI models to detect and respond to changes in performance, data drift, and other anomalies.
+		- **Implementation**:
+			- Implement automated monitoring tools for continuous evaluation.
+			- Establish alerting mechanisms for significant performance drops.
+			- Regularly review monitoring reports and take corrective actions.
+		- **Conditions for Application**:
+			- **Mandatory**:
+				- For all models in production.
+				- For models that have significant business impact.
+			- **Optional**:
+				- For models used in non-critical or experimental environments.
+		- **Standards**:
+			- [[Standards/ISO/IEC 27002 - Information Security Controls]]
+		- ## [[Policies/AI Governance/Drift Detection]]
+		  collapsed:: true
+			- **Description**: Provides guidelines for detecting and managing data and concept drift in AI models to maintain accuracy and relevance.
+			- **Implementation**:
+				- Develop drift detection mechanisms and thresholds.
+				- Implement automated tools for monitoring data and model drift.
+				- Retrain models or update data as needed to address detected drift.
+			- **Conditions for Application**:
+				- **Mandatory**:
+					- For models in production or with long deployment cycles.
+					- For models where data distributions are likely to change.
+				- **Optional**:
+					- For short-lived models or those used in experimental scenarios.
+			- **Standards**:
+				- [[Standards/ISO/IEC 22989 - AI Concepts and Terminology]]
+		- ## [[Policies/AI Governance/Performance Monitoring]]
+		  collapsed:: true
+			- **Description**: Establishes a framework for tracking the ongoing performance of AI models, including accuracy, precision, recall, and other relevant metrics.
+			- **Implementation**:
+				- Define performance monitoring criteria for each model.
+				- Use automated tools to collect and analyze performance metrics.
+				- Regularly review performance reports and adjust models as needed.
+			- **Conditions for Application**:
+				- **Mandatory**:
+					- For all deployed models.
+					- For models used in decision-making processes.
+				- **Optional**:
+					- For models used in research or non-production environments.
+			- **Standards**:
+				- [[Standards/ISO/IEC 25012 - Data Quality Model]]
+	- ### [[Policies/AI Governance/AI Ethics]]
+	  collapsed:: true
+		- **Description**: Defines ethical principles for the development and deployment of AI systems, ensuring they align with societal values and respect human rights.
+		- **Implementation**:
+			- Develop an AI ethics framework with defined principles.
+			- Conduct ethical impact assessments for all AI projects.
+			- Engage stakeholders to review and refine AI ethics policies.
+		- **Conditions for Application**:
+			- **Mandatory**:
+				- For all AI projects with potential societal impact.
+				- For AI systems affecting human rights or freedoms.
+			- **Optional**:
+				- For internal AI research or projects with limited scope.
+		- **Standards**:
+			- [[Standards/ISO/IEC 23053 - Framework for AI Systems]]
+		- ## [[Policies/AI Governance/Ethical AI Usage Guidelines]]
+		  collapsed:: true
+			- **Description**: Provides guidelines for the responsible use of AI, ensuring systems are designed and used in an ethical and socially responsible manner.
+			- **Implementation**:
+				- Develop usage guidelines based on ethical AI principles.
+				- Conduct regular reviews and updates of usage guidelines.
+				- Provide training and awareness programs on ethical AI usage.
+			- **Conditions for Application**:
+				- **Mandatory**:
+					- For AI systems used in decision-making processes.
+					- For high-impact AI systems deployed in production.
+				- **Optional**:
+					- For research or experimental AI systems with limited deployment.
+			- **Standards**:
+				- [[Standards/ISO/IEC 24030 - AI Explainability]]
+		- ## [[Policies/AI Governance/Value Alignment Policy]]
+		  collapsed:: true
+			- **Description**: Ensures AI systems are aligned with organizational values and societal norms, promoting trust and acceptance of AI technologies.
+			- **Implementation**:
+				- Develop a value alignment framework for AI projects.
+				- Conduct value alignment workshops with stakeholders.
+				- Regularly review and update the alignment policy as values evolve.
+			- **Conditions for Application**:
+				- **Mandatory**:
+					- For AI systems affecting human rights, freedoms, or wellbeing.
+					- For high-impact AI systems deployed in production.
+				- **Optional**:
+					- For internal AI research or projects with limited scope.
+			- **Standards**:
+				- [[Standards/ISO/IEC 22989 - AI Concepts and Terminology]]
+	- ### [[Policies/AI Governance/AI Risk Management]]
+	  collapsed:: true
+		- **Description**: Establishes a framework for identifying, assessing, and mitigating risks associated with AI development and deployment.
+		- **Implementation**:
+			- Develop risk management processes specific to AI.
+			- Use risk assessment tools and methodologies for AI projects.
+			- Implement mitigation strategies for identified risks.
+		- **Conditions for Application**:
+			- **Mandatory**:
+				- For all AI systems with potential business or societal impact.
+				- For AI systems handling sensitive or critical data.
+			- **Optional**:
+				- For internal research or experimental AI systems.
+		- **Standards**:
+			- [[Standards/ISO 31000 - Risk Management]]
+		- ## [[Policies/AI Governance/Risk Identification and Assessment]]
+		  collapsed:: true
+			- **Description**: Provides guidelines for identifying and assessing risks specific to AI systems, including technical, operational, and ethical risks.
+			- **Implementation**:
+				- Conduct risk assessments during AI project planning.
+				- Use standardized tools and methods for risk identification.
+				- Document and review identified risks regularly.
+			- **Conditions for Application**:
+				- **Mandatory**:
+					- For all AI projects with potential impact on business or society.
+					- For AI systems used in critical business functions.
+				- **Optional**:
+					- For research or non-production AI systems.
+			- **Standards**:
+				- [[Standards/ISO 31000 - Risk Management]]
+		- ## [[Policies/AI Governance/Risk Mitigation and Contingency Planning]]
+		  collapsed:: true
+			- **Description**: Defines processes for mitigating identified risks in AI systems and establishing contingency plans to address potential failures.
+			- **Implementation**:
+				- Develop mitigation strategies for high-impact risks.
+				- Implement contingency plans for critical AI systems.
+				- Regularly test and update mitigation and contingency plans.
+			- **Conditions for Application**:
+				- **Mandatory**:
+					- For all high-impact AI systems.
+					- For AI systems with potential safety or ethical concerns.
+				- **Optional**:
+					- For low-impact AI systems or research projects.
+			- **Standards**:
+				- [[Standards/ISO 31000 - Risk Management]]
+- ### Security Policies
   collapsed:: true
-	- **Description**: Defines the process of categorizing data into predefined classes such as public, internal, confidential, and highly confidential.
-	- **Implementation**:
-		- Establish a data classification framework with clear definitions for each class.
-		- Use metadata tags to label data based on its classification.
-		- Implement automated tools to detect and label data according to classification rules.
-	- **Conditions for Application**:
-		- **Mandatory**:
-			- When collecting, storing, or processing data that includes sensitive attributes like PII, financial data, or health data.
-			- For all datasets used in AI model training and predictions.
-		- **Optional**:
-			- For internal data that does not include sensitive attributes but requires controlled access.
-	- **Sensitive Attributes Triggering Application**:
-		- PII (e.g., names, addresses, social security numbers)
-		- Financial Data (e.g., bank account details, transaction history)
-		- Health Data (e.g., medical records, diagnostic data)
-	- **Standards**:
-		- [[Standards/ISO 8000 - Data Quality]]
-		- [[Standards/ISO/IEC 27001 - Information Security]]
-- ## [[Policies/Data Governance/Sensitivity Classification]]
-  collapsed:: true
-	- **Description**: Establishes guidelines for classifying data based on its sensitivity, such as public, internal use, restricted, and confidential.
-	- **Implementation**:
-		- Develop sensitivity classification criteria aligned with business and regulatory requirements.
-		- Use data tagging and labeling tools to classify data automatically.
-		- Regularly review and update classification criteria.
-	- **Conditions for Application**:
-		- **Mandatory**:
-			- For all datasets containing sensitive attributes like PII, financial data, and proprietary information.
-			- During data integration and sharing processes.
-		- **Optional**:
-			- For public data or data that has been anonymized.
-	- **Sensitive Attributes Triggering Application**:
-		- [[PII Data]]
-		- [[Financial Data]]
-		- [[Proprietary Information]]
-	- **Standards**:
-		- [[Standards/ISO/IEC 27001 - Information Security]]
-		- [[Standards/ISO/IEC 27701 - Privacy Information Management]]
-- ## [[Policies/Data Governance/Usage Classification]]
-  collapsed:: true
-	- **Description**: Defines the permissible use of data based on its classification, ensuring data is used in accordance with its intended purpose.
-	- **Implementation**:
-		- Develop usage classification guidelines for each data category.
-		- Monitor data access and usage to ensure compliance with classification guidelines.
-		- Provide training and awareness programs on data usage policies.
-	- **Conditions for Application**:
-		- **Mandatory**:
-			- For all data accessed or shared across business units or with third parties.
-			- During the deployment of new data analytics or AI use cases.
-		- **Optional**:
-			- For internal use of non-sensitive data within a secure environment.
-	- **Sensitive Attributes Triggering Application**:
-		- PII
-		- Financial Data
-		- Health Data
-	- **Standards**:
-		- [[Standards/ISO 38505 - Data Governance of IT]]
-- ## [[Policies/Data Governance/Data Access]]
-  collapsed:: true
-	- **Description**: Establishes rules and controls for granting and managing access to data based on role and necessity.
-	- **Implementation**:
-		- Implement Role-Based Access Control (RBAC) and the principle of least privilege.
-		- Use automated tools for managing and monitoring access requests.
-		- Regularly review access permissions and update as necessary.
-	- **Conditions for Application**:
-		- **Mandatory**:
-			- For all data containing sensitive attributes like PII, financial data, or proprietary information.
-			- For data accessed or shared with external entities.
-		- **Optional**:
-			- For public data or data used within a controlled environment.
-	- **Sensitive Attributes Triggering Application**:
-		- PII
-		- Financial Data
-		- Intellectual Property
-	- **Standards**:
-		- [[Standards/NIST SP 800-53 - Access Control]]
-		- [[Standards/ISO/IEC 27002 - Information Security Controls]]
-- ## [[Policies/Data Governance/Role-Based Access Control]]
-  collapsed:: true
-	- **Description**: Ensures that data access is granted based on user roles and responsibilities, minimizing the risk of unauthorized access.
-	- **Implementation**:
-		- Define roles and associated permissions for accessing different data types.
-		- Use RBAC tools to enforce access controls.
-		- Regularly review and update roles and permissions as needed.
-	- **Conditions for Application**:
-		- **Mandatory**:
-			- For all systems containing sensitive data, including financial information, PII, and proprietary data.
-			- When sharing data with third parties or external partners.
-		- **Optional**:
-			- For non-sensitive data accessed within secure environments.
-	- **Sensitive Attributes Triggering Application**:
-		- PII
-		- Financial Data
-		- Proprietary Information
-	- **Standards**:
-		- [[Standards/ISO/IEC 27001 - Information Security Management]]
-		- [[Standards/NIST SP 800-53 - Access Control]]
-- ## [[Policies/Data Governance/Least Privilege Principle]]
-  collapsed:: true
-	- **Description**: Limits data access to only those individuals who need it to perform their job functions, minimizing potential data breaches.
-	- **Implementation**:
-		- Implement access controls that enforce the least privilege principle.
-		- Use auditing and monitoring tools to detect and revoke unnecessary access.
-		- Educate users on the importance of least privilege.
-	- **Conditions for Application**:
-		- **Mandatory**:
-			- For all data containing sensitive attributes like PII, financial data, or health data.
-			- When implementing access controls in new systems or applications.
-		- **Optional**:
-			- For non-sensitive internal data accessed within a secure environment.
-	- **Sensitive Attributes Triggering Application**:
-		- PII
-		- Financial Data
-		- Health Data
-	- **Standards**:
-		- [[Standards/NIST SP 800-53 - Access Control]]
-		- [[Standards/ISO/IEC 27002 - Information Security Controls]]
-- ## [[Policies/Data Governance/Data Retention]]
-  collapsed:: true
-	- **Description**: Specifies how long different types of data should be retained, including policies for data archiving and disposal.
-	- **Implementation**:
-		- Define retention periods based on legal, regulatory, and business requirements.
-		- Implement automated data archiving and deletion processes.
-		- Regularly review and update retention schedules.
-	- **Conditions for Application**:
-		- **Mandatory**:
-			- For all data containing PII, financial information, or health data.
-			- For data that must be retained due to legal or regulatory obligations.
-		- **Optional**:
-			- For non-sensitive data where retention is determined by business needs.
-	- **Sensitive Attributes Triggering Application**:
-		- PII
-		- Financial Data
-		- Health Data
-		- Intellectual Property
-	- **Standards**:
-		- [[Standards/ISO 15489 - Records Management]]
-- ## [[Policies/Data Governance/Legal Compliance Retention]]
-  collapsed:: true
-	- **Description**: Ensures data retention policies comply with relevant legal and regulatory requirements.
-	- **Implementation**:
-		- Identify all relevant legal and regulatory data retention requirements.
-		- Develop a compliance matrix mapping data types to retention periods.
-		- Implement processes for legal hold and data preservation when necessary.
-	- **Conditions for Application**:
-		- **Mandatory**:
-			- For data subject to legal or regulatory retention requirements.
-			- During legal proceedings or audits.
-		- **Optional**:
-			- For internal data where business-specific retention policies apply.
-	- **Sensitive Attributes Triggering Application**:
-		- Legal Documents
-		- Financial Data
-		- PII
-	- **Standards**:
-		- [[Standards/ISO 15489 - Records Management]]
-		- [[Standards/SOX - Sarbanes-Oxley Act]]
-- ## [[Policies/Data Governance/Operational Data Retention]]
-  collapsed:: true
-	- **Description**: Defines the duration for retaining operational data to support business processes, compliance, and analytics. It includes guidelines for data archiving and secure disposal once the retention period has elapsed.
-	- **Implementation**:
-		- Establish retention periods based on legal, regulatory, and business requirements.
-		- Use automated tools for data archiving and secure deletion after the retention period.
-		- Regularly review and update retention schedules.
-	- **Conditions for Application**:
-		- **Mandatory**:
-			- For data required to meet regulatory compliance or legal obligations.
-			- For data necessary for financial and operational audits.
-		- **Optional**:
-			- For non-sensitive operational data with no legal retention requirements.
-	- **Sensitive Attributes Triggering Application**:
-		- Financial Data (e.g., transaction records, audit logs)
-		- Operational Data (e.g., system logs, usage data)
-	- **Standards**:
-		- [[Standards/ISO 15489 - Records Management]]
-		- [[Standards/ISO/IEC 27001 - Information Security]]
-- ## [[Policies/Data Governance/Data Quality]]
-  collapsed:: true
-	- **Description**: Ensures that data is fit for its intended purpose, meeting business requirements for accuracy, completeness, consistency, and timeliness.
-	- **Implementation**:
-		- Develop and monitor data quality metrics and KPIs for critical data elements.
-		- Implement data quality monitoring tools and dashboards.
-		- Establish a data stewardship program to manage data quality issues.
-	- **Conditions for Application**:
-		- **Mandatory**:
-			- For all critical data used in decision-making processes.
-			- For data shared with external partners.
-		- **Optional**:
-			- For internal, non-critical data used for exploratory analysis.
-	- **Sensitive Attributes Triggering Application**:
-		- PII (e.g., customer names, addresses)
-		- Financial Data (e.g., financial statements, transaction history)
-	- **Standards**:
-		- [[Standards/ISO 8000 - Data Quality]]
-		- [[Standards/DAMA-DMBOK - Data Quality Management]]
-- ## [[Policies/Data Governance/Data Accuracy Standards]]
-  collapsed:: true
-	- **Description**: Establishes criteria and processes to ensure data is correct, precise, and reliable, minimizing errors in data entry and processing.
-	- **Implementation**:
-		- Define accuracy thresholds and validation rules for key data elements.
-		- Implement automated data validation checks at data entry points.
-		- Regularly review and update data accuracy standards.
-	- **Conditions for Application**:
-		- **Mandatory**:
-			- For data used in financial reporting or compliance.
-			- For data integrated from multiple sources.
-		- **Optional**:
-			- For non-critical internal reports or exploratory data analysis.
-	- **Sensitive Attributes Triggering Application**:
-		- PII (e.g., social security numbers, birth dates)
-		- Financial Data (e.g., transaction amounts, account balances)
-	- **Standards**:
-		- [[Standards/ISO 8000 - Data Quality]]
-		- [[Standards/ISO 25012 - Data Quality Model]]
-- ## [[Policies/Data Governance/Completeness and Consistency Checks]]
-  collapsed:: true
-	- **Description**: Ensures that all required data is captured and that it is consistently recorded and represented across systems.
-	- **Implementation**:
-		- Define completeness criteria for critical data elements.
-		- Implement automated tools to check for missing or inconsistent data.
-		- Regularly audit data for completeness and consistency issues.
-	- **Conditions for Application**:
-		- **Mandatory**:
-			- For data integrated into enterprise systems or warehouses.
-			- For data used in compliance reporting.
-		- **Optional**:
-			- For internal data used in ad-hoc analysis.
-	- **Sensitive Attributes Triggering Application**:
-		- PII (e.g., complete customer profiles)
-		- Financial Data (e.g., complete transaction records)
-	- **Standards**:
-		- [[Standards/ISO 8000 - Data Quality]]
-		- [[Standards/ISO 25012 - Data Quality Model]]
-- ## [[Policies/Data Governance/Data Provenance]]
-  collapsed:: true
-	- **Description**: Tracks the origin, history, and transformations of data to ensure transparency and trust in data usage.
-	- **Implementation**:
-		- Implement data lineage tools to capture the full lifecycle of critical data elements.
-		- Document data sources, transformations, and processing steps.
-		- Regularly audit data provenance records for accuracy.
-	- **Conditions for Application**:
-		- **Mandatory**:
-			- For data used in regulatory or compliance reporting.
-			- For data shared with external partners.
-		- **Optional**:
-			- For internal use data where lineage is not critical.
-	- **Sensitive Attributes Triggering Application**:
-		- PII (e.g., tracking data sources for customer information)
-		- Financial Data (e.g., audit trails for financial transactions)
-	- **Standards**:
-		- [[Standards/ISO 8000 - Data Quality]]
-		- [[Standards/ISO/IEC 27001 - Information Security]]
-- ## [[Policies/Data Governance/Data Lineage Tracking]]
-  collapsed:: true
-	- **Description**: Provides a detailed record of data movement and transformations across systems, ensuring data traceability and accountability.
-	- **Implementation**:
-		- Use data lineage tools to map data flow and transformations.
-		- Maintain up-to-date documentation of data pipelines and processes.
-		- Conduct regular reviews to verify the accuracy of data lineage records.
-	- **Conditions for Application**:
-		- **Mandatory**:
-			- For data used in regulatory compliance and audit processes.
-			- For data used in critical business decisions.
-		- **Optional**:
-			- For exploratory data where lineage is less critical.
-	- **Sensitive Attributes Triggering Application**:
-		- PII (e.g., tracking the flow of sensitive personal data)
-		- Financial Data (e.g., ensuring accurate financial reporting)
-	- **Standards**:
-		- [[Standards/ISO 8000 - Data Quality]]
-		- [[Standards/ISO/IEC 27001 - Information Security]]
-- ## [[Policies/Data Governance/Metadata Management]]
-  collapsed:: true
-	- **Description**: Establishes standards and processes for managing metadata to improve data discovery, understanding, and governance.
-	- **Implementation**:
-		- Define and document metadata standards for all data assets.
-		- Implement metadata management tools for cataloging and maintaining metadata.
-		- Regularly update metadata to reflect changes in data assets and structures.
-	- **Conditions for Application**:
-		- **Mandatory**:
-			- For all critical data assets managed in enterprise systems.
-			- For data shared with external stakeholders.
-		- **Optional**:
-			- For non-critical data with limited scope and usage.
-	- **Sensitive Attributes Triggering Application**:
-		- PII (e.g., metadata for customer data elements)
-		- Financial Data (e.g., metadata for financial reports and transactions)
-	- **Standards**:
-		- [[Standards/ISO 23081 - Metadata for Records]]
-		- [[Standards/ISO/IEC 11179 - Metadata Registries]]
-- ## [[Policies/Data Governance/Data Privacy]]
-  collapsed:: true
-	- **Description**: Protects the privacy rights of individuals by ensuring that personal data is collected, processed, and stored in compliance with relevant privacy laws and regulations.
-	- **Implementation**:
-		- Implement privacy impact assessments (PIAs) for new data projects.
-		- Use data masking and anonymization techniques to protect sensitive data.
-		- Establish data access controls and monitoring to prevent unauthorized access.
-	- **Conditions for Application**:
-		- **Mandatory**:
-			- For all data containing personal or sensitive information.
-			- For data shared with third parties.
-		- **Optional**:
-			- For anonymized data where re-identification risk is low.
-	- **Sensitive Attributes Triggering Application**:
-		- PII (e.g., names, addresses, social security numbers)
-		- Health Data (e.g., medical records, diagnostic data)
-	- **Standards**:
-		- [[Standards/ISO/IEC 27001 - Information Security]]
-		- [[Standards/ISO/IEC 27701 - Privacy Information Management]]
-- ## [[Policies/Data Governance/GDPR Compliance]]
-  collapsed:: true
-	- **Description**: Ensures compliance with the General Data Protection Regulation (GDPR) for the collection, processing, and storage of personal data of EU citizens.
-	- **Implementation**:
-		- Conduct data protection impact assessments (DPIAs) for high-risk data processing activities.
-		- Implement processes for data subject rights, such as access, rectification, and deletion.
-		- Establish a breach notification process for reporting data breaches within 72 hours.
-	- **Conditions for Application**:
-		- **Mandatory**:
-			- For all data collected from or about EU citizens.
-			- For data processing activities involving personal data of EU citizens.
-		- **Optional**:
-			- For non-personal data or data outside the scope of GDPR.
-	- **Sensitive Attributes Triggering Application**:
-		- PII (e.g., names, addresses, email addresses)
-		- Financial Data (e.g., bank account details, transaction history)
-	- **Standards**:
-		- [[Standards/ISO/IEC 27701 - Privacy Information Management]]
-		- [[Standards/ISO/IEC 29100 - Privacy Framework]]
-- ## [[Policies/Data Governance/CCPA Compliance]]
-  collapsed:: true
-	- **Description**: Ensures compliance with the California Consumer Privacy Act (CCPA) for the collection, processing, and storage of personal data of California residents.
-	- **Implementation**:
-		- Implement processes for responding to consumer requests for data access, deletion, and opt-out of sale.
-		- Provide clear and transparent information about data collection and processing practices.
-		- Establish procedures for verifying consumer requests and securing personal data.
-	- **Conditions for Application**:
-		- **Mandatory**:
-			- For all data collected from or about California residents.
-			- For businesses that meet the CCPA applicability criteria (e.g., revenue thresholds, data sale activities).
-		- **Optional**:
-			- For non-personal data or data outside the scope of CCPA.
-	- **Sensitive Attributes Triggering Application**:
-		- PII (e.g., names, addresses, email addresses)
-		- Financial Data (e.g., credit card numbers, transaction data)
-	- **Standards**:
-		- [[Standards/ISO/IEC 27701 - Privacy Information Management]]
-		- [[Standards/ISO/IEC 29100 - Privacy Framework]]
-- ## [[Policies/Data Governance/Data Anonymization and Masking]]
-  collapsed:: true
-	- **Description**: Establishes guidelines for anonymizing and masking data to protect sensitive information while enabling its use for analytics and testing.
-	- **Implementation**:
-		- Use data anonymization techniques (e.g., k-anonymity, differential privacy) for data shared outside the organization.
-		- Implement data masking tools to obfuscate sensitive information in non-production environments.
-		- Regularly review and update anonymization and masking techniques to address evolving risks.
-	- **Conditions for Application**:
-		- **Mandatory**:
-			- For data used in testing or analytics where direct identifiers are not required.
-			- For data shared with third parties for research or collaboration.
-		- **Optional**:
-			- For internal data where re-identification risk is low.
-	- **Sensitive Attributes Triggering Application**:
-		- PII (e.g., names, addresses, social security numbers)
-		- Health Data (e.g., medical records, diagnostic data)
-	- **Standards**:
-		- [[Standards/ISO/IEC 20889 - Privacy Enhancing Data De-Identification Techniques]]
-		- [[Standards/ISO/IEC 27001 - Information Security]]
-- ## [[Policies/Data Governance/Data Sharing]]
-	- **Description**: Establishes rules and controls for sharing data within and outside the organization to ensure security, privacy, and compliance.
-	- **Implementation**:
-		- Define data sharing agreements with clear terms and conditions for data use.
-		- Implement secure data transfer mechanisms and access controls.
-		- Regularly audit data sharing activities for compliance with policies.
-	- **Conditions for Application**:
-		- **Mandatory**:
-			- For data shared with external partners or third parties.
-			- For data used in joint ventures or collaborations.
-		- **Optional**:
-			- For internal data sharing within secured environments.
-	- **Sensitive Attributes Triggering Application**:
-		- PII (e.g., names, addresses, email addresses)
-		- Financial Data (e.g., transaction data, account details)
-	- **Standards**:
-		- [[Standards/ISO/IEC 27001 - Information Security]]
-		- [[Standards/ISO/IEC 27002 - Information Security Controls]]
-- ## [[Policies/Data Governance/Internal Data Sharing]]
-	- **Description**: Governs the sharing of data between different departments and teams within the organization to ensure data is used appropriately and securely.
-	- **Implementation**:
-		- Define roles and responsibilities for internal data access and sharing.
-		- Use role-based access controls (RBAC) to manage internal data sharing.
-		- Monitor and log internal data sharing activities to detect unauthorized access.
-	- **Conditions for Application**:
-		- **Mandatory**:
-			- For sensitive data shared between business units or departments.
-			- For data used in enterprise-wide analytics or reporting.
-		- **Optional**:
-			- For non-sensitive data shared within a single department.
-	- **Sensitive Attributes Triggering Application**:
-		- PII (e.g., employee information, customer data)
-		- Financial Data (e.g., financial statements, transaction data)
-	- **Standards**:
-		- [[Standards/ISO/IEC 27001 - Information Security]]
-		- [[Standards/ISO/IEC 27002 - Information Security Controls]]
-- ## [[Policies/Data Governance/External Data Sharing]]
-  collapsed:: true
-	- **Description**: Sets the standards and controls for sharing data with external entities, including partners, vendors, and regulatory bodies, to ensure compliance and data security.
-	- **Implementation**:
-		- Establish data sharing agreements with external parties, specifying data usage, protection, and compliance requirements.
-		- Use encryption and secure data transfer protocols for external data sharing.
-		- Conduct regular audits of external data sharing practices for compliance with agreements.
-	- **Conditions for Application**:
-		- **Mandatory**:
-			- For data shared with external partners, vendors, or regulatory authorities.
-			- For data used in external research or collaborative projects.
-		- **Optional**:
-			- For anonymized or aggregated data shared for public reporting.
-	- **Sensitive Attributes Triggering Application**:
-		- PII (e.g., customer data shared with third-party service providers)
-		- Financial Data (e.g., financial information shared for audits)
-	- **Standards**:
-		- [[Standards/ISO/IEC 27001 - Information Security]]
-		- [[Standards/ISO/IEC 27002 - Information Security Controls]]
-- # AI Governance Policies
-- ## [[Policies/AI Governance/Model Development]]
-  collapsed:: true
-	- **Description**: Establishes a structured approach for developing and maintaining AI models, ensuring they meet business and technical requirements.
-	- **Implementation**:
-		- Use established methodologies like CRISP-DM for model development.
-		- Document model development processes and decisions.
-		- Conduct peer reviews and validation of model outputs.
-	- **Conditions for Application**:
-		- **Mandatory**:
-			- For all models used in critical business operations.
-			- For models trained on sensitive data.
-		- **Optional**:
-			- For experimental or proof-of-concept models not deployed in production.
-	- **Standards**:
-		- [[Standards/ISO/IEC 23053 - Framework for AI Systems]]
-- ## [[Policies/AI Governance/Feature Engineering Guidelines]]
-  collapsed:: true
-	- **Description**: Provides guidance on the selection, transformation, and creation of features used in AI models to ensure data quality and model performance.
-	- **Implementation**:
-		- Define standard practices for feature selection and transformation.
-		- Document feature engineering processes and rationale.
-		- Regularly review and update feature sets based on model performance.
-	- **Conditions for Application**:
-		- **Mandatory**:
-			- For all models used in production environments.
-			- For features derived from sensitive or proprietary data.
-		- **Optional**:
-			- For experimental models used for internal research.
-	- **Standards**:
-		- [[Standards/ISO/IEC 20547 - Big Data Reference Architecture]]
-- ## [[Policies/AI Governance/Data Preparation Standards]]
-  collapsed:: true
-	- **Description**: Ensures that data used for training AI models is clean, relevant, and representative of the real-world scenarios it will encounter.
-	- **Implementation**:
-		- Define data preparation steps, including cleaning, normalization, and augmentation.
-		- Use automated tools for data preprocessing and validation.
-		- Maintain documentation of data sources and preparation processes.
-	- **Conditions for Application**:
-		- **Mandatory**:
-			- For all models used in production.
-			- For data containing sensitive attributes.
-		- **Optional**:
-			- For data used in non-production environments or testing.
-	- **Standards**:
-		- [[Standards/ISO/IEC 25024 - Data Quality Measurement]]
-- ## [[Policies/AI Governance/Model Validation]]
-  collapsed:: true
-	- **Description**: Establishes processes for validating AI models to ensure they perform as expected and meet business requirements.
-	- **Implementation**:
-		- Define validation criteria based on model performance metrics.
-		- Conduct testing on representative datasets.
-		- Implement automated validation pipelines for continuous testing.
-	- **Conditions for Application**:
-		- **Mandatory**:
-			- For all models before deployment.
-			- For models retrained or updated with new data.
-		- **Optional**:
-			- For experimental models not used in production.
-	- **Standards**:
-		- [[Standards/ISO/IEC 29119 - Software Testing]]
-- ## [[Policies/AI Governance/Bias Detection Policy]]
-  collapsed:: true
-	- **Description**: Sets guidelines for identifying and mitigating bias in AI models to ensure fairness and reduce unintended discrimination.
-	- **Implementation**:
-		- Develop bias detection and mitigation frameworks.
-		- Regularly audit models for potential biases.
-		- Use fairness metrics and testing methodologies.
-	- **Conditions for Application**:
-		- **Mandatory**:
-			- For all models used in decision-making processes.
-			- For models trained on demographic data.
-		- **Optional**:
-			- For non-critical models or models used for internal research.
-	- **Standards**:
-		- [[Standards/ISO/IEC TR 24027 - Bias in AI Systems]]
-- ## [[Policies/AI Governance/Fairness and Transparency Policy]]
-  collapsed:: true
-	- **Description**: Promotes fairness and transparency in AI systems by defining guidelines for explainability and equitable treatment of individuals.
-	- **Implementation**:
-		- Implement tools and methods for model explainability.
-		- Document decisions and rationale behind model design choices.
-		- Engage with stakeholders to gather feedback on AI system fairness.
-	- **Conditions for Application**:
-		- **Mandatory**:
-			- For models affecting human lives, such as in hiring or lending decisions.
-			- For all high-impact AI systems deployed in production.
-		- **Optional**:
-			- For internal-use models where transparency is less critical.
-	- **Standards**:
-		- [[Standards/ISO/IEC 24030 - AI Explainability]]
-- ## [[Policies/AI Governance/Performance Metrics Threshold]]
-  collapsed:: true
-	- **Description**: Establishes minimum acceptable performance metrics for AI models to ensure they meet business and technical objectives.
-	- **Implementation**:
-		- Define key performance indicators (KPIs) for each model.
-		- Set performance thresholds based on business needs.
-		- Continuously monitor and evaluate model performance.
-	- **Conditions for Application**:
-		- **Mandatory**:
-			- For models used in production or critical business functions.
-			- For models impacting customer experience or operational efficiency.
-		- **Optional**:
-			- For experimental models or those used in non-critical applications.
-	- **Standards**:
-		- [[Standards/ISO/IEC 25051 - Quality Requirements for COTS Software]]
-- ## [[Policies/AI Governance/Model Monitoring]]
-  collapsed:: true
-	- **Description**: Ensures ongoing monitoring of AI models to detect and respond to changes in performance, data drift, and other anomalies.
-	- **Implementation**:
-		- Implement automated monitoring tools for continuous evaluation.
-		- Establish alerting mechanisms for significant performance drops.
-		- Regularly review monitoring reports and take corrective actions.
-	- **Conditions for Application**:
-		- **Mandatory**:
-			- For all models in production.
-			- For models that have significant business impact.
-		- **Optional**:
-			- For models used in non-critical or experimental environments.
-	- **Standards**:
-		- [[Standards/ISO/IEC 27002 - Information Security Controls]]
-- ## [[Policies/AI Governance/Drift Detection]]
-  collapsed:: true
-	- **Description**: Provides guidelines for detecting and managing data and concept drift in AI models to maintain accuracy and relevance.
-	- **Implementation**:
-		- Develop drift detection mechanisms and thresholds.
-		- Implement automated tools for monitoring data and model drift.
-		- Retrain models or update data as needed to address detected drift.
-	- **Conditions for Application**:
-		- **Mandatory**:
-			- For models in production or with long deployment cycles.
-			- For models where data distributions are likely to change.
-		- **Optional**:
-			- For short-lived models or those used in experimental scenarios.
-	- **Standards**:
-		- [[Standards/ISO/IEC 22989 - AI Concepts and Terminology]]
-- ## [[Policies/AI Governance/Performance Monitoring]]
-  collapsed:: true
-	- **Description**: Establishes a framework for tracking the ongoing performance of AI models, including accuracy, precision, recall, and other relevant metrics.
-	- **Implementation**:
-		- Define performance monitoring criteria for each model.
-		- Use automated tools to collect and analyze performance metrics.
-		- Regularly review performance reports and adjust models as needed.
-	- **Conditions for Application**:
-		- **Mandatory**:
-			- For all deployed models.
-			- For models used in decision-making processes.
-		- **Optional**:
-			- For models used in research or non-production environments.
-	- **Standards**:
-		- [[Standards/ISO/IEC 25012 - Data Quality Model]]
-- ## [[Policies/AI Governance/AI Ethics]]
-  collapsed:: true
-	- **Description**: Defines ethical principles for the development and deployment of AI systems, ensuring they align with societal values and respect human rights.
-	- **Implementation**:
-		- Develop an AI ethics framework with defined principles.
-		- Conduct ethical impact assessments for all AI projects.
-		- Engage stakeholders to review and refine AI ethics policies.
-	- **Conditions for Application**:
-		- **Mandatory**:
-			- For all AI projects with potential societal impact.
-			- For AI systems affecting human rights or freedoms.
-		- **Optional**:
-			- For internal AI research or projects with limited scope.
-	- **Standards**:
-		- [[Standards/ISO/IEC 23053 - Framework for AI Systems]]
-- ## [[Policies/AI Governance/Ethical AI Usage Guidelines]]
-  collapsed:: true
-	- **Description**: Provides guidelines for the responsible use of AI, ensuring systems are designed and used in an ethical and socially responsible manner.
-	- **Implementation**:
-		- Develop usage guidelines based on ethical AI principles.
-		- Conduct regular reviews and updates of usage guidelines.
-		- Provide training and awareness programs on ethical AI usage.
-	- **Conditions for Application**:
-		- **Mandatory**:
-			- For AI systems used in decision-making processes.
-			- For high-impact AI systems deployed in production.
-		- **Optional**:
-			- For research or experimental AI systems with limited deployment.
-	- **Standards**:
-		- [[Standards/ISO/IEC 24030 - AI Explainability]]
-- ## [[Policies/AI Governance/Value Alignment Policy]]
-  collapsed:: true
-	- **Description**: Ensures AI systems are aligned with organizational values and societal norms, promoting trust and acceptance of AI technologies.
-	- **Implementation**:
-		- Develop a value alignment framework for AI projects.
-		- Conduct value alignment workshops with stakeholders.
-		- Regularly review and update the alignment policy as values evolve.
-	- **Conditions for Application**:
-		- **Mandatory**:
-			- For AI systems affecting human rights, freedoms, or wellbeing.
-			- For high-impact AI systems deployed in production.
-		- **Optional**:
-			- For internal AI research or projects with limited scope.
-	- **Standards**:
-		- [[Standards/ISO/IEC 22989 - AI Concepts and Terminology]]
-- ## [[Policies/AI Governance/AI Risk Management]]
-  collapsed:: true
-	- **Description**: Establishes a framework for identifying, assessing, and mitigating risks associated with AI development and deployment.
-	- **Implementation**:
-		- Develop risk management processes specific to AI.
-		- Use risk assessment tools and methodologies for AI projects.
-		- Implement mitigation strategies for identified risks.
-	- **Conditions for Application**:
-		- **Mandatory**:
-			- For all AI systems with potential business or societal impact.
-			- For AI systems handling sensitive or critical data.
-		- **Optional**:
-			- For internal research or experimental AI systems.
-	- **Standards**:
-		- [[Standards/ISO 31000 - Risk Management]]
-- ## [[Policies/AI Governance/Risk Identification and Assessment]]
-  collapsed:: true
-	- **Description**: Provides guidelines for identifying and assessing risks specific to AI systems, including technical, operational, and ethical risks.
-	- **Implementation**:
-		- Conduct risk assessments during AI project planning.
-		- Use standardized tools and methods for risk identification.
-		- Document and review identified risks regularly.
-	- **Conditions for Application**:
-		- **Mandatory**:
-			- For all AI projects with potential impact on business or society.
-			- For AI systems used in critical business functions.
-		- **Optional**:
-			- For research or non-production AI systems.
-	- **Standards**:
-		- [[Standards/ISO 31000 - Risk Management]]
-- ## [[Policies/AI Governance/Risk Mitigation and Contingency Planning]]
-  collapsed:: true
-	- **Description**: Defines processes for mitigating identified risks in AI systems and establishing contingency plans to address potential failures.
-	- **Implementation**:
-		- Develop mitigation strategies for high-impact risks.
-		- Implement contingency plans for critical AI systems.
-		- Regularly test and update mitigation and contingency plans.
-	- **Conditions for Application**:
-		- **Mandatory**:
-			- For all high-impact AI systems.
-			- For AI systems with potential safety or ethical concerns.
-		- **Optional**:
-			- For low-impact AI systems or research projects.
-	- **Standards**:
-		- [[Standards/ISO 31000 - Risk Management]]
-- # Security Policies
-- ## [[Policies/Security/Data Security]]
-  collapsed:: true
-	- **Description**: Provides guidelines and controls to protect data from unauthorized access, alteration, and destruction.
-	- **Implementation**:
-		- Implement encryption, access controls, and monitoring systems.
-		- Conduct regular security audits and risk assessments.
-		- Develop incident response plans for data security breaches.
-	- **Conditions for Application**:
-		- **Mandatory**:
-			- For all sensitive data including PII, financial, and health data.
-			- For data shared with third parties or stored in the cloud.
-		- **Optional**:
-			- For internal data with lower security requirements.
-	- **Standards**:
-		- [[Standards/ISO/IEC 27001 - Information Security Management]]
-- ## [[Policies/Security/In-Transit Encryption]]
-  collapsed:: true
-	- **Description**: Ensures that data transmitted over networks is protected against interception and unauthorized access.
-	- **Implementation**:
-		- Use TLS/SSL for secure communication.
-		- Implement VPNs for remote access to internal systems.
-		- Regularly update encryption protocols to address vulnerabilities.
-	- **Conditions for Application**:
-		- **Mandatory**:
-			- For all sensitive data transmitted over public or shared networks.
-			- For remote access to internal data systems.
-		- **Optional**:
-			- For non-sensitive data in controlled environments.
-	- **Standards**:
-		- [[Standards/ISO/IEC 27033 - Network Security]]
-- ## [[Policies/Security/At-Rest Encryption]]
-  collapsed:: true
-	- **Description**: Protects data stored on devices and storage systems from unauthorized access and theft.
-	- **Implementation**:
-		- Implement disk and file-level encryption for sensitive data.
-		- Use key management systems to control access to encryption keys.
-		- Regularly audit encryption practices and update as needed.
-	- **Conditions for Application**:
-		- **Mandatory**:
-			- For all sensitive data stored on servers, databases, and devices.
-			- For data stored on portable devices or in the cloud.
-		- **Optional**:
-			- For non-sensitive data stored in secure environments.
-	- **Standards**:
-		- [[Standards/ISO/IEC 27040 - Storage Security]]
-- ## [[Policies/Security/Access Management]]
-  collapsed:: true
-	- **Description**: Defines policies and controls for managing access to systems and data based on user roles and responsibilities.
-	- **Implementation**:
-		- Implement Role-Based Access Control (RBAC) and least privilege principles.
-		- Use IAM systems to manage and monitor access.
-		- Regularly review and update access permissions.
-	- **Conditions for Application**:
-		- **Mandatory**:
-			- For all systems containing sensitive or critical data.
-			- For systems accessed by third parties or external partners.
-		- **Optional**:
-			- For internal systems with lower security requirements.
-	- **Standards**:
-		- [[Standards/ISO/IEC 27002 - Information Security Controls]]
-- ## [[Policies/Security/Multi-Factor Authentication (MFA)]]
-  collapsed:: true
-	- **Description**: Adds an additional layer of security to user authentication processes by requiring multiple forms of verification.
-	- **Implementation**:
-		- Implement MFA for access to all critical systems and data.
-		- Use MFA tools that support various authentication methods (e.g., SMS, OTP, biometric).
-		- Regularly review and update MFA configurations.
-	- **Conditions for Application**:
-		- **Mandatory**:
-			- For all users accessing sensitive systems or data.
-			- For remote access to internal systems.
-		- **Optional**:
-			- For internal systems with lower security requirements.
-	- **Standards**:
-		- [[Standards/NIST SP 800-63 - Digital Identity Guidelines]]
-- ## [[Policies/Security/Identity and Access Management (IAM)]]
-  collapsed:: true
-	- **Description**: Manages user identities and their access to resources, ensuring that access is granted only to authorized individuals.
-	- **Implementation**:
-		- Implement IAM systems for managing user identities and access.
-		- Use automated tools for provisioning, de-provisioning, and access reviews.
-		- Regularly audit and update IAM policies and procedures.
-	- **Conditions for Application**:
-		- **Mandatory**:
-			- For all users accessing critical or sensitive systems.
-			- For managing external partners or third-party access.
-		- **Optional**:
-			- For internal systems with lower security requirements.
-	- **Standards**:
-		- [[Standards/ISO/IEC 27001 - Information Security Management]]
-- ## [[Policies/Security/Incident Response]]
-  collapsed:: true
-	- **Description**: Establishes a structured approach for responding to security incidents, minimizing their impact and restoring normal operations.
-	- **Implementation**:
-		- Develop and document an incident response plan.
-		- Conduct regular incident response drills and training.
-		- Implement tools for detecting, logging, and responding to security incidents.
-	- **Conditions for Application**:
-		- **Mandatory**:
-			- For all systems and data subject to security risks.
-			- For compliance with legal or regulatory requirements.
-		- **Optional**:
-			- For lower-risk systems with limited data exposure.
-	- **Standards**:
-		- [[Standards/ISO/IEC 27035 - Information Security Incident Management]]
-- ## [[Policies/Security/Data Breach Response]]
-  collapsed:: true
-	- **Description**: Provides guidelines for responding to data breaches, including containment, investigation, and notification processes.
-	- **Implementation**:
-		- Develop a data breach response plan with defined roles and responsibilities.
-		- Implement tools for detecting and reporting data breaches.
-		- Regularly review and update the breach response plan.
-	- **Conditions for Application**:
-		- **Mandatory**:
-			- For all systems containing sensitive or critical data.
-			- For compliance with legal and regulatory requirements.
-		- **Optional**:
-			- For systems with lower-risk data exposure.
-	- **Standards**:
-		- [[Standards/ISO/IEC 27035 - Information Security Incident Management]]
-- ## [[Policies/Security/Security Incident Reporting]]
-  collapsed:: true
-	- **Description**: Defines the process for reporting security incidents, ensuring timely and accurate communication to relevant stakeholders.
-	- **Implementation**:
-		- Develop a security incident reporting protocol.
-		- Implement tools for logging and tracking security incidents.
-		- Conduct regular training on incident reporting procedures.
-	- **Conditions for Application**:
-		- **Mandatory**:
-			- For all users with access to sensitive systems or data.
-			- For incidents involving critical systems or data breaches.
-		- **Optional**:
-			- For lower-risk systems with limited data exposure.
-	- **Standards**:
-		- [[Standards/ISO/IEC 27035 - Information Security Incident Management]]
-- ## [[Policies/Security/Audit and Compliance]]
-  collapsed:: true
-	- **Description**: Establishes a framework for conducting regular security audits and ensuring compliance with internal and external requirements.
-	- **Implementation**:
-		- Conduct regular security audits using internal or external auditors.
-		- Implement tools for monitoring and enforcing compliance.
-		- Develop corrective action plans for identified issues.
-	- **Conditions for Application**:
-		- **Mandatory**:
-			- For all critical systems and data.
-			- For compliance with legal and regulatory requirements.
-		- **Optional**:
-			- For internal systems with lower security requirements.
-	- **Standards**:
-		- [[Standards/ISO/IEC 27001 - Information Security Management]]
-- ## [[Policies/Security/Regular Security Audits]]
-  collapsed:: true
-	- **Description**: Provides guidelines for scheduling and conducting regular security audits to identify vulnerabilities and ensure compliance.
-	- **Implementation**:
-		- Develop a security audit schedule based on risk assessment.
-		- Use automated tools for continuous monitoring and auditing.
-		- Document and follow up on audit findings and corrective actions.
-	- **Conditions for Application**:
-		- **Mandatory**:
-			- For all critical systems and data.
-			- For compliance with legal and regulatory requirements.
-		- **Optional**:
-			- For internal systems with lower security requirements.
-	- **Standards**:
-		- [[Standards/ISO/IEC 27001 - Information Security Management]]
-- ## [[Policies/Security/Compliance with Standards (e.g., ISO, SOC2)]]
-  collapsed:: true
-	- **Description**: Ensures compliance with relevant security standards and frameworks, such as ISO 27001 and SOC 2, to demonstrate a commitment to security best practices.
-	- **Implementation**:
-		- Implement and maintain security controls aligned with applicable standards.
-		- Conduct regular assessments and audits to verify compliance.
-		- Develop and implement corrective action plans for non-compliance issues.
-	- **Conditions for Application**:
-		- **Mandatory**:
-			- For all systems and data subject to regulatory or contractual obligations.
-			- For demonstrating compliance to customers or partners.
-		- **Optional**:
-			- For internal systems with lower security requirements.
-	- **Standards**:
-		- [[Standards/ISO/IEC 27001 - Information Security Management]]
-		- [[Standards/SOC 2 - Service Organization Control]]
+	- ## [[Policies/Security/Data Security]]
+	  collapsed:: true
+		- **Description**: Provides guidelines and controls to protect data from unauthorized access, alteration, and destruction.
+		- **Implementation**:
+			- Implement encryption, access controls, and monitoring systems.
+			- Conduct regular security audits and risk assessments.
+			- Develop incident response plans for data security breaches.
+		- **Conditions for Application**:
+			- **Mandatory**:
+				- For all sensitive data including PII, financial, and health data.
+				- For data shared with third parties or stored in the cloud.
+			- **Optional**:
+				- For internal data with lower security requirements.
+		- **Standards**:
+			- [[Standards/ISO/IEC 27001 - Information Security Management]]
+		- ## [[Policies/Security/In-Transit Encryption]]
+		  collapsed:: true
+			- **Description**: Ensures that data transmitted over networks is protected against interception and unauthorized access.
+			- **Implementation**:
+				- Use TLS/SSL for secure communication.
+				- Implement VPNs for remote access to internal systems.
+				- Regularly update encryption protocols to address vulnerabilities.
+			- **Conditions for Application**:
+				- **Mandatory**:
+					- For all sensitive data transmitted over public or shared networks.
+					- For remote access to internal data systems.
+				- **Optional**:
+					- For non-sensitive data in controlled environments.
+			- **Standards**:
+				- [[Standards/ISO/IEC 27033 - Network Security]]
+		- ## [[Policies/Security/At-Rest Encryption]]
+		  collapsed:: true
+			- **Description**: Protects data stored on devices and storage systems from unauthorized access and theft.
+			- **Implementation**:
+				- Implement disk and file-level encryption for sensitive data.
+				- Use key management systems to control access to encryption keys.
+				- Regularly audit encryption practices and update as needed.
+			- **Conditions for Application**:
+				- **Mandatory**:
+					- For all sensitive data stored on servers, databases, and devices.
+					- For data stored on portable devices or in the cloud.
+				- **Optional**:
+					- For non-sensitive data stored in secure environments.
+			- **Standards**:
+				- [[Standards/ISO/IEC 27040 - Storage Security]]
+	- ## [[Policies/Security/Access Management]]
+	  collapsed:: true
+		- **Description**: Defines policies and controls for managing access to systems and data based on user roles and responsibilities.
+		- **Implementation**:
+			- Implement Role-Based Access Control (RBAC) and least privilege principles.
+			- Use IAM systems to manage and monitor access.
+			- Regularly review and update access permissions.
+		- **Conditions for Application**:
+			- **Mandatory**:
+				- For all systems containing sensitive or critical data.
+				- For systems accessed by third parties or external partners.
+			- **Optional**:
+				- For internal systems with lower security requirements.
+		- **Standards**:
+			- [[Standards/ISO/IEC 27002 - Information Security Controls]]
+		- ## [[Policies/Security/Multi-Factor Authentication (MFA)]]
+		  collapsed:: true
+			- **Description**: Adds an additional layer of security to user authentication processes by requiring multiple forms of verification.
+			- **Implementation**:
+				- Implement MFA for access to all critical systems and data.
+				- Use MFA tools that support various authentication methods (e.g., SMS, OTP, biometric).
+				- Regularly review and update MFA configurations.
+			- **Conditions for Application**:
+				- **Mandatory**:
+					- For all users accessing sensitive systems or data.
+					- For remote access to internal systems.
+				- **Optional**:
+					- For internal systems with lower security requirements.
+			- **Standards**:
+				- [[Standards/NIST SP 800-63 - Digital Identity Guidelines]]
+		- ## [[Policies/Security/Identity and Access Management (IAM)]]
+		  collapsed:: true
+			- **Description**: Manages user identities and their access to resources, ensuring that access is granted only to authorized individuals.
+			- **Implementation**:
+				- Implement IAM systems for managing user identities and access.
+				- Use automated tools for provisioning, de-provisioning, and access reviews.
+				- Regularly audit and update IAM policies and procedures.
+			- **Conditions for Application**:
+				- **Mandatory**:
+					- For all users accessing critical or sensitive systems.
+					- For managing external partners or third-party access.
+				- **Optional**:
+					- For internal systems with lower security requirements.
+			- **Standards**:
+				- [[Standards/ISO/IEC 27001 - Information Security Management]]
+	- ## [[Policies/Security/Incident Response]]
+	  collapsed:: true
+		- **Description**: Establishes a structured approach for responding to security incidents, minimizing their impact and restoring normal operations.
+		- **Implementation**:
+			- Develop and document an incident response plan.
+			- Conduct regular incident response drills and training.
+			- Implement tools for detecting, logging, and responding to security incidents.
+		- **Conditions for Application**:
+			- **Mandatory**:
+				- For all systems and data subject to security risks.
+				- For compliance with legal or regulatory requirements.
+			- **Optional**:
+				- For lower-risk systems with limited data exposure.
+		- **Standards**:
+			- [[Standards/ISO/IEC 27035 - Information Security Incident Management]]
+		- ## [[Policies/Security/Data Breach Response]]
+		  collapsed:: true
+			- **Description**: Provides guidelines for responding to data breaches, including containment, investigation, and notification processes.
+			- **Implementation**:
+				- Develop a data breach response plan with defined roles and responsibilities.
+				- Implement tools for detecting and reporting data breaches.
+				- Regularly review and update the breach response plan.
+			- **Conditions for Application**:
+				- **Mandatory**:
+					- For all systems containing sensitive or critical data.
+					- For compliance with legal and regulatory requirements.
+				- **Optional**:
+					- For systems with lower-risk data exposure.
+			- **Standards**:
+				- [[Standards/ISO/IEC 27035 - Information Security Incident Management]]
+		- ## [[Policies/Security/Security Incident Reporting]]
+		  collapsed:: true
+			- **Description**: Defines the process for reporting security incidents, ensuring timely and accurate communication to relevant stakeholders.
+			- **Implementation**:
+				- Develop a security incident reporting protocol.
+				- Implement tools for logging and tracking security incidents.
+				- Conduct regular training on incident reporting procedures.
+			- **Conditions for Application**:
+				- **Mandatory**:
+					- For all users with access to sensitive systems or data.
+					- For incidents involving critical systems or data breaches.
+				- **Optional**:
+					- For lower-risk systems with limited data exposure.
+			- **Standards**:
+				- [[Standards/ISO/IEC 27035 - Information Security Incident Management]]
+	- ## [[Policies/Security/Audit and Compliance]]
+	  collapsed:: true
+		- **Description**: Establishes a framework for conducting regular security audits and ensuring compliance with internal and external requirements.
+		- **Implementation**:
+			- Conduct regular security audits using internal or external auditors.
+			- Implement tools for monitoring and enforcing compliance.
+			- Develop corrective action plans for identified issues.
+		- **Conditions for Application**:
+			- **Mandatory**:
+				- For all critical systems and data.
+				- For compliance with legal and regulatory requirements.
+			- **Optional**:
+				- For internal systems with lower security requirements.
+		- **Standards**:
+			- [[Standards/ISO/IEC 27001 - Information Security Management]]
+		- ## [[Policies/Security/Regular Security Audits]]
+		  collapsed:: true
+			- **Description**: Provides guidelines for scheduling and conducting regular security audits to identify vulnerabilities and ensure compliance.
+			- **Implementation**:
+				- Develop a security audit schedule based on risk assessment.
+				- Use automated tools for continuous monitoring and auditing.
+				- Document and follow up on audit findings and corrective actions.
+			- **Conditions for Application**:
+				- **Mandatory**:
+					- For all critical systems and data.
+					- For compliance with legal and regulatory requirements.
+				- **Optional**:
+					- For internal systems with lower security requirements.
+			- **Standards**:
+				- [[Standards/ISO/IEC 27001 - Information Security Management]]
+		- ## [[Policies/Security/Compliance with Standards (e.g., ISO, SOC2)]]
+		  collapsed:: true
+			- **Description**: Ensures compliance with relevant security standards and frameworks, such as ISO 27001 and SOC 2, to demonstrate a commitment to security best practices.
+			- **Implementation**:
+				- Implement and maintain security controls aligned with applicable standards.
+				- Conduct regular assessments and audits to verify compliance.
+				- Develop and implement corrective action plans for non-compliance issues.
+			- **Conditions for Application**:
+				- **Mandatory**:
+					- For all systems and data subject to regulatory or contractual obligations.
+					- For demonstrating compliance to customers or partners.
+				- **Optional**:
+					- For internal systems with lower security requirements.
+			- **Standards**:
+				- [[Standards/ISO/IEC 27001 - Information Security Management]]
+				- [[Standards/SOC 2 - Service Organization Control]]
+- TODO [#A] Merge the following policies
+	- [[AI Governance/Policies/AI Monitoring Policy]]
+	- [[AI Governance/Policies/AI Use Case Documentation Policy]]

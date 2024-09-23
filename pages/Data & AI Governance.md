@@ -41,19 +41,11 @@
 					- Data Engineering Unit
 					- Data Science Unit
 - #### Relevant Policies Covered Until Now
-	- [[AI Governance/Policies/AI Monitoring Policy]]
-	- [[AI Governance/Policies/AI Use Case Documentation Policy]]
 	- For a full list of Data & AI Governance **policies**, see [[Data & AI Governance/Policies]]
 	  collapsed:: true
 		- TODO [#A] Consolidate [[AI Governance/Policies]] with [[Policies/AI Governance]]
+- ### [[Data & AI Governance/Policies]]
+	- {{embed ((66f13c1f-5c84-4769-b150-2f23504f1d0f))}}
+	- {{embed ((66f13c1f-9776-4ed9-99dd-ead00c8ded90))}}
 - #### Practical Tools for Implementing Data & AI Governance Policies
-	- [[AI Monitoring/Continuous AI Ethics check]]
-		- For continuous blackbox testing of [[AI systems]] to ensure that
-			- Unhealthy biases are avoided
-			- Healthy values are reinforced
-	- [[Human-AI Relationships Glossary]]
-		- For documenting AI use cases based on the role played by [[an AI system]]
-		- Automatically deducing the risk profiles associated with each use case
-	- [[Data Governance/Tools]]
-		- We have a good understanding of the tools that are available for [[Data Governance]] and [[AI Governance]]
-		- We continuously evaluate their features and update our findings here.
+- {{embed ((66f17ec1-0273-42e8-a8d5-f16b6658781e))}}
