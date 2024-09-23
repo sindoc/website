@@ -7,7 +7,7 @@ broader:: [[Data Management]]
 - **Data Stewardship**: The role of a [[Data Steward]] is to oversee the data's quality, management, and access. Data stewards ensure that data policies are followed and that the data is being used responsibly.
 - **Data Quality**: Ensuring high [[Data Quality]] is a core component of data governance. This includes the accuracy, completeness, consistency, and timeliness of data.
 	- Example: Implementing a system that regularly checks for data duplication or missing values.
-- **Data Policies and Standards**: Clear policies and standards define how data is to be handled, shared, and secured. These [[Data Policies]] establish protocols for data classification, security, privacy, and retention.
+- **Data Policies and Standards**: Clear policies and standards define how data is to be handled, shared, and secured. These [[Data & AI Governance/Policies]] establish protocols for data classification, security, privacy, and retention.
 	- Example: A policy on who has access to sensitive data and how that data is encrypted.
 - **Data Ownership**: Each dataset or piece of information should have a clear owner responsible for its accuracy, access, and updates. [[Data Ownership]] helps ensure accountability.
 - **Data Governance Council**: A group of stakeholders, usually from across the organization, responsible for the strategic oversight of data governance. This [[Data Governance Council]] develops governance strategies, approves policies, and monitors compliance.
@@ -32,7 +32,7 @@ broader:: [[Data Management]]
 	- Effective [[Data Governance]] requires adherence to several best practices:
 	- **Start with Clear Objectives**: Define what you want to achieve with data governance, whether it’s improving data quality, ensuring compliance, or protecting sensitive data.
 	- **Involve Stakeholders Across the Organization**: Data governance should not just be an IT initiative. Include business units, compliance teams, and other departments in governance efforts.
-	- **Create and Enforce Policies**: Clearly defined [[Data Policies]] are essential. Ensure that these policies are communicated to all employees and are enforced consistently.
+	- **Create and Enforce Policies**: Clearly defined [[Data & AI Governance/Policies]] are essential. Ensure that these policies are communicated to all employees and are enforced consistently.
 	- **Implement Data Stewardship**: Appoint dedicated [[Data Stewards]] who are responsible for maintaining the quality and security of data. Their role is crucial for enforcing data governance rules on the ground.
 	- **Leverage Automation**: Use [[Data Governance Tools]] to automate data monitoring, enforce policies, and ensure compliance.
 - ## Challenges in Data Governance

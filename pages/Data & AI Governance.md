@@ -43,6 +43,9 @@
 - #### Relevant Policies Covered Until Now
 	- [[AI Governance/Policies/AI Monitoring Policy]]
 	- [[AI Governance/Policies/AI Use Case Documentation Policy]]
+	- For a full list of Data & AI Governance **policies**, see [[Data & AI Governance/Policies]]
+	  collapsed:: true
+		- TODO [#A] Consolidate [[AI Governance/Policies]] with [[Policies/AI Governance]]
 - #### Practical Tools for Implementing Data & AI Governance Policies
 	- [[AI Monitoring/Continuous AI Ethics check]]
 		- For continuous blackbox testing of [[AI systems]] to ensure that
