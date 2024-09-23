@@ -11,7 +11,7 @@
 	- [[...]]
 - ### Ongoing Topics
   background-color:: yellow
-	- {{query (and (task TODO DOING WAITING) (priority A))}}
+	- {{query (and (task TODO DOING WAITING) (priority A B C))}}
 	  query-table:: true
 	  query-properties:: [:block]
 	-
