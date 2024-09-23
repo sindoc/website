@@ -12,8 +12,10 @@ a.tag[65d7a100-0e0e-4c3a-a23f-f808d65a0550] {
 }
 
 .blocks-container i {
+/*
     color: red !important;
     font-size: smaller !important;
+    */
 }
 
 a.priority {

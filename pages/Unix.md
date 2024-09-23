@@ -1,0 +1,1 @@
+- I thank the universe everyday for giving me Unix. Without it, I would have been lost.
