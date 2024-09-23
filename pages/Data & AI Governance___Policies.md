@@ -1,5 +1,6 @@
 ### Data Governance Policies
 id:: 66f13c1f-9776-4ed9-99dd-ead00c8ded90
+collapsed:: true
 	- ### [[Policies/Data Governance/Data Classification]]
 	  collapsed:: true
 		- **Description**: Defines the process of categorizing data into predefined classes such as public, internal, confidential, and highly confidential.
@@ -427,6 +428,7 @@ id:: 66f13c1f-9776-4ed9-99dd-ead00c8ded90
 				- [[Standards/ISO/IEC 27002 - Information Security Controls]]
 - ### AI Governance Policies
   id:: 66f13c1f-5c84-4769-b150-2f23504f1d0f
+  collapsed:: true
 	- ### [[Policies/AI Governance/Model Development]]
 	  collapsed:: true
 		- **Description**: Establishes a structured approach for developing and maintaining AI models, ensuring they meet business and technical requirements.
