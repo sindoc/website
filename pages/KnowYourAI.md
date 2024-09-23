@@ -11,6 +11,7 @@ alias:: the KnowYourAI framework
 		- [[MIT/AI Risks/Database]]
 		- [[AI use cases]]
 			- Detailed mapping of **risks**, **policies**, **datasets**, data **domains**, and **data products**
+			  background-color:: yellow
 				- {{embed [[Use Cases/Financial Services/Investment Management]]}}
 		- Repository Home on **GitHub**
 			- https://github.com/sindoc/knowyourai-framework

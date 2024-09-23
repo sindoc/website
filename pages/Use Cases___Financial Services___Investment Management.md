@@ -1,4 +1,4 @@
-### [[Portfolio Optimisation]]
+#### [[Portfolio Optimisation]]
 collapsed:: true
 	- **Description**: Optimizes asset allocation for portfolios by balancing risk and return based on [[market data]].
 	- AI Use Case: Optimize asset allocation based on risk-return profiles.
@@ -56,7 +56,7 @@ collapsed:: true
 		- [[AI Risks/Performance & Robustness/Performance Degradation]]
 		- [[AI Risks/Ethical Concerns/Value Alignment Issues]]
 		- [[...]]
-- ### [[Algorithmic Trading]]
+- #### [[Algorithmic Trading]]
   collapsed:: true
 	- **Description**: Uses real-time market data and predefined strategies to execute trades automatically.
 	- AI Use Case: Use machine learning algorithms to execute trades based on market conditions.
@@ -120,7 +120,8 @@ collapsed:: true
 			- Misalignment between the model’s optimization goals and the client’s ethical or [[ESG]] considerations.
 			- See also [[Human Value Drift]]
 		- [[...]]
-- ### [[Risk Assessment and Mitigation]]
+- #### [[Risk Assessment and Mitigation]]
+  collapsed:: true
 	- AI Use Case: Predict potential risks and recommend mitigation strategies.
 	- Data Use Case: Analyze historical financial data to assess risk factors.
 	- **Description**: Predicts potential financial risks and recommends mitigation strategies using historical and real-time data.
@@ -173,7 +174,7 @@ collapsed:: true
 		- [[Data Management/Risks/Data Integrity]]
 		- [[Data Management/Risks/Data Breach]]
 		- [[Data Management/Risks/Data Leakage]]
-- ### [[Client Portfolio Reporting]]
+- #### [[Client Portfolio Reporting]]
   collapsed:: true
 	- Data Use Case: Generate automated reports for client portfolios using financial data.
 	- **Description**: Automates the generation of client portfolio performance reports with visualizations and analytics.
@@ -226,7 +227,7 @@ collapsed:: true
 		- [[AI Risks/Privacy and Data Leakage]]
 		- [[AI Risks/Security/Security]]
 			- Unauthorized access to client portfolio data or reporting mechanisms.
-- ### [[Market Sentiment Analysis]]
+- #### [[Market Sentiment Analysis]]
   collapsed:: true
 	- AI Use Case: Analyze social media and news data to gauge market sentiment.
 	- Data Use Case: Text analysis of market-related news and social media posts.
@@ -282,7 +283,7 @@ collapsed:: true
 			- Manipulation of input data sources, such as social media posts, to influence sentiment analysis.
 		- [[AI Risks/Privacy and Data Leakage/Privacy and Data Leakage]]
 			- Unauthorized access to proprietary sentiment analysis models or data sources.
-- ### [[ESG Compliance Scoring]]
+- #### [[ESG Compliance Scoring]]
   collapsed:: true
 	- AI Use Case: Automate scoring based on environmental, social, and governance data.
 	- Data Use Case: Collect and standardize ESG data for scoring.
@@ -337,7 +338,7 @@ collapsed:: true
 		- [[AI Risks/Privacy and Data Leakage/Privacy and Data Leakage]]
 			- [[Data Management/Risks/Data Leakage]]
 			- Breach of proprietary ESG scoring methodologies or sensitive ESG data.
-- ### [[Financial Forecasting]]
+- #### [[Financial Forecasting]]
   collapsed:: true
 	- AI Use Case: Predict future financial performance using time-series analysis.
 	- Data Use Case: Analyze historical financial statements for trend analysis.
@@ -391,7 +392,7 @@ collapsed:: true
 		- [[AI Risks/Privacy and Data Leakage/Privacy and Data Leakage]]
 			- [[Data Management/Risks/Data Leakage]]
 			- Exposure of sensitive financial data or proprietary forecasting models.
-- ### [[Credit Risk Assessment]]
+- #### [[Credit Risk Assessment]]
   collapsed:: true
 	- AI Use Case: Use machine learning to predict credit risk based on borrower data.
 	- Data Use Case: Historical credit data analysis to identify risk factors.
@@ -448,7 +449,7 @@ collapsed:: true
 		- [[AI Risks/Privacy and Data Leakage/Privacy and Data Leakage]]
 		- [[Data Management/Risks/Data Leakage]]
 			- Breach of sensitive borrower data or credit scoring models.
-- ### [[Liability-Driven Investment (LDI) Strategy]]
+- #### [[Liability-Driven Investment (LDI) Strategy]]
   collapsed:: true
 	- **Description**: Manages the Investment's assets in a way that matches its liabilities, ensuring the fund can meet its future obligations.
 	- **Datasets**:
@@ -506,7 +507,7 @@ collapsed:: true
 		- [[AI Risks/Privacy and Data Leakage/Privacy and Data Leakage]]
 		- [[Data Management/Risks/Data Leakage]]
 			- Exposure of sensitive financial and liability data.
-- ### [[ESG Investment Strategy]]
+- #### [[ESG Investment Strategy]]
   collapsed:: true
 	- **Description**: Integrates environmental, social, and governance (ESG) factors into the investment process to align with the fund's sustainability goals.
 	- **Datasets**:
@@ -560,7 +561,7 @@ collapsed:: true
 		- [[AI Risks/Privacy and Data Leakage/Privacy and Data Leakage]]
 		- [[Data Management/Risks/Data Leakage]]
 			- Unauthorized access to proprietary ESG models and sensitive ESG preferences of beneficiaries.
-- ### [[Investment Performance Analysis]]
+- #### [[Investment Performance Analysis]]
   collapsed:: true
 	- **Description**: Analyzes the performance of the Investment against benchmarks and historical data to inform investment strategy adjustments.
 	- **Datasets**:
@@ -612,7 +613,7 @@ collapsed:: true
 		- [[AI Risks/Privacy and Data Leakage/Privacy and Data Leakage]]
 		- [[Data Management/Risks/Data Leakage]]
 			- Exposure of sensitive performance data or benchmarking results.
-- ### [[Risk Management and Stress Testing]]
+- #### [[Risk Management and Stress Testing]]
   collapsed:: true
 	- **Description**: Evaluates the fund's resilience to various economic scenarios by simulating market shocks and economic downturns.
 	- **Datasets**:
@@ -669,7 +670,7 @@ collapsed:: true
 		- [[Data Management/Risks/Data Leakage]]
 			- Breach of sensitive stress test results or risk management strategies.
 		-
-- ### [[Beneficiary Analysis and Forecasting]]
+- #### [[Beneficiary Analysis and Forecasting]]
   collapsed:: true
 	- **Description**: Analyzes demographic data to forecast future contributions and liabilities, and supports planning for future payouts.
 	- **Datasets**:
