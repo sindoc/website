@@ -1,0 +1,2 @@
+- Finding the root cause of a [[bug]] in the code run by a [[computer]]
+- See [[GNU/Debugger]]
