@@ -1,4 +1,4 @@
-## 1. **Set** ([[comedy set]])
+## 1. **Set** ([[Comedy Set]])
 	- **Definition:** A set is the collection of jokes or routines you perform in one session. It’s your whole act from start to finish.
 	- **Example:** “I’ve got a tight 5-minute set ready for the open mic. It's basically my entire life’s work condensed into 300 seconds. So, no pressure.”
 - ## 2. **Bit**
