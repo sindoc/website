@@ -1,0 +1,7 @@
+- An individual who worked at [[Sun Microsystems]], at some point in their life.
+- Examples
+	- [[Bill Joy]]
+	- [[Eric Schmidt]]
+	- [[Norman Walsh]]
+	- [[Tim Bray]]
+	- [[...]]
