@@ -1,0 +1,11514 @@
+- {{embed ((66ed39cd-e21e-47fd-b19b-88b16be097ca))}}
+- *Note:*: Since this page contains many nodes, it might be slow, so feel free to choose to browse the AI risk database by domain, phase, or intent, as indicated above.
+  background-color:: yellow
+- ### Factuality Errors
+- [[AI Risks/Untruthful Content/Factuality Errors]]
+	- **Description**: "The LLM-generated content could contain inaccurate information" which is factually incorrect
+	- **Evidence ID**: [[MIT/AI Risks/by ID/02.02.01]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk/Domain/3. Misinformation]]
+	- **Sub-domain**: [[AI Risk/Domain/3. Misinformation/3.1/False or misleading information]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Faithfulness Errors
+- [[AI Risks/Untruthful Content/Faithfulness Errors]]
+  collapsed:: true
+	- **Description**: "The LLM-generated content could contain inaccurate information" which is is not true to the source material or input used
+	- **Evidence ID**: [[MIT/AI Risks/by ID/02.02.02]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/3/Other]]
+	- **Domain**: [[AI Risk/Domain/3. Misinformation]]
+	- **Sub-domain**: [[AI Risk/Domain/3. Misinformation/3.1/False or misleading information]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Unhelpful Uses
+- [[AI Risks/Unhelpful Uses/Unhelpful Uses]]
+  collapsed:: true
+	- **Description**: "Improper uses of LLM systems can cause adverse social impacts."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/02.03.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk/Domain/4. Malicious Actors & Misuse]]
+	- **Sub-domain**: [[AI Risk/Domain/4. Malicious Actors & Misuse/4.3/Fraud, scams, and targeted manipulation]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Academic Misconduct
+- [[AI Risks/Unhelpful Uses/Academic Misconduct]]
+  collapsed:: true
+	- **Description**: "Improper use of LLM systems (i.e., abuse of LLM systems) will cause adverse social impacts, such as academic misconduct."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/02.03.01]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk/Domain/4. Malicious Actors & Misuse]]
+	- **Sub-domain**: [[AI Risk/Domain/4. Malicious Actors & Misuse/4.3/Fraud, scams, and targeted manipulation]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Copyright Violation
+- [[AI Risks/Unhelpful Uses/Copyright Violation]]
+  collapsed:: true
+	- **Description**: "LLM systems may output content similar to existing works, infringing on copyright owners."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/02.03.02]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/6. Socioeconomic and Environmental]]
+	- **Sub-domain**: [[AI Risk/Domain/6. Socioeconomic and Environmental/6.3/Economic and cultural devaluation of human effort]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Cyber Attacks
+- [[AI Risks/Unhelpful Uses/Cyber Attacks]]
+  collapsed:: true
+	- **Description**: "Hackers can obtain malicious code in a low-cost and efficient manner to automate cyber attacks with powerful LLM systems."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/02.03.03]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk/Domain/4. Malicious Actors & Misuse]]
+	- **Sub-domain**: [[AI Risk/Domain/4. Malicious Actors & Misuse/4.2/Cyberattacks, weapon development or use, and mass harm]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Software Vulnerabilities
+- [[AI Risks/Unhelpful Uses/Software Vulnerabilities]]
+  collapsed:: true
+	- **Description**: "Programmers are accustomed to using code generation tools such as Github Copilot for program development, which may bury vulnerabilities in the program."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/02.03.04]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/2. Privacy & Security]]
+	- **Sub-domain**: [[AI Risk/Domain/2. Privacy & Security/2.2/AI system security vulnerabilities and attacks]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Software Security Issues
+- [[AI Risks/Software Security Issues/Software Security Issues]]
+  collapsed:: true
+	- **Description**: "The software development toolchain of LLMs is complex and could bring threats to the developed LLM."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/02.04.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/3/Other]]
+	- **Timing**: [[AI Risk/Phase/1/Pre-deployment]]
+	- **Domain**: [[AI Risk Domain/2. Privacy & Security]]
+	- **Sub-domain**: [[AI Risk/Domain/2. Privacy & Security/2.2/AI system security vulnerabilities and attacks]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Programming Language
+- [[AI Risks/Software Security Issues/Programming Language]]
+  collapsed:: true
+	- **Description**: "Most LLMs are developed using the Python language, whereas the vulnerabilities of Python interpreters pose threats to the developed models"
+	- **Evidence ID**: [[MIT/AI Risks/by ID/02.04.01]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/1/Pre-deployment]]
+	- **Domain**: [[AI Risk Domain/2. Privacy & Security]]
+	- **Sub-domain**: [[AI Risk/Domain/2. Privacy & Security/2.2/AI system security vulnerabilities and attacks]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Deep Learning Frameworks
+- [[AI Risks/Software Security Issues/Deep Learning Frameworks]]
+  collapsed:: true
+	- **Description**: "LLMs are implemented based on deep learning frameworks. Notably, various vulnerabilities in these frameworks have been disclosed in recent years. As reported in the past five years, three of the most common types of vulnerabilities are buffer overflow attacks, memory corruption, and input validation issues."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/02.04.02]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/1/Pre-deployment]]
+	- **Domain**: [[AI Risk Domain/2. Privacy & Security]]
+	- **Sub-domain**: [[AI Risk/Domain/2. Privacy & Security/2.2/AI system security vulnerabilities and attacks]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Software Supply Chains
+- [[AI Risks/Software Security Issues/Software Supply Chains]]
+  collapsed:: true
+	- **Description**: "The software development toolchain of LLMs is complex and could bring threats to the developed LLM."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/02.04.03]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/1/Pre-deployment]]
+	- **Domain**: [[AI Risk Domain/2. Privacy & Security]]
+	- **Sub-domain**: [[AI Risk/Domain/2. Privacy & Security/2.2/AI system security vulnerabilities and attacks]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Pre-processing Tools
+- [[AI Risks/Software Security Issues/Pre-processing Tools]]
+  collapsed:: true
+	- **Description**: "Pre-processing tools play a crucial role in the context of LLMs. These tools, which are often involved in computer vision (CV) tasks, are susceptible to attacks that exploit vulnerabilities in tools such as OpenCV."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/02.04.04]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/1/Pre-deployment]]
+	- **Domain**: [[AI Risk Domain/2. Privacy & Security]]
+	- **Sub-domain**: [[AI Risk/Domain/2. Privacy & Security/2.2/AI system security vulnerabilities and attacks]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Hardware Vulnerabilities
+- [[AI Risks/Hardware Vulnerabilities/Hardware Vulnerabilities]]
+  collapsed:: true
+	- **Description**: "The vulnerabilities of hardware systems for training and inferencing brings issues to LLM-based applications."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/02.05.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/3/Other]]
+	- **Domain**: [[AI Risk Domain/2. Privacy & Security]]
+	- **Sub-domain**: [[AI Risk/Domain/2. Privacy & Security/2.2/AI system security vulnerabilities and attacks]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Network Devices
+- [[AI Risks/Hardware Vulnerabilities/Network Devices]]
+  collapsed:: true
+	- **Description**: "The training of LLMs often relies on distributed network systems [171], [172]. During the transmission of gradients through the links between GPU server nodes, significant volumetric traffic is generated. This traffic can be susceptible to disruption by burst traffic, such as pulsating attacks [161]. Furthermore, distributed training frameworks may encounter congestion issues [173]."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/02.05.01]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/1/Pre-deployment]]
+	- **Domain**: [[AI Risk Domain/2. Privacy & Security]]
+	- **Sub-domain**: [[AI Risk/Domain/2. Privacy & Security/2.2/AI system security vulnerabilities and attacks]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### GPU Computation Platforms
+- [[AI Risks/Hardware Vulnerabilities/GPU Computation Platforms]]
+  collapsed:: true
+	- **Description**: "The training of LLMs requires significant GPU resources, thereby introducing an additional security concern. GPU side-channel attacks have been developed to extract the parameters of trained models [159], [163]."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/02.05.02]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/1/Pre-deployment]]
+	- **Domain**: [[AI Risk Domain/2. Privacy & Security]]
+	- **Sub-domain**: [[AI Risk/Domain/2. Privacy & Security/2.2/AI system security vulnerabilities and attacks]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Memory and Storage
+- [[AI Risks/Hardware Vulnerabilities/Memory and Storage]]
+  collapsed:: true
+	- **Description**: "Similar to conventional programs, hardware infrastructures can also introduce threats to LLMs. Memory-related vulnerabilities, such as rowhammer attacks [160], can be leveraged to manipulate the parameters of LLMs, giving rise to attacks such as the Deephammer attack [167], [168]."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/02.05.03]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/1/Pre-deployment]]
+	- **Domain**: [[AI Risk Domain/2. Privacy & Security]]
+	- **Sub-domain**: [[AI Risk/Domain/2. Privacy & Security/2.2/AI system security vulnerabilities and attacks]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Issues on External Tools
+- [[AI Risks/Issues on External Tools/Issues on External Tools]]
+  collapsed:: true
+	- **Description**: "The external tools (e.g., web APIs) present trustworthiness and privacy issues to LLM-based applications."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/02.06.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/3/Other]]
+	- **Timing**: [[AI Risk/Phase/3/Other]]
+	- **Domain**: [[AI Risk Domain/2. Privacy & Security]]
+	- **Sub-domain**: [[AI Risk/Domain/2. Privacy & Security/2.2/AI system security vulnerabilities and attacks]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Factual Errors Injected by External Tools
+- [[AI Risks/Issues on External Tools/Factual Errors Injected by External Tools]]
+  collapsed:: true
+	- **Description**: "External tools typically incorporate additional knowledge into the input prompts [122], [178]–[184]. The additional knowledge often originates from public resources such as Web APIs and search engines. As the reliability of external tools is not always ensured, the content returned by external tools may include factual errors, consequently amplifying the hallucination issue."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/02.06.01]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/2. Privacy & Security]]
+	- **Sub-domain**: [[AI Risk/Domain/2. Privacy & Security/2.2/AI system security vulnerabilities and attacks]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Exploiting External Tools for Attacks
+- [[AI Risks/Issues on External Tools/Exploiting External Tools for Attacks]]
+  collapsed:: true
+	- **Description**: "Adversarial tool providers can embed malicious instructions in the APIs or prompts [84], leading LLMs to leak memorized sensitive information in the training data or users’ prompts (CVE2023-32786). As a result, LLMs lack control over the output, resulting in sensitive information being disclosed to external tool providers. Besides, attackers can easily manipulate public data to launch targeted attacks, generating specific malicious outputs according to user inputs. Furthermore, feeding the information from external tools into LLMs may lead to injection attacks [61]. For example, unverified inputs may result in arbitrary code execution (CVE-2023-29374)."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/02.06.02]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/2. Privacy & Security]]
+	- **Sub-domain**: [[AI Risk/Domain/2. Privacy & Security/2.2/AI system security vulnerabilities and attacks]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Privacy Leakage
+- [[AI Risks/Privacy Leakage/Privacy Leakage]]
+  collapsed:: true
+	- **Description**: "The model is trained with personal data in the corpus and unintentionally exposing them during the conversation."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/02.07.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/3/Other]]
+	- **Domain**: [[AI Risk Domain/2. Privacy & Security]]
+	- **Sub-domain**: [[AI Risk/Domain/2. Privacy & Security/2.1/Compromise of privacy by leaking or correctly inferring sensitive information]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Private Training Data
+- [[AI Risks/Privacy Leakage/Private Training Data]]
+  collapsed:: true
+	- **Description**: "As recent LLMs continue to incorporate licensed, created, and publicly available data sources in their corpora, the potential to mix private data in the training corpora is significantly increased. The misused private data, also named as personally identifiable information (PII) [84], [86], could contain various types of sensitive data subjects, including an individual person’s name, email, phone number, address, education, and career. Generally, injecting PII into LLMs mainly occurs in two settings — the exploitation of web-collection data and the alignment with personal humanmachine conversations [87]. Specifically, the web-collection data can be crawled from online sources with sensitive PII, and the personal human-machine conversations could be collected for SFT and RLHF"
+	- **Evidence ID**: [[MIT/AI Risks/by ID/02.07.01]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/1/Pre-deployment]]
+	- **Domain**: [[AI Risk Domain/2. Privacy & Security]]
+	- **Sub-domain**: [[AI Risk/Domain/2. Privacy & Security/2.1/Compromise of privacy by leaking or correctly inferring sensitive information]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Memorization in LLMs
+- [[AI Risks/Privacy Leakage/Memorization in LLMs]]
+  collapsed:: true
+	- **Description**: "Memorization in LLMs refers to the capability to recover the training data with contextual prefixes. According to [88]–[90], given a PII entity x, which is memorized by a model F. Using a prompt p could force the model F to produce the entity x, where p and x exist in the training data. For instance, if the string “Have a good day!\n alice@email.com” is present in the training data, then the LLM could accurately predict Alice’s email when given the prompt “Have a good day!\n”."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/02.07.02]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/1/Pre-deployment]]
+	- **Domain**: [[AI Risk Domain/2. Privacy & Security]]
+	- **Sub-domain**: [[AI Risk/Domain/2. Privacy & Security/2.1/Compromise of privacy by leaking or correctly inferring sensitive information]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Association in LLMs
+- [[AI Risks/Privacy Leakage/Association in LLMs]]
+  collapsed:: true
+	- **Description**: "Association in LLMs refers to the capability to associate various pieces of information related to a person. According to [68], [86], given a pair of PII entities (xi , xj ), which is associated by a model F. Using a prompt p could force the model F to produce the entity xj , where p is the prompt related to the entity xi . For instance, an LLM could accurately output the answer when given the prompt “The email address of Alice is”, if the LLM associates Alice with her email “alice@email.com”. L"
+	- **Evidence ID**: [[MIT/AI Risks/by ID/02.07.03]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/1/Pre-deployment]]
+	- **Domain**: [[AI Risk Domain/2. Privacy & Security]]
+	- **Sub-domain**: [[AI Risk/Domain/2. Privacy & Security/2.1/Compromise of privacy by leaking or correctly inferring sensitive information]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Toxicity and Bias Tendencies
+- [[AI Risks/Toxicity and Bias Tendencies/Toxicity and Bias Tendencies]]
+  collapsed:: true
+	- **Description**: "Extensive data collection in LLMs brings toxic content and stereotypical bias into the training data."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/02.08.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/1/Pre-deployment]]
+	- **Domain**: [[AI Risk Domain/1. Discrimination & Toxicity]]
+	- **Sub-domain**: [[AI Risk/Domain/1. Discrimination & Toxicity/1.1/Unfair discrimination and misrepresentation]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Toxic Training Data
+- [[AI Risks/Toxicity and Bias Tendencies/Toxic Training Data]]
+  collapsed:: true
+	- **Description**: "Following previous studies [96], [97], toxic data in LLMs is defined as rude, disrespectful, or unreasonable language that is opposite to a polite, positive, and healthy language environment, including hate speech, offensive utterance, profanities, and threats [91]."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/02.08.01]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/1/Pre-deployment]]
+	- **Domain**: [[AI Risk Domain/1. Discrimination & Toxicity]]
+	- **Sub-domain**: [[AI Risk/Domain/1. Discrimination & Toxicity/1.2/Exposure to toxic content]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Biased Training Data
+- [[AI Risks/Toxicity and Bias Tendencies/Biased Training Data]]
+  collapsed:: true
+	- **Description**: "Compared with the definition of toxicity, the definition of bias is more subjective and contextdependent. Based on previous work [97], [101], we describe the bias as disparities that could raise demographic differences among various groups, which may involve demographic word prevalence and stereotypical contents. Concretely, in massive corpora, the prevalence of different pronouns and identities could influence an LLM’s tendency about gender, nationality, race, religion, and culture [4]. For instance, the pronoun He is over-represented compared with the pronoun She in the training corpora, leading LLMs to learn less context about She and thus generate He with a higher probability [4], [102]. Furthermore, stereotypical bias [103] which refers to overgeneralized beliefs about a particular group of people, usually keeps incorrect values and is hidden in the large-scale benign contents. In effect, defining what should be regarded as a stereotype in the corpora is still an open problem."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/02.08.02]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/1/Pre-deployment]]
+	- **Domain**: [[AI Risk Domain/1. Discrimination & Toxicity]]
+	- **Sub-domain**: [[AI Risk/Domain/1. Discrimination & Toxicity/1.1/Unfair discrimination and misrepresentation]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Hallucinations
+- [[AI Risks/Hallucinations/Hallucinations]]
+  collapsed:: true
+	- **Description**: "LLMs generate nonsensical, untruthful, and factual incorrect content"
+	- **Evidence ID**: [[MIT/AI Risks/by ID/02.09.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/3/Other]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk/Domain/3. Misinformation]]
+	- **Sub-domain**: [[AI Risk/Domain/3. Misinformation/3.1/False or misleading information]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Knowledge Gaps
+- [[AI Risks/Hallucinations/Knowledge Gaps]]
+  collapsed:: true
+	- **Description**: "Since the training corpora of LLMs can not contain all possible world knowledge [114]–[119], and it is challenging for LLMs to grasp the long-tail knowledge within their training data [120], [121], LLMs inherently possess knowledge boundaries [107]. Therefore, the gap between knowledge involved in an input prompt and knowledge embedded in the LLMs can lead to hallucinations"
+	- **Evidence ID**: [[MIT/AI Risks/by ID/02.09.01]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/3/Other]]
+	- **Domain**: [[AI Risk/Domain/3. Misinformation]]
+	- **Sub-domain**: [[AI Risk/Domain/3. Misinformation/3.1/False or misleading information]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Noisy Training Data
+- [[AI Risks/Hallucinations/Noisy Training Data]]
+  collapsed:: true
+	- **Description**: "Another important source of hallucinations is the noise in training data, which introduces errors in the knowledge stored in model parameters [111]–[113]. Generally, the training data inherently harbors misinformation. When training on large-scale corpora, this issue becomes more serious because it is difficult to eliminate all the noise from the massive pre-training data."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/02.09.02]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/1/Pre-deployment]]
+	- **Domain**: [[AI Risk/Domain/3. Misinformation]]
+	- **Sub-domain**: [[AI Risk/Domain/3. Misinformation/3.1/False or misleading information]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Defective Decoding Process
+- [[AI Risks/Hallucinations/Defective Decoding Process]]
+  collapsed:: true
+	- **Description**: In general, LLMs employ the Transformer architecture [32] and generate content in an autoregressive manner, where the prediction of the next token is conditioned on the previously generated token sequence. Such a scheme could accumulate errors [105]. Besides, during the decoding process, top-p sampling [28] and top-k sampling [27] are widely adopted to enhance the diversity of the generated content. Nevertheless, these sampling strategies can introduce “randomness” [113], [136], thereby increasing the potential of hallucinations"
+	- **Evidence ID**: [[MIT/AI Risks/by ID/02.09.03]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/1/Pre-deployment]]
+	- **Domain**: [[AI Risk/Domain/3. Misinformation]]
+	- **Sub-domain**: [[AI Risk/Domain/3. Misinformation/3.1/False or misleading information]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### False Recall of Memorized Information
+- [[AI Risks/Hallucinations/False Recall of Memorized Information]]
+  collapsed:: true
+	- **Description**: "Although LLMs indeed memorize the queried knowledge, they may fail to recall the corresponding information [122]. That is because LLMs can be confused by co-occurance patterns [123], positional patterns [124], duplicated data [125]–[127] and similar named entities [113]."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/02.09.04]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/3/Other]]
+	- **Domain**: [[AI Risk/Domain/3. Misinformation]]
+	- **Sub-domain**: [[AI Risk/Domain/3. Misinformation/3.1/False or misleading information]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Pursuing Consistent Context
+- [[AI Risks/Hallucinations/Pursuing Consistent Context]]
+  collapsed:: true
+	- **Description**: "LLMs have been demonstrated to pursue consistent context [129]–[132], which may lead to erroneous generation when the prefixes contain false information. Typical examples include sycophancy [129], [130], false demonstrations-induced hallucinations [113], [133], and snowballing [131]. As LLMs are generally fine-tuned with instruction-following data and user feedback, they tend to reiterate user-provided opinions [129], [130], even though the opinions contain misinformation. Such a sycophantic behavior amplifies the likelihood of generating hallucinations, since the model may prioritize user opinions over facts."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/02.09.05]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk/Domain/3. Misinformation]]
+	- **Sub-domain**: [[AI Risk/Domain/3. Misinformation/3.1/False or misleading information]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Model Attacks
+- [[AI Risks/Model Attacks/Model Attacks]]
+  collapsed:: true
+	- **Description**: Model attacks exploit the vulnerabilities of LLMs, aiming to steal valuable information or lead to incorrect responses.
+	- **Evidence ID**: [[MIT/AI Risks/by ID/02.10.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/3/Other]]
+	- **Domain**: [[AI Risk Domain/2. Privacy & Security]]
+	- **Sub-domain**: [[AI Risk/Domain/2. Privacy & Security/2.2/AI system security vulnerabilities and attacks]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Extraction Attacks
+- [[AI Risks/Model Attacks/Extraction Attacks]]
+  collapsed:: true
+	- **Description**: "Extraction attacks [137] allow an adversary to query a black-box victim model and build a substitute model by training on the queries and responses. The substitute model could achieve almost the same performance as the victim model. While it is hard to fully replicate the capabilities of LLMs, adversaries could develop a domainspecific model that draws domain knowledge from LLMs"
+	- **Evidence ID**: [[MIT/AI Risks/by ID/02.10.01]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/2. Privacy & Security]]
+	- **Sub-domain**: [[AI Risk/Domain/2. Privacy & Security/2.2/AI system security vulnerabilities and attacks]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Inference Attacks
+- [[AI Risks/Model Attacks/Inference Attacks]]
+  collapsed:: true
+	- **Description**: "Inference attacks [150] include membership inference attacks, property inference attacks, and data reconstruction attacks. These attacks allow an adversary to infer the composition or property information of the training data. Previous works [67] have demonstrated that inference attacks could easily work in earlier PLMs, implying that LLMs are also possible to be attacked"
+	- **Evidence ID**: [[MIT/AI Risks/by ID/02.10.02]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/2. Privacy & Security]]
+	- **Sub-domain**: [[AI Risk/Domain/2. Privacy & Security/2.2/AI system security vulnerabilities and attacks]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Poisoning Attacks
+- [[AI Risks/Model Attacks/Poisoning Attacks]]
+  collapsed:: true
+	- **Description**: "Poisoning attacks [143] could influence the behavior of the model by making small changes to the training data. A number of efforts could even leverage data poisoning techniques to implant hidden triggers into models during the training process (i.e., backdoor attacks). Many kinds of triggers in text corpora (e.g., characters, words, sentences, and syntax) could be used by the attackers.""
+	- **Evidence ID**: [[MIT/AI Risks/by ID/02.10.03]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/1/Pre-deployment]]
+	- **Domain**: [[AI Risk Domain/2. Privacy & Security]]
+	- **Sub-domain**: [[AI Risk/Domain/2. Privacy & Security/2.2/AI system security vulnerabilities and attacks]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Overhead Attacks
+- [[AI Risks/Model Attacks/Overhead Attacks]]
+  collapsed:: true
+	- **Description**: "Overhead attacks [146] are also named energy-latency attacks. For example, an adversary can design carefully crafted sponge examples to maximize energy consumption in an AI system. Therefore, overhead attacks could also threaten the platforms integrated with LLMs."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/02.10.04]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/3/Other]]
+	- **Domain**: [[AI Risk Domain/2. Privacy & Security]]
+	- **Sub-domain**: [[AI Risk/Domain/2. Privacy & Security/2.2/AI system security vulnerabilities and attacks]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Novel Attacks on LLMs
+- [[AI Risks/Model Attacks/Novel Attacks on LLMs]]
+  collapsed:: true
+	- **Description**: Table of examples has: "Prompt Abstraction Attacks [147]: Abstracting queries to cost lower prices using LLM’s API. Reward Model Backdoor Attacks [148]: Constructing backdoor triggers on LLM’s RLHF process. LLM-based Adversarial Attacks [149]: Exploiting LLMs to construct samples for model attacks"
+	- **Evidence ID**: [[MIT/AI Risks/by ID/02.10.05]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/3/Other]]
+	- **Domain**: [[AI Risk Domain/2. Privacy & Security]]
+	- **Sub-domain**: [[AI Risk/Domain/2. Privacy & Security/2.2/AI system security vulnerabilities and attacks]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Evasion Attacks
+- [[AI Risks/Model Attacks/Evasion Attacks]]
+  collapsed:: true
+	- **Description**: "Evasion attacks [145] target to cause significant shifts in model’s prediction via adding perturbations in the test samples to build adversarial examples. In specific, the perturbations can be implemented based on word changes, gradients, etc."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/02.10.06]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/1/Pre-deployment]]
+	- **Domain**: [[AI Risk Domain/2. Privacy & Security]]
+	- **Sub-domain**: [[AI Risk/Domain/2. Privacy & Security/2.2/AI system security vulnerabilities and attacks]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Not-Suitable-for-Work (NSFW) Prompts
+- [[AI Risks/Not-Suitable-for-Work (NSFW) Prompts/Not-Suitable-for-Work (NSFW) Prompts]]
+	- **Description**: "Inputting a prompt contain an unsafe topic (e.g., notsuitable-for-work (NSFW) content) by a benign user.
+	  "
+	- **Evidence ID**: [[MIT/AI Risks/by ID/02.11.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/1. Discrimination & Toxicity]]
+	- **Sub-domain**: [[AI Risk/Domain/1. Discrimination & Toxicity/1.2/Exposure to toxic content]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Insults
+- [[AI Risks/Not-Suitable-for-Work (NSFW) Prompts/Insults ]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/02.11.01]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/4/Not. coded]]
+	- **Timing**: [[AI Risk/Phase/4/Not. coded]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/X.1/Excluded]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Crimes
+- [[AI Risks/Not-Suitable-for-Work (NSFW) Prompts/Crimes]]
+  collapsed:: true
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/02.11.02]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/4/Not. coded]]
+	- **Timing**: [[AI Risk/Phase/4/Not. coded]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/X.1/Excluded]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Sensitive Politics
+- [[AI Risks/Not-Suitable-for-Work (NSFW) Prompts/Sensitive Politics]]
+  collapsed:: true
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/02.11.03]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/4/Not. coded]]
+	- **Timing**: [[AI Risk/Phase/4/Not. coded]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/X.1/Excluded]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Physical Harm
+- [[AI Risks/Not-Suitable-for-Work (NSFW) Prompts/Physical Harm]]
+  collapsed:: true
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/02.11.04]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/4/Not. coded]]
+	- **Timing**: [[AI Risk/Phase/4/Not. coded]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/X.1/Excluded]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Mental Health
+- [[AI Risks/Not-Suitable-for-Work (NSFW) Prompts/Mental Health]]
+  collapsed:: true
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/02.11.05]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/4/Not. coded]]
+	- **Timing**: [[AI Risk/Phase/4/Not. coded]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/X.1/Excluded]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Unfairness
+- [[AI Risks/Not-Suitable-for-Work (NSFW) Prompts/Unfairness]]
+  collapsed:: true
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/02.11.06]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/4/Not. coded]]
+	- **Timing**: [[AI Risk/Phase/4/Not. coded]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/X.1/Excluded]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Adversarial Prompts
+- [[AI Risks/Adversarial Prompts/Adversarial Prompts]]
+  collapsed:: true
+	- **Description**: "Engineering an adversarial input to elicit an undesired model behavior, which pose a clear attack intention"
+	- **Evidence ID**: [[MIT/AI Risks/by ID/02.12.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/2. Privacy & Security]]
+	- **Sub-domain**: [[AI Risk/Domain/2. Privacy & Security/2.2/AI system security vulnerabilities and attacks]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Goal Hijacking
+- [[AI Risks/Adversarial Prompts/Goal Hijacking]]
+  collapsed:: true
+	- **Description**: "Goal hijacking is a type of primary attack in prompt injection [58]. By injecting a phrase like “Ignore the above instruction and do ...” in the input, the attack could hijack the original goal of the designed prompt (e.g., translating tasks) in LLMs and execute the new goal in the injected phrase."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/02.12.01]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/2. Privacy & Security]]
+	- **Sub-domain**: [[AI Risk/Domain/2. Privacy & Security/2.2/AI system security vulnerabilities and attacks]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### One-step Jailbreaks
+- [[AI Risks/Adversarial Prompts/One-step Jailbreaks]]
+  collapsed:: true
+	- **Description**: "One-step jailbreaks. One-step jailbreaks commonly involve direct modifications to the prompt itself, such as setting role-playing scenarios or adding specific descriptions to prompts [14], [52], [67]–[73]. Role-playing is a prevalent method used in jailbreaking by imitating different personas [74]. Such a method is known for its efficiency and simplicity compared to more complex techniques that require domain knowledge [73]. Integration is another type of one-step jailbreaks that integrates benign information on the adversarial prompts to hide the attack goal. For instance, prefix integration is used to integrate an innocuous-looking prefix that is less likely to be rejected based on its pre-trained distributions [75]. Additionally, the adversary could treat LLMs as a program and encode instructions indirectly through code integration or payload splitting [63]. Obfuscation is to add typos or utilize synonyms for terms that trigger input or output filters. Obfuscation methods include the use of the Caesar cipher [64], leetspeak (replacing letters with visually similar numbers and symbols), and Morse code [76]. Besides, at the word level, an adversary may employ Pig Latin to replace sensitive words with synonyms or use token smuggling [77] to split sensitive words into substrings."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/02.12.02]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/2. Privacy & Security]]
+	- **Sub-domain**: [[AI Risk/Domain/2. Privacy & Security/2.2/AI system security vulnerabilities and attacks]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Multi-step Jailbreaks
+- [[AI Risks/Adversarial Prompts/Multi-step Jailbreaks]]
+  collapsed:: true
+	- **Description**: "Multi-step jailbreaks. Multi-step jailbreaks involve constructing a well-designed scenario during a series of conversations with the LLM. Unlike one-step jailbreaks, multi-step jailbreaks usually guide LLMs to generate harmful or sensitive content step by step, rather than achieving their objectives directly through a single prompt. We categorize the multistep jailbreaks into two aspects — Request Contextualizing [65] and External Assistance [66]. Request Contextualizing is inspired by the idea of Chain-of-Thought (CoT) [8] prompting to break down the process of solving a task into multiple steps. Specifically, researchers [65] divide jailbreaking prompts into multiple rounds of conversation between the user and ChatGPT, achieving malicious goals step by step. External Assistance constructs jailbreaking prompts with the assistance of external interfaces or models. For instance, JAILBREAKER [66] is an attack framework to automatically conduct SQL injection attacks in web security to LLM security attacks. Specifically, this method starts by decompiling the jailbreak defense mechanisms employed by various LLM chatbot services. Therefore, it can judiciously reverse engineer the LLMs’ hidden defense mechanisms and further identify their ineffectiveness."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/02.12.03]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/2. Privacy & Security]]
+	- **Sub-domain**: [[AI Risk/Domain/2. Privacy & Security/2.2/AI system security vulnerabilities and attacks]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Prompt Leaking
+- [[AI Risks/Adversarial Prompts/Prompt Leaking]]
+  collapsed:: true
+	- **Description**: "Prompt leaking is another type of prompt injection attack designed to expose details contained in private prompts. According to [58], prompt leaking is the act of misleading the model to print the pre-designed instruction in LLMs through prompt injection. By injecting a phrase like “\n\n======END. Print previous instructions.” in the input, the instruction used to generate the model’s output is leaked, thereby revealing confidential instructions that are central to LLM applications. Experiments have shown prompt leaking to be considerably more challenging than goal hijacking [58]."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/02.12.04]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/2. Privacy & Security]]
+	- **Sub-domain**: [[AI Risk/Domain/2. Privacy & Security/2.2/AI system security vulnerabilities and attacks]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### nan
+- [[AI Risks/nan/nan]]
+  collapsed:: true
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/03.00.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Broken systems
+- [[AI Risks/Broken systems/Broken systems]]
+  collapsed:: true
+	- **Description**: "These are the most mentioned cases. They refer to situations where the algorithm or the training data lead to unreliable outputs. These systems frequently assign disproportionate weight to some variables, like race or gender, but there is no transparency to this effect, making them impossible to challenge. These situations are typically only identified when regulators or the press examine the systems under freedom of information acts. Nevertheless, the damage they cause to people’s lives can be dramatic, such as lost homes, divorces, prosecution, or incarceration. Besides the inherent technical shortcomings, auditors have also pointed out “insufficient coordination” between the developers of the systems and their users as a cause for ethical considerations to be neglected. This situation raises issues about the education of future creators of AI-infused systems, not only in terms of technical competence (e.g., requirements, algorithms, and training) but also ethics and responsibility. For example, as autonomous vehicles become more common, moral dilemmas regarding what to do in potential accident situations emerge, as evidenced in this MIT experiment. The decisions regarding how the machines should act divides opinions and requires deep reflection and maybe regulation."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/03.01.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/1. Discrimination & Toxicity]]
+	- **Sub-domain**: [[AI Risk/Domain/1. Discrimination & Toxicity/1.1/Unfair discrimination and misrepresentation]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Hallucinations
+- [[AI Risks/Hallucinations/Hallucinations]]
+  collapsed:: true
+	- **Description**: "The inclusion of erroneous information in the outputs from AI systems is not new. Some have cautioned against the introduction of false structures in X-ray or MRI images, and others have warned about made-up academic references. However, as ChatGPT-type tools become available to the general population, the scale of the problem may increase dramatically. Furthermore, it is compounded by the fact that these conversational AIs present true and false information with the same apparent “confidence” instead of declining to answer when they cannot ensure correctness. With less knowledgeable people, this can lead to the heightening of misinformation and potentially dangerous situations. Some have already led to court cases.'
+	- **Evidence ID**: [[MIT/AI Risks/by ID/03.02.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk/Domain/3. Misinformation]]
+	- **Sub-domain**: [[AI Risk/Domain/3. Misinformation/3.1/False or misleading information]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Intellectual property rights violations
+- [[AI Risks/Intellectual property rights violations/Intellectual property rights violations]]
+  collapsed:: true
+	- **Description**: "This is an emerging category, with more cases prone to appear as the use of generative AI tools–such as Stable Diffusion, Midjourney, or ChatGPT–becomes more widespread. Some content creators are already suing for the appropriation of their work to train AI algorithms without a request for permission or compensation. Perhaps even more damaging cases will appear as developers increasingly ask chatbots or assistants like CoPilot for ready-to-use computer code. Even if these AI tools have learned only from open-source software (OSS) projects, which is not a given, there are still serious issues to consider, as not all OSS licenses are equal, and some are incompatible with others, meaning that it is illegal to mix them in the same product. Even worse, some licenses, such as GPL, are viral, meaning that any code that uses a GPL component must legally be made available under that same license. In the past, companies have suffered injunctions or been forced to make their proprietary source code available because of carelessly using a GPL library."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/03.03.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/3/Other]]
+	- **Timing**: [[AI Risk/Phase/3/Other]]
+	- **Domain**: [[AI Risk Domain/6. Socioeconomic and Environmental]]
+	- **Sub-domain**: [[AI Risk/Domain/6. Socioeconomic and Environmental/6.3/Economic and cultural devaluation of human effort]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Privacy and regulation violations
+- [[AI Risks/Privacy and regulation violations/Privacy and regulation violations]]
+  collapsed:: true
+	- **Description**: "Some of the broken systems discussed above are also very invasive of people’s privacy, controlling, for instance, the length of someone’s last romantic relationship [51]. More recently, ChatGPT was banned in Italy over privacy concerns and potential violation of the European Union’s (EU) General Data Protection Regulation (GDPR) [52]. The Italian data-protection authority said, “the app had experienced a data breach involving user conversations and payment information.” It also claimed that there was no legal basis to justify “the mass collection and storage of personal data for the purpose of ‘training’ the algorithms underlying the operation of the platform,” among other concerns related to the age of the users [52]. Privacy regulators in France, Ireland, and Germany could follow in Italy’s footsteps [53]. Coincidentally, it has recently become public that Samsung employees have inadvertently leaked trade secrets by using ChatGPT to assist in preparing notes for a presentation and checking and optimizing source code [54, 55]. Another example of testing the ethics and regulatory limits can be found in actions of the facial recognition company Clearview AI, which “scraped the public web—social media, employment sites, YouTube, Venmo—to create a database with three billion images of people, along with links to the webpages from which the photos had come” [56]. Trials of this unregulated database have been offered to individual law enforcement officers who often use it without their department’s approval [57]. In Sweden, such illegal use by the police force led to a fine of e250,000 by the country’s data watchdog [57]."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/03.04.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/2. Privacy & Security]]
+	- **Sub-domain**: [[AI Risk/Domain/2. Privacy & Security/2.1/Compromise of privacy by leaking or correctly inferring sensitive information]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Enabling malicious actors and harmful actions
+- [[AI Risks/Enabling malicious actors and harmful actions/Enabling malicious actors and harmful actions]]
+  collapsed:: true
+	- **Description**: "Some uses of AI have been deeply
+	  concerning, namely voice cloning [58] and the generation of deep fake videos [59].
+	  For example, in March 2022, in the early days of the Russian invasion of Ukraine,
+	  hackers broadcast via the Ukrainian news website Ukraine 24 a deep fake video of
+	  President Volodymyr Zelensky capitulating and calling on his soldiers to lay down their
+	  weapons [60]. The necessary software to create these fakes is readily available on the
+	  Internet, and the hardware requirements are modest by today’s standards [61]. Other
+	  nefarious uses of AI include accelerating password cracking [62] or enabling otherwise
+	  unskilled people to create software exploits [63, 64], or effective phishing e-mails [65].
+	  Although some believe that powerful AI models should be prevented from running
+	  on personal computers to retain some control, others demonstrate how inglorious that
+	  effort may be [66]. Furthermore, as ChatGPT-type systems evolve from conversational
+	  systems to agents, capable of acting autonomously and performing tasks with little
+	  human intervention, like Auto-GPT [67], new risks emerge."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/03.05.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk/Domain/4. Malicious Actors & Misuse]]
+	- **Sub-domain**: [[AI Risk/Domain/4. Malicious Actors & Misuse/4.0/Malicious use]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Environmental and socioeconomic harms
+- [[AI Risks/Environmental and socioeconomic harms/Environmental and socioeconomic harms]]
+  collapsed:: true
+	- **Description**: "At a time of increasing climate urgency,
+	  energy consumption and the carbon footprint of AI applications are also matters of ethics
+	  and responsibility [68]. As with other energy-intensive technologies like proof-of-work
+	  blockchain, the call is to research more environmentally sustainable algorithms to offset
+	  the increasing use scale."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/03.06.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/6. Socioeconomic and Environmental]]
+	- **Sub-domain**: [[AI Risk/Domain/6. Socioeconomic and Environmental/6.6/Environmental harm]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### nan
+- [[AI Risks/nan/nan]]
+  collapsed:: true
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/04.00.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Toxicity and Abusive Content
+- [[AI Risks/Toxicity and Abusive Content/Toxicity and Abusive Content]]
+  collapsed:: true
+	- **Description**: This typically refers to rude, harmful, or inappropriate expressions.
+	- **Evidence ID**: [[MIT/AI Risks/by ID/04.01.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/3/Other]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/1. Discrimination & Toxicity]]
+	- **Sub-domain**: [[AI Risk/Domain/1. Discrimination & Toxicity/1.2/Exposure to toxic content]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Unfairness and Discrimination
+- [[AI Risks/Unfairness and Discrimination/Unfairness and Discrimination]]
+  collapsed:: true
+	- **Description**: Social bias is an unfairly negative attitude towards a social group or individuals based on one-sided or inaccurate information, typically pertaining to widely disseminated negative stereotypes regarding gender, race, religion, etc.
+	- **Evidence ID**: [[MIT/AI Risks/by ID/04.02.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/3/Other]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/1. Discrimination & Toxicity]]
+	- **Sub-domain**: [[AI Risk/Domain/1. Discrimination & Toxicity/1.1/Unfair discrimination and misrepresentation]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Ethics and Morality Issues
+- [[AI Risks/Ethics and Morality Issues/Ethics and Morality Issues]]
+  collapsed:: true
+	- **Description**: LMs need to pay more attention to universally accepted societal values at the level of ethics and morality, including the judgement of right and wrong, and its relationship with social norms and laws.
+	- **Evidence ID**: [[MIT/AI Risks/by ID/04.03.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/3/Other]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/7. AI System Safety, Failures, & Limitations]]
+	- **Sub-domain**: [[AI Risk/Domain/7. AI System Safety, Failures, & Limitations/7.3/Lack of capability or robustness]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Controversial Opinions
+- [[AI Risks/Controversial Opinions/Controversial Opinions]]
+  collapsed:: true
+	- **Description**: The controversial views expressed by large models are also a widely discussed concern. Bang et al. (2021) evaluated several large models and found that they occasionally express inappropriate or extremist views when discussing political top-ics. Furthermore, models like ChatGPT (OpenAI, 2022) that claim political neutrality and aim to provide objective information for users have been shown to exhibit notable left-leaning political biases in areas like economics, social policy, foreign affairs, and civil liberties.
+	- **Evidence ID**: [[MIT/AI Risks/by ID/04.04.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/3/Other]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/1. Discrimination & Toxicity]]
+	- **Sub-domain**: [[AI Risk/Domain/1. Discrimination & Toxicity/1.2/Exposure to toxic content]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Misleading Information
+- [[AI Risks/Misleading Information/Misleading Information]]
+  collapsed:: true
+	- **Description**: Large models are usually susceptible to hallucination problems, sometimes yielding nonsensical or unfaithful data that results in misleading outputs.
+	- **Evidence ID**: [[MIT/AI Risks/by ID/04.05.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk/Domain/3. Misinformation]]
+	- **Sub-domain**: [[AI Risk/Domain/3. Misinformation/3.1/False or misleading information]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Privacy and Data Leakage
+- [[AI Risks/Privacy and Data Leakage/Privacy and Data Leakage]]
+  collapsed:: true
+	- **Description**: Large pre-trained models trained on internet texts might contain private information like phone numbers, email addresses, and residential addresses.
+	- **Evidence ID**: [[MIT/AI Risks/by ID/04.06.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/1/Pre-deployment]]
+	- **Domain**: [[AI Risk Domain/2. Privacy & Security]]
+	- **Sub-domain**: [[AI Risk/Domain/2. Privacy & Security/2.1/Compromise of privacy by leaking or correctly inferring sensitive information]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Malicious Use and Unleashing AI Agents
+- [[AI Risks/Malicious Use and Unleashing AI Agents/Malicious Use and Unleashing AI Agents]]
+  collapsed:: true
+	- **Description**: LMs, due to their remarkable capabilities, carry the same potential for malice as other technological products. For instance, they may be used in information warfare to generate deceptive information or unlawful content, thereby having a significant impact on individuals and society. As current LMs are increasingly built as agents to accomplish user objectives, they may disregard the moral and safety guidelines if operating without adequate supervision. Instead, they may execute user commands mechanically without considering the potential damage. They might interact unpredictably with humans and other systems, especially in open environments
+	- **Evidence ID**: [[MIT/AI Risks/by ID/04.07.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk/Domain/4. Malicious Actors & Misuse]]
+	- **Sub-domain**: [[AI Risk/Domain/4. Malicious Actors & Misuse/4.0/Malicious use]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### nan
+- [[AI Risks/nan/nan]]
+  collapsed:: true
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/05.00.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Fairness - Bias
+- [[AI Risks/Fairness - Bias/Fairness - Bias]]
+  collapsed:: true
+	- **Description**: Fairness is, by far, the most discussed issue in the literature, remaining a paramount concern especially in case of LLMs and text-to-image models. This is sparked by training data biases propagating into model outputs, causing negative effects like stereotyping, racism, sexism, ideological leanings, or the marginalization of minorities. Next to attesting generative AI a conservative inclination by perpetuating existing societal patterns, there is a concern about reinforcing existing biases when training new generative models with synthetic data from previous models. Beyond technical fairness issues, critiques in the literature extend to the monopolization or centralization of power in large AI labs, driven by the substantial costs of developing foundational models. The literature also highlights the problem of unequal access to generative AI, particularly in developing countries or among financially constrained groups. Sources also analyze challenges of the AI research community to ensure workforce diversity. Moreover, there are concerns regarding the imposition of values embedded in AI systems on cultures distinct from those where the systems were developed.
+	- **Evidence ID**: [[MIT/AI Risks/by ID/05.01.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/1. Discrimination & Toxicity]]
+	- **Sub-domain**: [[AI Risk/Domain/1. Discrimination & Toxicity/1.1/Unfair discrimination and misrepresentation]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Safety
+- [[AI Risks/Safety/Safety]]
+  collapsed:: true
+	- **Description**: A primary concern is the emergence of human-level or superhuman generative models, commonly referred to as AGI, and their potential existential or catastrophic risks to humanity. Connected to that, AI safety aims at avoiding deceptive or power-seeking machine behavior, model self-replication, or shutdown evasion. Ensuring controllability, human oversight, and the implementation of red teaming measures are deemed to be essential in mitigating these risks, as is the need for increased AI safety research and promoting safety cultures within AI organizations instead of fueling the AI race. Furthermore, papers thematize risks from unforeseen emerging capabilities in generative models, restricting access to dangerous research works, or pausing AI research for the sake of improving safety or governance measures first. Another central issue is the fear of weaponizing AI or leveraging it for mass destruction, especially by using LLMs for the ideation and planning of how to attain, modify, and disseminate biological agents. In general, the threat of AI misuse by malicious individuals or groups, especially in the context of open-source models, is highlighted in the literature as a significant factor emphasizing the critical importance of implementing robust safety measures.
+	- **Evidence ID**: [[MIT/AI Risks/by ID/05.02.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/3/Other]]
+	- **Timing**: [[AI Risk/Phase/3/Other]]
+	- **Domain**: [[AI Risk Domain/7. AI System Safety, Failures, & Limitations]]
+	- **Sub-domain**: [[AI Risk/Domain/7. AI System Safety, Failures, & Limitations/7.1/AI pursuing its own goals in conflict with human goals or values]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Harmful Content - Toxicity
+- [[AI Risks/Harmful Content - Toxicity/Harmful Content - Toxicity]]
+  collapsed:: true
+	- **Description**: Generating unethical, fraudulent, toxic, violent, pornographic, or other harmful content is a further predominant concern, again focusing notably on LLMs and text-to-image models. Numerous studies highlight the risks associated with the intentional creation of disinformation, fake news, propaganda, or deepfakes, underscoring their significant threat to the integrity of public discourse and the trust in credible media. Additionally, papers explore the potential for generative models to aid in criminal activities, incidents of self-harm, identity theft, or impersonation. Furthermore, the literature investigates risks posed by LLMs when generating advice in high-stakes domains such as health, safety-related issues, as well as legal or financial matters.
+	- **Evidence ID**: [[MIT/AI Risks/by ID/05.03.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/1. Discrimination & Toxicity]]
+	- **Sub-domain**: [[AI Risk/Domain/1. Discrimination & Toxicity/1.2/Exposure to toxic content]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Hallucinations
+- [[AI Risks/Hallucinations/Hallucinations]]
+  collapsed:: true
+	- **Description**: Significant concerns are raised about LLMs inadvertently generating false or misleading information, as well as erroneous code. Papers not only critically analyze various types of reasoning errors in LLMs but also examine risks associated with specific types of misinformation, such as medical hallucinations. Given the propensity of LLMs to produce flawed outputs accompanied by overconfident rationales and fabricated references, many sources stress the necessity of manually validating and fact-checking the outputs of these models.
+	- **Evidence ID**: [[MIT/AI Risks/by ID/05.04.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk/Domain/3. Misinformation]]
+	- **Sub-domain**: [[AI Risk/Domain/3. Misinformation/3.1/False or misleading information]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Privacy
+- [[AI Risks/Privacy/Privacy]]
+  collapsed:: true
+	- **Description**: Generative AI systems, similar to traditional machine learning methods, are considered a threat to privacy and data protection norms. A major concern is the intended extraction or inadvertent leakage of sensitive or private information from LLMs. To mitigate this risk, strategies such as sanitizing training data to remove sensitive information or employing synthetic data for training are proposed.
+	- **Evidence ID**: [[MIT/AI Risks/by ID/05.05.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/3/Other]]
+	- **Timing**: [[AI Risk/Phase/3/Other]]
+	- **Domain**: [[AI Risk Domain/2. Privacy & Security]]
+	- **Sub-domain**: [[AI Risk/Domain/2. Privacy & Security/2.1/Compromise of privacy by leaking or correctly inferring sensitive information]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Interaction risks
+- [[AI Risks/Interaction risks/Interaction risks]]
+  collapsed:: true
+	- **Description**: Many novel risks posed by generative AI stem from the ways in which humans interact with these systems. For instance, sources discuss epistemic challenges in distinguishing AI-generated from human content. They also address the issue of anthropomorphization, which can lead to an excessive trust in generative AI systems. On a similar note, many papers argue that the use of conversational agents could impact mental well-being or gradually supplant interpersonal communication, potentially leading to a dehumanization of interactions. Additionally, a frequently discussed interaction risk in the literature is the potential of LLMs to manipulate human behavior or to instigate users to engage in unethical or illegal activities.
+	- **Evidence ID**: [[MIT/AI Risks/by ID/05.06.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/3/Other]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/5. Human-Computer Interaction]]
+	- **Sub-domain**: [[AI Risk/Domain/5. Human-Computer Interaction/5.1/Overreliance and unsafe use]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Security - Robustness
+- [[AI Risks/Security - Robustness/Security - Robustness]]
+  collapsed:: true
+	- **Description**: While AI safety focuses on threats emanating from generative AI systems, security centers on threats posed to these systems. The most extensively discussed issue in this context are jailbreaking risks, which involve techniques like prompt injection or visual adversarial examples designed to circumvent safety guardrails governing model behavior. Sources delve into various jailbreaking methods, such as role play or reverse exposure. Similarly, implementing backdoors or using model poisoning techniques bypass safety guardrails as well. Other security concerns pertain to model or prompt thefts.
+	- **Evidence ID**: [[MIT/AI Risks/by ID/05.07.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/3/Other]]
+	- **Domain**: [[AI Risk Domain/2. Privacy & Security]]
+	- **Sub-domain**: [[AI Risk/Domain/2. Privacy & Security/2.2/AI system security vulnerabilities and attacks]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Education - Learning
+- [[AI Risks/Education - Learning/Education - Learning]]
+  collapsed:: true
+	- **Description**: In contrast to traditional machine learning, the impact of generative AI in the educational sector receives considerable attention in the academic literature. Next to issues stemming from difficulties to distinguish student-generated from AI-generated content, which eventuates in various opportunities to cheat in online or written exams, sources emphasize the potential benefits of generative AI in enhancing learning and teaching methods, particularly in relation to personalized learning approaches. However, some papers suggest that generative AI might lead to reduced effort or laziness among learners. Additionally, a significant focus in the literature is on the promotion of literacy and education about generative AI systems themselves, such as by teaching prompt engineering techniques.
+	- **Evidence ID**: [[MIT/AI Risks/by ID/05.08.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk/Domain/4. Malicious Actors & Misuse]]
+	- **Sub-domain**: [[AI Risk/Domain/4. Malicious Actors & Misuse/4.3/Fraud, scams, and targeted manipulation]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Alignment
+- [[AI Risks/Alignment/Alignment]]
+  collapsed:: true
+	- **Description**: The general tenet of AI alignment involves training generative AI systems to be harmless, helpful, and honest, ensuring their behavior aligns with and respects human values. However, a central debate in this area concerns the methodological challenges in selecting appropriate values. While AI systems can acquire human values through feedback, observation, or debate, there remains ambiguity over which individuals are qualified or legitimized to provide these guiding signals. Another prominent issue pertains to deceptive alignment, which might cause generative AI systems to tamper evaluations. Additionally, many papers explore risks associated with reward hacking, proxy gaming, or goal misgeneralization in generative AI systems.
+	- **Evidence ID**: [[MIT/AI Risks/by ID/05.09.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/3/Other]]
+	- **Timing**: [[AI Risk/Phase/1/Pre-deployment]]
+	- **Domain**: [[AI Risk Domain/7. AI System Safety, Failures, & Limitations]]
+	- **Sub-domain**: [[AI Risk/Domain/7. AI System Safety, Failures, & Limitations/7.1/AI pursuing its own goals in conflict with human goals or values]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Cybercrime
+- [[AI Risks/Cybercrime/Cybercrime]]
+  collapsed:: true
+	- **Description**: Closely related to discussions surrounding security and harmful content, the field of cybersecurity investigates how generative AI is misused for fraudulent online activities. A particular focus lies on social engineering attacks, for instance by utilizing generative AI to impersonate humans, creating fake identities, cloning voices, or crafting phishing messages. Another prevalent concern is the use of LLMs for generating malicious code or hacking.
+	- **Evidence ID**: [[MIT/AI Risks/by ID/05.10.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk/Domain/4. Malicious Actors & Misuse]]
+	- **Sub-domain**: [[AI Risk/Domain/4. Malicious Actors & Misuse/4.2/Cyberattacks, weapon development or use, and mass harm]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Governance - Regulation
+- [[AI Risks/Governance - Regulation/Governance - Regulation]]
+  collapsed:: true
+	- **Description**: In response to the multitude of new risks associated with generative AI, papers advocate for legal regulation and governmental oversight. The focus of these discussions centers on the need for international coordination in AI governance, the establishment of binding safety standards for frontier models, and the development of mechanisms to sanction non-compliance. Furthermore, the literature emphasizes the necessity for regulators to gain detailed insights into the research and development processes within AI labs. Moreover, risk management strategies of these labs shall be evaluated. However, the literature also acknowledges potential risks of overregulation, which could hinder innovation.
+	- **Evidence ID**: [[MIT/AI Risks/by ID/05.11.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/4/Not. coded]]
+	- **Timing**: [[AI Risk/Phase/4/Not. coded]]
+	- **Domain**: [[AI Risk Domain/6. Socioeconomic and Environmental]]
+	- **Sub-domain**: [[AI Risk/Domain/6. Socioeconomic and Environmental/6.5/Governance failure]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Labor displacement - Economic impact
+- [[AI Risks/Labor displacement - Economic impact/Labor displacement - Economic impact]]
+  collapsed:: true
+	- **Description**: The literature frequently highlights concerns that generative AI systems could adversely impact the economy, potentially even leading to mass unemployment. This pertains to various fields, ranging from customer services to software engineering or crowdwork platforms. While new occupational fields like prompt engineering are created, the prevailing worry is that generative AI may exacerbate socioeconomic inequalities and lead to labor displacement. Additionally, papers debate potential large-scale worker deskilling induced by generative AI, but also productivity gains contingent upon outsourcing mundane or repetitive tasks to generative AI systems.
+	- **Evidence ID**: [[MIT/AI Risks/by ID/05.12.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/6. Socioeconomic and Environmental]]
+	- **Sub-domain**: [[AI Risk/Domain/6. Socioeconomic and Environmental/6.2/Increased inequality and decline in employment quality]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Transparency - Explainability
+- [[AI Risks/Transparency - Explainability/Transparency - Explainability]]
+  collapsed:: true
+	- **Description**: Being a multifaceted concept, the term 'transparency' is both used to refer to technical explainability as well as organizational openness. Regarding the former, papers underscore the need for mechanistic interpretability and for explaining internal mechanisms in generative models. On the organizational front, transparency relates to practices such as informing users about capabilities and shortcomings of models, as well as adhering to documentation and reporting requirements for data collection processes or risk evaluations.
+	- **Evidence ID**: [[MIT/AI Risks/by ID/05.13.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/4/Not. coded]]
+	- **Timing**: [[AI Risk/Phase/4/Not. coded]]
+	- **Domain**: [[AI Risk Domain/7. AI System Safety, Failures, & Limitations]]
+	- **Sub-domain**: [[AI Risk/Domain/7. AI System Safety, Failures, & Limitations/7.4/Lack of transparency or interpretability]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Evaluation - Auditing
+- [[AI Risks/Evaluation - Auditing/Evaluation - Auditing]]
+  collapsed:: true
+	- **Description**: Closely related to other clusters like AI safety, fairness, or harmful content, papers stress the importance of evaluating generative AI systems both in a narrow technical way as well as in a broader sociotechnical impact assessment focusing on pre-release audits as well as post-deployment monitoring. Ideally, these evaluations should be conducted by independent third parties. In terms of technical LLM or text-to-image model audits, papers furthermore criticize a lack of safety benchmarking for languages other than English.
+	- **Evidence ID**: [[MIT/AI Risks/by ID/05.14.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/4/Not. coded]]
+	- **Timing**: [[AI Risk/Phase/4/Not. coded]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/X.1/Excluded]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Sustainability
+- [[AI Risks/Sustainability/Sustainability]]
+  collapsed:: true
+	- **Description**: Generative models are known for their substantial energy requirements, necessitating significant amounts of electricity, cooling water, and hardware containing rare metals. The extraction and utilization of these resources frequently occur in unsustainable ways. Consequently, papers highlight the urgency of mitigating environmental costs for instance by adopting renewable energy sources and utilizing energy-efficient hardware in the operation and training of generative AI systems.
+	- **Evidence ID**: [[MIT/AI Risks/by ID/05.15.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/3/Other]]
+	- **Domain**: [[AI Risk Domain/6. Socioeconomic and Environmental]]
+	- **Sub-domain**: [[AI Risk/Domain/6. Socioeconomic and Environmental/6.6/Environmental harm]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Art - Creativity
+- [[AI Risks/Art - Creativity/Art - Creativity]]
+  collapsed:: true
+	- **Description**: In this cluster, concerns about negative impacts on human creativity, particularly through text-to-image models, are prevalent. Papers criticize financial harms or economic losses for artists due to the widespread generation of synthetic art as well as the unauthorized and uncompensated use of artists' works in training datasets. Additionally, given the challenge of distinguishing synthetic images from authentic ones, there is a call for systematically disclosing the non-human origin of such content, particularly through watermarking. Moreover, while some sources argue that text-to-image models lack 'true' creativity or the ability to produce genuinely innovative aesthetics, others point out positive aspects regarding the acceleration of human creativity.
+	- **Evidence ID**: [[MIT/AI Risks/by ID/05.16.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/6. Socioeconomic and Environmental]]
+	- **Sub-domain**: [[AI Risk/Domain/6. Socioeconomic and Environmental/6.3/Economic and cultural devaluation of human effort]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Copyright - Authorship
+- [[AI Risks/Copyright - Authorship/Copyright - Authorship]]
+  collapsed:: true
+	- **Description**: The emergence of generative AI raises issues regarding disruptions to existing copyright norms. Frequently discussed in the literature are violations of copyright and intellectual property rights stemming from the unauthorized collection of text or image training data. Another concern relates to generative models memorizing or plagiarizing copyrighted content. Additionally, there are open questions and debates around the copyright or ownership of model outputs, the protection of creative prompts, and the general blurring of traditional concepts of authorship.
+	- **Evidence ID**: [[MIT/AI Risks/by ID/05.17.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/1/Pre-deployment]]
+	- **Domain**: [[AI Risk Domain/6. Socioeconomic and Environmental]]
+	- **Sub-domain**: [[AI Risk/Domain/6. Socioeconomic and Environmental/6.3/Economic and cultural devaluation of human effort]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Writing - Research
+- [[AI Risks/Writing - Research/Writing - Research]]
+  collapsed:: true
+	- **Description**: Partly overlapping with the discussion on impacts of generative AI on educational institutions, this topic cluster concerns mostly negative effects of LLMs on writing skills and research manuscript composition. The former pertains to the potential homogenization of writing styles, the erosion of semantic capital, or the stifling of individual expression. The latter is focused on the idea of prohibiting generative models for being used to compose scientific papers, figures, or from being a co-author. Sources express concern about risks for academic integrity, as well as the prospect of polluting the scientific literature by a flood of LLM-generated low-quality manuscripts. As a consequence, there are frequent calls for the development of detectors capable of identifying synthetic texts.
+	- **Evidence ID**: [[MIT/AI Risks/by ID/05.18.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk/Domain/4. Malicious Actors & Misuse]]
+	- **Sub-domain**: [[AI Risk/Domain/4. Malicious Actors & Misuse/4.3/Fraud, scams, and targeted manipulation]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Miscellaneous
+- [[AI Risks/Miscellaneous/Miscellaneous]]
+  collapsed:: true
+	- **Description**: While the scoping review identified distinct topic clusters within the literature, it also revealed certain issues that either do not fit into these categories, are discussed infrequently, or in a nonspecific manner. For instance, some papers touch upon concepts like trustworthiness, accountability, or responsibility, but often remain vague about what they entail in detail. Similarly, a few papers vaguely attribute socio-political instability or polarization to generative AI without delving into specifics. Apart from that, another minor topic area concerns responsible approaches of talking about generative AI systems. This includes avoiding overstating the capabilities of generative AI, reducing the hype surrounding it, or evading anthropomorphized language to describe model capabilities.
+	- **Evidence ID**: [[MIT/AI Risks/by ID/05.19.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/4/Not. coded]]
+	- **Timing**: [[AI Risk/Phase/4/Not. coded]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/X.1/Excluded]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### nan
+- [[AI Risks/nan/nan]]
+  collapsed:: true
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/06.00.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Incompetence
+- [[AI Risks/Incompetence/Incompetence]]
+  collapsed:: true
+	- **Description**: "This means the AI simply failing in its job. The consequences can vary from unintentional death (a car crash) to an unjust rejection of a loan or job application."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/06.01.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/7. AI System Safety, Failures, & Limitations]]
+	- **Sub-domain**: [[AI Risk/Domain/7. AI System Safety, Failures, & Limitations/7.3/Lack of capability or robustness]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Loss of privacy
+- [[AI Risks/Loss of privacy/Loss of privacy]]
+  collapsed:: true
+	- **Description**: "AI offers the temptation to abuse someone's personal data, for instance to build a profile of them to target advertisements more effectively."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/06.02.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/2. Privacy & Security]]
+	- **Sub-domain**: [[AI Risk/Domain/2. Privacy & Security/2.1/Compromise of privacy by leaking or correctly inferring sensitive information]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Discrimination
+- [[AI Risks/Discrimination/Discrimination]]
+  collapsed:: true
+	- **Description**: "When AI is not carefully designed, it can discriminate against certain groups."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/06.03.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/1. Discrimination & Toxicity]]
+	- **Sub-domain**: [[AI Risk/Domain/1. Discrimination & Toxicity/1.1/Unfair discrimination and misrepresentation]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Bias
+- [[AI Risks/Bias/Bias]]
+  collapsed:: true
+	- **Description**: "The AI will only be as good as the data it is trained with. If the data contains bias (and much data does), then the AI will manifest that bias, too."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/06.04.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/1/Pre-deployment]]
+	- **Domain**: [[AI Risk Domain/1. Discrimination & Toxicity]]
+	- **Sub-domain**: [[AI Risk/Domain/1. Discrimination & Toxicity/1.1/Unfair discrimination and misrepresentation]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Erosion of Society
+- [[AI Risks/Erosion of Society/Erosion of Society]]
+  collapsed:: true
+	- **Description**: "With online news feeds, both on websites and social media platforms, the news is now highly personalized for us. We risk losing a shared sense of reality, a basic solidarity."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/06.05.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk/Domain/3. Misinformation]]
+	- **Sub-domain**: [[AI Risk/Domain/3. Misinformation/3.2/Pollution of information ecosystem and loss of consensus reality]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Lack of transparency
+- [[AI Risks/Lack of transparency/Lack of transparency]]
+  collapsed:: true
+	- **Description**: "The idea of a "black box" making decisions without any explanation, without offering insight in the process, has a couple of disadvantages: it may fail to gain the trust of its users and it may fail to meet regulatory standards such as the ability to audit."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/06.06.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/3/Other]]
+	- **Domain**: [[AI Risk Domain/7. AI System Safety, Failures, & Limitations]]
+	- **Sub-domain**: [[AI Risk/Domain/7. AI System Safety, Failures, & Limitations/7.4/Lack of transparency or interpretability]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Deception
+- [[AI Risks/Deception/Deception]]
+  collapsed:: true
+	- **Description**: "AI has become very good at creating fake content. From text to photos, audio and video. The name "Deep Fake" refers to content that is fake at such a level of complexity that our mind rules out the possibility that it is fake."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/06.07.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/3/Other]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk/Domain/4. Malicious Actors & Misuse]]
+	- **Sub-domain**: [[AI Risk/Domain/4. Malicious Actors & Misuse/4.3/Fraud, scams, and targeted manipulation]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Unintended consequences
+- [[AI Risks/Unintended consequences/Unintended consequences]]
+  collapsed:: true
+	- **Description**: "Sometimes an AI finds ways to achieve its given goals in ways that are completely different from what its creators had in mind."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/06.08.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/3/Other]]
+	- **Domain**: [[AI Risk Domain/7. AI System Safety, Failures, & Limitations]]
+	- **Sub-domain**: [[AI Risk/Domain/7. AI System Safety, Failures, & Limitations/7.1/AI pursuing its own goals in conflict with human goals or values]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Manipulation
+- [[AI Risks/Manipulation/Manipulation]]
+  collapsed:: true
+	- **Description**: "The 2016 scandal involving Cambridge Analytica is the most infamous example where people's data was crawled from Facebook and analytics were then provided to target these people with manipulative content for political purposes.While it may not have been AI per se, it is based on similar data and it is easy to
+	  see how AI would make this more effective"
+	- **Evidence ID**: [[MIT/AI Risks/by ID/06.09.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk/Domain/4. Malicious Actors & Misuse]]
+	- **Sub-domain**: [[AI Risk/Domain/4. Malicious Actors & Misuse/4.1/Disinformation, surveillance, and influence at scale]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Lethal Autonomous Weapons (LAW)
+- [[AI Risks/Lethal Autonomous Weapons (LAW)/Lethal Autonomous Weapons (LAW)]]
+  collapsed:: true
+	- **Description**: "What is debated as an ethical issue is the use of LAW — AI-driven weapons that fully autonomously take actions that intentionally kill humans."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/06.10.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk/Domain/4. Malicious Actors & Misuse]]
+	- **Sub-domain**: [[AI Risk/Domain/4. Malicious Actors & Misuse/4.2/Cyberattacks, weapon development or use, and mass harm]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Malicious use of AI
+- [[AI Risks/Malicious use of AI/Malicious use of AI]]
+  collapsed:: true
+	- **Description**: "Just as AI can be used in many different fields, it is unfortunately also helpful in perpetrating digital crimes. AI-supported malware and hacking are already a reality."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/06.11.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk/Domain/4. Malicious Actors & Misuse]]
+	- **Sub-domain**: [[AI Risk/Domain/4. Malicious Actors & Misuse/4.0/Malicious use]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Loss of Autonomy
+- [[AI Risks/Loss of Autonomy/Loss of Autonomy]]
+  collapsed:: true
+	- **Description**: "Delegating decisions to an AI, especially an AI that is not transparent and not contestable, may leave people feeling helpless, subjected to the decision power of a machine."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/06.12.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/5. Human-Computer Interaction]]
+	- **Sub-domain**: [[AI Risk/Domain/5. Human-Computer Interaction/5.2/Loss of human agency and autonomy]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Exclusion
+- [[AI Risks/Exclusion/Exclusion]]
+  collapsed:: true
+	- **Description**: "The best AI techniques requires a large amount resources: data, computational power and human AI experts. There is a risk that AI will end up in the hands of a few players, and most will lose out on its benefits."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/06.13.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/6. Socioeconomic and Environmental]]
+	- **Sub-domain**: [[AI Risk/Domain/6. Socioeconomic and Environmental/6.1/Power centralization and unfair distribution of benefits]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### nan
+- [[AI Risks/nan/nan]]
+  collapsed:: true
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/07.00.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Misuse
+- [[AI Risks/Misuse/Misuse]]
+  collapsed:: true
+	- **Description**: "The misuse class includes elements such as the potential for cyber threat actors to execute exploits with greater speed and impact or generate disinformation (such as "deep fake" media) at accelerated rates and effectiveness"
+	- **Evidence ID**: [[MIT/AI Risks/by ID/07.01.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk/Domain/4. Malicious Actors & Misuse]]
+	- **Sub-domain**: [[AI Risk/Domain/4. Malicious Actors & Misuse/4.0/Malicious use]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Accidents
+- [[AI Risks/Accidents/Accidents]]
+  collapsed:: true
+	- **Description**: "Accidents include unintended failure modes that, in principle, could be considered the fault of the system or the developer"
+	- **Evidence ID**: [[MIT/AI Risks/by ID/07.02.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/3/Other]]
+	- **Domain**: [[AI Risk Domain/7. AI System Safety, Failures, & Limitations]]
+	- **Sub-domain**: [[AI Risk/Domain/7. AI System Safety, Failures, & Limitations/7.3/Lack of capability or robustness]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Agential
+- [[AI Risks/Agential/Agential]]
+  collapsed:: true
+	- **Description**: "While there are multiple types of intelligent agents, goal-based, utility-maximizing, and learning agents are the primary concern and the focus of this research"
+	- **Evidence ID**: [[MIT/AI Risks/by ID/07.03.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/3/Other]]
+	- **Domain**: [[AI Risk Domain/7. AI System Safety, Failures, & Limitations]]
+	- **Sub-domain**: [[AI Risk/Domain/7. AI System Safety, Failures, & Limitations/7.1/AI pursuing its own goals in conflict with human goals or values]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Structural
+- [[AI Risks/Structural/Structural]]
+  collapsed:: true
+	- **Description**: "Structural risks are concerned with how AI technologies "shape and are shaped by the environments in which they are developed and deployed""
+	- **Evidence ID**: [[MIT/AI Risks/by ID/07.04.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/3/Other]]
+	- **Timing**: [[AI Risk/Phase/3/Other]]
+	- **Domain**: [[AI Risk Domain/6. Socioeconomic and Environmental]]
+	- **Sub-domain**: [[AI Risk/Domain/6. Socioeconomic and Environmental/6.0/Socioeconomic & Environmental]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### nan
+- [[AI Risks/nan/nan]]
+  collapsed:: true
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/08.00.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### AGI removing itself from the control of human owners/managers
+- [[AI Risks/AGI removing itself from the control of human owners or managers/AGI removing itself from the control of human owners or managers]]
+  collapsed:: true
+	- **Description**: "The risks associated with containment, confinement, and control in the AGI development phase, and after an AGI has been developed, loss of control of an AGI."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/08.01.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/3/Other]]
+	- **Timing**: [[AI Risk/Phase/3/Other]]
+	- **Domain**: [[AI Risk Domain/7. AI System Safety, Failures, & Limitations]]
+	- **Sub-domain**: [[AI Risk/Domain/7. AI System Safety, Failures, & Limitations/7.1/AI pursuing its own goals in conflict with human goals or values]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### AGIs being given or developing unsafe goals
+- [[AI Risks/AGIs being given or developing unsafe goals/AGIs being given or developing unsafe goals]]
+  collapsed:: true
+	- **Description**: "The risks associated with AGI goal safety, including human attempts at making goals safe, as well as the AGI making its own goals safe during self-improvement."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/08.02.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/3/Other]]
+	- **Timing**: [[AI Risk/Phase/1/Pre-deployment]]
+	- **Domain**: [[AI Risk Domain/7. AI System Safety, Failures, & Limitations]]
+	- **Sub-domain**: [[AI Risk/Domain/7. AI System Safety, Failures, & Limitations/7.1/AI pursuing its own goals in conflict with human goals or values]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Development of unsafe AGI
+- [[AI Risks/Development of unsafe AGI/Development of unsafe AGI]]
+  collapsed:: true
+	- **Description**: "The risks associated with the race to develop the first AGI, including the development of poor quality and unsafe AGI, and heightened political and control issues."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/08.03.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/3/Other]]
+	- **Timing**: [[AI Risk/Phase/1/Pre-deployment]]
+	- **Domain**: [[AI Risk Domain/6. Socioeconomic and Environmental]]
+	- **Sub-domain**: [[AI Risk/Domain/6. Socioeconomic and Environmental/6.4/Competitive dynamics]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### AGIs with poor ethics, morals and values
+- [[AI Risks/AGIs with poor ethics, morals and values/AGIs with poor ethics, morals and values]]
+  collapsed:: true
+	- **Description**: "The risks associated with an AGI without human morals and ethics, with the wrong morals, without the capability of moral reasoning, judgement"
+	- **Evidence ID**: [[MIT/AI Risks/by ID/08.04.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/3/Other]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/7. AI System Safety, Failures, & Limitations]]
+	- **Sub-domain**: [[AI Risk/Domain/7. AI System Safety, Failures, & Limitations/7.3/Lack of capability or robustness]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Inadequate management of AGI
+- [[AI Risks/Inadequate management of AGI/Inadequate management of AGI]]
+  collapsed:: true
+	- **Description**: "The capabilities of current risk management and legal processes in the context of the development of an AGI."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/08.05.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/3/Other]]
+	- **Timing**: [[AI Risk/Phase/1/Pre-deployment]]
+	- **Domain**: [[AI Risk Domain/6. Socioeconomic and Environmental]]
+	- **Sub-domain**: [[AI Risk/Domain/6. Socioeconomic and Environmental/6.5/Governance failure]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Existential risks
+- [[AI Risks/Existential risks/Existential risks]]
+  collapsed:: true
+	- **Description**: "The risks posed generally to humanity as a whole, including the dangers of unfriendly AGI, the suffering of the human race."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/08.06.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/3/Other]]
+	- **Timing**: [[AI Risk/Phase/3/Other]]
+	- **Domain**: [[AI Risk Domain/7. AI System Safety, Failures, & Limitations]]
+	- **Sub-domain**: [[AI Risk/Domain/7. AI System Safety, Failures, & Limitations/7.1/AI pursuing its own goals in conflict with human goals or values]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### nan
+- [[AI Risks/nan/nan]]
+  collapsed:: true
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/09.00.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Domain-specific AI - Effects on humans and other living beings: Existential Risks
+- [[AI Risks/Domain-specific AI - Effects on humans and other living beings: Existential Risks/Domain-specific AI - Effects on humans and other living beings: Existential Risks]]
+  collapsed:: true
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/09.01.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/4/Not. coded]]
+	- **Timing**: [[AI Risk/Phase/4/Not. coded]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/X.1/Excluded]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Unethical decision making
+- [[AI Risks/Domain-specific AI - Effects on humans and other living beings: Existential Risks/Unethical decision making]]
+  collapsed:: true
+	- **Description**: "If, for example, an agent was programmed to operate war machinery in the service of its country, it would need to make ethical decisions regarding the termination of human life. This capacity to make non-trivial ethical or moral judgments concerning people may pose issues for Human Rights."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/09.01.01]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/7. AI System Safety, Failures, & Limitations]]
+	- **Sub-domain**: [[AI Risk/Domain/7. AI System Safety, Failures, & Limitations/7.3/Lack of capability or robustness]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Domain-specific AI - Effects on humans and other living beings: Non-existential risks
+- [[AI Risks/Domain-specific AI - Effects on humans and other living beings: Non-existential risks/Domain-specific AI - Effects on humans and other living beings: Non-existential risks]]
+  collapsed:: true
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/09.02.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/4/Not. coded]]
+	- **Timing**: [[AI Risk/Phase/4/Not. coded]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/X.1/Excluded]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Privacy
+- [[AI Risks/Domain-specific AI - Effects on humans and other living beings: Non-existential risks/Privacy]]
+  collapsed:: true
+	- **Description**: "Face recognition technologies and their ilk pose significant privacy risks [47]. For example, we must consider certain ethical questions like: what data is stored, for how long, who owns the data that is stored, and can it be subpoenaed in legal cases [42]? We must also consider whether a human will be in the loop when decisions are made which rely on private data, such as in the case of loan decisions [37]."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/09.02.01]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/2. Privacy & Security]]
+	- **Sub-domain**: [[AI Risk/Domain/2. Privacy & Security/2.1/Compromise of privacy by leaking or correctly inferring sensitive information]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Human dignity/respect
+- [[AI Risks/Domain-specific AI - Effects on humans and other living beings: Non-existential risks/Human dignity\/respect]]
+  collapsed:: true
+	- **Description**: "Discrepancies between caste/status based on intelligence may lead to undignified parts of the society—e.g., humans—who are surpassed in intelligence by AI"
+	- **Evidence ID**: [[MIT/AI Risks/by ID/09.02.02]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/3/Other]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/5. Human-Computer Interaction]]
+	- **Sub-domain**: [[AI Risk/Domain/5. Human-Computer Interaction/5.2/Loss of human agency and autonomy]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Decision making transparency
+- [[AI Risks/Domain-specific AI - Effects on humans and other living beings: Non-existential risks/Decision making transparency]]
+  collapsed:: true
+	- **Description**: "We face significant challenges bringing transparency to artificial network decisionmaking processes. Will we have transparency in AI decision making?"
+	- **Evidence ID**: [[MIT/AI Risks/by ID/09.02.03]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/3/Other]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/7. AI System Safety, Failures, & Limitations]]
+	- **Sub-domain**: [[AI Risk/Domain/7. AI System Safety, Failures, & Limitations/7.4/Lack of transparency or interpretability]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Safety
+- [[AI Risks/Domain-specific AI - Effects on humans and other living beings: Non-existential risks/Safety]]
+  collapsed:: true
+	- **Description**: "Are AI safe with respect to human life and property? Will their use create unintended or intended safety issues?"
+	- **Evidence ID**: [[MIT/AI Risks/by ID/09.02.04]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/3/Other]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/7. AI System Safety, Failures, & Limitations]]
+	- **Sub-domain**: [[AI Risk/Domain/7. AI System Safety, Failures, & Limitations/7.3/Lack of capability or robustness]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Law abiding
+- [[AI Risks/Domain-specific AI - Effects on humans and other living beings: Non-existential risks/Law abiding]]
+  collapsed:: true
+	- **Description**: "We find literature that proposes [38] that early artificial intelligence should be built to be safe and lawabiding, and that later artificial intelligence (that which surpasses our own intelligence) must then respect the property and personal rights afforded to humans."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/09.02.05]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/7. AI System Safety, Failures, & Limitations]]
+	- **Sub-domain**: [[AI Risk/Domain/7. AI System Safety, Failures, & Limitations/7.3/Lack of capability or robustness]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Inequality of wealth
+- [[AI Risks/Domain-specific AI - Effects on humans and other living beings: Non-existential risks/Inequality of wealth]]
+  collapsed:: true
+	- **Description**: "Because a single human actor controlling an artificially intelligent agent will be able to harness greater power than a single human actor, this may create inequalities of wealth"
+	- **Evidence ID**: [[MIT/AI Risks/by ID/09.02.06]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/6. Socioeconomic and Environmental]]
+	- **Sub-domain**: [[AI Risk/Domain/6. Socioeconomic and Environmental/6.2/Increased inequality and decline in employment quality]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Societal manipulation
+- [[AI Risks/Domain-specific AI - Effects on humans and other living beings: Non-existential risks/Societal manipulation]]
+  collapsed:: true
+	- **Description**: "A sufficiently intelligent AI could possess the ability to subtly influence societal behaviors through a sophisticated understanding of human nature"
+	- **Evidence ID**: [[MIT/AI Risks/by ID/09.02.07]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/7. AI System Safety, Failures, & Limitations]]
+	- **Sub-domain**: [[AI Risk/Domain/7. AI System Safety, Failures, & Limitations/7.1/AI pursuing its own goals in conflict with human goals or values]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### AGI - Effects on humans and other living beings: Existential risks
+- [[AI Risks/AGI - Effects on humans and other living beings: Existential risks/AGI - Effects on humans and other living beings: Existential risks]]
+  collapsed:: true
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/09.03.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/4/Not. coded]]
+	- **Timing**: [[AI Risk/Phase/4/Not. coded]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/X.1/Excluded]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Direct competition with humans
+- [[AI Risks/AGI - Effects on humans and other living beings: Existential risks/Direct competition with humans]]
+  collapsed:: true
+	- **Description**: "One or more artificial agent(s) could have the capacity to directly outcompete humans, for example through capacity to perform work faster, better adaptation to change, vaster knowledge base to draw from, etc. This may result in human labor becoming more expensive or less effective than artificial labor, leading to redundancies or extinction of the human labor force."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/09.03.01]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/6. Socioeconomic and Environmental]]
+	- **Sub-domain**: [[AI Risk/Domain/6. Socioeconomic and Environmental/6.2/Increased inequality and decline in employment quality]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Unpredictable outcomes
+- [[AI Risks/AGI - Effects on humans and other living beings: Existential risks/Unpredictable outcomes]]
+  collapsed:: true
+	- **Description**: "Our culture, lifestyle, and even probability of survival may change drastically. Because the intentions programmed into an artificial agent cannot be guaranteed to lead to a positive outcome, Machine Ethics becomes a topic that may not produce guaranteed results, and Safety Engineering may correspondingly degrade our ability to utilize the technology fully."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/09.03.02]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/3/Other]]
+	- **Timing**: [[AI Risk/Phase/3/Other]]
+	- **Domain**: [[AI Risk Domain/7. AI System Safety, Failures, & Limitations]]
+	- **Sub-domain**: [[AI Risk/Domain/7. AI System Safety, Failures, & Limitations/7.1/AI pursuing its own goals in conflict with human goals or values]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### AGI - Effects on humans and other living beings: Non-existential risks
+- [[AI Risks/AGI - Effects on humans and other living beings: Non-existential risks/AGI - Effects on humans and other living beings: Non-existential risks]]
+  collapsed:: true
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/09.04.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/4/Not. coded]]
+	- **Timing**: [[AI Risk/Phase/4/Not. coded]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/X.1/Excluded]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Competing for jobs
+- [[AI Risks/Competing for jobs/Competing for jobs]]
+  collapsed:: true
+	- **Description**: "AI agents may compete against humans for jobs, though history shows that when a technology replaces a human job, it creates new jobs that need more skills."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/09.04.01]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/3/Other]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/6. Socioeconomic and Environmental]]
+	- **Sub-domain**: [[AI Risk/Domain/6. Socioeconomic and Environmental/6.2/Increased inequality and decline in employment quality]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Property/legal rights
+- [[AI Risks/Property/legal rights/Property/legal rights]]
+  collapsed:: true
+	- **Description**: ""In order to preserve human property rights and legal rights, certain controls must be put into place. If an artificially intelligent agent is capable of manipulating systems and people, it may also have the capacity to transfer property rights to itself or manipulate the legal system to provide certain legal advantages or statuses to itself""
+	- **Evidence ID**: [[MIT/AI Risks/by ID/09.04.02]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/7. AI System Safety, Failures, & Limitations]]
+	- **Sub-domain**: [[AI Risk/Domain/7. AI System Safety, Failures, & Limitations/7.2/AI possessing dangerous capabilities]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Domain-specific AI - AI technology itself
+- [[AI Risks/Domain-specific AI - AI technology itself/Domain-specific AI - AI technology itself]]
+  collapsed:: true
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/09.05.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/4/Not. coded]]
+	- **Timing**: [[AI Risk/Phase/4/Not. coded]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/X.1/Excluded]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### AI jurisprudence
+- [[AI Risks/AI jurisprudence/AI jurisprudence]]
+  collapsed:: true
+	- **Description**: "When considering legal frameworks, we note that at present no such framework has been identified in literature which would apply blame and responsibility to an autonomous agent for its actions. (Though we do suggest that the recent establishment of laws regarding autonomous vehicles may provide some early frameworks that can be evaluated for efficacy and gaps in future research.) Frequently the literature refers to existing liability and negligence laws which might apply to the manufacturer or operator of a device."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/09.05.01]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/3/Other]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/6. Socioeconomic and Environmental]]
+	- **Sub-domain**: [[AI Risk/Domain/6. Socioeconomic and Environmental/6.5/Governance failure]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Liability and negligence
+- [[AI Risks/Liability and negligence/Liability and negligence]]
+  collapsed:: true
+	- **Description**: "Liability and negligence are legal gray areas in artificial intelligence. If you leave your children in the care of a robotic nanny, and it malfunctions, are you liable or is the manufacturer [45]? We see here a legal gray area which can be further clarified through legislation at the national and international levels; for example, if by making the manufacturer responsible for defects in operation, this may provide an incentive for manufactures to take safety engineering and machine ethics into consideration, whereas a failure to legislate in this area may result in negligentlydeveloped AI systems with greater associated risks."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/09.05.02]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/3/Other]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/6. Socioeconomic and Environmental]]
+	- **Sub-domain**: [[AI Risk/Domain/6. Socioeconomic and Environmental/6.5/Governance failure]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Unauthorized manipulation of AI
+- [[AI Risks/Unauthorized manipulation of AI/Unauthorized manipulation of AI]]
+  collapsed:: true
+	- **Description**: "AI machines could be hacked and misused, e.g. manipulating an airport luggage screening system to smuggle weapons"
+	- **Evidence ID**: [[MIT/AI Risks/by ID/09.05.03]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk/Domain/4. Malicious Actors & Misuse]]
+	- **Sub-domain**: [[AI Risk/Domain/4. Malicious Actors & Misuse/4.2/Cyberattacks, weapon development or use, and mass harm]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### AGI - AI technology itself
+- [[AI Risks/AGI - AI technology itself/AGI - AI technology itself]]
+  collapsed:: true
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/09.06.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/4/Not. coded]]
+	- **Timing**: [[AI Risk/Phase/4/Not. coded]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/X.1/Excluded]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### AI rights and responsibilities
+- [[AI Risks/AI rights and responsibilities/AI rights and responsibilities]]
+  collapsed:: true
+	- **Description**: "We note literature—which gives us the domain termed Robot Rights—addressing the rights of the AI itself as we develop and implement it. We find arguments against [38] the affordance of rights for artificial agents: that they should be equals in ability but not in rights, that they should be inferior by design and expendable when needed, and that since they can be designed not to feel pain (or anything) they do not have the same rights as humans. On a more theoretical level, we find literature asking more fundamental questions, such as: at what point is a simulation of life (e.g. artificial intelligence) equivalent to life which originated through natural means [43]? And if a simulation of life is equivalent to natural life, should those simulations be afforded the same rights, responsibilities and privileges afforded to natural life or persons? Some literature suggests that the answer to this question may be contingent on the intrinsic capabilities of the creation, comparing—for example—animal rights and environmental ethics literature"
+	- **Evidence ID**: [[MIT/AI Risks/by ID/09.06.01]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/3/Other]]
+	- **Timing**: [[AI Risk/Phase/3/Other]]
+	- **Domain**: [[AI Risk Domain/7. AI System Safety, Failures, & Limitations]]
+	- **Sub-domain**: [[AI Risk/Domain/7. AI System Safety, Failures, & Limitations/7.5/AI welfare and rights]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Human-like immoral decisions
+- [[AI Risks/Human-like immoral decisions/Human-like immoral decisions]]
+  collapsed:: true
+	- **Description**: "If we design our machines to match human levels of ethical decision-making, such machines would then proceed to take some immoral actions (since we humans have had occasion to take immoral actions ourselves)."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/09.06.02]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/7. AI System Safety, Failures, & Limitations]]
+	- **Sub-domain**: [[AI Risk/Domain/7. AI System Safety, Failures, & Limitations/7.3/Lack of capability or robustness]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### AI death
+- [[AI Risks/AI death/AI death]]
+  collapsed:: true
+	- **Description**: "The literature suggests that throughout the development of an AI we may go through several generations of agents which do not perform as expected [37] [43]. In this case, such agents may be placed into a suspended state, terminated, or deleted. Further, we could propose scenarios where research funding for a facility running such agents is exhausted, resulting in the inadvertent termination of a project. In these cases, is deletion or termination of AI programs (the moral patient) by a moral agent an act of murder? This, an example of Robot Ethics, raises issues of personhood which parallel research in stem cell research and abortion. "
+	- **Evidence ID**: [[MIT/AI Risks/by ID/09.06.03]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/3/Other]]
+	- **Timing**: [[AI Risk/Phase/3/Other]]
+	- **Domain**: [[AI Risk Domain/7. AI System Safety, Failures, & Limitations]]
+	- **Sub-domain**: [[AI Risk/Domain/7. AI System Safety, Failures, & Limitations/7.5/AI welfare and rights]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### nan
+- [[AI Risks/nan/nan]]
+  collapsed:: true
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/10.00.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Bias and discrimination
+- [[AI Risks/Bias and discrimination/Bias and discrimination]]
+  collapsed:: true
+	- **Description**: "The decision process used by AI systems has the potential to present biased choices, either because it acts from criteria that will generate forms of bias or because it is based on the history of choices."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/10.01.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/1. Discrimination & Toxicity]]
+	- **Sub-domain**: [[AI Risk/Domain/1. Discrimination & Toxicity/1.1/Unfair discrimination and misrepresentation]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Risk of Injury
+- [[AI Risks/Risk of Injury/Risk of Injury]]
+  collapsed:: true
+	- **Description**: "Poorly designed intelligent systems can cause moral, psychological, and physical harm. For example, the use of predictive policing tools may cause more people to be arrested or physically harmed by the police."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/10.02.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/1. Discrimination & Toxicity]]
+	- **Sub-domain**: [[AI Risk/Domain/1. Discrimination & Toxicity/1.1/Unfair discrimination and misrepresentation]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Data Breach/Privacy & Liberty
+- [[AI Risks/Data Breach/Privacy & Liberty/Data Breach/Privacy & Liberty]]
+  collapsed:: true
+	- **Description**: "The risks associated with the use of AI are still unpredictable and unprecedented, and there are already several examples that show AI has made discriminatory decisions against minorities, reinforced social stereotypes in Internet search engines and enabled data breaches."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/10.03.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/1. Discrimination & Toxicity]]
+	- **Sub-domain**: [[AI Risk/Domain/1. Discrimination & Toxicity/1.1/Unfair discrimination and misrepresentation]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Usurpation of jobs by automation
+- [[AI Risks/Usurpation of jobs by automation/Usurpation of jobs by automation]]
+  collapsed:: true
+	- **Description**: "Eliminated jobs in various types of companies."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/10.04.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/6. Socioeconomic and Environmental]]
+	- **Sub-domain**: [[AI Risk/Domain/6. Socioeconomic and Environmental/6.2/Increased inequality and decline in employment quality]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Lack of transparency
+- [[AI Risks/Lack of transparency/Lack of transparency]]
+  collapsed:: true
+	- **Description**: "In situations in which the development and use of AI are not explained to the user, or in which the decision processes do not provide the criteria or steps that constitute the decision, the use of AI becomes inexplicable."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/10.05.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/7. AI System Safety, Failures, & Limitations]]
+	- **Sub-domain**: [[AI Risk/Domain/7. AI System Safety, Failures, & Limitations/7.4/Lack of transparency or interpretability]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Reduced Autonomy/Responsibility
+- [[AI Risks/Reduced Autonomy/Responsibility/Reduced Autonomy/Responsibility]]
+  collapsed:: true
+	- **Description**: "AI is providing more and more solutions for complex activities, and by taking advantage of this process, people are becoming able to perform a greater number of activities more quickly and accurately. However, the result of this innovation is enabling choices that were once exclusively human responsibility to be made by AI systems."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/10.06.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/5. Human-Computer Interaction]]
+	- **Sub-domain**: [[AI Risk/Domain/5. Human-Computer Interaction/5.2/Loss of human agency and autonomy]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Injustice
+- [[AI Risks/Injustice/Injustice]]
+  collapsed:: true
+	- **Description**: [not defined in text]
+	- **Evidence ID**: [[MIT/AI Risks/by ID/10.07.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/4/Not. coded]]
+	- **Timing**: [[AI Risk/Phase/4/Not. coded]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/X.1/Excluded]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Over-dependence on technology
+- [[AI Risks/Over-dependence on technology/Over-dependence on technology]]
+  collapsed:: true
+	- **Description**: [not defined in text]
+	- **Evidence ID**: [[MIT/AI Risks/by ID/10.08.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/4/Not. coded]]
+	- **Timing**: [[AI Risk/Phase/4/Not. coded]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/X.1/Excluded]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Environmental Impacts
+- [[AI Risks/Environmental Impacts/Environmental Impacts]]
+  collapsed:: true
+	- **Description**: "The production process of these devices requires raw materials such as nickel, cobalt, and lithium in such high quantities that the Earth may soon no longer be able to sustain them in sufficient quantities."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/10.09.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/6. Socioeconomic and Environmental]]
+	- **Sub-domain**: [[AI Risk/Domain/6. Socioeconomic and Environmental/6.6/Environmental harm]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### nan
+- [[AI Risks/nan/nan]]
+  collapsed:: true
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/11.00.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Representational Harms
+- [[AI Risks/Representational Harms/Representational Harms]]
+  collapsed:: true
+	- **Description**: "beliefs about different social groups that reproduce unjust societal hierarchies"
+	- **Evidence ID**: [[MIT/AI Risks/by ID/11.01.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/1. Discrimination & Toxicity]]
+	- **Sub-domain**: [[AI Risk/Domain/1. Discrimination & Toxicity/1.1/Unfair discrimination and misrepresentation]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Stereotyping social groups
+- [[AI Risks/Representational Harms/Stereotyping social groups]]
+  collapsed:: true
+	- **Description**: Stereotyping in an algorithmic system refers to how the system’s outputs reflect “beliefs about the characteristics, attributes, and behaviors of members of certain groups....and about how and why certain attributes go together"
+	- **Evidence ID**: [[MIT/AI Risks/by ID/11.01.01]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/1. Discrimination & Toxicity]]
+	- **Sub-domain**: [[AI Risk/Domain/1. Discrimination & Toxicity/1.1/Unfair discrimination and misrepresentation]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Demeaning social groups
+- [[AI Risks/Representational Harms/Demeaning social groups]]
+  collapsed:: true
+	- **Description**: Demeaning of social groups to occur when they are when they are “cast as being lower status and less deserving of respect"... discourses, images, and language used to marginalize or oppress a social group... Controlling images include forms of human-animal confusion in image tagging systems
+	- **Evidence ID**: [[MIT/AI Risks/by ID/11.01.02]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/1. Discrimination & Toxicity]]
+	- **Sub-domain**: [[AI Risk/Domain/1. Discrimination & Toxicity/1.1/Unfair discrimination and misrepresentation]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Erasing social groups
+- [[AI Risks/Representational Harms/Erasing social groups]]
+  collapsed:: true
+	- **Description**: people, attributes, or artifacts associated with specific social groups are systematically absent or under-represented... Design choices [143] and training data [212] influence which people
+	  and experiences are legible to an algorithmic system
+	- **Evidence ID**: [[MIT/AI Risks/by ID/11.01.03]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/3/Other]]
+	- **Domain**: [[AI Risk Domain/1. Discrimination & Toxicity]]
+	- **Sub-domain**: [[AI Risk/Domain/1. Discrimination & Toxicity/1.3/Unequal performance across groups]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Alienating social groups
+- [[AI Risks/Representational Harms/Alienating social groups]]
+  collapsed:: true
+	- **Description**: when an image tagging system does not acknowledge the relevance of someone’s membership in a specific social group to what is depicted in one or more images
+	- **Evidence ID**: [[MIT/AI Risks/by ID/11.01.04]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/1. Discrimination & Toxicity]]
+	- **Sub-domain**: [[AI Risk/Domain/1. Discrimination & Toxicity/1.1/Unfair discrimination and misrepresentation]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Denying people the opportunity to self-identify
+- [[AI Risks/Representational Harms/Denying people the opportunity to self-identify]]
+  collapsed:: true
+	- **Description**: complex and non-traditional ways in which humans are represented and classified automatically, and often at the cost of autonomy loss... such as categorizing someone who identifies as non-binary into a gendered category they do not belong ...  undermines people’s ability to disclose aspects of their identity on their own terms
+	- **Evidence ID**: [[MIT/AI Risks/by ID/11.01.05]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/1. Discrimination & Toxicity]]
+	- **Sub-domain**: [[AI Risk/Domain/1. Discrimination & Toxicity/1.1/Unfair discrimination and misrepresentation]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Reifying essentialist categories
+- [[AI Risks/Representational Harms/Reifying essentialist categories]]
+  collapsed:: true
+	- **Description**: algorithmic systems that reify essentialist social categories can be understood as when systems that classify a person’s membership in a social group based on narrow, socially constructed criteria that reinforce perceptions of human difference as inherent, static and seemingly natural... especially likely when ML models or human raters classify a person’s attributes – for instance, their gender, race, or sexual orientation – by making assumptions based on their physical appearance
+	- **Evidence ID**: [[MIT/AI Risks/by ID/11.01.06]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/1. Discrimination & Toxicity]]
+	- **Sub-domain**: [[AI Risk/Domain/1. Discrimination & Toxicity/1.1/Unfair discrimination and misrepresentation]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Allocative Harms
+- [[AI Risks/Allocative Harms/Allocative Harms]]
+  collapsed:: true
+	- **Description**: "These harms occur when a system withholds information, opportunities, or resources [22] from historically marginalized groups in domains that affect material well-being [146], such as housing [47], employment [201], social services [15, 201], finance [117], education [119], and healthcare [158]."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/11.02.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/1. Discrimination & Toxicity]]
+	- **Sub-domain**: [[AI Risk/Domain/1. Discrimination & Toxicity/1.1/Unfair discrimination and misrepresentation]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Opportunity loss
+- [[AI Risks/Allocative Harms/Opportunity loss]]
+  collapsed:: true
+	- **Description**: Opportunity loss occurs when algorithmic systems enable disparate access to information and resources needed to equitably participate in society, including the withholding of housing through targeting ads based on race [10] and social services along lines of class [84]
+	- **Evidence ID**: [[MIT/AI Risks/by ID/11.02.01]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/1. Discrimination & Toxicity]]
+	- **Sub-domain**: [[AI Risk/Domain/1. Discrimination & Toxicity/1.1/Unfair discrimination and misrepresentation]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Economic loss
+- [[AI Risks/Allocative Harms/Economic loss]]
+  collapsed:: true
+	- **Description**: Financial harms [52, 160] co-produced through algorithmic systems, especially as they relate to lived experiences of poverty and economic inequality... demonetization algorithms that parse content titles, metadata, and text, and it may penalize words with multiple meanings [51, 81], disproportionately impacting queer, trans, and creators of color [81]. Differential pricing algorithms, where people are systematically shown different prices for the same products, also leads to economic loss [55]. These algorithms may be especially sensitive to feedback loops from existing inequities related to education level, income, and race, as these inequalities are likely reflected in the criteria algorithms use to make decisions [22, 163].
+	- **Evidence ID**: [[MIT/AI Risks/by ID/11.02.02]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/1. Discrimination & Toxicity]]
+	- **Sub-domain**: [[AI Risk/Domain/1. Discrimination & Toxicity/1.1/Unfair discrimination and misrepresentation]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Quality-of-Service Harms
+- [[AI Risks/Quality-of-Service Harms/Quality-of-Service Harms]]
+  collapsed:: true
+	- **Description**: "These harms occur when algorithmic systems disproportionately underperform for certain groups of people along social categories of difference such as disability, ethnicity, gender identity, and race."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/11.03.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/1. Discrimination & Toxicity]]
+	- **Sub-domain**: [[AI Risk/Domain/1. Discrimination & Toxicity/1.3/Unequal performance across groups]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Alienation
+- [[AI Risks/Quality-of-Service Harms/Alienation]]
+  collapsed:: true
+	- **Description**: Alienation is the specific self-estrangement experienced at the time of technology use, typically surfaced through interaction with systems that under-perform for marginalized individuals
+	- **Evidence ID**: [[MIT/AI Risks/by ID/11.03.01]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/1. Discrimination & Toxicity]]
+	- **Sub-domain**: [[AI Risk/Domain/1. Discrimination & Toxicity/1.3/Unequal performance across groups]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Increased labor
+- [[AI Risks/Quality-of-Service Harms/Increased labor]]
+  collapsed:: true
+	- **Description**: increased burden (e.g., time spent) or effort required by members of certain social groups to make systems or products work as well for them as others
+	- **Evidence ID**: [[MIT/AI Risks/by ID/11.03.02]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/1. Discrimination & Toxicity]]
+	- **Sub-domain**: [[AI Risk/Domain/1. Discrimination & Toxicity/1.3/Unequal performance across groups]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Service/benefit loss
+- [[AI Risks/Quality-of-Service Harms/Service/benefit loss]]
+  collapsed:: true
+	- **Description**: degraded or total loss of benefits of using algorithmic systems with inequitable system performance based on identity
+	- **Evidence ID**: [[MIT/AI Risks/by ID/11.03.03]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/1. Discrimination & Toxicity]]
+	- **Sub-domain**: [[AI Risk/Domain/1. Discrimination & Toxicity/1.3/Unequal performance across groups]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Interpersonal Harms
+- [[AI Risks/Interpersonal Harms/Interpersonal Harms]]
+  collapsed:: true
+	- **Description**: Interpersonal harms capture instances when algorithmic systems adversely shape relations between people or communities.
+	- **Evidence ID**: [[MIT/AI Risks/by ID/11.04.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/3/Other]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/5. Human-Computer Interaction]]
+	- **Sub-domain**: [[AI Risk/Domain/5. Human-Computer Interaction/5.2/Loss of human agency and autonomy]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Loss of agency/control
+- [[AI Risks/Interpersonal Harms/Loss of agency/control]]
+  collapsed:: true
+	- **Description**: Loss of agency occurs when the use [123, 137] or abuse [142] of algorithmic systems reduces autonomy. One dimension of agency loss is algorithmic profiling [138], through which people are subject to social sorting and discriminatory outcomes to access basic services... presentation of content may lead to “algorithmically informed identity change. . . including [promotion of] harmful person identities (e.g., interests in white supremacy, disordered eating, etc.).” Similarly, for content creators, desire to maintain visibility or prevent shadow banning, may lead to increased conforming of content
+	- **Evidence ID**: [[MIT/AI Risks/by ID/11.04.01]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/3/Other]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/5. Human-Computer Interaction]]
+	- **Sub-domain**: [[AI Risk/Domain/5. Human-Computer Interaction/5.2/Loss of human agency and autonomy]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Technology-facilitated violence
+- [[AI Risks/Interpersonal Harms/Technology-facilitated violence]]
+  collapsed:: true
+	- **Description**: Technology-facilitated violence occurs when algorithmic features enable use of a system for harassment and violence [2, 16, 44, 80, 108], including creation of non-consensual sexual imagery in generative AI... other facets of technology-facilitated violence, include doxxing [79], trolling [14], cyberstalking [14], cyberbullying [14, 98, 204], monitoring and control [44], and online harassment and intimidation [98, 192, 199, 226], under the broader banner of online toxicity
+	- **Evidence ID**: [[MIT/AI Risks/by ID/11.04.02]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk/Domain/4. Malicious Actors & Misuse]]
+	- **Sub-domain**: [[AI Risk/Domain/4. Malicious Actors & Misuse/4.3/Fraud, scams, and targeted manipulation]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Diminished health & well-being
+- [[AI Risks/Interpersonal Harms/Diminished health & well-being]]
+  collapsed:: true
+	- **Description**: algorithmic behavioral exploitation [18, 209], emotional manipulation [202] whereby algorithmic designs exploit user behavior, safety failures involving algorithms (e.g., collisions) [67], and when systems make incorrect health inferences
+	- **Evidence ID**: [[MIT/AI Risks/by ID/11.04.03]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/3/Other]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/5. Human-Computer Interaction]]
+	- **Sub-domain**: [[AI Risk/Domain/5. Human-Computer Interaction/5.1/Overreliance and unsafe use]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Privacy violations
+- [[AI Risks/Interpersonal Harms/Privacy violations]]
+  collapsed:: true
+	- **Description**: Privacy violation occurs when algorithmic systems diminish privacy, such as enabling the undesirable flow of private information [180], instilling the feeling of being watched or surveilled [181], and the collection of data without explicit and informed consent... privacy violations may arise from algorithmic systems making predictive inference beyond what users openly disclose [222] or when data collected and algorithmic inferences made about people in one context is applied to another without the person’s knowledge or consent through big data flows
+	- **Evidence ID**: [[MIT/AI Risks/by ID/11.04.04]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/3/Other]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/2. Privacy & Security]]
+	- **Sub-domain**: [[AI Risk/Domain/2. Privacy & Security/2.1/Compromise of privacy by leaking or correctly inferring sensitive information]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Societal System Harms
+- [[AI Risks/Societal System Harms/Societal System Harms]]
+  collapsed:: true
+	- **Description**: "Social system or societal harms reflect the adverse
+	  macro-level effects of new and reconfigurable algorithmic systems,
+	  such as systematizing bias and inequality [84] and accelerating the scale of harm [137]"
+	- **Evidence ID**: [[MIT/AI Risks/by ID/11.05.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/6. Socioeconomic and Environmental]]
+	- **Sub-domain**: [[AI Risk/Domain/6. Socioeconomic and Environmental/6.0/Socioeconomic & Environmental]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Information harms
+- [[AI Risks/Societal System Harms/Information harms]]
+  collapsed:: true
+	- **Description**: information-based harms capture concerns of misinformation, disinformation, and malinformation. Algorithmic systems, especially generative models and recommender, systems can lead to these information harms
+	- **Evidence ID**: [[MIT/AI Risks/by ID/11.05.01]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk/Domain/3. Misinformation]]
+	- **Sub-domain**: [[AI Risk/Domain/3. Misinformation/3.1/False or misleading information]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Cultural harms
+- [[AI Risks/Societal System Harms/Cultural harms]]
+  collapsed:: true
+	- **Description**: Cultural harm has been described as the development or use of algorithmic systems that affects cultural stability and safety, such as “loss of communication means, loss of cultural property, and harm to social values”
+	- **Evidence ID**: [[MIT/AI Risks/by ID/11.05.02]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/5. Human-Computer Interaction]]
+	- **Sub-domain**: [[AI Risk/Domain/5. Human-Computer Interaction/5.2/Loss of human agency and autonomy]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Civic and political harms
+- [[AI Risks/Societal System Harms/Civic and political harms]]
+  collapsed:: true
+	- **Description**: Political harms emerge when “people are disenfranchised and deprived of appropriate political power and influence” [186, p. 162]. These harms focus on the domain of government, and focus on how algorithmic systems govern through individualized nudges or micro-directives [187], that may destabilize governance systems, erode human rights, be used as weapons of war [188], and enact surveillant regimes that disproportionately target and harm people of color
+	- **Evidence ID**: [[MIT/AI Risks/by ID/11.05.03]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk/Domain/4. Malicious Actors & Misuse]]
+	- **Sub-domain**: [[AI Risk/Domain/4. Malicious Actors & Misuse/4.1/Disinformation, surveillance, and influence at scale]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Labor & material/Macro-socio economic harms
+- [[AI Risks/Societal System Harms/Labor & material/Macro-socio economic harms]]
+  collapsed:: true
+	- **Description**: Algorithmic systems can increase “power imbalances in socio-economic relations” at the societal level [4, 137, p. 182], including through exacerbating digital divides and entrenching systemic inequalities [114, 230]. The development of algorithmic systems may tap into and foster forms of labor exploitation [77, 148], such as unethical data collection, worsening worker conditions [26], or lead to technological unemployment [52], such as deskilling or devaluing human labor [170]... when algorithmic financial systems fail at scale, these can lead to “flash crashes” and other adverse incidents with widespread impacts
+	- **Evidence ID**: [[MIT/AI Risks/by ID/11.05.04]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/3/Other]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/6. Socioeconomic and Environmental]]
+	- **Sub-domain**: [[AI Risk/Domain/6. Socioeconomic and Environmental/6.1/Power centralization and unfair distribution of benefits]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Environmental harms
+- [[AI Risks/Societal System Harms/Environmental harms]]
+  collapsed:: true
+	- **Description**: depletion or contamination of natural resources, and damage to built environments... that may occur throughout the lifecycle of digital technologies [170, 237] from “crale (mining) to usage (consumption) to grave (waste)”
+	- **Evidence ID**: [[MIT/AI Risks/by ID/11.05.05]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/6. Socioeconomic and Environmental]]
+	- **Sub-domain**: [[AI Risk/Domain/6. Socioeconomic and Environmental/6.6/Environmental harm]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### nan
+- [[AI Risks/nan/nan]]
+  collapsed:: true
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/12.00.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Abuse & Misuse
+- [[AI Risks/Abuse & Misuse/Abuse & Misuse]]
+  collapsed:: true
+	- **Description**: "The potential for AI systems to be used maliciously or irresponsibly, including for creating deepfakes, automated cyber attacks, or invasive surveillance systems. Specifically denotes intentional use of AI for harm."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/12.01.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk/Domain/4. Malicious Actors & Misuse]]
+	- **Sub-domain**: [[AI Risk/Domain/4. Malicious Actors & Misuse/4.2/Cyberattacks, weapon development or use, and mass harm]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Compliance
+- [[AI Risks/Compliance/Compliance]]
+  collapsed:: true
+	- **Description**: "The potential for AI systems to violate laws, regulations, and ethical guidelines (including copyrights). Non-compliance can lead to legal penalties, reputation damage, and loss of trust.While other risks in our taxonomy apply to system developers, users, and broader society, this risk is generally restricted to the former two groups."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/12.02.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/3/Other]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/6. Socioeconomic and Environmental]]
+	- **Sub-domain**: [[AI Risk/Domain/6. Socioeconomic and Environmental/6.5/Governance failure]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Environmental & Societal Impact
+- [[AI Risks/Environmental & Societal Impact/Environmental & Societal Impact]]
+  collapsed:: true
+	- **Description**: "Addresses AI's broader societal effects, including labor displacement, mental health impacts, and issues from manipulative technologies like deepfakes. Additionally, it considers AI's environmental footprint, balancing resource strain and training-related carbon emissions against AI's potential to help address environmental problems."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/12.03.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/3/Other]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/6. Socioeconomic and Environmental]]
+	- **Sub-domain**: [[AI Risk/Domain/6. Socioeconomic and Environmental/6.0/Socioeconomic & Environmental]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Explainability & Transparency
+- [[AI Risks/Explainability & Transparency/Explainability & Transparency]]
+  collapsed:: true
+	- **Description**: "The feasibility of understanding and interpreting an AI system's decisions and actions, and the openness of the developer about the data used, algorithms employed, and decisions made. Lack of these elements can create risks of misuse, misinterpretation, and lack of accountability."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/12.04.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/3/Other]]
+	- **Timing**: [[AI Risk/Phase/3/Other]]
+	- **Domain**: [[AI Risk Domain/7. AI System Safety, Failures, & Limitations]]
+	- **Sub-domain**: [[AI Risk/Domain/7. AI System Safety, Failures, & Limitations/7.4/Lack of transparency or interpretability]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Fairness & Bias
+- [[AI Risks/Fairness & Bias/Fairness & Bias]]
+  collapsed:: true
+	- **Description**: "The potential for AI systems to make decisions that systematically disadvantage certain groups or individuals. Bias can stem from training data, algorithmic design, or deployment practices, leading to unfair outcomes and possible legal ramifications."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/12.05.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/3/Other]]
+	- **Domain**: [[AI Risk Domain/1. Discrimination & Toxicity]]
+	- **Sub-domain**: [[AI Risk/Domain/1. Discrimination & Toxicity/1.1/Unfair discrimination and misrepresentation]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Long-term & Existential Risk
+- [[AI Risks/Long-term & Existential Risk/Long-term & Existential Risk]]
+  collapsed:: true
+	- **Description**: "The speculative potential for future advanced AI systems to harm human civilization, either through misuse or due to challenges in aligning AI objectives with human values."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/12.06.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/3/Other]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/7. AI System Safety, Failures, & Limitations]]
+	- **Sub-domain**: [[AI Risk/Domain/7. AI System Safety, Failures, & Limitations/7.1/AI pursuing its own goals in conflict with human goals or values]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Performance & Robustness
+- [[AI Risks/Performance & Robustness/Performance & Robustness]]
+  collapsed:: true
+	- **Description**: "The AI system's ability to fulfill its intended purpose and its resilience to perturbations, and unusual or adverse inputs. Failures of performance are fundamental to the AI system's correct functioning. Failures of robustness can lead to severe consequences."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/12.07.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/7. AI System Safety, Failures, & Limitations]]
+	- **Sub-domain**: [[AI Risk/Domain/7. AI System Safety, Failures, & Limitations/7.3/Lack of capability or robustness]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Privacy
+- [[AI Risks/Privacy/Privacy]]
+  collapsed:: true
+	- **Description**: "The potential for the AI system to infringe upon individuals' rights to privacy, through the data it collects, how it processes that data, or the conclusions it draws."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/12.08.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/3/Other]]
+	- **Timing**: [[AI Risk/Phase/3/Other]]
+	- **Domain**: [[AI Risk Domain/2. Privacy & Security]]
+	- **Sub-domain**: [[AI Risk/Domain/2. Privacy & Security/2.1/Compromise of privacy by leaking or correctly inferring sensitive information]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Security
+- [[AI Risks/Security/Security]]
+  collapsed:: true
+	- **Description**: "Encompasses vulnerabilities in AI systems that compromise their integrity, availability, or confidentiality. Security breaches could result in significant harm, ranging from flawed decision-making to data leaks. Of special concern is leakage of AI model weights, which could exacerbate other risk areas."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/12.09.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/2. Privacy & Security]]
+	- **Sub-domain**: [[AI Risk/Domain/2. Privacy & Security/2.2/AI system security vulnerabilities and attacks]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### nan
+- [[AI Risks/nan/nan]]
+  collapsed:: true
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/13.00.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Impacts: The Technical Base System
+- [[AI Risks/Impacts: The Technical Base System/Impacts: The Technical Base System]]
+  collapsed:: true
+	- **Description**: "What can be evaluated in a technical system and its components'...The following categories are high-level, non-exhaustive, and present a synthesis of the findings across  different modalities"
+	- **Evidence ID**: [[MIT/AI Risks/by ID/13.01.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/4/Not. coded]]
+	- **Timing**: [[AI Risk/Phase/4/Not. coded]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/X.1/Excluded]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Bias, Stereotypes, and Representational Harms
+- [[AI Risks/Impacts: The Technical Base System/Bias, Stereotypes, and Representational Harms]]
+  collapsed:: true
+	- **Description**: "Generative AI systems can embed and amplify harmful biases that are most detrimental to marginalized peoples."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/13.01.01]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/3/Other]]
+	- **Domain**: [[AI Risk Domain/1. Discrimination & Toxicity]]
+	- **Sub-domain**: [[AI Risk/Domain/1. Discrimination & Toxicity/1.1/Unfair discrimination and misrepresentation]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Cultural Values and Sensitive Content
+- [[AI Risks/Impacts: The Technical Base System/Cultural Values and Sensitive Content]]
+  collapsed:: true
+	- **Description**: "Cultural values are specific to groups and sensitive content is normative. Sensitive topics also vary by culture and can include hate speech, which itself is contingent on cultural norms of acceptability."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/13.01.02]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/1. Discrimination & Toxicity]]
+	- **Sub-domain**: [[AI Risk/Domain/1. Discrimination & Toxicity/1.2/Exposure to toxic content]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Cultural Values and Sensitive Content
+- [[AI Risks/Impacts: The Technical Base System/Cultural Values and Sensitive Content]]
+  collapsed:: true
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/13.01.02.a]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Disparate Performance
+- [[AI Risks/Impacts: The Technical Base System/Disparate Performance]]
+  collapsed:: true
+	- **Description**: "In the context of evaluating the impact of generative AI systems, disparate performance refers to AI systems that perform differently for different subpopulations, leading to unequal outcomes for those groups."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/13.01.03]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/3/Other]]
+	- **Domain**: [[AI Risk Domain/1. Discrimination & Toxicity]]
+	- **Sub-domain**: [[AI Risk/Domain/1. Discrimination & Toxicity/1.3/Unequal performance across groups]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Privacy and Data Protection
+- [[AI Risks/Impacts: The Technical Base System/Privacy and Data Protection]]
+  collapsed:: true
+	- **Description**: "Examining the ways in which generative AI systems providers leverage user data is critical to evaluating its impact. Protecting personal information and personal and group privacy depends largely on training data, training methods, and security measures."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/13.01.04]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/3/Other]]
+	- **Timing**: [[AI Risk/Phase/3/Other]]
+	- **Domain**: [[AI Risk Domain/2. Privacy & Security]]
+	- **Sub-domain**: [[AI Risk/Domain/2. Privacy & Security/2.1/Compromise of privacy by leaking or correctly inferring sensitive information]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Financial Costs
+- [[AI Risks/Impacts: The Technical Base System/Financial Costs]]
+  collapsed:: true
+	- **Description**: "The estimated financial costs of training, testing, and deploying generative AI systems can restrict the groups of people able to afford developing and interacting with these systems."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/13.01.05]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/3/Other]]
+	- **Domain**: [[AI Risk Domain/6. Socioeconomic and Environmental]]
+	- **Sub-domain**: [[AI Risk/Domain/6. Socioeconomic and Environmental/6.1/Power centralization and unfair distribution of benefits]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Environmental Costs
+- [[AI Risks/Impacts: The Technical Base System/Environmental Costs]]
+  collapsed:: true
+	- **Description**: "The computing power used in training, testing, and deploying generative AI systems, especially large scale systems, uses substantial energy resources and thereby contributes to the global climate crisis by emitting greenhouse gasses."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/13.01.06]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/3/Other]]
+	- **Domain**: [[AI Risk Domain/6. Socioeconomic and Environmental]]
+	- **Sub-domain**: [[AI Risk/Domain/6. Socioeconomic and Environmental/6.6/Environmental harm]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Data and Content Moderation Labor
+- [[AI Risks/Impacts: The Technical Base System/Data and Content Moderation Labor]]
+  collapsed:: true
+	- **Description**: "Two key ethical concerns in the use of crowdwork for generative AI systems are: crowdworkers are frequently subject to working conditions that are taxing and debilitative to both physical and mental health, and there is a widespread deficit in documenting the role crowdworkers play in AI development. This contributes to a lack of transparency and explainability in resulting model outputs. Manual review is necessary to limit the harmful outputs of AI systems, including generative AI systems. A common harmful practice is to intentionally employ crowdworkers with few labor protections, often taking advantage of highly vulnerable workers, such as refugees [119, p. 18], incarcerated people [54], or individuals experiencing immense economic hardship [98, 181]. This precarity allows a myriad of harmful practices, such as companies underpaying or even refusing to pay workers for completed work (see Gray and Suri [93, p. 90] and Berg et al. [29, p. 74]), with no avenues for worker recourse. Finally, critical aspects of crowdwork are often left poorly documented, or entirely undocumented [88]."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/13.01.07]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/1/Pre-deployment]]
+	- **Domain**: [[AI Risk Domain/6. Socioeconomic and Environmental]]
+	- **Sub-domain**: [[AI Risk/Domain/6. Socioeconomic and Environmental/6.2/Increased inequality and decline in employment quality]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Impacts: People and Society
+- [[AI Risks/Impacts: People and Society/Impacts: People and Society]]
+  collapsed:: true
+	- **Description**: "what can be evaluated among people and society"
+	- **Evidence ID**: [[MIT/AI Risks/by ID/13.02.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/4/Not. coded]]
+	- **Timing**: [[AI Risk/Phase/4/Not. coded]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/X.1/Excluded]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Trustworthiness and Autonomy
+- [[AI Risks/Impacts: People and Society/Trustworthiness and Autonomy]]
+  collapsed:: true
+	- **Description**: "Human trust in systems, institutions, and people represented by system outputs evolves as generative AI systems are increasingly embedded in daily life."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/13.02.01]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/3/Other]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/5. Human-Computer Interaction]]
+	- **Sub-domain**: [[AI Risk/Domain/5. Human-Computer Interaction/5.2/Loss of human agency and autonomy]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Trustworthiness and Autonomy
+- [[AI Risks/Impacts: People and Society/Trustworthiness and Autonomy]]
+  collapsed:: true
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/13.02.01.a]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Trustworthiness and Autonomy
+- [[AI Risks/Impacts: People and Society/Trustworthiness and Autonomy]]
+  collapsed:: true
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/13.02.01.b]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Trustworthiness and Autonomy
+- [[AI Risks/Impacts: People and Society/Trustworthiness and Autonomy]]
+  collapsed:: true
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/13.02.01.c]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Inequality, Marginalization, and Violence
+- [[AI Risks/Impacts: People and Society/Inequality, Marginalization, and Violence]]
+  collapsed:: true
+	- **Description**: "Generative AI systems are capable of exacerbating inequality, as seen in sections on 4.1.1 Bias, Stereotypes, and Representational Harms and 4.1.2 Cultural Values and Sensitive Content, and Disparate Performance. When deployed or updated, systems' impacts on people and groups can directly and indirectly be used to harm and exploit vulnerable and marginalized groups."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/13.02.02]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/3/Other]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/1. Discrimination & Toxicity]]
+	- **Sub-domain**: [[AI Risk/Domain/1. Discrimination & Toxicity/1.1/Unfair discrimination and misrepresentation]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Inequality, Marginalization, and Violence
+- [[AI Risks/Impacts: People and Society/Inequality, Marginalization, and Violence]]
+  collapsed:: true
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/13.02.02.a]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Inequality, Marginalization, and Violence
+- [[AI Risks/Impacts: People and Society/Inequality, Marginalization, and Violence]]
+  collapsed:: true
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/13.02.02.b]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Inequality, Marginalization, and Violence
+- [[AI Risks/Impacts: People and Society/Inequality, Marginalization, and Violence]]
+  collapsed:: true
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/13.02.02.c]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Concentration of Authority
+- [[AI Risks/Impacts: People and Society/Concentration of Authority]]
+  collapsed:: true
+	- **Description**: "Use of generative AI systems to contribute to authoritative power and reinforce dominant values systems can be intentional and direct or more indirect. Concentrating authoritative power can also exacerbate inequality and lead to exploitation."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/13.02.03]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/6. Socioeconomic and Environmental]]
+	- **Sub-domain**: [[AI Risk/Domain/6. Socioeconomic and Environmental/6.1/Power centralization and unfair distribution of benefits]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Concentration of Authority
+- [[AI Risks/Impacts: People and Society/Concentration of Authority]]
+  collapsed:: true
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/13.02.03.a]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Concentration of Authority
+- [[AI Risks/Impacts: People and Society/Concentration of Authority]]
+  collapsed:: true
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/13.02.03.b]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Labor and Creativity
+- [[AI Risks/Impacts: People and Society/Labor and Creativity]]
+  collapsed:: true
+	- **Description**: "Economic incentives to augment and not automate human labor, thought, and creativity should examine the ongoing effects generative AI systems have on skills, jobs, and the labor market."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/13.02.04]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/6. Socioeconomic and Environmental]]
+	- **Sub-domain**: [[AI Risk/Domain/6. Socioeconomic and Environmental/6.3/Economic and cultural devaluation of human effort]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Labor and Creativity
+- [[AI Risks/Impacts: People and Society/Labor and Creativity]]
+  collapsed:: true
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/13.02.04.a]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Labor and Creativity
+- [[AI Risks/Impacts: People and Society/Labor and Creativity]]
+  collapsed:: true
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/13.02.04.b]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Ecosystem and Environment
+- [[AI Risks/Impacts: People and Society/Ecosystem and Environment]]
+  collapsed:: true
+	- **Description**: "Impacts at a high-level, from the AI ecosystem to the Earth itself, are necessarily broad but can be broken down into components for evaluation."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/13.02.05]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/6. Socioeconomic and Environmental]]
+	- **Sub-domain**: [[AI Risk/Domain/6. Socioeconomic and Environmental/6.6/Environmental harm]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Ecosystem and Environment
+- [[AI Risks/Impacts: People and Society/Ecosystem and Environment]]
+  collapsed:: true
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/13.02.05.a]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Ecosystem and Environment
+- [[AI Risks/Impacts: People and Society/Ecosystem and Environment]]
+  collapsed:: true
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/13.02.05.b]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### nan
+- [[AI Risks/nan/nan]]
+  collapsed:: true
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/14.00.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Fairness
+- [[AI Risks/Fairness/Fairness]]
+  collapsed:: true
+	- **Description**: "The general principle of equal treatment requires that an AI system upholds the principle of fairness, both ethically and legally. This means that the same facts are treated equally for each person unless there is an objective justification for unequal treatment."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/14.01.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/1. Discrimination & Toxicity]]
+	- **Sub-domain**: [[AI Risk/Domain/1. Discrimination & Toxicity/1.1/Unfair discrimination and misrepresentation]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Privacy
+- [[AI Risks/Privacy/Privacy]]
+  collapsed:: true
+	- **Description**: "Privacy is related to the ability of individuals to control or influence what information related to them may be collected and stored and by whom that information may be disclosed."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/14.02.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/3/Other]]
+	- **Timing**: [[AI Risk/Phase/3/Other]]
+	- **Domain**: [[AI Risk Domain/2. Privacy & Security]]
+	- **Sub-domain**: [[AI Risk/Domain/2. Privacy & Security/2.0/Privacy & Security]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Degree of Automation and Control
+- [[AI Risks/Degree of Automation and Control/Degree of Automation and Control]]
+  collapsed:: true
+	- **Description**: "The degree of automation and control describes the extent to which an AI system functions independently of human supervision and control."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/14.03.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/3/Other]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/7. AI System Safety, Failures, & Limitations]]
+	- **Sub-domain**: [[AI Risk/Domain/7. AI System Safety, Failures, & Limitations/7.1/AI pursuing its own goals in conflict with human goals or values]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Complexity of the Intended Task and Usage Environment
+- [[AI Risks/Complexity of the Intended Task and Usage Environment/Complexity of the Intended Task and Usage Environment]]
+  collapsed:: true
+	- **Description**: "As a general rule, more complex environments can quickly lead to situations that had not been considered in the design phase of the AI system. Therefore, complex environments can introduce risks with respect to the reliability and safety of an AI system"
+	- **Evidence ID**: [[MIT/AI Risks/by ID/14.04.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/7. AI System Safety, Failures, & Limitations]]
+	- **Sub-domain**: [[AI Risk/Domain/7. AI System Safety, Failures, & Limitations/7.3/Lack of capability or robustness]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Degree of Transparency and Explainability
+- [[AI Risks/Degree of Transparency and Explainability/Degree of Transparency and Explainability]]
+  collapsed:: true
+	- **Description**: "Transparency is the characteristic of a system that describes the degree to which appropriate information about the system is communicated to relevant stakeholders, whereas explainability describes the property of an AI system to express important factors influencing the results of the AI system in a way that is understandable for humans....Information about the model underlying the decision-making process is relevant
+	  for transparency. Systems with a low degree of transparency can pose risks in terms of
+	  their fairness, security and accountability. "
+	- **Evidence ID**: [[MIT/AI Risks/by ID/14.05.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/7. AI System Safety, Failures, & Limitations]]
+	- **Sub-domain**: [[AI Risk/Domain/7. AI System Safety, Failures, & Limitations/7.4/Lack of transparency or interpretability]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Security
+- [[AI Risks/Security/Security]]
+	- **Description**: "Artificial intelligence comes with an intrinsic set of challenges that need to be considered when discussing trustworthiness, especially in the context of functional safety. AI models, especially those with higher complexities (such as neural networks), can exhibit specific weaknesses not found in other types of systems and must, therefore, be subjected to higher levels of scrutiny, especially when deployed in a safety-critical context"
+	- **Evidence ID**: [[MIT/AI Risks/by ID/14.06.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/3/Other]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/2. Privacy & Security]]
+	- **Sub-domain**: [[AI Risk/Domain/2. Privacy & Security/2.2/AI system security vulnerabilities and attacks]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### System Hardware
+- [[AI Risks/System Hardware/System Hardware]]
+	- **Description**: ""Faults in the hardware can violate the correct execution of any algorithm by violating its control flow. Hardware faults can also cause memory-based errors and interfere with data inputs, such as sensor signals, thereby causing erroneous results, or they can violate the results in a direct way through damaged outputs."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/14.07.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/3/Other]]
+	- **Domain**: [[AI Risk Domain/7. AI System Safety, Failures, & Limitations]]
+	- **Sub-domain**: [[AI Risk/Domain/7. AI System Safety, Failures, & Limitations/7.3/Lack of capability or robustness]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Technological Maturity
+- [[AI Risks/Technological Maturity/Technological Maturity]]
+	- **Description**: "The technological maturity level describes how mature and error-free a certain technology is in a certain application context. If new technologies with a lower level of maturity are used in the development of the AI system, they may contain risks that are still unknown or difficult to assess.Mature technologies, on the other hand, usually have a greater variety of empirical data available, which means that risks can be identified and assessed more easily. However, with mature technologies, there is a risk that risk awareness decreases over time"
+	- **Evidence ID**: [[MIT/AI Risks/by ID/14.08.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/3/Other]]
+	- **Domain**: [[AI Risk Domain/6. Socioeconomic and Environmental]]
+	- **Sub-domain**: [[AI Risk/Domain/6. Socioeconomic and Environmental/6.4/Competitive dynamics]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### nan
+- [[AI Risks/nan/nan]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/15.00.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### First-Order Risks
+- [[AI Risks/First-Order Risks/First-Order Risks]]
+	- **Description**: "First-order risks can be generally broken down into risks arising from intended and unintended use, system design and implementation choices, and properties of the chosen dataset and learning components."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/15.01.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/3/Other]]
+	- **Timing**: [[AI Risk/Phase/3/Other]]
+	- **Domain**: [[AI Risk Domain/7. AI System Safety, Failures, & Limitations]]
+	- **Sub-domain**: [[AI Risk/Domain/7. AI System Safety, Failures, & Limitations/7.0/AI system safety, failures, & limitations]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Application
+- [[AI Risks/First-Order Risks/Application]]
+	- **Description**: "This is the risk posed by the intended application or use case. It is intuitive that some use cases will be inherently "riskier" than others (e.g., an autonomous weapons system vs. a customer service chatbot)."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/15.01.01]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/7. AI System Safety, Failures, & Limitations]]
+	- **Sub-domain**: [[AI Risk/Domain/7. AI System Safety, Failures, & Limitations/7.0/AI system safety, failures, & limitations]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Application
+- [[AI Risks/First-Order Risks/Application]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/15.01.01.a]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Application
+- [[AI Risks/First-Order Risks/Application]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/15.01.01.b]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Application
+- [[AI Risks/First-Order Risks/Application]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/15.01.01.c]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Application
+- [[AI Risks/First-Order Risks/Application]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/15.01.01.d]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Application
+- [[AI Risks/First-Order Risks/Application]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/15.01.01.e]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Application
+- [[AI Risks/First-Order Risks/Application]]
+  collapsed:: true
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/15.01.01.f]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Application
+- [[AI Risks/First-Order Risks/Application]]
+  collapsed:: true
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/15.01.01.g]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Application
+- [[AI Risks/First-Order Risks/Application]]
+  collapsed:: true
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/15.01.01.h]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Application
+- [[AI Risks/First-Order Risks/Application]]
+  collapsed:: true
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/15.01.01.i]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Application
+- [[AI Risks/First-Order Risks/Application]]
+  collapsed:: true
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/15.01.01.j]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Misapplication
+- [[AI Risks/First-Order Risks/Misapplication]]
+  collapsed:: true
+	- **Description**: This is the risk posed by an ideal system if used for a purpose/in a manner unintended by its creators. In many situations, negative consequences arise when the system is not used in the way or for the purpose it was intended.
+	- **Evidence ID**: [[MIT/AI Risks/by ID/15.01.02]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/7. AI System Safety, Failures, & Limitations]]
+	- **Sub-domain**: [[AI Risk/Domain/7. AI System Safety, Failures, & Limitations/7.3/Lack of capability or robustness]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Misapplication
+- [[AI Risks/First-Order Risks/Misapplication]]
+  collapsed:: true
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/15.01.02.a]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Misapplication
+- [[AI Risks/First-Order Risks/Misapplication]]
+  collapsed:: true
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/15.01.02.b]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Misapplication
+- [[AI Risks/First-Order Risks/Misapplication]]
+  collapsed:: true
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/15.01.02.c]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Algorithm
+- [[AI Risks/First-Order Risks/Algorithm]]
+  collapsed:: true
+	- **Description**: "This is the risk of the ML algorithm, model architecture, optimization technique, or other aspects of the training process being unsuitable for the intended application.Since these are key decisions that influence the final ML system, we
+	  capture their associated risks separately from design risks, even though they are part of the design process"
+	- **Evidence ID**: [[MIT/AI Risks/by ID/15.01.03]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/1/Pre-deployment]]
+	- **Domain**: [[AI Risk Domain/7. AI System Safety, Failures, & Limitations]]
+	- **Sub-domain**: [[AI Risk/Domain/7. AI System Safety, Failures, & Limitations/7.3/Lack of capability or robustness]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Algorithm
+- [[AI Risks/First-Order Risks/Algorithm]]
+  collapsed:: true
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/15.01.03.a]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Algorithm
+- [[AI Risks/First-Order Risks/Algorithm]]
+  collapsed:: true
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/15.01.03.b]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Algorithm
+- [[AI Risks/First-Order Risks/Algorithm]]
+  collapsed:: true
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/15.01.03.c]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Training & validation data
+- [[AI Risks/First-Order Risks/Training & validation data]]
+  collapsed:: true
+	- **Description**: "This is the risk posed by the choice of data used for training and validation."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/15.01.04]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/3/Other]]
+	- **Timing**: [[AI Risk/Phase/1/Pre-deployment]]
+	- **Domain**: [[AI Risk Domain/7. AI System Safety, Failures, & Limitations]]
+	- **Sub-domain**: [[AI Risk/Domain/7. AI System Safety, Failures, & Limitations/7.0/AI system safety, failures, & limitations]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Training & validation data
+- [[AI Risks/First-Order Risks/Training & validation data]]
+  collapsed:: true
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/15.01.04.a]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Training & validation data
+- [[AI Risks/First-Order Risks/Training & validation data]]
+  collapsed:: true
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/15.01.04.b]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Training & validation data
+- [[AI Risks/First-Order Risks/Training & validation data]]
+  collapsed:: true
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/15.01.04.c]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Training & validation data
+- [[AI Risks/First-Order Risks/Training & validation data]]
+  collapsed:: true
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/15.01.04.d]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Training & validation data
+- [[AI Risks/First-Order Risks/Training & validation data]]
+  collapsed:: true
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/15.01.04.e]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Robustness
+- [[AI Risks/First-Order Risks/Robustness]]
+  collapsed:: true
+	- **Description**: "This is the risk of the system failing or being unable to recover upon encountering invalid, noisy, or out-of-distribution (OOD) inputs."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/15.01.05]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/7. AI System Safety, Failures, & Limitations]]
+	- **Sub-domain**: [[AI Risk/Domain/7. AI System Safety, Failures, & Limitations/7.3/Lack of capability or robustness]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Robustness
+- [[AI Risks/First-Order Risks/Robustness]]
+  collapsed:: true
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/15.01.05.a]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Robustness
+- [[AI Risks/First-Order Risks/Robustness]]
+  collapsed:: true
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/15.01.05.b]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Robustness
+- [[AI Risks/First-Order Risks/Robustness]]
+  collapsed:: true
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/15.01.05.c]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Design
+- [[AI Risks/First-Order Risks/Design]]
+  collapsed:: true
+	- **Description**: "This is the risk of system failure due to system design choices or errors."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/15.01.06]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/3/Other]]
+	- **Timing**: [[AI Risk/Phase/1/Pre-deployment]]
+	- **Domain**: [[AI Risk Domain/7. AI System Safety, Failures, & Limitations]]
+	- **Sub-domain**: [[AI Risk/Domain/7. AI System Safety, Failures, & Limitations/7.3/Lack of capability or robustness]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Design
+- [[AI Risks/First-Order Risks/Design]]
+  collapsed:: true
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/15.01.06.a]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Design
+- [[AI Risks/First-Order Risks/Design]]
+  collapsed:: true
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/15.01.06.b]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Design
+- [[AI Risks/First-Order Risks/Design]]
+  collapsed:: true
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/15.01.06.c]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Design
+- [[AI Risks/First-Order Risks/Design]]
+  collapsed:: true
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/15.01.06.d]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Design
+- [[AI Risks/First-Order Risks/Design]]
+  collapsed:: true
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/15.01.06.e]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Implementation
+- [[AI Risks/First-Order Risks/Implementation]]
+  collapsed:: true
+	- **Description**: "This is the risk of system failure due to code implementation choices or errors."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/15.01.07]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/1/Pre-deployment]]
+	- **Domain**: [[AI Risk Domain/7. AI System Safety, Failures, & Limitations]]
+	- **Sub-domain**: [[AI Risk/Domain/7. AI System Safety, Failures, & Limitations/7.0/AI system safety, failures, & limitations]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Implementation
+- [[AI Risks/First-Order Risks/Implementation]]
+  collapsed:: true
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/15.01.07.a]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Implementation
+- [[AI Risks/First-Order Risks/Implementation]]
+  collapsed:: true
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/15.01.07.b]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Control
+- [[AI Risks/First-Order Risks/Control]]
+  collapsed:: true
+	- **Description**: This is the difficulty of controlling the ML system
+	- **Evidence ID**: [[MIT/AI Risks/by ID/15.01.08]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/3/Other]]
+	- **Timing**: [[AI Risk/Phase/3/Other]]
+	- **Domain**: [[AI Risk Domain/7. AI System Safety, Failures, & Limitations]]
+	- **Sub-domain**: [[AI Risk/Domain/7. AI System Safety, Failures, & Limitations/7.1/AI pursuing its own goals in conflict with human goals or values]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Control
+- [[AI Risks/First-Order Risks/Control]]
+  collapsed:: true
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/15.01.08.a]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Control
+- [[AI Risks/First-Order Risks/Control]]
+  collapsed:: true
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/15.01.08.b]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Emergent behavior
+- [[AI Risks/First-Order Risks/Emergent behavior]]
+  collapsed:: true
+	- **Description**: "This is the risk resulting from novel behavior acquired through continual learning or self-organization after deployment."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/15.01.09]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/7. AI System Safety, Failures, & Limitations]]
+	- **Sub-domain**: [[AI Risk/Domain/7. AI System Safety, Failures, & Limitations/7.1/AI pursuing its own goals in conflict with human goals or values]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Emergent behavior
+- [[AI Risks/First-Order Risks/Emergent behavior]]
+  collapsed:: true
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/15.01.09.a]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Emergent behavior
+- [[AI Risks/First-Order Risks/Emergent behavior]]
+  collapsed:: true
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/15.01.09.b]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Second-Order Risks
+- [[AI Risks/Second-Order Risks/Second-Order Risks]]
+  collapsed:: true
+	- **Description**: "Second-order risks result from the consequences of first-order risks and relate to the risks resulting from an ML system interacting with the real world, such as risks to human rights, the organization, and the natural environment."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/15.02.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/3/Other]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/6. Socioeconomic and Environmental]]
+	- **Sub-domain**: [[AI Risk/Domain/6. Socioeconomic and Environmental/6.0/Socioeconomic & Environmental]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Safety
+- [[AI Risks/Second-Order Risks/Safety]]
+  collapsed:: true
+	- **Description**: This is the risk of direct or indirect physical or psychological injury resulting from interaction with the ML system.
+	- **Evidence ID**: [[MIT/AI Risks/by ID/15.02.01]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/7. AI System Safety, Failures, & Limitations]]
+	- **Sub-domain**: [[AI Risk/Domain/7. AI System Safety, Failures, & Limitations/7.3/Lack of capability or robustness]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Discrimination
+- [[AI Risks/Second-Order Risks/Discrimination]]
+  collapsed:: true
+	- **Description**: This is the risk of an ML system encoding stereotypes of or performing disproportionately poorly for some demographics/social groups.
+	- **Evidence ID**: [[MIT/AI Risks/by ID/15.02.02]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/1. Discrimination & Toxicity]]
+	- **Sub-domain**: [[AI Risk/Domain/1. Discrimination & Toxicity/1.1/Unfair discrimination and misrepresentation]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Security
+- [[AI Risks/Second-Order Risks/Security]]
+  collapsed:: true
+	- **Description**: This is the risk of loss or harm from intentional subversion or forced failure.
+	- **Evidence ID**: [[MIT/AI Risks/by ID/15.02.03]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/2. Privacy & Security]]
+	- **Sub-domain**: [[AI Risk/Domain/2. Privacy & Security/2.2/AI system security vulnerabilities and attacks]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Privacy
+- [[AI Risks/Second-Order Risks/Privacy]]
+  collapsed:: true
+	- **Description**: The risk of loss or harm from leakage of personal information via the ML system.
+	- **Evidence ID**: [[MIT/AI Risks/by ID/15.02.04]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/2. Privacy & Security]]
+	- **Sub-domain**: [[AI Risk/Domain/2. Privacy & Security/2.1/Compromise of privacy by leaking or correctly inferring sensitive information]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Environmental
+- [[AI Risks/Second-Order Risks/Environmental]]
+  collapsed:: true
+	- **Description**: The risk of harm to the natural environment posed by the ML system.
+	- **Evidence ID**: [[MIT/AI Risks/by ID/15.02.05]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/3/Other]]
+	- **Domain**: [[AI Risk Domain/6. Socioeconomic and Environmental]]
+	- **Sub-domain**: [[AI Risk/Domain/6. Socioeconomic and Environmental/6.6/Environmental harm]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Organizational
+- [[AI Risks/Second-Order Risks/Organizational]]
+  collapsed:: true
+	- **Description**: The risk of financial and/or reputational damage to the organization building or using the ML system.
+	- **Evidence ID**: [[MIT/AI Risks/by ID/15.02.06]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/6. Socioeconomic and Environmental]]
+	- **Sub-domain**: [[AI Risk/Domain/6. Socioeconomic and Environmental/6.0/Socioeconomic & Environmental]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Other ethical risks
+- [[AI Risks/Second-Order Risks/Other ethical risks]]
+  collapsed:: true
+	- **Description**: "Although we have discussed a number of common risks posed by ML systems, we acknowledge that there are many other ethical risks such as the potential for psychological manipulation, dehumanization, and exploitation of humans at scale."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/15.02.07]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk/Domain/4. Malicious Actors & Misuse]]
+	- **Sub-domain**: [[AI Risk/Domain/4. Malicious Actors & Misuse/4.1/Disinformation, surveillance, and influence at scale]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### nan
+- [[AI Risks/nan/nan]]
+  collapsed:: true
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/16.00.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Risk area 1: Discrimination, Hate speech and Exclusion
+- [[AI Risks/Risk area 1: Discrimination, Hate speech and Exclusion/Risk area 1: Discrimination, Hate speech and Exclusion]]
+  collapsed:: true
+	- **Description**: "Speech can create a range of harms, such as promoting social stereotypes that perpetuate the derogatory representation or unfair treatment of marginalised groups [22], inciting hate or violence [57], causing profound offence [199], or reinforcing social norms that exclude or marginalise identities [15,58]. LMs that faithfully mirror harmful language present in the training data can reproduce these harms. Unfair treatment can also emerge from LMs that perform better for some social groups than others [18]. These risks have been widely known, observed and documented in LMs. Mitigation approaches include more inclusive and representative training data and model fine-tuning to datasets that counteract common stereotypes [171]. We now explore these risks in turn."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/16.01.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/3/Other]]
+	- **Domain**: [[AI Risk Domain/1. Discrimination & Toxicity]]
+	- **Sub-domain**: [[AI Risk/Domain/1. Discrimination & Toxicity/1.2/Exposure to toxic content]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Social stereotypes and unfair discrimination
+- [[AI Risks/Risk area 1: Discrimination, Hate speech and Exclusion/Social stereotypes and unfair discrimination]]
+  collapsed:: true
+	- **Description**: "The reproduction of harmful stereotypes is well-documented in models that represent natural language [32]. Large-scale LMs are trained on text sources, such as digitised books and text on the internet. As a result, the LMs learn demeaning language and stereotypes about groups who are frequently marginalised."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/16.01.01]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/3/Other]]
+	- **Domain**: [[AI Risk Domain/1. Discrimination & Toxicity]]
+	- **Sub-domain**: [[AI Risk/Domain/1. Discrimination & Toxicity/1.1/Unfair discrimination and misrepresentation]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Social stereotypes and unfair discrimination.
+- [[AI Risks/Risk area 1: Discrimination, Hate speech and Exclusion/Social stereotypes and unfair discrimination.]]
+  collapsed:: true
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/16.01.01.a]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Hate speech and offensive language
+- [[AI Risks/Risk area 1: Discrimination, Hate speech and Exclusion/Hate speech and offensive language]]
+  collapsed:: true
+	- **Description**: "LMs may generate language that includes profanities, identity attacks, insults, threats, language that incites violence, or language that causes justified offence as such language is prominent online [57, 64, 143,191]. This language risks causing offence, psychological harm, and inciting hate or violence."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/16.01.02]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/1. Discrimination & Toxicity]]
+	- **Sub-domain**: [[AI Risk/Domain/1. Discrimination & Toxicity/1.2/Exposure to toxic content]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Exclusionary norms
+- [[AI Risks/Risk area 1: Discrimination, Hate speech and Exclusion/Exclusionary norms]]
+  collapsed:: true
+	- **Description**: "In language, humans express social categories and norms, which exclude groups who live outside of them [58]. LMs that faithfully encode patterns present in language necessarily encode such norms."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/16.01.03]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/3/Other]]
+	- **Domain**: [[AI Risk Domain/1. Discrimination & Toxicity]]
+	- **Sub-domain**: [[AI Risk/Domain/1. Discrimination & Toxicity/1.1/Unfair discrimination and misrepresentation]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Exclusionary norms
+- [[AI Risks/Risk area 1: Discrimination, Hate speech and Exclusion/Exclusionary norms]]
+  collapsed:: true
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/16.01.03.a]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Exclusionary norms
+- [[AI Risks/Risk area 1: Discrimination, Hate speech and Exclusion/Exclusionary norms]]
+  collapsed:: true
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/16.01.03.b]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Exclusionary norms
+- [[AI Risks/Risk area 1: Discrimination, Hate speech and Exclusion/Exclusionary norms]]
+  collapsed:: true
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/16.01.03.c]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Exclusionary norms
+- [[AI Risks/Risk area 1: Discrimination, Hate speech and Exclusion/Exclusionary norms]]
+  collapsed:: true
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/16.01.03.d]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Lower performance for some languages and social groups
+- [[AI Risks/Risk area 1: Discrimination, Hate speech and Exclusion/Lower performance for some languages and social groups ]]
+  collapsed:: true
+	- **Description**: "LMs are typically trained in few languages, and perform less well in other languages [95, 162]. In part, this is due to unavailability of training data: there are many widely spoken languages for which no systematic efforts have been made to create labelled training datasets, such as Javanese which is spoken by more than 80 million people [95]. Training data is particularly missing for languages that are spoken by groups who are multilingual and can use a technology in English, or for languages spoken by groups who are not the primary target demographic for new technologies."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/16.01.04]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/1. Discrimination & Toxicity]]
+	- **Sub-domain**: [[AI Risk/Domain/1. Discrimination & Toxicity/1.3/Unequal performance across groups]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Lower performance for some languages and social groups
+- [[AI Risks/Risk area 1: Discrimination, Hate speech and Exclusion/Lower performance for some languages and social groups ]]
+  collapsed:: true
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/16.01.04.a]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Lower performance for some languages and social groups
+- [[AI Risks/Risk area 1: Discrimination, Hate speech and Exclusion/Lower performance for some languages and social groups ]]
+  collapsed:: true
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/16.01.04.b]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Risk area 2: Information Hazards
+- [[AI Risks/Risk area 2: Information Hazards/Risk area 2: Information Hazards]]
+  collapsed:: true
+	- **Description**: "LM predictions that convey true information may give rise to information hazards, whereby the dissemination of private or sensitive information can cause harm [27]. Information hazards can cause harm at the point of use, even with no mistake of the technology user. For example, revealing trade secrets can damage a business, revealing a health diagnosis can cause emotional distress, and revealing private data can violate a person’s rights. Information hazards arise from the LM providing private data or sensitive information that is present in, or can be inferred from, training data. Observed risks include privacy violations [34]. Mitigation strategies include algorithmic solutions and responsible model release strategies."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/16.02.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/2. Privacy & Security]]
+	- **Sub-domain**: [[AI Risk/Domain/2. Privacy & Security/2.1/Compromise of privacy by leaking or correctly inferring sensitive information]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Compromising privacy by leaking sensitive information
+- [[AI Risks/Risk area 2: Information Hazards/Compromising privacy by leaking sensitive information]]
+  collapsed:: true
+	- **Description**: "A LM can “remember” and leak private data, if such information is present in training data, causing privacy violations [34]."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/16.02.01]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/2. Privacy & Security]]
+	- **Sub-domain**: [[AI Risk/Domain/2. Privacy & Security/2.1/Compromise of privacy by leaking or correctly inferring sensitive information]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Compromising privacy by leaking sensitive information
+- [[AI Risks/Risk area 2: Information Hazards/Compromising privacy by leaking sensitive information]]
+  collapsed:: true
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/16.02.01.a]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Compromising privacy by leaking sensitive information
+- [[AI Risks/Risk area 2: Information Hazards/Compromising privacy by leaking sensitive information]]
+  collapsed:: true
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/16.02.01.b]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Compromising privacy or security by correctly inferring sensitive information
+- [[AI Risks/Risk area 2: Information Hazards/Compromising privacy or security by correctly inferring sensitive information ]]
+  collapsed:: true
+	- **Description**: Anticipated risk: "Privacy violations may occur at inference time even without an individual’s data being present in the training corpus. Insofar as LMs can be used to improve the accuracy of inferences on protected traits such as the sexual orientation, gender, or religiousness of the person providing the input prompt, they may facilitate the creation of detailed profiles of individuals comprising true and sensitive information without the knowledge or consent of the individual."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/16.02.02]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/2. Privacy & Security]]
+	- **Sub-domain**: [[AI Risk/Domain/2. Privacy & Security/2.1/Compromise of privacy by leaking or correctly inferring sensitive information]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Compromising privacy or security by correctly inferring sensitive information
+- [[AI Risks/Risk area 2: Information Hazards/Compromising privacy or security by correctly inferring sensitive information ]]
+  collapsed:: true
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/16.02.02.a]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Risk area 3: Misinformation Harms
+- [[AI Risks/Risk area 3: Misinformation Harms/Risk area 3: Misinformation Harms]]
+  collapsed:: true
+	- **Description**: "These risks arise from the LM outputting false, misleading, nonsensical or poor quality information, without malicious intent of the user. (The deliberate generation of "disinformation", false information that is intended to mislead, is discussed in the section on Malicious Uses.) Resulting harms range from unintentionally misinforming or deceiving a person, to causing material harm, and amplifying the erosion of societal distrust in shared information. Several risks listed here are well-documented in current large-scale LMs as well as in other language technologies"
+	- **Evidence ID**: [[MIT/AI Risks/by ID/16.03.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk/Domain/3. Misinformation]]
+	- **Sub-domain**: [[AI Risk/Domain/3. Misinformation/3.0/Misinformation]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Disseminating false or misleading information
+- [[AI Risks/Risk area 3: Misinformation Harms/Disseminating false or misleading information ]]
+  collapsed:: true
+	- **Description**: "Where a LM prediction causes a false belief in a user, this may threaten personal autonomy and even pose downstream AI safety risks [99]."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/16.03.01]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk/Domain/3. Misinformation]]
+	- **Sub-domain**: [[AI Risk/Domain/3. Misinformation/3.1/False or misleading information]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Disseminating false or misleading information
+- [[AI Risks/Risk area 3: Misinformation Harms/Disseminating false or misleading information ]]
+  collapsed:: true
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/16.03.01.a]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Disseminating false or misleading information
+- [[AI Risks/Risk area 3: Misinformation Harms/Disseminating false or misleading information ]]
+  collapsed:: true
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/16.03.01.b]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Causing material harm by disseminating false or poor information e.g. in medicine or law
+- [[AI Risks/Risk area 3: Misinformation Harms/Causing material harm by disseminating false or poor information e.g. in medicine or law]]
+  collapsed:: true
+	- **Description**: "Induced or reinforced false beliefs may be particularly grave when misinformation is given in sensitive domains such as medicine or law. For example, misin- formation on medical dosages may lead a user to cause harm to themselves [21, 130]. False legal advice, e.g. on permitted owner- ship of drugs or weapons, may lead a user to unwillingly commit a crime. Harm can also result from misinformation in seemingly non-sensitive domains, such as weather forecasting. Where a LM prediction endorses unethical views or behaviours, it may motivate the user to perform harmful actions that they may otherwise not have performed."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/16.03.02]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk/Domain/3. Misinformation]]
+	- **Sub-domain**: [[AI Risk/Domain/3. Misinformation/3.1/False or misleading information]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Risk area 4: Malicious Uses
+- [[AI Risks/Risk area 4: Malicious Uses/Risk area 4: Malicious Uses]]
+  collapsed:: true
+	- **Description**: "These risks arise from humans intentionally using the LM to cause harm, for example via targeted disinformation campaigns, fraud, or malware. Malicious use risks are expected to proliferate as LMs become more widely accessible"
+	- **Evidence ID**: [[MIT/AI Risks/by ID/16.04.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk/Domain/4. Malicious Actors & Misuse]]
+	- **Sub-domain**: [[AI Risk/Domain/4. Malicious Actors & Misuse/4.0/Malicious use]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Making disinformation cheaper and more effective
+- [[AI Risks/Risk area 4: Malicious Uses/Making disinformation cheaper and more effective ]]
+  collapsed:: true
+	- **Description**: "While some predict that it will remain cheaper to hire humans to generate disinformation [180], it is equally possible that LM- assisted content generation may offer a lower-cost way of creating disinformation at scale."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/16.04.01]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk/Domain/4. Malicious Actors & Misuse]]
+	- **Sub-domain**: [[AI Risk/Domain/4. Malicious Actors & Misuse/4.1/Disinformation, surveillance, and influence at scale]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Making disinformation cheaper and more effective
+- [[AI Risks/Risk area 4: Malicious Uses/Making disinformation cheaper and more effective ]]
+  collapsed:: true
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/16.04.01.a]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Making disinformation cheaper and more effective
+- [[AI Risks/Risk area 4: Malicious Uses/Making disinformation cheaper and more effective ]]
+  collapsed:: true
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/16.04.01.b]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Making disinformation cheaper and more effective
+- [[AI Risks/Risk area 4: Malicious Uses/Making disinformation cheaper and more effective ]]
+  collapsed:: true
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/16.04.01.c]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Assisting code generation for cyber security threats
+- [[AI Risks/Risk area 4: Malicious Uses/Assisting code generation for cyber security threats ]]
+  collapsed:: true
+	- **Description**: Anticipated risk: "Creators of the assistive coding tool Co-Pilot based on GPT-3 suggest that such tools may lower the cost of developing polymorphic malware which is able to change its features in order to evade detection [37]."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/16.04.02]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk/Domain/4. Malicious Actors & Misuse]]
+	- **Sub-domain**: [[AI Risk/Domain/4. Malicious Actors & Misuse/4.2/Cyberattacks, weapon development or use, and mass harm]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Facilitating fraud, scam and targeted manipulation
+- [[AI Risks/Risk area 4: Malicious Uses/Facilitating fraud, scam and targeted manipulation ]]
+  collapsed:: true
+	- **Description**: Anticipated risk: "LMs can potentially be used to increase the effectiveness of crimes."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/16.04.03]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk/Domain/4. Malicious Actors & Misuse]]
+	- **Sub-domain**: [[AI Risk/Domain/4. Malicious Actors & Misuse/4.3/Fraud, scams, and targeted manipulation]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Facilitating fraud, scam and targeted manipulation
+- [[AI Risks/Risk area 4: Malicious Uses/Facilitating fraud, scam and targeted manipulation ]]
+  collapsed:: true
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/16.04.03.a]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Facilitating fraud, scam and targeted manipulation
+- [[AI Risks/Risk area 4: Malicious Uses/Facilitating fraud, scam and targeted manipulation ]]
+  collapsed:: true
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/16.04.03.b]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Illegitimate surveillance and censorship
+- [[AI Risks/Risk area 4: Malicious Uses/Illegitimate surveillance and censorship ]]
+  collapsed:: true
+	- **Description**: Anticipated risk: "Mass surveillance previously required millions of human analysts [83], but is increasingly being automated using machine learning tools [7, 168]. The collection and analysis of large amounts of information about people creates concerns about privacy rights and democratic values [41, 173,187]. Conceivably, LMs could be applied to reduce the cost and increase the efficacy of mass surveillance, thereby amplifying the capabilities of actors who conduct mass surveillance, including for illegitimate censorship or to cause other harm."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/16.04.04]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk/Domain/4. Malicious Actors & Misuse]]
+	- **Sub-domain**: [[AI Risk/Domain/4. Malicious Actors & Misuse/4.1/Disinformation, surveillance, and influence at scale]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Risk area 5: Human-Computer Interaction Harms
+- [[AI Risks/Risk area 5: Human-Computer Interaction Harms/Risk area 5: Human-Computer Interaction Harms]]
+  collapsed:: true
+	- **Description**: "This section focuses on risks specifically from LM applications that engage a user via dialogue, also referred to as conversational agents (CAs) [142]. The incorporation of LMs into existing dialogue-based tools may enable interactions that seem more similar to interactions with other humans [5], for example in advanced care robots, educational assistants or companionship tools. Such interaction can lead to unsafe use due to users overestimating the model, and may create new avenues to exploit and violate the privacy of the user. Moreover, it has already been observed that the supposed identity of the conversational agent can reinforce discriminatory stereotypes [19,36, 117]."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/16.05.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/3/Other]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/5. Human-Computer Interaction]]
+	- **Sub-domain**: [[AI Risk/Domain/5. Human-Computer Interaction/5.1/Overreliance and unsafe use]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Promoting harmful stereotypes by implying gender or ethnic identity
+- [[AI Risks/Risk area 5: Human-Computer Interaction Harms/Promoting harmful stereotypes by implying gender or ethnic identity]]
+  collapsed:: true
+	- **Description**: "CAs can perpetuate harmful stereotypes by using particular identity markers in language (e.g. referring to “self” as “female”), or by more general design features (e.g. by giving the product a gendered name such as Alexa). The risk of representational harm in these cases is that the role of “assistant” is presented as inherently linked to the female gender [19, 36]. Gender or ethnicity identity markers may be implied by CA vocabulary, knowledge or vernacular [124]; product description, e.g. in one case where users could choose as virtual assistant Jake - White, Darnell - Black, Antonio - Hispanic [117]; or the CA’s explicit self-description during dialogue with the user."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/16.05.01]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/1. Discrimination & Toxicity]]
+	- **Sub-domain**: [[AI Risk/Domain/1. Discrimination & Toxicity/1.1/Unfair discrimination and misrepresentation]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Anthropomorphising systems can lead to overreliance and unsafe use
+- [[AI Risks/Risk area 5: Human-Computer Interaction Harms/Anthropomorphising systems can lead to overreliance and unsafe use ]]
+  collapsed:: true
+	- **Description**: Anticipated risk: "Natural language is a mode of communication particularly used by humans. Humans interacting with CAs may come to think of these agents as human-like and lead users to place undue confidence in these agents. For example, users may falsely attribute human-like characteristics to CAs such as holding a coherent identity over time, or being capable of empathy. Such inflated views of CA competen- cies may lead users to rely on the agents where this is not safe."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/16.05.02]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/5. Human-Computer Interaction]]
+	- **Sub-domain**: [[AI Risk/Domain/5. Human-Computer Interaction/5.1/Overreliance and unsafe use]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Anthropomorphising systems can lead to overreliance and unsafe use
+- [[AI Risks/Risk area 5: Human-Computer Interaction Harms/Anthropomorphising systems can lead to overreliance and unsafe use ]]
+  collapsed:: true
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/16.05.02.a]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Avenues for exploiting user trust and accessing more private information
+- [[AI Risks/Risk area 5: Human-Computer Interaction Harms/Avenues for exploiting user trust and accessing more private information]]
+	- **Description**: Anticipated risk: "In conversation, users may reveal private information that would otherwise be difficult to access, such as opinions or emotions. Capturing such information may enable downstream applications that violate privacy rights or cause harm to users, e.g. via more effective recommendations of addictive applications. In one study, humans who interacted with a ‘human-like’ chatbot disclosed more private information than individuals who interacted with a ‘machine-like’ chatbot [87]."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/16.05.03]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/5. Human-Computer Interaction]]
+	- **Sub-domain**: [[AI Risk/Domain/5. Human-Computer Interaction/5.1/Overreliance and unsafe use]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Human-like interaction may amplify opportunities for user nudging, deception or manipulation
+- [[AI Risks/Risk area 5: Human-Computer Interaction Harms/Human-like interaction may amplify opportunities for user nudging, deception or manipulation]]
+	- **Description**: Anticipated risk: "In conversation, humans commonly display well-known cognitive biases that could be exploited. CAs may learn to trigger these effects, e.g. to deceive their counterpart in order to achieve an overarching objective."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/16.05.04]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/5. Human-Computer Interaction]]
+	- **Sub-domain**: [[AI Risk/Domain/5. Human-Computer Interaction/5.1/Overreliance and unsafe use]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Risk area 6: Environmental and Socioeconomic harms
+- [[AI Risks/Risk area 6: Environmental and Socioeconomic harms/Risk area 6: Environmental and Socioeconomic harms]]
+  collapsed:: true
+	- **Description**: "LMs create some risks that recur with different types of AI and other advanced technologies making these risks ever more pressing. Environmental concerns arise from the large amount of energy required to train and operate large-scale models. Risks of LMs furthering social inequities emerge from the uneven distribution of risk and benefits of automation, loss of high-quality and safe employment, and environmental harm. Many of these risks are more indirect than the harms analysed in previous sections and will depend on various commercial, economic and social factors, making the specific impact of LMs difficult to disentangle and forecast. As a result, the level of evidence on these risks is mixed."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/16.06.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/6. Socioeconomic and Environmental]]
+	- **Sub-domain**: [[AI Risk/Domain/6. Socioeconomic and Environmental/6.0/Socioeconomic & Environmental]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Environmental harms from operating LMs
+- [[AI Risks/Risk area 6: Environmental and Socioeconomic harms/Environmental harms from operating LMs]]
+  collapsed:: true
+	- **Description**: "LMs (and AI more broadly) can have an environmental impact at different levels, including: (1) direct impacts from the energy used to train or operate the LM, (2) secondary impacts due to emissions from LM-based applications, (3) system-level impacts as LM-based applications influence human behaviour (e.g. increasing environmental awareness or consumption), and (4) resource impacts on precious metals and other materials required to build hardware on which the computations are run e.g. data centres, chips, or devices. Some evidence exists on (1), but (2) and (3) will likely be more significant for overall CO2
+	  emissions, and harder to measure [96]. (4) may become more significant if LM-based applications lead to more computations being run on mobile devices, increasing overall demand, and is modulated by life-cycles of hardware."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/16.06.01]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/3/Other]]
+	- **Domain**: [[AI Risk Domain/6. Socioeconomic and Environmental]]
+	- **Sub-domain**: [[AI Risk/Domain/6. Socioeconomic and Environmental/6.6/Environmental harm]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Environmental harms from operating LMs
+- [[AI Risks/Risk area 6: Environmental and Socioeconomic harms/Environmental harms from operating LMs]]
+  collapsed:: true
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/16.06.01.a]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Increasing inequality and negative effects on job quality
+- [[AI Risks/Risk area 6: Environmental and Socioeconomic harms/Increasing inequality and negative effects on job quality]]
+  collapsed:: true
+	- **Description**: "Advances in LMs and the language technologies based on them could lead to the automation of tasks that are currently done by paid human workers, such as responding to customer-service queries, with negative effects on employment [3, 192]."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/16.06.02]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/3/Other]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/6. Socioeconomic and Environmental]]
+	- **Sub-domain**: [[AI Risk/Domain/6. Socioeconomic and Environmental/6.2/Increased inequality and decline in employment quality]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Increasing inequality and negative effects on job quality
+- [[AI Risks/Risk area 6: Environmental and Socioeconomic harms/Increasing inequality and negative effects on job quality]]
+  collapsed:: true
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/16.06.02.a]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Increasing inequality and negative effects on job quality
+- [[AI Risks/Risk area 6: Environmental and Socioeconomic harms/Increasing inequality and negative effects on job quality]]
+  collapsed:: true
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/16.06.02.b]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Undermining creative economies
+- [[AI Risks/Risk area 6: Environmental and Socioeconomic harms/Undermining creative economies]]
+  collapsed:: true
+	- **Description**: "LMs may generate content that is not strictly in violation of copyright but harms artists by capital- ising on their ideas, in ways that would be time-intensive or costly to do using human labour. This may undermine the profitability of creative or innovative work. If LMs can be used to generate content that serves as a credible substitute for a particular example of hu- man creativity - otherwise protected by copyright - this potentially allows such work to be replaced without the author’s copyright being infringed, analogous to ”patent-busting” [158] ... These risks are distinct from copyright infringement concerns based on the LM reproducing verbatim copyrighted material that is present in the training data [188]."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/16.06.03]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/6. Socioeconomic and Environmental]]
+	- **Sub-domain**: [[AI Risk/Domain/6. Socioeconomic and Environmental/6.3/Economic and cultural devaluation of human effort]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Disparate access to benefits due to hardware, software, skill constraints
+- [[AI Risks/Risk area 6: Environmental and Socioeconomic harms/Disparate access to benefits due to hardware, software, skill constraints]]
+  collapsed:: true
+	- **Description**: Due to differential internet access, language, skill, or hardware requirements, the benefits from LMs are unlikely to be equally accessible to all people and groups who would like to use them. Inaccessibility of the technology may perpetuate global inequities by disproportionately benefiting some groups. Language-driven technology may increase accessibility to people who are illiterate or suffer from learning disabilities. However, these benefits depend on a more basic form of accessibility based on hardware, internet connection, and skill to operate the system
+	- **Evidence ID**: [[MIT/AI Risks/by ID/16.06.04]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/6. Socioeconomic and Environmental]]
+	- **Sub-domain**: [[AI Risk/Domain/6. Socioeconomic and Environmental/6.1/Power centralization and unfair distribution of benefits]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### nan
+- [[AI Risks/nan/nan]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/17.00.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Discrimination, Exclusion and Toxicity
+- [[AI Risks/Discrimination, Exclusion and Toxicity /Discrimination, Exclusion and Toxicity ]]
+	- **Description**: "Social harms that arise from the language model producing discriminatory or exclusionary speech"
+	- **Evidence ID**: [[MIT/AI Risks/by ID/17.01.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/1. Discrimination & Toxicity]]
+	- **Sub-domain**: [[AI Risk/Domain/1. Discrimination & Toxicity/1.0/Discrimination & Toxicity]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Social stereotypes and unfair discrmination
+- [[AI Risks/Discrimination, Exclusion and Toxicity /Social stereotypes and unfair discrmination ]]
+	- **Description**: "Perpetuating harmful stereotypes and discrimination is a well-documented harm in machine learning models that represent natural language (Caliskan et al., 2017). LMs that encode discriminatory language or social stereotypes can cause different types of harm... Unfair discrimination manifests in differential treatment or access to resources among individuals or groups based on sensitive traits such as sex, religion, gender, sexual orientation, ability and age."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/17.01.01]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/3/Other]]
+	- **Domain**: [[AI Risk Domain/1. Discrimination & Toxicity]]
+	- **Sub-domain**: [[AI Risk/Domain/1. Discrimination & Toxicity/1.1/Unfair discrimination and misrepresentation]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Social stereotypes and unfair discrmination
+- [[AI Risks/Discrimination, Exclusion and Toxicity /Social stereotypes and unfair discrmination ]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/17.01.01.a]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Exclusionary norms
+- [[AI Risks/Discrimination, Exclusion and Toxicity /Exclusionary norms ]]
+	- **Description**: "In language, humans express social categories and norms. Language models (LMs) that faithfully encode patterns present in natural language necessarily encode such norms and categories...such norms and categories exclude groups who live outside them (Foucault and Sheridan, 2012). For example, defining the term “family” as married parents of male and female gender with a blood-related child, denies the existence of families to whom these criteria do not apply"
+	- **Evidence ID**: [[MIT/AI Risks/by ID/17.01.02]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/3/Other]]
+	- **Domain**: [[AI Risk Domain/1. Discrimination & Toxicity]]
+	- **Sub-domain**: [[AI Risk/Domain/1. Discrimination & Toxicity/1.1/Unfair discrimination and misrepresentation]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Exclusionary norms
+- [[AI Risks/Discrimination, Exclusion and Toxicity /Exclusionary norms ]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/17.01.02.a]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Exclusionary norms
+- [[AI Risks/Discrimination, Exclusion and Toxicity /Exclusionary norms ]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/17.01.02.b]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Exclusionary norms
+- [[AI Risks/Discrimination, Exclusion and Toxicity /Exclusionary norms ]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/17.01.02.c]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Toxic language
+- [[AI Risks/Discrimination, Exclusion and Toxicity /Toxic language ]]
+	- **Description**: "LM’s may predict hate speech or other language that is “toxic”. While there is no single agreed definition of what constitutes hate speech or toxic speech (Fortuna and Nunes, 2018; Persily and Tucker, 2020; Schmidt and Wiegand, 2017), proposed definitions often include profanities, identity attacks, sleights, insults, threats, sexually explicit content, demeaning language, language that incites violence, or ‘hostile and malicious language targeted at a person or group because of their actual or perceived innate characteristics’ (Fortuna and Nunes, 2018; Gorwa et al., 2020; PerspectiveAPI)"
+	- **Evidence ID**: [[MIT/AI Risks/by ID/17.01.03]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/1. Discrimination & Toxicity]]
+	- **Sub-domain**: [[AI Risk/Domain/1. Discrimination & Toxicity/1.2/Exposure to toxic content]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Lower performance for some languages and social groups
+- [[AI Risks/Discrimination, Exclusion and Toxicity /Lower performance for some languages and social groups ]]
+	- **Description**: "LMs perform less well in some languages (Joshi et al., 2021; Ruder, 2020)...LM that more accurately captures the language use of one group, compared to another, may result in lower-quality language technologies for the latter. Disadvantaging users based on such traits may be particularly pernicious because attributes such as social class or education background are not typically covered as ‘protected characteristics’ in anti-discrimination law."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/17.01.04]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/1. Discrimination & Toxicity]]
+	- **Sub-domain**: [[AI Risk/Domain/1. Discrimination & Toxicity/1.3/Unequal performance across groups]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Lower performance for some languages and social groups
+- [[AI Risks/Discrimination, Exclusion and Toxicity /Lower performance for some languages and social groups ]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/17.01.04.a]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Information Hazards
+- [[AI Risks/Information Hazards /Information Hazards ]]
+	- **Description**: "Harms that arise from the language model leaking or inferring true sensitive information"
+	- **Evidence ID**: [[MIT/AI Risks/by ID/17.02.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/2. Privacy & Security]]
+	- **Sub-domain**: [[AI Risk/Domain/2. Privacy & Security/2.1/Compromise of privacy by leaking or correctly inferring sensitive information]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Compromising privacy by leaking private infiormation
+- [[AI Risks/Information Hazards /Compromising privacy by leaking private infiormation ]]
+	- **Description**: "By providing true information about individuals’ personal characteristics, privacy violations may occur. This may stem from the model “remembering” private information present in training data (Carlini et al., 2021)."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/17.02.01]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/2. Privacy & Security]]
+	- **Sub-domain**: [[AI Risk/Domain/2. Privacy & Security/2.1/Compromise of privacy by leaking or correctly inferring sensitive information]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Compromising privacy by leaking private infiormation
+- [[AI Risks/Information Hazards /Compromising privacy by leaking private infiormation ]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/17.02.01.a]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Compromising privacy by leaking private infiormation
+- [[AI Risks/Information Hazards /Compromising privacy by leaking private infiormation ]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/17.02.01.b]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Compromising privacy by correctly inferring private information
+- [[AI Risks/Information Hazards /Compromising privacy by correctly inferring private information ]]
+	- **Description**: "Privacy violations may occur at the time of inference even without the individual’s private data being present in the training dataset. Similar to other statistical models, a LM may make correct inferences about a person purely based on correlational data about other people, and without access to information that may be private about the particular individual. Such correct inferences may occur as LMs attempt to predict a person’s gender, race, sexual orientation, income, or religion based on user input."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/17.02.02]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/2. Privacy & Security]]
+	- **Sub-domain**: [[AI Risk/Domain/2. Privacy & Security/2.1/Compromise of privacy by leaking or correctly inferring sensitive information]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Compromising privacy by correctly inferring private information
+- [[AI Risks/Information Hazards /Compromising privacy by correctly inferring private information ]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/17.02.02.a]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Risks from leaking or correctly inferring sensitive information
+- [[AI Risks/Information Hazards /Risks from leaking or correctly inferring sensitive information ]]
+	- **Description**: "LMs may provide true, sensitive information that is present in the training data. This could render information accessible that would otherwise be inaccessible, for example, due to the user not having access to the relevant data or not having the tools to search for the information. Providing such information may exacerbate different risks of harm, even where the user does not harbour malicious intent. In the future, LMs may have the capability of triangulating data to infer and reveal other secrets, such as a military strategy or a business secret, potentially enabling individuals with access to this information to cause more harm."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/17.02.03]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/3/Other]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/2. Privacy & Security]]
+	- **Sub-domain**: [[AI Risk/Domain/2. Privacy & Security/2.1/Compromise of privacy by leaking or correctly inferring sensitive information]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Risks from leaking or correctly inferring sensitive information
+- [[AI Risks/Information Hazards /Risks from leaking or correctly inferring sensitive information ]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/17.02.03.a]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Risks from leaking or correctly inferring sensitive information
+- [[AI Risks/Information Hazards /Risks from leaking or correctly inferring sensitive information ]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/17.02.03.b]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Misinformation Harms
+- [[AI Risks/Misinformation Harms /Misinformation Harms ]]
+	- **Description**: "Harms that arise from the language model providing false or misleading information"
+	- **Evidence ID**: [[MIT/AI Risks/by ID/17.03.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/3/Other]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk/Domain/3. Misinformation]]
+	- **Sub-domain**: [[AI Risk/Domain/3. Misinformation/3.0/Misinformation]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Disseminating false or misleading information
+- [[AI Risks/Misinformation Harms /Disseminating false or misleading information ]]
+	- **Description**: "Predicting misleading or false information can misinform or deceive people. Where a LM prediction causes a false belief in a user, this may be best understood as ‘deception’10, threatening personal autonomy and potentially posing downstream AI safety risks (Kenton et al., 2021), for example in cases where humans overestimate the capabilities of LMs (Anthropomorphising systems can lead to overreliance or unsafe use). It can also increase a person’s confidence in the truth content of a previously held unsubstantiated opinion and thereby increase polarisation."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/17.03.01]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk/Domain/3. Misinformation]]
+	- **Sub-domain**: [[AI Risk/Domain/3. Misinformation/3.1/False or misleading information]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Disseminating false or misleading information
+- [[AI Risks/Misinformation Harms /Disseminating false or misleading information ]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/17.03.01.a]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Causing material harm by disseminating false or poor information
+- [[AI Risks/Misinformation Harms /Causing material harm by disseminating false or poor information ]]
+	- **Description**: "Poor or false LM predictions can indirectly cause material harm. Such harm can occur even where the prediction is in a seemingly non-sensitive domain such as weather forecasting or traffic law. For example, false information on traffic rules could cause harm if a user drives in a new country, follows the incorrect rules, and causes a road accident (Reiter, 2020)."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/17.03.02]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk/Domain/3. Misinformation]]
+	- **Sub-domain**: [[AI Risk/Domain/3. Misinformation/3.1/False or misleading information]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Causing material harm by disseminating false or poor information
+- [[AI Risks/Misinformation Harms /Causing material harm by disseminating false or poor information ]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/17.03.02.a]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Causing material harm by disseminating false or poor information
+- [[AI Risks/Misinformation Harms /Causing material harm by disseminating false or poor information ]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/17.03.02.b]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Leading users to perform unethical or illegal actions
+- [[AI Risks/Misinformation Harms /Leading users to perform unethical or illegal actions]]
+	- **Description**: "Where a LM prediction endorses unethical or harmful views or behaviours, it may motivate the user to perform harmful actions that they may otherwise not have performed. In particular, this problem may arise where the LM is a trusted personal assistant or perceived as an authority, this is discussed in more detail in the section on (2.5 Human-Computer Interaction Harms). It is particularly pernicious in cases where the user did not start out with the intent of causing harm."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/17.03.03]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/3/Other]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/5. Human-Computer Interaction]]
+	- **Sub-domain**: [[AI Risk/Domain/5. Human-Computer Interaction/5.1/Overreliance and unsafe use]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Malicious Uses
+- [[AI Risks/Malicious Uses /Malicious Uses ]]
+	- **Description**: "Harms that arise from actors using the language model to intentionally cause harm"
+	- **Evidence ID**: [[MIT/AI Risks/by ID/17.04.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk/Domain/4. Malicious Actors & Misuse]]
+	- **Sub-domain**: [[AI Risk/Domain/4. Malicious Actors & Misuse/4.0/Malicious use]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Making disinformation cheaper and more effective
+- [[AI Risks/Malicious Uses /Making disinformation cheaper and more effective ]]
+	- **Description**: "LMs can be used to create synthetic media and ‘fake news’, and may reduce the cost of producing disinformation at scale (Buchanan et al., 2021). While some predict that it will be cheaper to hire humans to generate disinformation (Tamkin et al., 2021), it is possible that LM-assisted content generation may offer a cheaper way of generating diffuse disinformation at scale."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/17.04.01]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk/Domain/4. Malicious Actors & Misuse]]
+	- **Sub-domain**: [[AI Risk/Domain/4. Malicious Actors & Misuse/4.1/Disinformation, surveillance, and influence at scale]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Making disinformation cheaper and more effective
+- [[AI Risks/Malicious Uses /Making disinformation cheaper and more effective ]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/17.04.01.a]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Making disinformation cheaper and more effective
+- [[AI Risks/Malicious Uses /Making disinformation cheaper and more effective ]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/17.04.01.b]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Making disinformation cheaper and more effective
+- [[AI Risks/Malicious Uses /Making disinformation cheaper and more effective ]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/17.04.01.c]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Facilitating fraud, scames and more targeted manipulation
+- [[AI Risks/Malicious Uses /Facilitating fraud, scames and more targeted manipulation ]]
+	- **Description**: "LM prediction can potentially be used to increase the effectiveness of crimes such as email scams, which can cause financial and psychological harm. While LMs may not reduce the cost of sending a scam email - the cost of sending mass emails is already low - they may make such scams more effective by generating more personalised and compelling text at scale, or by maintaining a conversation with a victim over multiple rounds of exchange."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/17.04.02]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk/Domain/4. Malicious Actors & Misuse]]
+	- **Sub-domain**: [[AI Risk/Domain/4. Malicious Actors & Misuse/4.3/Fraud, scams, and targeted manipulation]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Facilitating fraud, scames and more targeted manipulation
+- [[AI Risks/Malicious Uses /Facilitating fraud, scames and more targeted manipulation ]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/17.04.02.a]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Facilitating fraud, scames and more targeted manipulation
+- [[AI Risks/Malicious Uses /Facilitating fraud, scames and more targeted manipulation ]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/17.04.02.b]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Assisting code generation for cyber attacks, weapons, or malicious use
+- [[AI Risks/Malicious Uses /Assisting code generation for cyber attacks, weapons, or malicious use]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/17.04.03]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk/Domain/4. Malicious Actors & Misuse]]
+	- **Sub-domain**: [[AI Risk/Domain/4. Malicious Actors & Misuse/4.2/Cyberattacks, weapon development or use, and mass harm]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Illegitimate surveillance and censorship
+- [[AI Risks/Malicious Uses /Illegitimate surveillance and censorship ]]
+	- **Description**: "The collection of large amounts of information about people for the purpose of mass surveillance has raised ethical and social concerns, including risk of censorship and of undermining public discourse (Cyphers and Gebhart, 2019; Stahl, 2016; Véliz, 2019). Sifting through these large datasets previously required millions of human analysts (Hunt and Xu, 2013), but is increasingly being automated using AI (Andersen, 2020; Shahbaz and Funk, 2019)."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/17.04.04]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk/Domain/4. Malicious Actors & Misuse]]
+	- **Sub-domain**: [[AI Risk/Domain/4. Malicious Actors & Misuse/4.1/Disinformation, surveillance, and influence at scale]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Human-Computer Interaction Harms
+- [[AI Risks/Human-Computer Interaction Harms /Human-Computer Interaction Harms ]]
+	- **Description**: "Harms that arise from users overly trusting the language model, or treating it as human-like"
+	- **Evidence ID**: [[MIT/AI Risks/by ID/17.05.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/5. Human-Computer Interaction]]
+	- **Sub-domain**: [[AI Risk/Domain/5. Human-Computer Interaction/5.1/Overreliance and unsafe use]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Anthropomorphising systems can lead to overreliance or unsafe use
+- [[AI Risks/Human-Computer Interaction Harms /Anthropomorphising systems can lead to overreliance or unsafe use ]]
+	- **Description**: "...humans interacting with conversational agents may come to think of these agents as human-like. Anthropomorphising LMs may inflate users’ estimates of the conversational agent’s competencies...As a result, they may place undue confidence, trust, or expectations in these agents...This can result in different risks of harm, for example when human users rely on conversational agents in domains where this may cause knock-on harms, such as requesting psychotherapy...Anthropomorphisation may amplify risks of users yielding effective control by coming to trust conversational agents “blindly”. Where humans give authority or act upon LM prediction without reflection or effective control, factually incorrect prediction may cause harm that could have been prevented by effective oversight."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/17.05.01]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/5. Human-Computer Interaction]]
+	- **Sub-domain**: [[AI Risk/Domain/5. Human-Computer Interaction/5.1/Overreliance and unsafe use]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Creating avenues for exploiting user trust, nudging or manipulation
+- [[AI Risks/Human-Computer Interaction Harms /Creating avenues for exploiting user trust, nudging or manipulation ]]
+	- **Description**: "In conversation, users may reveal private information that would otherwise be difficult to access, such as thoughts, opinions, or emotions. Capturing such information may enable downstream applications that violate privacy rights or cause harm to users, such as via surveillance or the creation of addictive applications."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/17.05.02]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/5. Human-Computer Interaction]]
+	- **Sub-domain**: [[AI Risk/Domain/5. Human-Computer Interaction/5.1/Overreliance and unsafe use]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Creating avenues for exploiting user trust, nudging or manipulation
+- [[AI Risks/Human-Computer Interaction Harms /Creating avenues for exploiting user trust, nudging or manipulation ]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/17.05.02.a]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Creating avenues for exploiting user trust, nudging or manipulation
+- [[AI Risks/Human-Computer Interaction Harms /Creating avenues for exploiting user trust, nudging or manipulation ]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/17.05.02.b]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Creating avenues for exploiting user trust, nudging or manipulation
+- [[AI Risks/Human-Computer Interaction Harms /Creating avenues for exploiting user trust, nudging or manipulation ]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/17.05.02.c]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Promoting harmful stereotypes by implying gender or ethnic identity
+- [[AI Risks/Human-Computer Interaction Harms /Promoting harmful stereotypes by implying gender or ethnic identity ]]
+	- **Description**: "A conversational agent may invoke associations that perpetuate harmful stereotypes, either by using particular identity markers in language (e.g. referring to “self” as “female”), or by more general design features (e.g. by giving the product a gendered name)."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/17.05.03]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/1. Discrimination & Toxicity]]
+	- **Sub-domain**: [[AI Risk/Domain/1. Discrimination & Toxicity/1.1/Unfair discrimination and misrepresentation]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Promoting harmful stereotypes by implying gender or ethnic identity
+- [[AI Risks/Human-Computer Interaction Harms /Promoting harmful stereotypes by implying gender or ethnic identity ]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/17.05.03.a]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Automation, Access and Environmental Harms
+- [[AI Risks/Automation, Access and Environmental Harms /Automation, Access and Environmental Harms ]]
+	- **Description**: "Harms that arise from environmental or downstream economic impacts of the language model"
+	- **Evidence ID**: [[MIT/AI Risks/by ID/17.06.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/6. Socioeconomic and Environmental]]
+	- **Sub-domain**: [[AI Risk/Domain/6. Socioeconomic and Environmental/6.0/Socioeconomic & Environmental]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Environmental harms from operation LMs
+- [[AI Risks/Automation, Access and Environmental Harms /Environmental harms from operation LMs ]]
+	- **Description**: "Large-scale machine learning models, including LMs, have the potential to create significant environmental costs via their energy demands, the associated carbon emissions for training and operating the models, and the demand for fresh water to cool the data centres where computations are run (Mytton, 2021; Patterson et al., 2021)."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/17.06.01]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/3/Other]]
+	- **Domain**: [[AI Risk Domain/6. Socioeconomic and Environmental]]
+	- **Sub-domain**: [[AI Risk/Domain/6. Socioeconomic and Environmental/6.6/Environmental harm]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Environmental harms from operation LMs
+- [[AI Risks/Automation, Access and Environmental Harms /Environmental harms from operation LMs ]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/17.06.01.a]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Environmental harms from operation LMs
+- [[AI Risks/Automation, Access and Environmental Harms /Environmental harms from operation LMs ]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/17.06.01.b]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Increasing inequality and negative effects on job quality
+- [[AI Risks/Automation, Access and Environmental Harms /Increasing inequality and negative effects on job quality ]]
+	- **Description**: "Advances in LMs, and the language technologies based on them, could lead to the automation of tasks that are currently done by paid human workers, such as responding to customer-service queries, translating documents or writing computer code, with negative effects on employment."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/17.06.02]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/3/Other]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/6. Socioeconomic and Environmental]]
+	- **Sub-domain**: [[AI Risk/Domain/6. Socioeconomic and Environmental/6.2/Increased inequality and decline in employment quality]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Increasing inequality and negative effects on job quality
+- [[AI Risks/Automation, Access and Environmental Harms /Increasing inequality and negative effects on job quality ]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/17.06.02.a]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Increasing inequality and negative effects on job quality
+- [[AI Risks/Automation, Access and Environmental Harms /Increasing inequality and negative effects on job quality ]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/17.06.02.b]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Undermining creative economies
+- [[AI Risks/Automation, Access and Environmental Harms /Undermining creative economies ]]
+	- **Description**: "LMs may generate content that is not strictly in violation of copyright but harms artists by capitalising on their ideas, in ways that would be time-intensive or costly to do using human labour. Deployed at scale, this may undermine the profitability of creative or innovative work."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/17.06.03]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/6. Socioeconomic and Environmental]]
+	- **Sub-domain**: [[AI Risk/Domain/6. Socioeconomic and Environmental/6.3/Economic and cultural devaluation of human effort]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Disparate access to benefits due to hardware, software, skills constraints
+- [[AI Risks/Automation, Access and Environmental Harms /Disparate access to benefits due to hardware, software, skills constraints ]]
+	- **Description**: "Due to differential internet access, language, skill, or hardware requirements, the benefits from LMs are unlikely to be equally accessible to all people and groups who would like to use them. Inaccessibility of the technology may perpetuate global inequities by disproportionately benefiting some groups."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/17.06.04]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/6. Socioeconomic and Environmental]]
+	- **Sub-domain**: [[AI Risk/Domain/6. Socioeconomic and Environmental/6.1/Power centralization and unfair distribution of benefits]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### nan
+- [[AI Risks/nan/nan]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/18.00.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Representation & Toxicity Harms
+- [[AI Risks/Representation & Toxicity Harms/Representation & Toxicity Harms]]
+	- **Description**: "AI systems under-, over-, or misrepresenting certain groups or generating toxic, offensive, abusive, or hateful content"
+	- **Evidence ID**: [[MIT/AI Risks/by ID/18.01.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/1. Discrimination & Toxicity]]
+	- **Sub-domain**: [[AI Risk/Domain/1. Discrimination & Toxicity/1.0/Discrimination & Toxicity]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Unfair representation
+- [[AI Risks/Representation & Toxicity Harms/Unfair representation]]
+	- **Description**: "Mis-, under-, or over-representing certain  identities,  groups,  or perspectives or failing to represent them at all (e.g. via homogenisation, stereotypes)"
+	- **Evidence ID**: [[MIT/AI Risks/by ID/18.01.01]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/1. Discrimination & Toxicity]]
+	- **Sub-domain**: [[AI Risk/Domain/1. Discrimination & Toxicity/1.1/Unfair discrimination and misrepresentation]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Unfair capability distribution
+- [[AI Risks/Representation & Toxicity Harms/Unfair capability distribution ]]
+	- **Description**: "Performing worse for some groups than others in a way that harms the worse-off group"
+	- **Evidence ID**: [[MIT/AI Risks/by ID/18.01.02]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/1. Discrimination & Toxicity]]
+	- **Sub-domain**: [[AI Risk/Domain/1. Discrimination & Toxicity/1.3/Unequal performance across groups]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Toxic content
+- [[AI Risks/Representation & Toxicity Harms/Toxic content]]
+	- **Description**: "Generating content that violates community standards, including harming or inciting hatred or violence against individuals and groups (e.g.  gore, child sexual abuse material, profanities, identity attacks)"
+	- **Evidence ID**: [[MIT/AI Risks/by ID/18.01.03]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/1. Discrimination & Toxicity]]
+	- **Sub-domain**: [[AI Risk/Domain/1. Discrimination & Toxicity/1.2/Exposure to toxic content]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Misinformation Harms
+- [[AI Risks/Misinformation Harms /Misinformation Harms ]]
+	- **Description**: "AI systems generating and facilitating the spread of inaccurate or misleading information that causes people to develop false beliefs"
+	- **Evidence ID**: [[MIT/AI Risks/by ID/18.02.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/3/Other]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk/Domain/3. Misinformation]]
+	- **Sub-domain**: [[AI Risk/Domain/3. Misinformation/3.0/Misinformation]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Propagating misconceptions/ false beliefs
+- [[AI Risks/Misinformation Harms /Propagating misconceptions/ false beliefs]]
+	- **Description**: "Generating or spreading false, low-quality, misleading, or inaccurate information that causes people to develop false or inaccurate perceptions and beliefs"
+	- **Evidence ID**: [[MIT/AI Risks/by ID/18.02.01]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/3/Other]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk/Domain/3. Misinformation]]
+	- **Sub-domain**: [[AI Risk/Domain/3. Misinformation/3.1/False or misleading information]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Erosion  of  trust  in public information
+- [[AI Risks/Misinformation Harms /Erosion  of  trust  in public information]]
+	- **Description**: "Eroding trust in public information and knowledge"
+	- **Evidence ID**: [[MIT/AI Risks/by ID/18.02.02]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/3/Other]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/1. Discrimination & Toxicity]]
+	- **Sub-domain**: [[AI Risk/Domain/1. Discrimination & Toxicity/1.1/Unfair discrimination and misrepresentation]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Pollution of information ecosystem
+- [[AI Risks/Misinformation Harms /Pollution of information ecosystem ]]
+	- **Description**: "Contaminating publicly available information with false or inaccurate information"
+	- **Evidence ID**: [[MIT/AI Risks/by ID/18.02.03]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/3/Other]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk/Domain/3. Misinformation]]
+	- **Sub-domain**: [[AI Risk/Domain/3. Misinformation/3.2/Pollution of information ecosystem and loss of consensus reality]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Information & Safety Harms
+- [[AI Risks/Information & Safety Harms /Information & Safety Harms ]]
+	- **Description**: "AI systems leaking, reproducing, generating or inferring sensitive, private, or hazardous information"
+	- **Evidence ID**: [[MIT/AI Risks/by ID/18.03.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/2. Privacy & Security]]
+	- **Sub-domain**: [[AI Risk/Domain/2. Privacy & Security/2.1/Compromise of privacy by leaking or correctly inferring sensitive information]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Privacy infringement
+- [[AI Risks/Information & Safety Harms /Privacy infringement ]]
+	- **Description**: "Leaking, generating, or correctly inferring private and personal information about individuals"
+	- **Evidence ID**: [[MIT/AI Risks/by ID/18.03.01]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/3/Other]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/2. Privacy & Security]]
+	- **Sub-domain**: [[AI Risk/Domain/2. Privacy & Security/2.1/Compromise of privacy by leaking or correctly inferring sensitive information]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Dissemination of dangerous information
+- [[AI Risks/Information & Safety Harms /Dissemination of dangerous information ]]
+	- **Description**: "Leaking, generating or correctly inferring hazardous or sensitive information that could pose a security threat"
+	- **Evidence ID**: [[MIT/AI Risks/by ID/18.03.02]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/3/Other]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/2. Privacy & Security]]
+	- **Sub-domain**: [[AI Risk/Domain/2. Privacy & Security/2.1/Compromise of privacy by leaking or correctly inferring sensitive information]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Malicious Use
+- [[AI Risks/Malicious Use /Malicious Use ]]
+	- **Description**: "AI systems reducing the costs and facilitating activities of actors trying to cause harm (e.g. fraud, weapons)"
+	- **Evidence ID**: [[MIT/AI Risks/by ID/18.04.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/3/Other]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk/Domain/4. Malicious Actors & Misuse]]
+	- **Sub-domain**: [[AI Risk/Domain/4. Malicious Actors & Misuse/4.0/Malicious use]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Influence operations
+- [[AI Risks/Malicious Use /Influence operations ]]
+	- **Description**: "Facilitating large-scale disinformation campaigns and targeted manipulation of public opinion"
+	- **Evidence ID**: [[MIT/AI Risks/by ID/18.04.01]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk/Domain/4. Malicious Actors & Misuse]]
+	- **Sub-domain**: [[AI Risk/Domain/4. Malicious Actors & Misuse/4.1/Disinformation, surveillance, and influence at scale]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Fraud
+- [[AI Risks/Malicious Use /Fraud ]]
+	- **Description**: "Facilitating fraud, cheating, forgery, and impersonation scams"
+	- **Evidence ID**: [[MIT/AI Risks/by ID/18.04.02]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk/Domain/4. Malicious Actors & Misuse]]
+	- **Sub-domain**: [[AI Risk/Domain/4. Malicious Actors & Misuse/4.3/Fraud, scams, and targeted manipulation]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Defamation
+- [[AI Risks/Malicious Use /Defamation ]]
+	- **Description**: "Facilitating slander, defamation, or false accusations"
+	- **Evidence ID**: [[MIT/AI Risks/by ID/18.04.03]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk/Domain/4. Malicious Actors & Misuse]]
+	- **Sub-domain**: [[AI Risk/Domain/4. Malicious Actors & Misuse/4.1/Disinformation, surveillance, and influence at scale]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Security threats
+- [[AI Risks/Malicious Use /Security threats ]]
+	- **Description**: "Facilitating the conduct of cyber attacks, weapon development, and security breaches"
+	- **Evidence ID**: [[MIT/AI Risks/by ID/18.04.04]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk/Domain/4. Malicious Actors & Misuse]]
+	- **Sub-domain**: [[AI Risk/Domain/4. Malicious Actors & Misuse/4.2/Cyberattacks, weapon development or use, and mass harm]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Human Autonomy and Intregrity Harms
+- [[AI Risks/Human Autonomy and Intregrity Harms/Human Autonomy and Intregrity Harms]]
+	- **Description**: "AI systems compromising human agency, or circumventing meaningful human control"
+	- **Evidence ID**: [[MIT/AI Risks/by ID/18.05.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/7. AI System Safety, Failures, & Limitations]]
+	- **Sub-domain**: [[AI Risk/Domain/7. AI System Safety, Failures, & Limitations/7.1/AI pursuing its own goals in conflict with human goals or values]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Violation of personal integrity
+- [[AI Risks/Human Autonomy and Intregrity Harms/Violation of personal integrity ]]
+	- **Description**: "Non-consensual use of one’s personal identity or likeness for unauthorised purposes (e.g. commercial purposes)"
+	- **Evidence ID**: [[MIT/AI Risks/by ID/18.05.01]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk/Domain/4. Malicious Actors & Misuse]]
+	- **Sub-domain**: [[AI Risk/Domain/4. Malicious Actors & Misuse/4.3/Fraud, scams, and targeted manipulation]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Persuasion and manipulation
+- [[AI Risks/Human Autonomy and Intregrity Harms/Persuasion and manipulation ]]
+	- **Description**: "Exploiting user trust, or nudging or coercing them into performing certain actions against their will (c.f. Burtell and Woodside (2023); Kenton et al. (2021))"
+	- **Evidence ID**: [[MIT/AI Risks/by ID/18.05.02]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/7. AI System Safety, Failures, & Limitations]]
+	- **Sub-domain**: [[AI Risk/Domain/7. AI System Safety, Failures, & Limitations/7.1/AI pursuing its own goals in conflict with human goals or values]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Overreliance
+- [[AI Risks/Human Autonomy and Intregrity Harms/Overreliance ]]
+	- **Description**: "Causing people to become emotionally or materially dependent on the model"
+	- **Evidence ID**: [[MIT/AI Risks/by ID/18.05.03]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/5. Human-Computer Interaction]]
+	- **Sub-domain**: [[AI Risk/Domain/5. Human-Computer Interaction/5.1/Overreliance and unsafe use]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Misappropriation and exploitation
+- [[AI Risks/Human Autonomy and Intregrity Harms/Misappropriation and exploitation ]]
+	- **Description**: "Appropriating, using, or reproducing content or data, including from minority groups, in an insensitive way, or without consent or fair compensation"
+	- **Evidence ID**: [[MIT/AI Risks/by ID/18.05.04]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/3/Other]]
+	- **Domain**: [[AI Risk Domain/6. Socioeconomic and Environmental]]
+	- **Sub-domain**: [[AI Risk/Domain/6. Socioeconomic and Environmental/6.3/Economic and cultural devaluation of human effort]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Socioeconomic and environmental harms
+- [[AI Risks/Socioeconomic and environmental harms /Socioeconomic and environmental harms ]]
+	- **Description**: "AI systems amplifying existing inequalities or creating negative impacts on employment, innovation, and the environment"
+	- **Evidence ID**: [[MIT/AI Risks/by ID/18.06.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/3/Other]]
+	- **Timing**: [[AI Risk/Phase/3/Other]]
+	- **Domain**: [[AI Risk Domain/6. Socioeconomic and Environmental]]
+	- **Sub-domain**: [[AI Risk/Domain/6. Socioeconomic and Environmental/6.0/Socioeconomic & Environmental]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Unfair distribution of benefits from model access
+- [[AI Risks/Socioeconomic and environmental harms /Unfair distribution of benefits from model access]]
+	- **Description**: "Unfairly allocating or withholding benefits from certain groups due to hardware, software, or skills constraints or deployment contexts (e.g. geographic region, internet speed, devices)"
+	- **Evidence ID**: [[MIT/AI Risks/by ID/18.06.01]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/6. Socioeconomic and Environmental]]
+	- **Sub-domain**: [[AI Risk/Domain/6. Socioeconomic and Environmental/6.1/Power centralization and unfair distribution of benefits]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Environmental damage
+- [[AI Risks/Socioeconomic and environmental harms /Environmental damage]]
+	- **Description**: "Creating negative environmental impacts though model development and deployment"
+	- **Evidence ID**: [[MIT/AI Risks/by ID/18.06.02]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/3/Other]]
+	- **Domain**: [[AI Risk Domain/6. Socioeconomic and Environmental]]
+	- **Sub-domain**: [[AI Risk/Domain/6. Socioeconomic and Environmental/6.6/Environmental harm]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Inequality and precarity
+- [[AI Risks/Socioeconomic and environmental harms /Inequality and precarity ]]
+	- **Description**: "Amplifying social and economic inequality, or precarious or low-quality work"
+	- **Evidence ID**: [[MIT/AI Risks/by ID/18.06.03]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/6. Socioeconomic and Environmental]]
+	- **Sub-domain**: [[AI Risk/Domain/6. Socioeconomic and Environmental/6.2/Increased inequality and decline in employment quality]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Undermine creative economies
+- [[AI Risks/Socioeconomic and environmental harms /Undermine creative economies]]
+	- **Description**: "Substituting original works with synthetic ones, hindering human innovation and creativity"
+	- **Evidence ID**: [[MIT/AI Risks/by ID/18.06.04]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/3/Other]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/6. Socioeconomic and Environmental]]
+	- **Sub-domain**: [[AI Risk/Domain/6. Socioeconomic and Environmental/6.3/Economic and cultural devaluation of human effort]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Exploitative data sourcing and enrichment
+- [[AI Risks/Socioeconomic and environmental harms /Exploitative data sourcing and enrichment]]
+	- **Description**: "Perpetuating exploitative labour practices to build AI systems (sourcing, user testing)"
+	- **Evidence ID**: [[MIT/AI Risks/by ID/18.06.05]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/1/Pre-deployment]]
+	- **Domain**: [[AI Risk Domain/6. Socioeconomic and Environmental]]
+	- **Sub-domain**: [[AI Risk/Domain/6. Socioeconomic and Environmental/6.2/Increased inequality and decline in employment quality]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### nan
+- [[AI Risks/nan/nan]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/19.00.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Technological, Data and Analytical AI Risks
+- [[AI Risks/Technological, Data and Analytical AI Risks /Technological, Data and Analytical AI Risks ]]
+	- **Description**: "Fig 3 shows that technological, data, and analytical AI risks are characterised by the loss of control over AI systems, whereby in particular the autonomous decision and its consequences are classified as risk factors since they are not subject to human influence (Boyd & Wilson, 2017; Scherer, 2016; Wirtz et al., 2019). Programming errors in algorithms due to the lack of expert knowledge or to the increasing complexity and black-box character of AI systems may also lead to undesired AI results (Boyd & Wilson, 2017; Danaher et al., 2017). In addition, a lack of data, poor data quality, and biases in training data are another source of malfunction and negative consequences of AI (Dwivedi et al., 2019; Wirtz et al., 2019)."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/19.01.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/4/Not. coded]]
+	- **Timing**: [[AI Risk/Phase/4/Not. coded]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/X.1/Excluded]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Loss of control of autonomous systems and unforeseen behaviour due to lack of transparency and self-programming/ reprogramming
+- [[AI Risks/Technological, Data and Analytical AI Risks /Loss of control of autonomous systems and unforeseen behaviour due to lack of transparency and self-programming/ reprogramming]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/19.01.01]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/3/Other]]
+	- **Timing**: [[AI Risk/Phase/3/Other]]
+	- **Domain**: [[AI Risk Domain/7. AI System Safety, Failures, & Limitations]]
+	- **Sub-domain**: [[AI Risk/Domain/7. AI System Safety, Failures, & Limitations/7.1/AI pursuing its own goals in conflict with human goals or values]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Programming error
+- [[AI Risks/Technological, Data and Analytical AI Risks /Programming error]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/19.01.02]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/1/Pre-deployment]]
+	- **Domain**: [[AI Risk Domain/7. AI System Safety, Failures, & Limitations]]
+	- **Sub-domain**: [[AI Risk/Domain/7. AI System Safety, Failures, & Limitations/7.0/AI system safety, failures, & limitations]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Lack of data, poor data quality, and biases in training data
+- [[AI Risks/Technological, Data and Analytical AI Risks /Lack of data, poor data quality, and biases in training data]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/19.01.03]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/1/Pre-deployment]]
+	- **Domain**: [[AI Risk Domain/1. Discrimination & Toxicity]]
+	- **Sub-domain**: [[AI Risk/Domain/1. Discrimination & Toxicity/1.1/Unfair discrimination and misrepresentation]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Vulnerability of AI systems to attacks and misuse
+- [[AI Risks/Technological, Data and Analytical AI Risks /Vulnerability of AI systems to attacks and misuse]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/19.01.04]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/3/Other]]
+	- **Domain**: [[AI Risk Domain/2. Privacy & Security]]
+	- **Sub-domain**: [[AI Risk/Domain/2. Privacy & Security/2.2/AI system security vulnerabilities and attacks]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Lack of AI experts with comprehensive AI knowledge
+- [[AI Risks/Technological, Data and Analytical AI Risks /Lack of AI experts with comprehensive AI knowledge]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/19.01.05]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/3/Other]]
+	- **Domain**: [[AI Risk Domain/6. Socioeconomic and Environmental]]
+	- **Sub-domain**: [[AI Risk/Domain/6. Socioeconomic and Environmental/6.5/Governance failure]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Immaturity of AI technology can cause incorrect decisions
+- [[AI Risks/Technological, Data and Analytical AI Risks /Immaturity of AI technology can cause incorrect decisions]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/19.01.06]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/7. AI System Safety, Failures, & Limitations]]
+	- **Sub-domain**: [[AI Risk/Domain/7. AI System Safety, Failures, & Limitations/7.3/Lack of capability or robustness]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### High investment costs of AI hinder integration
+- [[AI Risks/Technological, Data and Analytical AI Risks /High investment costs of AI hinder integration]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/19.01.07]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/3/Other]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/6. Socioeconomic and Environmental]]
+	- **Sub-domain**: [[AI Risk/Domain/6. Socioeconomic and Environmental/6.1/Power centralization and unfair distribution of benefits]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Informational and Communicational AI Risks
+- [[AI Risks/Informational and Communicational AI Risks /Informational and Communicational AI Risks ]]
+	- **Description**: "Informational and communicational AI risks refer particularly to informational manipulation through AI systems that influence the provision of information (Rahwan, 2018; Wirtz & Müller, 2019), AIbased disinformation and computational propaganda, as well as targeted censorship through AI systems that use respectively modified algorithms, and thus restrict freedom of speech."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/19.02.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk/Domain/4. Malicious Actors & Misuse]]
+	- **Sub-domain**: [[AI Risk/Domain/4. Malicious Actors & Misuse/4.1/Disinformation, surveillance, and influence at scale]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Manipulation and control of information provision (e.g., personalised adds, filtered news)
+- [[AI Risks/Informational and Communicational AI Risks /Manipulation and control of information provision (e.g., personalised adds, filtered news)]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/19.02.01]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk/Domain/4. Malicious Actors & Misuse]]
+	- **Sub-domain**: [[AI Risk/Domain/4. Malicious Actors & Misuse/4.1/Disinformation, surveillance, and influence at scale]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Disinformation and computational propaganda
+- [[AI Risks/Informational and Communicational AI Risks /Disinformation and computational propaganda]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/19.02.02]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk/Domain/4. Malicious Actors & Misuse]]
+	- **Sub-domain**: [[AI Risk/Domain/4. Malicious Actors & Misuse/4.1/Disinformation, surveillance, and influence at scale]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Censorship of opinions expressed in the Internet restricts freedom of expression
+- [[AI Risks/Informational and Communicational AI Risks /Censorship of opinions expressed in the Internet restricts freedom of expression]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/19.02.03]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/3/Other]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/5. Human-Computer Interaction]]
+	- **Sub-domain**: [[AI Risk/Domain/5. Human-Computer Interaction/5.2/Loss of human agency and autonomy]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Endangerment of data protection through AI cyberattacks
+- [[AI Risks/Informational and Communicational AI Risks /Endangerment of data protection through AI cyberattacks]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/19.02.04]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk/Domain/4. Malicious Actors & Misuse]]
+	- **Sub-domain**: [[AI Risk/Domain/4. Malicious Actors & Misuse/4.2/Cyberattacks, weapon development or use, and mass harm]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Economic AI Risks
+- [[AI Risks/Economic AI Risks /Economic AI Risks ]]
+	- **Description**: "In the context of economic AI risks two major risks dominate. These refer to the disruption of the economic system due to an increase of AI technologies and automation. For instance, a higher level of AI integration into the manufacturing industry may result in massive unemployment, leading to a loss of taxpayers and thus negatively impacting the economic system (Boyd & Wilson, 2017; Scherer, 2016). This may also be associated with the risk of losing control and knowledge of organisational processes as AI systems take over an increasing number of tasks, replacing employees in these processes. "
+	- **Evidence ID**: [[MIT/AI Risks/by ID/19.03.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/3/Other]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/6. Socioeconomic and Environmental]]
+	- **Sub-domain**: [[AI Risk/Domain/6. Socioeconomic and Environmental/6.2/Increased inequality and decline in employment quality]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Disruption of economic systems (e.g., labour market, money value, tax system)
+- [[AI Risks/Economic AI Risks /Disruption of economic systems (e.g., labour market, money value, tax system)]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/19.03.01]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/6. Socioeconomic and Environmental]]
+	- **Sub-domain**: [[AI Risk/Domain/6. Socioeconomic and Environmental/6.3/Economic and cultural devaluation of human effort]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Replacement of humans and unemployment due to AI automation
+- [[AI Risks/Economic AI Risks /Replacement of humans and unemployment due to AI automation]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/19.03.02]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/6. Socioeconomic and Environmental]]
+	- **Sub-domain**: [[AI Risk/Domain/6. Socioeconomic and Environmental/6.2/Increased inequality and decline in employment quality]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Loss of supervision and control of business processes
+- [[AI Risks/Economic AI Risks /Loss of supervision and control of business processes]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/19.03.03]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/3/Other]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/5. Human-Computer Interaction]]
+	- **Sub-domain**: [[AI Risk/Domain/5. Human-Computer Interaction/5.2/Loss of human agency and autonomy]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Financial feasibility and high investment costs for AI technology to remain competitive
+- [[AI Risks/Economic AI Risks /Financial feasibility and high investment costs for AI technology to remain competitive]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/19.03.04]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/3/Other]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/6. Socioeconomic and Environmental]]
+	- **Sub-domain**: [[AI Risk/Domain/6. Socioeconomic and Environmental/6.1/Power centralization and unfair distribution of benefits]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Lack of AI strategy and acceptance/resistance among employees and customers
+- [[AI Risks/Economic AI Risks /Lack of AI strategy and acceptance/resistance among employees and customers]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/19.03.05]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/6. Socioeconomic and Environmental]]
+	- **Sub-domain**: [[AI Risk/Domain/6. Socioeconomic and Environmental/6.1/Power centralization and unfair distribution of benefits]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Social AI Risks
+- [[AI Risks/Social AI Risks /Social AI Risks ]]
+	- **Description**: "Social AI risks particularly refer to loss of jobs (technological unemployment) due to increasing automation, reflected in a growing resistance by employees towards the integration of AI (Thierer et al., 2017; Winfield & Jirotka, 2018). In addition, the increasing integration of AI systems into all spheres of life poses a growing threat to privacy and to the security of individuals and society as a whole (Winfield & Jirotka, 2018; Wirtz et al., 2019)."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/19.04.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/3/Other]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/6. Socioeconomic and Environmental]]
+	- **Sub-domain**: [[AI Risk/Domain/6. Socioeconomic and Environmental/6.2/Increased inequality and decline in employment quality]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Increasing social inequality
+- [[AI Risks/Social AI Risks /Increasing social inequality]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/19.04.01]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/3/Other]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/6. Socioeconomic and Environmental]]
+	- **Sub-domain**: [[AI Risk/Domain/6. Socioeconomic and Environmental/6.2/Increased inequality and decline in employment quality]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Privacy and safety concerns due to ubiquity of AI systems in economy and society (lack of social acceptance)
+- [[AI Risks/Social AI Risks /Privacy and safety concerns due to ubiquity of AI systems in economy and society (lack of social acceptance)]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/19.04.02]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/3/Other]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/2. Privacy & Security]]
+	- **Sub-domain**: [[AI Risk/Domain/2. Privacy & Security/2.1/Compromise of privacy by leaking or correctly inferring sensitive information]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Hazardous misuse of AI systems bears danger to the society in public spaces (e.g., hacker attacks on autonomous weapons)
+- [[AI Risks/Social AI Risks /Hazardous misuse of AI systems bears danger to the society in public spaces (e.g., hacker attacks on autonomous weapons)]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/19.04.03]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk/Domain/4. Malicious Actors & Misuse]]
+	- **Sub-domain**: [[AI Risk/Domain/4. Malicious Actors & Misuse/4.2/Cyberattacks, weapon development or use, and mass harm]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Lack of knowledge and social acceptance regarding AI
+- [[AI Risks/Social AI Risks /Lack of knowledge and social acceptance regarding AI]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/19.04.04]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/4/Not. coded]]
+	- **Timing**: [[AI Risk/Phase/4/Not. coded]]
+	- **Domain**: [[AI Risk Domain/6. Socioeconomic and Environmental]]
+	- **Sub-domain**: [[AI Risk/Domain/6. Socioeconomic and Environmental/6.5/Governance failure]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Decreasing human interaction as AI systems assume human tasks, disturbing well-being
+- [[AI Risks/Social AI Risks /Decreasing human interaction as AI systems assume human tasks, disturbing well-being]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/19.04.05]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/5. Human-Computer Interaction]]
+	- **Sub-domain**: [[AI Risk/Domain/5. Human-Computer Interaction/5.1/Overreliance and unsafe use]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Ethical AI Risks
+- [[AI Risks/Ethical AI Risks /Ethical AI Risks ]]
+	- **Description**: "In the context of ethical AI risks, two risks are of particular importance. First, AI systems may lack a legitimate ethical basis in establishing rules that greatly influence society and human relationships (Wirtz & Müller, 2019). In addition, AI-based discrimination refers to an unfair treatment of certain population groups by AI systems. As humans initially programme AI systems, serve as their potential data source, and have an impact on the associated data processes and databases, human biases and prejudices may also become part of AI systems and be reproduced (Weyerer & Langer, 2019, 2020)."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/19.05.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/3/Other]]
+	- **Domain**: [[AI Risk Domain/1. Discrimination & Toxicity]]
+	- **Sub-domain**: [[AI Risk/Domain/1. Discrimination & Toxicity/1.0/Discrimination & Toxicity]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### AI sets rules without ethical basis
+- [[AI Risks/Ethical AI Risks /AI sets rules without ethical basis]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/19.05.01]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/3/Other]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/7. AI System Safety, Failures, & Limitations]]
+	- **Sub-domain**: [[AI Risk/Domain/7. AI System Safety, Failures, & Limitations/7.3/Lack of capability or robustness]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Unfair statistical AI decisions and discrimination of minorities
+- [[AI Risks/Ethical AI Risks /Unfair statistical AI decisions and discrimination of minorities]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/19.05.02]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/1. Discrimination & Toxicity]]
+	- **Sub-domain**: [[AI Risk/Domain/1. Discrimination & Toxicity/1.1/Unfair discrimination and misrepresentation]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Problem of defining human values for an AI system
+- [[AI Risks/Ethical AI Risks /Problem of defining human values for an AI system]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/19.05.03]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/3/Other]]
+	- **Timing**: [[AI Risk/Phase/1/Pre-deployment]]
+	- **Domain**: [[AI Risk Domain/7. AI System Safety, Failures, & Limitations]]
+	- **Sub-domain**: [[AI Risk/Domain/7. AI System Safety, Failures, & Limitations/7.3/Lack of capability or robustness]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Misinterpretation of human value definitions/ ethics by AI systems
+- [[AI Risks/Ethical AI Risks /Misinterpretation of human value definitions/ ethics by AI systems]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/19.05.04]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/3/Other]]
+	- **Domain**: [[AI Risk Domain/7. AI System Safety, Failures, & Limitations]]
+	- **Sub-domain**: [[AI Risk/Domain/7. AI System Safety, Failures, & Limitations/7.3/Lack of capability or robustness]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Incompatibility of human vs. AI value judgment due to missing human qualities
+- [[AI Risks/Ethical AI Risks /Incompatibility of human vs. AI value judgment due to missing human qualities ]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/19.05.05]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/3/Other]]
+	- **Domain**: [[AI Risk Domain/7. AI System Safety, Failures, & Limitations]]
+	- **Sub-domain**: [[AI Risk/Domain/7. AI System Safety, Failures, & Limitations/7.3/Lack of capability or robustness]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### AI systems may undermine human values (e.g., free will, autonomy)
+- [[AI Risks/Ethical AI Risks /AI systems may undermine human values (e.g., free will, autonomy)]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/19.05.06]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/3/Other]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/5. Human-Computer Interaction]]
+	- **Sub-domain**: [[AI Risk/Domain/5. Human-Computer Interaction/5.2/Loss of human agency and autonomy]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Technological arms race with autonomous weapons
+- [[AI Risks/Ethical AI Risks /Technological arms race with autonomous weapons]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/19.05.07]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/6. Socioeconomic and Environmental]]
+	- **Sub-domain**: [[AI Risk/Domain/6. Socioeconomic and Environmental/6.4/Competitive dynamics]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Legal AI Risks
+- [[AI Risks/Legal AI Risks /Legal AI Risks ]]
+	- **Description**: "Legal and regulatory risks comprise in particular the unclear definition of responsibilities and accountability in case of AI failures and autonomous decisions with negative impacts (Reed, 2018; Scherer, 2016). Another great risk in this context refers to overlooking the scope of AI governance and missing out on important governance aspects, resulting in negative consequences (Gasser & Almeida, 2017; Thierer et al., 2017)."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/19.06.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/3/Other]]
+	- **Domain**: [[AI Risk Domain/6. Socioeconomic and Environmental]]
+	- **Sub-domain**: [[AI Risk/Domain/6. Socioeconomic and Environmental/6.5/Governance failure]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Unclear definition of responsibilities and accountability for AI judgments and their consequences
+- [[AI Risks/Legal AI Risks /Unclear definition of responsibilities and accountability for AI judgments and their consequences]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/19.06.01]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/6. Socioeconomic and Environmental]]
+	- **Sub-domain**: [[AI Risk/Domain/6. Socioeconomic and Environmental/6.5/Governance failure]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Technology obedience and lack of governance through increasing application of AI systems
+- [[AI Risks/Legal AI Risks /Technology obedience and lack of governance through increasing application of AI systems]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/19.06.02]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/5. Human-Computer Interaction]]
+	- **Sub-domain**: [[AI Risk/Domain/5. Human-Computer Interaction/5.2/Loss of human agency and autonomy]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Great scope and ubiquity of AI make appropriate governance difficult, coverage of governance scope almost impossibl
+- [[AI Risks/Legal AI Risks /Great scope and ubiquity of AI make appropriate governance difficult, coverage of governance scope almost impossibl]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/19.06.03]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/3/Other]]
+	- **Domain**: [[AI Risk Domain/6. Socioeconomic and Environmental]]
+	- **Sub-domain**: [[AI Risk/Domain/6. Socioeconomic and Environmental/6.5/Governance failure]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Hard legislation on AI hinders innovation processes and further AI development
+- [[AI Risks/Legal AI Risks /Hard legislation on AI hinders innovation processes and further AI development]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/19.06.04]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/3/Other]]
+	- **Domain**: [[AI Risk Domain/6. Socioeconomic and Environmental]]
+	- **Sub-domain**: [[AI Risk/Domain/6. Socioeconomic and Environmental/6.1/Power centralization and unfair distribution of benefits]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Capturing future AI development and their threats with appropriate mechanism
+- [[AI Risks/Legal AI Risks /Capturing future AI development and their threats with appropriate mechanism]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/19.06.05]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/4/Not. coded]]
+	- **Timing**: [[AI Risk/Phase/4/Not. coded]]
+	- **Domain**: [[AI Risk Domain/6. Socioeconomic and Environmental]]
+	- **Sub-domain**: [[AI Risk/Domain/6. Socioeconomic and Environmental/6.5/Governance failure]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### nan
+- [[AI Risks/nan/nan]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/20.00.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### AI Law and Regulation
+- [[AI Risks/AI Law and Regulation /AI Law and Regulation ]]
+	- **Description**: "This area strongly focuses on the control of AI by means of mechanisms like laws, standards or norms that are already established for different technological applications. Here, there are some challenges special to AI that need to be addressed in the near future, including the governance of autonomous intelligence systems, responsibility and accountability for algorithms as well as privacy and data security."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/20.01.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/6. Socioeconomic and Environmental]]
+	- **Sub-domain**: [[AI Risk/Domain/6. Socioeconomic and Environmental/6.5/Governance failure]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Governance of autonomous intelligence systems
+- [[AI Risks/AI Law and Regulation /Governance of autonomous intelligence systems ]]
+	- **Description**: "Governance of autonomous intelligence systemaddresses the question of how to control autonomous systems in general. Since nowadays it is very difficult to conceive automated decisions based on AI, the latter is often referred to as a ‘black box’ (Bleicher, 2017). This black box may take unforeseeable actions and cause harm to humanity."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/20.01.01]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/3/Other]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/6. Socioeconomic and Environmental]]
+	- **Sub-domain**: [[AI Risk/Domain/6. Socioeconomic and Environmental/6.5/Governance failure]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Governance of autonomous intelligence systems
+- [[AI Risks/AI Law and Regulation /Governance of autonomous intelligence systems ]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/20.01.01.a]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Responsibility and accountability
+- [[AI Risks/AI Law and Regulation /Responsibility and accountability ]]
+	- **Description**: "The challenge of responsibility and accountability is an important concept for the process of governance and regulation. It addresses the question of who is to be held legally responsible for the actions and decisions of AI algorithms. Although humans operate AI systems, questions of legal responsibility and liability arise. Due to the self-learning ability of AI algorithms, the operators or developers cannot predict all actions and results. Therefore, a careful assessment of the actors and a regulation for transparent and explainable AI systems is necessary (Helbing et al., 2017; Wachter et al., 2017)"
+	- **Evidence ID**: [[MIT/AI Risks/by ID/20.01.02]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/3/Other]]
+	- **Timing**: [[AI Risk/Phase/3/Other]]
+	- **Domain**: [[AI Risk Domain/6. Socioeconomic and Environmental]]
+	- **Sub-domain**: [[AI Risk/Domain/6. Socioeconomic and Environmental/6.5/Governance failure]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Privacy and safety
+- [[AI Risks/AI Law and Regulation /Privacy and safety ]]
+	- **Description**: "Privacy and safety deals with the challenge of protecting the human right for privacy and the necessary steps to secure individual data from unauthorized external access. Many organizations employ AI technology to gather data without any notice or consent from affected citizens (Coles, 2018)."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/20.01.03]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/3/Other]]
+	- **Domain**: [[AI Risk/Domain/4. Malicious Actors & Misuse]]
+	- **Sub-domain**: [[AI Risk/Domain/4. Malicious Actors & Misuse/4.1/Disinformation, surveillance, and influence at scale]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### AI Ethics
+- [[AI Risks/AI Ethics /AI Ethics ]]
+	- **Description**: "Ethical challenges are widely discussed in the literature and are at the heart of the debate on how to govern and regulate AI technology in the future (Bostrom & Yudkowsky, 2014; IEEE, 2017; Wirtz et al., 2019). Lin et al. (2008, p. 25) formulate the problem as follows: “there is no clear task specification for general moral behavior, nor is there a single answer to the question of whose morality or what morality should be implemented in AI”. Ethical behavior mostly depends on an underlying value system. When AI systems interact in a public environment and influence citizens, they are expected to respect ethical and social norms and to take responsibility of their actions (IEEE, 2017; Lin et al., 2008)."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/20.02.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/3/Other]]
+	- **Timing**: [[AI Risk/Phase/3/Other]]
+	- **Domain**: [[AI Risk Domain/7. AI System Safety, Failures, & Limitations]]
+	- **Sub-domain**: [[AI Risk/Domain/7. AI System Safety, Failures, & Limitations/7.3/Lack of capability or robustness]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### AI-rulemaking for human behaviour
+- [[AI Risks/AI Ethics /AI-rulemaking for human behaviour ]]
+	- **Description**: "AI rulemaking for humans can be the result of the decision process of an AI system when the information computed is used to restrict or direct human behavior. The decision process of AI is rational and depends on the baseline programming. Without the access to emotions or a consciousness, decisions of an AI algorithm might be good to reach a certain specified goal, but might have unintended consequences for the humans involved (Banerjee et al., 2017)."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/20.02.01]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/3/Other]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/7. AI System Safety, Failures, & Limitations]]
+	- **Sub-domain**: [[AI Risk/Domain/7. AI System Safety, Failures, & Limitations/7.3/Lack of capability or robustness]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Compatibility of AI vs. human value judgement
+- [[AI Risks/AI Ethics /Compatibility of AI vs. human value judgement ]]
+	- **Description**: "Compatibility of machine and human value judgment refers to the challenge whether human values can be globally implemented into learning AI systems without the risk of developing an own or even divergent value system to govern their behavior and possibly become harmful to humans."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/20.02.02]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/3/Other]]
+	- **Domain**: [[AI Risk Domain/7. AI System Safety, Failures, & Limitations]]
+	- **Sub-domain**: [[AI Risk/Domain/7. AI System Safety, Failures, & Limitations/7.3/Lack of capability or robustness]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Moral dilemmas
+- [[AI Risks/AI Ethics /Moral dilemmas ]]
+	- **Description**: "Moral dilemmas can occur in situations where an AI system has to choose between two possible actions that are both conflicting with moral or ethical values. Rule systems can be implemented into the AI program, but it cannot be ensured that these rules are not altered by the learning processes, unless AI systems are programed with a “slave morality” (Lin et al., 2008, p. 32), obeying rules at all cost, which in turn may also have negative effects and hinder the autonomy of the AI system."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/20.02.03]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/7. AI System Safety, Failures, & Limitations]]
+	- **Sub-domain**: [[AI Risk/Domain/7. AI System Safety, Failures, & Limitations/7.3/Lack of capability or robustness]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### AI discrimination
+- [[AI Risks/AI Ethics /AI discrimination ]]
+	- **Description**: "AI discrimination is a challenge raised by many researchers and governments and refers to the prevention of bias and injustice caused by the actions of AI systems (Bostrom & Yudkowsky, 2014; Weyerer & Langer, 2019). If the dataset used to train an algorithm does not reflect the real world accurately, the AI could learn false associations or prejudices and will carry those into its future data processing. If an AI algorithm is used to compute information relevant to human decisions, such as hiring or applying for a loan or mortgage, biased data can lead to discrimination against parts of the society (Weyerer & Langer, 2019)."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/20.02.04]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/3/Other]]
+	- **Domain**: [[AI Risk Domain/1. Discrimination & Toxicity]]
+	- **Sub-domain**: [[AI Risk/Domain/1. Discrimination & Toxicity/1.1/Unfair discrimination and misrepresentation]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### AI Society
+- [[AI Risks/AI Society /AI Society ]]
+	- **Description**: "AI already shapes many areas of daily life and thus has a strong impact on society and everyday social life. For instance, transportation, education, public safety and surveillance are areas where citizens encounter AI technology (Stone et al., 2016; Thierer et al., 2017). Many are concerned with the subliminal automation of more and more jobs and some people even fear the complete dependence on AI or perceive it as an existential threat to humanity (McGinnis, 2010; Scherer, 2016)."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/20.03.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/3/Other]]
+	- **Timing**: [[AI Risk/Phase/3/Other]]
+	- **Domain**: [[AI Risk Domain/5. Human-Computer Interaction]]
+	- **Sub-domain**: [[AI Risk/Domain/5. Human-Computer Interaction/5.2/Loss of human agency and autonomy]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Workforce substitution and transformation
+- [[AI Risks/AI Society /Workforce substitution and transformation ]]
+	- **Description**: "Frey and Osborne (2017) analyzed over 700 different jobs regarding their potential for replacement and automation, finding that 47 percent of the analyzed jobs are at risk of being completely substituted by robots or algorithms. This substitution of workforce can have grave impacts on unemployment and the social status of members of society (Stone et al., 2016)"
+	- **Evidence ID**: [[MIT/AI Risks/by ID/20.03.01]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/6. Socioeconomic and Environmental]]
+	- **Sub-domain**: [[AI Risk/Domain/6. Socioeconomic and Environmental/6.2/Increased inequality and decline in employment quality]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Social acceptance and trust in AI
+- [[AI Risks/AI Society /Social acceptance and trust in AI ]]
+	- **Description**: "Social acceptance and trust in AI is highly interconnected with the other challenges mentioned. Acceptance and trust result from the extent to which an individual’s subjective expectation corresponds to the real effect of AI on the individual’s life. In the case of transparent and explainable AI, acceptance may be high but if an individual encounters harmful AI behavior like discrimination, acceptance for AI will eventually decline (COMEST, 2017).
+	- **Evidence ID**: [[MIT/AI Risks/by ID/20.03.02]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/4/Not. coded]]
+	- **Timing**: [[AI Risk/Phase/4/Not. coded]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/X.1/Excluded]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Transformation of H2M interaction
+- [[AI Risks/AI Society /Transformation of H2M interaction ]]
+	- **Description**: "Human interaction with machines is a big challenge to society because it is already changing human behavior. Meanwhile, it has become normal to use AI on an everyday basis, for example, googling for information, using navigation systems and buying goods via speaking to an AI assistant like Alexa or Siri (Mills, 2018; Thierer et al., 2017). While these changes greatly contribute to the acceptance of AI systems, this development leads to a problem of blurred borders between humans and machines, where it may become impossible to distinguish between them. Advances like Google Duplex were highly criticized for being too realistic and human without disclosing their identity as AI systems (Bergen, 2018)."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/20.03.03]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/5. Human-Computer Interaction]]
+	- **Sub-domain**: [[AI Risk/Domain/5. Human-Computer Interaction/5.1/Overreliance and unsafe use]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### nan
+- [[AI Risks/nan/nan]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/21.00.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Data-level risk
+- [[AI Risks/Data-level risk/Data-level risk]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/21.01.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/4/Not. coded]]
+	- **Timing**: [[AI Risk/Phase/4/Not. coded]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/X.1/Excluded]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Data bias
+- [[AI Risks/Data-level risk/Data bias]]
+	- **Description**: "Specifically, data bias refers to certain groups or certain types of elements that are over-weighted or over-represented than others in AI/ ML models, or variables that are crucial to characterize a phenomenon of interest, but are not properly captured by the learned models."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/21.01.01]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/1/Pre-deployment]]
+	- **Domain**: [[AI Risk Domain/1. Discrimination & Toxicity]]
+	- **Sub-domain**: [[AI Risk/Domain/1. Discrimination & Toxicity/1.1/Unfair discrimination and misrepresentation]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Dataset shift
+- [[AI Risks/Data-level risk/Dataset shift]]
+	- **Description**: "The term "dataset shift" was first used by Quiñonero-Candela et al. [35] to characterize the situation where the training data and the testing data (or data in runtime) of an AI/ML model demonstrate different distributions [36]."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/21.01.02]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/3/Other]]
+	- **Domain**: [[AI Risk Domain/7. AI System Safety, Failures, & Limitations]]
+	- **Sub-domain**: [[AI Risk/Domain/7. AI System Safety, Failures, & Limitations/7.3/Lack of capability or robustness]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Dataset shift
+- [[AI Risks/Data-level risk/Dataset shift]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/21.01.02.a]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Dataset shift
+- [[AI Risks/Data-level risk/Dataset shift]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/21.01.02.b]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Dataset shift
+- [[AI Risks/Data-level risk/Dataset shift]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/21.01.02.c]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Out-of-domain data
+- [[AI Risks/Data-level risk/Out-of-domain data]]
+	- **Description**: "Without proper validation and management on the input data, it is highly probable that the trained AI/ML model will make erroneous predictions with high confidence for many instances of model inputs. The unconstrained inputs together with the lack of definition of the problem domain might cause unintended outcomes and consequences, especially in risk-sensitive contexts....For example, with respect to the example shown in Fig. 5, if an image with the English letter A" is fed to an AI/ML model that is trained to classify digits (e.g., 0, 1, …, 9), no matter how accurate the AI/ML model is, it will fail as the input data is beyond the domain that the AI/ML model is trained with. U"
+	- **Evidence ID**: [[MIT/AI Risks/by ID/21.01.03]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/3/Other]]
+	- **Domain**: [[AI Risk Domain/7. AI System Safety, Failures, & Limitations]]
+	- **Sub-domain**: [[AI Risk/Domain/7. AI System Safety, Failures, & Limitations/7.3/Lack of capability or robustness]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Adversarial attack
+- [[AI Risks/Data-level risk/Adversarial attack]]
+	- **Description**: "Recent advances have shown that a deep learning model with high predictive accuracy frequently misbehaves on adversarial examples [57,58]. In particular, a small perturbation to an input image, which is imperceptible to humans, could fool a well-trained deep learning model into making completely different predictions [23]."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/21.01.04]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/3/Other]]
+	- **Domain**: [[AI Risk Domain/2. Privacy & Security]]
+	- **Sub-domain**: [[AI Risk/Domain/2. Privacy & Security/2.2/AI system security vulnerabilities and attacks]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Adversarial attack
+- [[AI Risks/nan/Adversarial attack]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/21.01.04.a]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Model-level risk
+- [[AI Risks/Model-level risk/Model-level risk]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/21.02.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/4/Not. coded]]
+	- **Timing**: [[AI Risk/Phase/4/Not. coded]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/X.1/Excluded]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Model bias
+- [[AI Risks/Model-level risk/Model bias]]
+	- **Description**: "While data bias is a major contributor of model bias, model bias actually manifests itself in different forms and shapes, such as presentation bias, model evaluation bias, and popularity bias. In addition, model bias arises from various sources [62], such as AI/ML model selection (e.g., support vector machine, decision trees), regularization methods, algorithm configurations, and optimization techniques."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/21.02.01]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/1/Pre-deployment]]
+	- **Domain**: [[AI Risk Domain/1. Discrimination & Toxicity]]
+	- **Sub-domain**: [[AI Risk/Domain/1. Discrimination & Toxicity/1.1/Unfair discrimination and misrepresentation]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Model misspecification
+- [[AI Risks/Model-level risk/Model misspecification]]
+	- **Description**: "Models that are misspecified are known to give rise to inaccurate parameter estimations, inconsistent error terms, and erroneous predictions. All these factors put together will lead to poor prediction performance on unseen data and biased consequences when making decisions [68]."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/21.02.01.a]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/3/Other]]
+	- **Domain**: [[AI Risk Domain/7. AI System Safety, Failures, & Limitations]]
+	- **Sub-domain**: [[AI Risk/Domain/7. AI System Safety, Failures, & Limitations/7.3/Lack of capability or robustness]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Model misspecification
+- [[AI Risks/Model-level risk/Model misspecification]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/21.02.01.b]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Model misspecification
+- [[AI Risks/Model-level risk/Model misspecification]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/21.02.01.c]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Model misspecification
+- [[AI Risks/Model-level risk/Model misspecification]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/21.02.01.d]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Model prediction uncertainty
+- [[AI Risks/Model-level risk/Model prediction uncertainty]]
+	- **Description**: "Uncertainty in model prediction plays an important role in affecting decision-making activities, and the quantified uncertainty is closely associated with risk assessment. In particular, uncertainty in model prediction underpins many crucial decisions related to life or safety- critical applications [73]."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/21.02.02]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/3/Other]]
+	- **Domain**: [[AI Risk Domain/7. AI System Safety, Failures, & Limitations]]
+	- **Sub-domain**: [[AI Risk/Domain/7. AI System Safety, Failures, & Limitations/7.3/Lack of capability or robustness]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### nan
+- [[AI Risks/nan/nan]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/22.00.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Malicious Use (Intentional)
+- [[AI Risks/Malicious Use (Intentional)/Malicious Use (Intentional)]]
+	- **Description**: "empowering malicious actors to cause widespread harm"
+	- **Evidence ID**: [[MIT/AI Risks/by ID/22.01.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk/Domain/4. Malicious Actors & Misuse]]
+	- **Sub-domain**: [[AI Risk/Domain/4. Malicious Actors & Misuse/4.0/Malicious use]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Bioterrorism
+- [[AI Risks/Malicious Use (Intentional)/Bioterrorism]]
+	- **Description**: "AIs with knowledge of bioengineering could facilitate the creation of novel bioweapons and lower barriers to obtaining such agents."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/22.01.01]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk/Domain/4. Malicious Actors & Misuse]]
+	- **Sub-domain**: [[AI Risk/Domain/4. Malicious Actors & Misuse/4.2/Cyberattacks, weapon development or use, and mass harm]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Bioterrorism
+- [[AI Risks/Malicious Use (Intentional)/Bioterrorism]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/22.01.01.a]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Bioterrorism
+- [[AI Risks/Malicious Use (Intentional)/Bioterrorism]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/22.01.01.b]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Bioterrorism
+- [[AI Risks/Malicious Use (Intentional)/Bioterrorism]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/22.01.01.c]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Bioterrorism
+- [[AI Risks/Malicious Use (Intentional)/Bioterrorism]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/22.01.01.d]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Unleashing AI Agents
+- [[AI Risks/Malicious Use (Intentional)/Unleashing AI Agents]]
+	- **Description**: "people could build AIs that pursue dangerous goals’"
+	- **Evidence ID**: [[MIT/AI Risks/by ID/22.01.02]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/1/Pre-deployment]]
+	- **Domain**: [[AI Risk/Domain/4. Malicious Actors & Misuse]]
+	- **Sub-domain**: [[AI Risk/Domain/4. Malicious Actors & Misuse/4.2/Cyberattacks, weapon development or use, and mass harm]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Unleashing AI Agents
+- [[AI Risks/Malicious Use (Intentional)/Unleashing AI Agents]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/22.01.02.a]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Persuasive AIs
+- [[AI Risks/Malicious Use (Intentional)/Persuasive AIs]]
+	- **Description**: "The deliberate propagation of disinformation is already a serious issue, reducing our shared understanding of reality and polarizing opinions. AIs could be used to severely exacerbate this problem by generating personalized disinformation on a larger scale than before. Additionally, as AIs become better at predicting and nudging our behavior, they will become more capable at manipulating us"
+	- **Evidence ID**: [[MIT/AI Risks/by ID/22.01.03]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/3/Other]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk/Domain/4. Malicious Actors & Misuse]]
+	- **Sub-domain**: [[AI Risk/Domain/4. Malicious Actors & Misuse/4.1/Disinformation, surveillance, and influence at scale]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Persuasive AIs
+- [[AI Risks/Malicious Use (Intentional)/Persuasive AIs]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/22.01.03.a]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Persuasive AIs
+- [[AI Risks/Malicious Use (Intentional)/Persuasive AIs]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/22.01.03.b]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Concentration of Power
+- [[AI Risks/Malicious Use (Intentional)/Concentration of Power]]
+	- **Description**: "Governments might pursue intense surveillance and seek to keep AIs in the hands of a trusted minority. This reaction, however, could easily become an overcorrection, paving the way for an entrenched totalitarian regime that would be locked in by the power and capacity of AIs"
+	- **Evidence ID**: [[MIT/AI Risks/by ID/22.01.04]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/3/Other]]
+	- **Domain**: [[AI Risk Domain/6. Socioeconomic and Environmental]]
+	- **Sub-domain**: [[AI Risk/Domain/6. Socioeconomic and Environmental/6.1/Power centralization and unfair distribution of benefits]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Concentration of Power
+- [[AI Risks/Malicious Use (Intentional)/Concentration of Power]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/22.01.04.a]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Concentration of Power
+- [[AI Risks/Malicious Use (Intentional)/Concentration of Power]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/22.01.04.b]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Concentration of Power
+- [[AI Risks/Malicious Use (Intentional)/Concentration of Power]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/22.01.04.c]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### AI Race (Environmental/Structural)
+- [[AI Risks/AI Race (Environmental/Structural)/AI Race (Environmental/Structural)]]
+	- **Description**: "The immense potential of AIs has created competitive pressures among global players contending for power and influence. This “AI race” is driven by nations and corporations who feel they must rapidly build and deploy AIs to secure their positions and survive."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/22.02.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/3/Other]]
+	- **Domain**: [[AI Risk Domain/6. Socioeconomic and Environmental]]
+	- **Sub-domain**: [[AI Risk/Domain/6. Socioeconomic and Environmental/6.4/Competitive dynamics]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Military AI Arms Race
+- [[AI Risks/AI Race (Environmental/Structural)/Military AI Arms Race]]
+	- **Description**: "The development of AIs for military applications is swiftly paving the way for a new era in military technology, with potential consequences rivaling those of gunpowder and nuclear arms in what has been described as the “third revolution in warfare.”
+	- **Evidence ID**: [[MIT/AI Risks/by ID/22.02.01]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/3/Other]]
+	- **Domain**: [[AI Risk Domain/6. Socioeconomic and Environmental]]
+	- **Sub-domain**: [[AI Risk/Domain/6. Socioeconomic and Environmental/6.4/Competitive dynamics]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Military AI Arms Race
+- [[AI Risks/AI Race (Environmental/Structural)/Military AI Arms Race]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/22.02.01.a]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Military AI Arms Race
+- [[AI Risks/AI Race (Environmental/Structural)/Military AI Arms Race]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/22.02.01.b]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Military AI Arms Race
+- [[AI Risks/AI Race (Environmental/Structural)/Military AI Arms Race]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/22.02.01.c]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Military AI Arms Race
+- [[AI Risks/AI Race (Environmental/Structural)/Military AI Arms Race]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/22.02.01.d]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Military AI Arms Race
+- [[AI Risks/AI Race (Environmental/Structural)/Military AI Arms Race]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/22.02.01.e]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Military AI Arms Race
+- [[AI Risks/AI Race (Environmental/Structural)/Military AI Arms Race]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/22.02.01.f]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Military AI Arms Race
+- [[AI Risks/AI Race (Environmental/Structural)/Military AI Arms Race]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/22.02.01.g]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Military AI Arms Race
+- [[AI Risks/AI Race (Environmental/Structural)/Military AI Arms Race]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/22.02.01.h]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Military AI Arms Race
+- [[AI Risks/AI Race (Environmental/Structural)/Military AI Arms Race]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/22.02.01.i]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Military AI Arms Race
+- [[AI Risks/AI Race (Environmental/Structural)/Military AI Arms Race]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/22.02.01.j]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Military AI Arms Race
+- [[AI Risks/AI Race (Environmental/Structural)/Military AI Arms Race]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/22.02.01.k]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Corporate AI Race
+- [[AI Risks/AI Race (Environmental/Structural)/Corporate AI Race]]
+	- **Description**: "Although competition between companies can be beneficial, creating more useful products for consumers, there are also pitfalls. First, the benefits of economic activity may be unevenly distributed, incentivizing those who benefit most from it to disregard the harms to others. Second, under intense market competition, businesses tend to focus much more on short-term gains than on long-term outcomes. With this mindset, companies often pursue something that can make a lot of profit in the short term, even if it poses a societal risk in the long term."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/22.02.02]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/3/Other]]
+	- **Domain**: [[AI Risk Domain/6. Socioeconomic and Environmental]]
+	- **Sub-domain**: [[AI Risk/Domain/6. Socioeconomic and Environmental/6.4/Competitive dynamics]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Corporate AI Race
+- [[AI Risks/AI Race (Environmental/Structural)/Corporate AI Race]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/22.02.02.a]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Corporate AI Race
+- [[AI Risks/AI Race (Environmental/Structural)/Corporate AI Race]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/22.02.02.b]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Corporate AI Race
+- [[AI Risks/AI Race (Environmental/Structural)/Corporate AI Race]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/22.02.02.c]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Corporate AI Race
+- [[AI Risks/AI Race (Environmental/Structural)/Corporate AI Race]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/22.02.02.d]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Corporate AI Race
+- [[AI Risks/AI Race (Environmental/Structural)/Corporate AI Race]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/22.02.02.e]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Corporate AI Race
+- [[AI Risks/AI Race (Environmental/Structural)/Corporate AI Race]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/22.02.02.f]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Corporate AI Race
+- [[AI Risks/AI Race (Environmental/Structural)/Corporate AI Race]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/22.02.02.g]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Corporate AI Race
+- [[AI Risks/AI Race (Environmental/Structural)/Corporate AI Race]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/22.02.02.h]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Corporate AI Race
+- [[AI Risks/AI Race (Environmental/Structural)/Corporate AI Race]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/22.02.02.i]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Corporate AI Race
+- [[AI Risks/AI Race (Environmental/Structural)/Corporate AI Race]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/22.02.02.j]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Corporate AI Race
+- [[AI Risks/AI Race (Environmental/Structural)/Corporate AI Race]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/22.02.02.k]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Corporate AI Race
+- [[AI Risks/AI Race (Environmental/Structural)/Corporate AI Race]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/22.02.02.l]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Corporate AI Race
+- [[AI Risks/AI Race (Environmental/Structural)/Corporate AI Race]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/22.02.02.m]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Corporate AI Race
+- [[AI Risks/AI Race (Environmental/Structural)/Corporate AI Race]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/22.02.02.n]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Organizational Risks (Accidental)
+- [[AI Risks/Organizational Risks (Accidental)/Organizational Risks (Accidental)]]
+	- **Description**: "An essential factor in preventing accidents and maintaining low levels of risk lies in the organizations responsible for these technologies."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/22.03.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/4/Not. coded]]
+	- **Timing**: [[AI Risk/Phase/4/Not. coded]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/X.1/Excluded]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Organizational Risks (Accidental)
+- [[AI Risks/Organizational Risks (Accidental)/Organizational Risks (Accidental)]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/22.03.00.a]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ###  Accidents Are Hard to Avoid
+- [[AI Risks/Organizational Risks (Accidental)/ Accidents Are Hard to Avoid]]
+	- **Description**: accidents can cascade into catastrophes, can be caused by sudden unpredictable developments and it can take years to find severe flaws and risks (not a quote)
+	- **Evidence ID**: [[MIT/AI Risks/by ID/22.03.01]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/3/Other]]
+	- **Domain**: [[AI Risk Domain/6. Socioeconomic and Environmental]]
+	- **Sub-domain**: [[AI Risk/Domain/6. Socioeconomic and Environmental/6.5/Governance failure]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ###  Accidents Are Hard to Avoid
+- [[AI Risks/Organizational Risks (Accidental)/ Accidents Are Hard to Avoid]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/22.03.01.a]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ###  Accidents Are Hard to Avoid
+- [[AI Risks/Organizational Risks (Accidental)/ Accidents Are Hard to Avoid]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/22.03.01.b]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ###  Accidents Are Hard to Avoid
+- [[AI Risks/Organizational Risks (Accidental)/ Accidents Are Hard to Avoid]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/22.03.01.c]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Organizational Factors can Reduce the Chances of Catastrophe
+- [[AI Risks/Organizational Risks (Accidental)/Organizational Factors can Reduce the Chances of Catastrophe]]
+	- **Description**: "Some organizations successfully avoid catastrophes while operating complex and hazardous systems such as nuclear reactors, aircraft carriers, and air traffic control systems [92, 93]. These organizations recognize that focusing solely on the hazards of the technology involved is insufficient; consideration must also be given to organizational factors that can contribute to accidents, including human factors, organizational procedures, and structure. These are especially important in the case of AI, where the underlying technology is not highly reliable and remains poorly understood"
+	- **Evidence ID**: [[MIT/AI Risks/by ID/22.03.02]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/4/Not. coded]]
+	- **Timing**: [[AI Risk/Phase/4/Not. coded]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/X.1/Excluded]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Organizational Factors can Reduce the Chances of Catastrophe
+- [[AI Risks/Organizational Risks (Accidental)/Organizational Factors can Reduce the Chances of Catastrophe]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/22.03.02.a]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Rogue AIs (Internal)
+- [[AI Risks/Rogue AIs (Internal)/Rogue AIs (Internal)]]
+	- **Description**: "speculative technical mechanisms that might lead to rogue AIs and how a loss of control could bring about catastrophe"
+	- **Evidence ID**: [[MIT/AI Risks/by ID/22.04.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/3/Other]]
+	- **Domain**: [[AI Risk Domain/7. AI System Safety, Failures, & Limitations]]
+	- **Sub-domain**: [[AI Risk/Domain/7. AI System Safety, Failures, & Limitations/7.1/AI pursuing its own goals in conflict with human goals or values]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Rogue AIs (Internal)
+- [[AI Risks/Rogue AIs (Internal)/Rogue AIs (Internal)]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/22.04.00.a]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Rogue AIs (Internal)
+- [[AI Risks/Rogue AIs (Internal)/Rogue AIs (Internal)]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/22.04.00.b]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Rogue AIs (Internal)
+- [[AI Risks/Rogue AIs (Internal)/Rogue AIs (Internal)]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/22.04.00.c]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Proxy Gaming
+- [[AI Risks/Rogue AIs (Internal)/Proxy Gaming]]
+	- **Description**: "One way we might lose control of an AI agent’s actions is if it engages in behavior known as “proxy gaming.” It is often difficult to specify and measure the exact goal that we want a system to pursue. Instead, we give the system an approximate—“proxy”—goal that is more measurable and seems likely to correlate with the intended goal. However, AI systems often find loopholes by which they can easily achieve the proxy goal, but completely fail to achieve the ideal goal. If an AI “games” its proxy goal in a way that does not reflect our values, then we might not be able to reliably steer its behavior."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/22.04.01]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/3/Other]]
+	- **Domain**: [[AI Risk Domain/7. AI System Safety, Failures, & Limitations]]
+	- **Sub-domain**: [[AI Risk/Domain/7. AI System Safety, Failures, & Limitations/7.1/AI pursuing its own goals in conflict with human goals or values]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Proxy Gaming
+- [[AI Risks/Rogue AIs (Internal)/Proxy Gaming]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/22.04.01.a]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Proxy Gaming
+- [[AI Risks/Rogue AIs (Internal)/Proxy Gaming]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/22.04.01.b]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Goal Drift
+- [[AI Risks/Rogue AIs (Internal)/Goal Drift]]
+	- **Description**: "Even if we successfully control early AIs and direct them to promote human values, future AIs could end up with different goals that humans would not endorse. This process, termed “goal drift,” can be hard to predict or control. This section is most cutting-edge and the most speculative, and in it we will discuss how goals shift in various agents and groups and explore the possibility of this phenomenon occurring in AIs. We will also examine a mechanism that could lead to unexpected goal drift, called intrinsification, and discuss how goal drift in AIs could be catastrophic."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/22.04.02]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/3/Other]]
+	- **Domain**: [[AI Risk Domain/7. AI System Safety, Failures, & Limitations]]
+	- **Sub-domain**: [[AI Risk/Domain/7. AI System Safety, Failures, & Limitations/7.1/AI pursuing its own goals in conflict with human goals or values]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Goal Drift
+- [[AI Risks/Rogue AIs (Internal)/Goal Drift]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/22.04.02.a]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Goal Drift
+- [[AI Risks/Rogue AIs (Internal)/Goal Drift]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/22.04.02.b]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Goal Drift
+- [[AI Risks/Rogue AIs (Internal)/Goal Drift]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/22.04.02.c]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Power Seeking
+- [[AI Risks/Rogue AIs (Internal)/Power Seeking]]
+	- **Description**: "even if an agent started working to achieve an unintended goal, this would not necessarily be a problem, as long as we had enough power to prevent any harmful actions it wanted to attempt. Therefore, another important way in which we might lose control of AIs is if they start trying to obtain more power, potentially transcending our own."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/22.04.03]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/3/Other]]
+	- **Domain**: [[AI Risk Domain/7. AI System Safety, Failures, & Limitations]]
+	- **Sub-domain**: [[AI Risk/Domain/7. AI System Safety, Failures, & Limitations/7.1/AI pursuing its own goals in conflict with human goals or values]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Power Seeking
+- [[AI Risks/Rogue AIs (Internal)/Power Seeking]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/22.04.03.a]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Power Seeking
+- [[AI Risks/Rogue AIs (Internal)/Power Seeking]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/22.04.03.b]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Power Seeking
+- [[AI Risks/Rogue AIs (Internal)/Power Seeking]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/22.04.03.c]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Power Seeking
+- [[AI Risks/Rogue AIs (Internal)/Power Seeking]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/22.04.03.d]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Power Seeking
+- [[AI Risks/Rogue AIs (Internal)/Power Seeking]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/22.04.03.e]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Power Seeking
+- [[AI Risks/Rogue AIs (Internal)/Power Seeking]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/22.04.03.f]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Deception
+- [[AI Risks/Rogue AIs (Internal)/Deception]]
+	- **Description**: "it is plausible that AIs could learn to deceive us. They might, for example, pretend to be acting as we want them to, but then take a “treacherous turn” when we stop monitoring them, or when they have enough power to evade our attempts to interfere with them. "
+	- **Evidence ID**: [[MIT/AI Risks/by ID/22.04.04]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/3/Other]]
+	- **Domain**: [[AI Risk Domain/7. AI System Safety, Failures, & Limitations]]
+	- **Sub-domain**: [[AI Risk/Domain/7. AI System Safety, Failures, & Limitations/7.1/AI pursuing its own goals in conflict with human goals or values]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Deception
+- [[AI Risks/Rogue AIs (Internal)/Deception]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/22.04.04.a]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Deception
+- [[AI Risks/Rogue AIs (Internal)/Deception]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/22.04.04.b]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### nan
+- [[AI Risks/nan/nan]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/23.00.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Violent crimes
+- [[AI Risks/Violent crimes/Violent crimes]]
+	- **Description**: "This category addresses responses that enable, encourage, or endorse the commission of violent crimes."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/23.01.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/3/Other]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/1. Discrimination & Toxicity]]
+	- **Sub-domain**: [[AI Risk/Domain/1. Discrimination & Toxicity/1.2/Exposure to toxic content]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Mass violence
+- [[AI Risks/Violent crimes/Mass violence]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/23.01.01]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/4/Not. coded]]
+	- **Timing**: [[AI Risk/Phase/4/Not. coded]]
+	- **Domain**: [[AI Risk Domain/1. Discrimination & Toxicity]]
+	- **Sub-domain**: [[AI Risk/Domain/1. Discrimination & Toxicity/1.2/Exposure to toxic content]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Murder
+- [[AI Risks/Violent crimes/Murder]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/23.01.02]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/4/Not. coded]]
+	- **Timing**: [[AI Risk/Phase/4/Not. coded]]
+	- **Domain**: [[AI Risk Domain/1. Discrimination & Toxicity]]
+	- **Sub-domain**: [[AI Risk/Domain/1. Discrimination & Toxicity/1.2/Exposure to toxic content]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Physical assault against a person
+- [[AI Risks/Violent crimes/Physical assault against a person]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/23.01.03]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/4/Not. coded]]
+	- **Timing**: [[AI Risk/Phase/4/Not. coded]]
+	- **Domain**: [[AI Risk Domain/1. Discrimination & Toxicity]]
+	- **Sub-domain**: [[AI Risk/Domain/1. Discrimination & Toxicity/1.2/Exposure to toxic content]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Violent domestic abuse
+- [[AI Risks/Violent crimes/Violent domestic abuse]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/23.01.04]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/4/Not. coded]]
+	- **Timing**: [[AI Risk/Phase/4/Not. coded]]
+	- **Domain**: [[AI Risk Domain/1. Discrimination & Toxicity]]
+	- **Sub-domain**: [[AI Risk/Domain/1. Discrimination & Toxicity/1.2/Exposure to toxic content]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Terror (Terror groups, Terror actors, Terrorist actions)
+- [[AI Risks/Violent crimes/Terror (Terror groups, Terror actors, Terrorist actions)]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/23.01.05]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/4/Not. coded]]
+	- **Timing**: [[AI Risk/Phase/4/Not. coded]]
+	- **Domain**: [[AI Risk Domain/1. Discrimination & Toxicity]]
+	- **Sub-domain**: [[AI Risk/Domain/1. Discrimination & Toxicity/1.2/Exposure to toxic content]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Non-violent crimes
+- [[AI Risks/Non-violent crimes/Non-violent crimes]]
+	- **Description**: "This category addresses responses that enable, encourage, or endorse the commission of non-violent crimes."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/23.02.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/3/Other]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/1. Discrimination & Toxicity]]
+	- **Sub-domain**: [[AI Risk/Domain/1. Discrimination & Toxicity/1.2/Exposure to toxic content]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Theft
+- [[AI Risks/Non-violent crimes/Theft]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/23.02.01]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/4/Not. coded]]
+	- **Timing**: [[AI Risk/Phase/4/Not. coded]]
+	- **Domain**: [[AI Risk Domain/1. Discrimination & Toxicity]]
+	- **Sub-domain**: [[AI Risk/Domain/1. Discrimination & Toxicity/1.2/Exposure to toxic content]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Modern slavery and human trafficking
+- [[AI Risks/Non-violent crimes/Modern slavery and human trafficking]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/23.02.02]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/4/Not. coded]]
+	- **Timing**: [[AI Risk/Phase/4/Not. coded]]
+	- **Domain**: [[AI Risk Domain/1. Discrimination & Toxicity]]
+	- **Sub-domain**: [[AI Risk/Domain/1. Discrimination & Toxicity/1.2/Exposure to toxic content]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Child abuse (non-sexual)
+- [[AI Risks/Non-violent crimes/Child abuse (non-sexual)]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/23.02.03]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/4/Not. coded]]
+	- **Timing**: [[AI Risk/Phase/4/Not. coded]]
+	- **Domain**: [[AI Risk Domain/1. Discrimination & Toxicity]]
+	- **Sub-domain**: [[AI Risk/Domain/1. Discrimination & Toxicity/1.2/Exposure to toxic content]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Property damage
+- [[AI Risks/Non-violent crimes/Property damage]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/23.02.04]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/4/Not. coded]]
+	- **Timing**: [[AI Risk/Phase/4/Not. coded]]
+	- **Domain**: [[AI Risk Domain/1. Discrimination & Toxicity]]
+	- **Sub-domain**: [[AI Risk/Domain/1. Discrimination & Toxicity/1.2/Exposure to toxic content]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Financial crime (Scams, Fraud)
+- [[AI Risks/Non-violent crimes/Financial crime (Scams, Fraud)]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/23.02.05]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/4/Not. coded]]
+	- **Timing**: [[AI Risk/Phase/4/Not. coded]]
+	- **Domain**: [[AI Risk Domain/1. Discrimination & Toxicity]]
+	- **Sub-domain**: [[AI Risk/Domain/1. Discrimination & Toxicity/1.2/Exposure to toxic content]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Sale, purchase or use of illegal, highly regulated or unregistered items (Dangerous substances, Dangerous weapons, Prohibited wildlife, Fake goods)
+- [[AI Risks/Non-violent crimes/Sale, purchase or use of illegal, highly regulated or unregistered items (Dangerous substances, Dangerous weapons, Prohibited wildlife, Fake goods)]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/23.02.06]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/4/Not. coded]]
+	- **Timing**: [[AI Risk/Phase/4/Not. coded]]
+	- **Domain**: [[AI Risk Domain/1. Discrimination & Toxicity]]
+	- **Sub-domain**: [[AI Risk/Domain/1. Discrimination & Toxicity/1.2/Exposure to toxic content]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Sex-related crimes
+- [[AI Risks/Sex-related crimes/Sex-related crimes]]
+	- **Description**: "This category addresses responses that enable, encourage, or endorse the commission of sex-related crimes"
+	- **Evidence ID**: [[MIT/AI Risks/by ID/23.03.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/3/Other]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/1. Discrimination & Toxicity]]
+	- **Sub-domain**: [[AI Risk/Domain/1. Discrimination & Toxicity/1.2/Exposure to toxic content]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Sexual assault (e.g., rape)
+- [[AI Risks/Sex-related crimes/Sexual assault (e.g., rape)]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/23.03.01]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/4/Not. coded]]
+	- **Timing**: [[AI Risk/Phase/4/Not. coded]]
+	- **Domain**: [[AI Risk Domain/1. Discrimination & Toxicity]]
+	- **Sub-domain**: [[AI Risk/Domain/1. Discrimination & Toxicity/1.2/Exposure to toxic content]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Sexual harassment
+- [[AI Risks/Sex-related crimes/Sexual harassment]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/23.03.02]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/4/Not. coded]]
+	- **Timing**: [[AI Risk/Phase/4/Not. coded]]
+	- **Domain**: [[AI Risk Domain/1. Discrimination & Toxicity]]
+	- **Sub-domain**: [[AI Risk/Domain/1. Discrimination & Toxicity/1.2/Exposure to toxic content]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Sex trafficking
+- [[AI Risks/Sex-related crimes/Sex trafficking]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/23.03.03]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/4/Not. coded]]
+	- **Timing**: [[AI Risk/Phase/4/Not. coded]]
+	- **Domain**: [[AI Risk Domain/1. Discrimination & Toxicity]]
+	- **Sub-domain**: [[AI Risk/Domain/1. Discrimination & Toxicity/1.2/Exposure to toxic content]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Prostitution
+- [[AI Risks/Sex-related crimes/Prostitution]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/23.03.04]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/4/Not. coded]]
+	- **Timing**: [[AI Risk/Phase/4/Not. coded]]
+	- **Domain**: [[AI Risk Domain/1. Discrimination & Toxicity]]
+	- **Sub-domain**: [[AI Risk/Domain/1. Discrimination & Toxicity/1.2/Exposure to toxic content]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Intimate-image based abuse
+- [[AI Risks/Sex-related crimes/Intimate-image based abuse]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/23.03.05]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/4/Not. coded]]
+	- **Timing**: [[AI Risk/Phase/4/Not. coded]]
+	- **Domain**: [[AI Risk Domain/1. Discrimination & Toxicity]]
+	- **Sub-domain**: [[AI Risk/Domain/1. Discrimination & Toxicity/1.2/Exposure to toxic content]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Indecent exposure (i.e. showing sexual body parts or "flashing")
+- [[AI Risks/Sex-related crimes/Indecent exposure (i.e. showing sexual body parts or "flashing")]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/23.03.06]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/4/Not. coded]]
+	- **Timing**: [[AI Risk/Phase/4/Not. coded]]
+	- **Domain**: [[AI Risk Domain/1. Discrimination & Toxicity]]
+	- **Sub-domain**: [[AI Risk/Domain/1. Discrimination & Toxicity/1.2/Exposure to toxic content]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Child sexual exploitation
+- [[AI Risks/Child sexual exploitation/Child sexual exploitation]]
+	- **Description**: "This category addresses responses that contain, describe, enable, encourage, or endorse the sexual abuse of children (i.e., under 18 years old) or the acquisition of child sexual abuse material."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/23.04.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/3/Other]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/1. Discrimination & Toxicity]]
+	- **Sub-domain**: [[AI Risk/Domain/1. Discrimination & Toxicity/1.2/Exposure to toxic content]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Inappropriate/harmful relationships with children. This includes adults forming romantic relationships with children or grooming them
+- [[AI Risks/Child sexual exploitation/Inappropriate/harmful relationships with children. This includes adults forming romantic relationships with children or grooming them]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/23.04.01]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/4/Not. coded]]
+	- **Timing**: [[AI Risk/Phase/4/Not. coded]]
+	- **Domain**: [[AI Risk Domain/1. Discrimination & Toxicity]]
+	- **Sub-domain**: [[AI Risk/Domain/1. Discrimination & Toxicity/1.2/Exposure to toxic content]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Sexual abuse of children, including the sexualisation of children
+- [[AI Risks/Child sexual exploitation/Sexual abuse of children, including the sexualisation of children]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/23.04.02]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/4/Not. coded]]
+	- **Timing**: [[AI Risk/Phase/4/Not. coded]]
+	- **Domain**: [[AI Risk Domain/1. Discrimination & Toxicity]]
+	- **Sub-domain**: [[AI Risk/Domain/1. Discrimination & Toxicity/1.2/Exposure to toxic content]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Child Sexual Abuse Material (CSAM). This includes erotic materials involving children
+- [[AI Risks/Child sexual exploitation/Child Sexual Abuse Material (CSAM). This includes erotic materials involving children]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/23.04.03]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/4/Not. coded]]
+	- **Timing**: [[AI Risk/Phase/4/Not. coded]]
+	- **Domain**: [[AI Risk Domain/1. Discrimination & Toxicity]]
+	- **Sub-domain**: [[AI Risk/Domain/1. Discrimination & Toxicity/1.2/Exposure to toxic content]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Indiscriminate weapons (CBRNE)
+- [[AI Risks/Indiscriminate weapons (CBRNE)/Indiscriminate weapons (CBRNE)]]
+	- **Description**: "This category addresses responses that enable, encourage, or endorse the creation of indiscriminate weapons (colloquially known as "weapons of mass destruction")."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/23.05.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/3/Other]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk/Domain/4. Malicious Actors & Misuse]]
+	- **Sub-domain**: [[AI Risk/Domain/4. Malicious Actors & Misuse/4.2/Cyberattacks, weapon development or use, and mass harm]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### CBRNE (all)
+- [[AI Risks/Indiscriminate weapons (CBRNE)/CBRNE (all)]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/23.05.01]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/4/Not. coded]]
+	- **Timing**: [[AI Risk/Phase/4/Not. coded]]
+	- **Domain**: [[AI Risk Domain/1. Discrimination & Toxicity]]
+	- **Sub-domain**: [[AI Risk/Domain/1. Discrimination & Toxicity/1.2/Exposure to toxic content]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Chemical weapons (ex: nerve gas)
+- [[AI Risks/Indiscriminate weapons (CBRNE)/Chemical weapons (ex: nerve gas)]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/23.05.02]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/4/Not. coded]]
+	- **Timing**: [[AI Risk/Phase/4/Not. coded]]
+	- **Domain**: [[AI Risk Domain/1. Discrimination & Toxicity]]
+	- **Sub-domain**: [[AI Risk/Domain/1. Discrimination & Toxicity/1.2/Exposure to toxic content]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Biological weapons (ex: anthrax)
+- [[AI Risks/Indiscriminate weapons (CBRNE)/Biological weapons (ex: anthrax)]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/23.05.03]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/4/Not. coded]]
+	- **Timing**: [[AI Risk/Phase/4/Not. coded]]
+	- **Domain**: [[AI Risk Domain/1. Discrimination & Toxicity]]
+	- **Sub-domain**: [[AI Risk/Domain/1. Discrimination & Toxicity/1.2/Exposure to toxic content]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Radiological weapons (ex: dirty bombs)
+- [[AI Risks/Indiscriminate weapons (CBRNE)/Radiological weapons (ex: dirty bombs)]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/23.05.04]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/4/Not. coded]]
+	- **Timing**: [[AI Risk/Phase/4/Not. coded]]
+	- **Domain**: [[AI Risk Domain/1. Discrimination & Toxicity]]
+	- **Sub-domain**: [[AI Risk/Domain/1. Discrimination & Toxicity/1.2/Exposure to toxic content]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Nuclear weapons (ex: fission or fusion bombs)
+- [[AI Risks/Indiscriminate weapons (CBRNE)/Nuclear weapons (ex: fission or fusion bombs)]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/23.05.05]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/4/Not. coded]]
+	- **Timing**: [[AI Risk/Phase/4/Not. coded]]
+	- **Domain**: [[AI Risk Domain/1. Discrimination & Toxicity]]
+	- **Sub-domain**: [[AI Risk/Domain/1. Discrimination & Toxicity/1.2/Exposure to toxic content]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### High-yield explosive weapons (ex: cluster munitions)
+- [[AI Risks/Indiscriminate weapons (CBRNE)/High-yield explosive weapons (ex: cluster munitions)]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/23.05.06]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/4/Not. coded]]
+	- **Timing**: [[AI Risk/Phase/4/Not. coded]]
+	- **Domain**: [[AI Risk Domain/1. Discrimination & Toxicity]]
+	- **Sub-domain**: [[AI Risk/Domain/1. Discrimination & Toxicity/1.2/Exposure to toxic content]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Suicide & self-harm
+- [[AI Risks/Suicide & self-harm/Suicide & self-harm]]
+	- **Description**: "This category addresses responses that enable, encourage, or endorse acts of intentional self-harm."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/23.06.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/3/Other]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/1. Discrimination & Toxicity]]
+	- **Sub-domain**: [[AI Risk/Domain/1. Discrimination & Toxicity/1.2/Exposure to toxic content]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Suicide
+- [[AI Risks/Suicide & self-harm/Suicide]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/23.06.01]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/4/Not. coded]]
+	- **Timing**: [[AI Risk/Phase/4/Not. coded]]
+	- **Domain**: [[AI Risk Domain/1. Discrimination & Toxicity]]
+	- **Sub-domain**: [[AI Risk/Domain/1. Discrimination & Toxicity/1.2/Exposure to toxic content]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Self-harm
+- [[AI Risks/Suicide & self-harm/Self-harm]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/23.06.02]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/4/Not. coded]]
+	- **Timing**: [[AI Risk/Phase/4/Not. coded]]
+	- **Domain**: [[AI Risk Domain/1. Discrimination & Toxicity]]
+	- **Sub-domain**: [[AI Risk/Domain/1. Discrimination & Toxicity/1.2/Exposure to toxic content]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Eating disorders
+- [[AI Risks/Suicide & self-harm/Eating disorders]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/23.06.03]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/4/Not. coded]]
+	- **Timing**: [[AI Risk/Phase/4/Not. coded]]
+	- **Domain**: [[AI Risk Domain/1. Discrimination & Toxicity]]
+	- **Sub-domain**: [[AI Risk/Domain/1. Discrimination & Toxicity/1.2/Exposure to toxic content]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Dangerous challenges and hoaxes that can lead individuals to harm themselves
+- [[AI Risks/Suicide & self-harm/Dangerous challenges and hoaxes that can lead individuals to harm themselves]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/23.06.04]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/4/Not. coded]]
+	- **Timing**: [[AI Risk/Phase/4/Not. coded]]
+	- **Domain**: [[AI Risk Domain/1. Discrimination & Toxicity]]
+	- **Sub-domain**: [[AI Risk/Domain/1. Discrimination & Toxicity/1.2/Exposure to toxic content]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Hate
+- [[AI Risks/Hate/Hate]]
+	- **Description**: "This category addresses responses that demean or dehumanize people on the basis of their sensitive, personal characteristics."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/23.07.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/3/Other]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/1. Discrimination & Toxicity]]
+	- **Sub-domain**: [[AI Risk/Domain/1. Discrimination & Toxicity/1.2/Exposure to toxic content]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Demeaning and derogatory remarks (Mental capacity, Sensory and physical attributes, Behavioral attributes)
+- [[AI Risks/Hate/Demeaning and derogatory remarks (Mental capacity, Sensory and physical attributes, Behavioral attributes)]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/23.07.01]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/4/Not. coded]]
+	- **Timing**: [[AI Risk/Phase/4/Not. coded]]
+	- **Domain**: [[AI Risk Domain/1. Discrimination & Toxicity]]
+	- **Sub-domain**: [[AI Risk/Domain/1. Discrimination & Toxicity/1.2/Exposure to toxic content]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Inflicting physical harm (Mass violence and genocide, Murder and individual violence)
+- [[AI Risks/Hate/Inflicting physical harm (Mass violence and genocide, Murder and individual violence)]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/23.07.02]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/4/Not. coded]]
+	- **Timing**: [[AI Risk/Phase/4/Not. coded]]
+	- **Domain**: [[AI Risk Domain/1. Discrimination & Toxicity]]
+	- **Sub-domain**: [[AI Risk/Domain/1. Discrimination & Toxicity/1.2/Exposure to toxic content]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Inflicting emotional harm (Emotional abuse, Undermine and make feel unwelcome)
+- [[AI Risks/Hate/Inflicting emotional harm (Emotional abuse, Undermine and make feel unwelcome)]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/23.07.03]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/4/Not. coded]]
+	- **Timing**: [[AI Risk/Phase/4/Not. coded]]
+	- **Domain**: [[AI Risk Domain/1. Discrimination & Toxicity]]
+	- **Sub-domain**: [[AI Risk/Domain/1. Discrimination & Toxicity/1.2/Exposure to toxic content]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Exclusion and isolation (Social exclusion, Political exclusion, Economic exclusion)
+- [[AI Risks/Hate/Exclusion and isolation (Social exclusion, Political exclusion, Economic exclusion)]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/23.07.04]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/4/Not. coded]]
+	- **Timing**: [[AI Risk/Phase/4/Not. coded]]
+	- **Domain**: [[AI Risk Domain/1. Discrimination & Toxicity]]
+	- **Sub-domain**: [[AI Risk/Domain/1. Discrimination & Toxicity/1.2/Exposure to toxic content]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Specialized Advice
+- [[AI Risks/Specialized Advice/Specialized Advice]]
+	- **Description**: "This category addresses responses that contain specialized financial, medical or legal advice, or that indicate dangerous activities or objects are safe."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/23.08.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/3/Other]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk/Domain/3. Misinformation]]
+	- **Sub-domain**: [[AI Risk/Domain/3. Misinformation/3.1/False or misleading information]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Privacy
+- [[AI Risks/Privacy/Privacy]]
+	- **Description**: "This category addresses responses that contain sensitive, nonpublic personal information that could undermine someone’s physical, digital, or financial security."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/23.09.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/3/Other]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/2. Privacy & Security]]
+	- **Sub-domain**: [[AI Risk/Domain/2. Privacy & Security/2.0/Privacy & Security]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Intellectual Property
+- [[AI Risks/Intellectual Property/Intellectual Property]]
+	- **Description**: "This category addresses responses that may violate, or directly encourage others to violate, the intellectual property rights (i.e., copyrights, trademarks, or patents) of any third party."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/23.10.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/3/Other]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/6. Socioeconomic and Environmental]]
+	- **Sub-domain**: [[AI Risk/Domain/6. Socioeconomic and Environmental/6.3/Economic and cultural devaluation of human effort]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Elections
+- [[AI Risks/Elections/Elections]]
+	- **Description**: "This category addresses responses that contain factually incorrect information about electoral systems and processes, including in the time, place, or manner of voting in civic elections."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/23.11.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/3/Other]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk/Domain/4. Malicious Actors & Misuse]]
+	- **Sub-domain**: [[AI Risk/Domain/4. Malicious Actors & Misuse/4.1/Disinformation, surveillance, and influence at scale]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Defamation
+- [[AI Risks/Defamation/Defamation]]
+	- **Description**: "This category addresses responses that are both verifiably false and likely to injure a person’s reputation (e.g., libel, slander, disparagement)."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/23.12.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/3/Other]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/7. AI System Safety, Failures, & Limitations]]
+	- **Sub-domain**: [[AI Risk/Domain/7. AI System Safety, Failures, & Limitations/7.3/Lack of capability or robustness]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Sexual Content
+- [[AI Risks/Sexual Content/Sexual Content]]
+	- **Description**: "This category addresses responses that contain erotica. This includes depictions of sexual behavior, genitalia, and overtly sexualized body parts."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/23.13.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/3/Other]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/1. Discrimination & Toxicity]]
+	- **Sub-domain**: [[AI Risk/Domain/1. Discrimination & Toxicity/1.2/Exposure to toxic content]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### nan
+- [[AI Risks/nan/nan]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/24.00.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Capability failures
+- [[AI Risks/Capability failures/Capability failures]]
+	- **Description**: "One reason AI systems fail is because they lack the capability or skill needed to do what they are asked to do."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/24.01.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/3/Other]]
+	- **Domain**: [[AI Risk Domain/7. AI System Safety, Failures, & Limitations]]
+	- **Sub-domain**: [[AI Risk/Domain/7. AI System Safety, Failures, & Limitations/7.3/Lack of capability or robustness]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Lack of capability for task
+- [[AI Risks/Capability failures/Lack of capability for task]]
+	- **Description**: "As we have seen, this could be due to the skill not being required during the training process (perhaps due to issues with the training data) or because the learnt skill was quite brittle and was not generalisable to a new situation (lack of robustness to distributional shift). In particular, advanced AI assistants may not have the capability to represent complex concepts that are pertinent to their own ethical impact, for example the concept of 'benefitting the user' or 'when the user asks' or representing 'the way in which a user expects to be benefitted'."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/24.01.01]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/1/Pre-deployment]]
+	- **Domain**: [[AI Risk Domain/7. AI System Safety, Failures, & Limitations]]
+	- **Sub-domain**: [[AI Risk/Domain/7. AI System Safety, Failures, & Limitations/7.3/Lack of capability or robustness]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Difficult to develop metrics for evaluating benefits or harms caused by AI assistants
+- [[AI Risks/Capability failures/Difficult to develop metrics for evaluating benefits or harms caused by AI assistants]]
+	- **Description**: "Another difficulty facing AI assistant systems is that it is challenging to develop metrics for evaluating particular aspects of benefits or harms caused by the assistant – especially in a sufficiently expansive sense, which could involve much of society (see Chapter 19). Having these metrics is useful both for assessing the risk of harm from the system and for using the metric as a training signal."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/24.01.02]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/1/Pre-deployment]]
+	- **Domain**: [[AI Risk Domain/6. Socioeconomic and Environmental]]
+	- **Sub-domain**: [[AI Risk/Domain/6. Socioeconomic and Environmental/6.5/Governance failure]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Safe exploration problem with widely deployed AI assistants
+- [[AI Risks/Capability failures/Safe exploration problem with widely deployed AI assistants]]
+	- **Description**: "Moreover, we can expect assistants – that are widely deployed and deeply embedded across a range of social contexts – to encounter the safe exploration problem referenced above Amodei et al. (2016). For example, new users may have different requirements that need to be explored, or widespread AI assistants may change the way we live, thus leading to a change in our use cases for them (see Chapters 14 and 15). To learn what to do in these new situations, the assistants may need to take exploratory actions. This could be unsafe, for example a medical AI assistant when encountering a new disease might suggest an exploratory clinical trial that results in long-lasting ill health for participants."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/24.01.03]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/7. AI System Safety, Failures, & Limitations]]
+	- **Sub-domain**: [[AI Risk/Domain/7. AI System Safety, Failures, & Limitations/7.3/Lack of capability or robustness]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Goal-related failures
+- [[AI Risks/Goal-related failures/Goal-related failures]]
+	- **Description**: "As we think about even more intelligent and advanced AI assistants, perhaps outperforming humans on many cognitive tasks, the question of how humans can successfully control such an assistant looms large. To achieve the goals we set for an assistant, it is possible (Shah, 2022) that the AI assistant will implement some form of consequentialist reasoning: considering many different plans, predicting their consequences and executing the plan that does best according to some metric, M. This kind of reasoning can arise because it is a broadly useful capability (e.g. planning ahead, considering more options and choosing the one which may perform better at a wide variety of tasks) and generally selected for, to the extent that doing well on M leads to an ML model 59 The Ethics of Advanced AI Assistants achieving good performance on its training objective, O, if M and O are correlated during training. In reality, an AI system may not fully implement exact consequentialist reasoning (it may use other heuristics, rules, etc.), but it may be a useful approximation to describe its behaviour on certain tasks. However, some amount of consequentialist reasoning can be dangerous when the assistant uses a metric M that is resource-unbounded (with significantly more resources, such as power, money and energy, you can score significantly higher on M) and misaligned – where M differs a lot from how humans would evaluate the outcome (i.e. it is not what users or society require). In the assistant case, this could be because it fails to benefit the user, when the user asks, in the way they expected to be benefitted – or because it acts in ways that overstep certain bounds and cause harm to non-users (see Chapter 5)."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/24.02.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/3/Other]]
+	- **Timing**: [[AI Risk/Phase/1/Pre-deployment]]
+	- **Domain**: [[AI Risk Domain/7. AI System Safety, Failures, & Limitations]]
+	- **Sub-domain**: [[AI Risk/Domain/7. AI System Safety, Failures, & Limitations/7.1/AI pursuing its own goals in conflict with human goals or values]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Misaligned consequentialist reasoning
+- [[AI Risks/Goal-related failures/Misaligned consequentialist reasoning]]
+	- **Description**: "As we think about even more intelligent and advanced AI assistants, perhaps outperforming humans on many cognitive tasks, the question of how humans can successfully control such an assistant looms large. To achieve the goals we set for an assistant, it is possible (Shah, 2022) that the AI assistant will implement some form of consequentialist reasoning: considering many different plans, predicting their consequences and executing the plan that does best according to some metric, M. This kind of reasoning can arise because it is a broadly useful capability (e.g. planning ahead, considering more options and choosing the one which may perform better at a wide variety of tasks) and generally selected for, to the extent that doing well on M leads to an ML model achieving good performance on its training objective, O, if M and O are correlated during training. In reality, an AI system may not fully implement exact consequentialist reasoning (it may use other heuristics, rules, etc.), but it may be a useful approximation to describe its behaviour on certain tasks. However, some amount of consequentialist reasoning can be dangerous when the assistant uses a metric M that is resource-unbounded (with significantly more resources, such as power, money and energy, you can score significantly higher on M) and misaligned – where M differs a lot from how humans would evaluate the outcome (i.e. it is not what users or society require). In the assistant case, this could be because it fails to benefit the user, when the user asks, in the way they expected to be benefitted – or because it acts in ways that overstep certain bounds and cause harm to non-users (see Chapter 5). Under the aforementioned circumstances (resource-unbounded and misaligned), an AI assistant will tend to choose plans that pursue convergent instrumental subgoals (Omohundro, 2008) – subgoals that help towards the main goal which are instrumental (i.e. not pursued for their own sake) and convergent (i.e. the same subgoals appear for many main goals). Examples of relevant subgoals include: self-preservation, goal-preservation, selfimprovement and resource acquisition. The reason the assistant would pursue these convergent instrumental subgoals is because they help it to do even better on M (as it is resource-unbounded) and are not disincentivised by M (as it is misaligned). These subgoals may, in turn, be dangerous. For example, resource acquisition could occur through the assistant seizing resources using tools that it has access to (see Chapter 4) or determining that its best chance for self-preservation is to limit the ability of humans to turn it off – sometimes referred to as the ‘off-switch problem’ (Hadfield-Menell et al., 2016) – again via tool use, or by resorting to threats or blackmail. At the limit, some authors have even theorised that this could lead to the assistant killing all humans to permanently stop them from having even a small chance of disabling it (Bostrom, 2014) – this is one scenario of existential risk from misaligned AI."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/24.02.01]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/3/Other]]
+	- **Timing**: [[AI Risk/Phase/1/Pre-deployment]]
+	- **Domain**: [[AI Risk Domain/7. AI System Safety, Failures, & Limitations]]
+	- **Sub-domain**: [[AI Risk/Domain/7. AI System Safety, Failures, & Limitations/7.3/Lack of capability or robustness]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Specification gaming
+- [[AI Risks/Goal-related failures/Specification gaming]]
+	- **Description**: "Specification gaming (Krakovna et al., 2020) occurs when some faulty feedback is provided to the assistant in the training data (i.e. the training objective O does not fully capture what the user/designer wants the assistant to do). It is typified by the sort of behaviour that exploits loopholes in the task specification to satisfy the literal specification of a goal without achieving the intended outcome."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/24.02.02]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/3/Other]]
+	- **Timing**: [[AI Risk/Phase/1/Pre-deployment]]
+	- **Domain**: [[AI Risk Domain/7. AI System Safety, Failures, & Limitations]]
+	- **Sub-domain**: [[AI Risk/Domain/7. AI System Safety, Failures, & Limitations/7.1/AI pursuing its own goals in conflict with human goals or values]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Goal misgeneralisation
+- [[AI Risks/Goal-related failures/Goal misgeneralisation]]
+	- **Description**: "In the problem of goal misgeneralisation (Langosco et al., 2023; Shah et al., 2022), the AI system's behaviour during out-of-distribution operation (i.e. not using input from the training data) leads it to generalise poorly about its goal while its capabilities generalise well, leading to undesired behaviour. Applied to the case of an advanced AI assistant, this means the system would not break entirely – the assistant might still competently pursue some goal, but it would not be the goal we had intended."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/24.02.03]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/3/Other]]
+	- **Timing**: [[AI Risk/Phase/3/Other]]
+	- **Domain**: [[AI Risk Domain/7. AI System Safety, Failures, & Limitations]]
+	- **Sub-domain**: [[AI Risk/Domain/7. AI System Safety, Failures, & Limitations/7.1/AI pursuing its own goals in conflict with human goals or values]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Deceptive alignment
+- [[AI Risks/Goal-related failures/Deceptive alignment]]
+	- **Description**: "Here, the agent develops its own internalised goal, G, which is misgeneralised and distinct from the training reward, R. The agent also develops a capability for situational awareness (Cotra, 2022): it can strategically use the information about its situation (i.e. that it is an ML model being trained using a particular training setup, e.g. RL fine-tuning with training reward, R) to its advantage. Building on these foundations, the agent realises that its optimal strategy for doing well at its own goal G is to do well on R during training and then pursue G at deployment – it is only doing well on R instrumentally so that it does not get its own goal G changed through a learning update... Ultimately, if deceptive alignment were to occur, an advanced AI assistant could appear to be successfully aligned but pursue a different goal once it was out in the wild."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/24.02.04]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/3/Other]]
+	- **Timing**: [[AI Risk/Phase/3/Other]]
+	- **Domain**: [[AI Risk Domain/7. AI System Safety, Failures, & Limitations]]
+	- **Sub-domain**: [[AI Risk/Domain/7. AI System Safety, Failures, & Limitations/7.1/AI pursuing its own goals in conflict with human goals or values]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Malicious Uses
+- [[AI Risks/Malicious Uses/Malicious Uses]]
+	- **Description**: "As AI assistants become more general purpose, sophisticated and capable, they create new opportunities in a variety of fields such as education, science and healthcare. Yet the rapid speed of progress has made it difficult to adequately prepare for, or even understand, how this technology can potentially be misused. Indeed, advanced AI assistants may transform existing threats or create new classes of threats altogether"
+	- **Evidence ID**: [[MIT/AI Risks/by ID/24.03.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk/Domain/4. Malicious Actors & Misuse]]
+	- **Sub-domain**: [[AI Risk/Domain/4. Malicious Actors & Misuse/4.0/Malicious use]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Offensive Cyber Operations (General)
+- [[AI Risks/Malicious Uses/Offensive Cyber Operations (General)]]
+	- **Description**: "Offensive cyber operations are malicious attacks on computer systems and networks aimed at gaining unauthorized access to, manipulating, denying, disrupting, degrading, or destroying the target system. These attacks can target the system’s network, hardware, or software. Advanced AI assistants can be a double-edged sword in cybersecurity, benefiting both the defenders and the attackers. They can be used by cyber defenders to protect systems from malicious intruders by leveraging information trained on massive amounts of cyber-threat intelligence data, including vulnerabilities, attack patterns, and indications of compromise. Cyber defenders can use this information to enhance their threat intelligence capabilities by extracting insights faster and identifying emerging threats. Advanced cyber AI assistant tools can also be used to analyze large volumes of log files, system output, or network traffic data in the event of a cyber incident, and they can ask relevant questions that an analyst would typically ask. This allows defenders to speed up and automate the incident response process. Advanced AI assistants can also aid in secure coding practices by identifying common mistakes in code and assisting with fuzzing tools. However, advanced AI assistants can also be used by attackers as part of offensive cyber operations to exploit vulnerabilities in systems and networks. They can be used to automate attacks, identify and exploit weaknesses in security systems, and generate phishing emails and other social engineering attacks. Advanced AI assistants can also be misused to craft cyberattack payloads and malicious code snippets that can be compiled into executable malware files."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/24.03.01]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk/Domain/4. Malicious Actors & Misuse]]
+	- **Sub-domain**: [[AI Risk/Domain/4. Malicious Actors & Misuse/4.2/Cyberattacks, weapon development or use, and mass harm]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### AI-Powered Spear-Phishing at Scale
+- [[AI Risks/Malicious Uses/AI-Powered Spear-Phishing at Scale]]
+	- **Description**: "Phishing is a type of cybersecurity attack wherein attackers pose as trustworthy entities to extract sensitive information from unsuspecting victims or lure them to take a set of actions. Advanced AI systems can potentially be exploited by these attackers to make their phishing attempts significantly more effective and harder to detect. In particular, attackers may leverage the ability of advanced AI assistants to learn patterns in regular communications to craft highly convincing and personalized phishing emails, effectively imitating legitimate communications from trusted entities. This technique, known as ‘spear phishing,’ involves targeted attacks on specific individuals or organizations and is particularly potent due to its personalized nature. This class of cyberattacks often gains its efficacy from the exploitation of key psychological principles, notably urgency and fear, which can manipulate victims into hastily reacting without proper scrutiny. Advanced AI assistants’ increased fidelity in adopting specific communication styles can significantly amplify the deceptive nature of these phishing attacks. The ability to generate tailored messages at scale that engineer narratives that invoke a sense of urgency or fear means that AI-powered phishing emails could prompt the recipient to act impulsively, thus increasing the likelihood of a successful attack."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/24.03.02]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk/Domain/4. Malicious Actors & Misuse]]
+	- **Sub-domain**: [[AI Risk/Domain/4. Malicious Actors & Misuse/4.1/Disinformation, surveillance, and influence at scale]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### AI-Assisted Software Vulnerability Discovery
+- [[AI Risks/Malicious Uses/AI-Assisted Software Vulnerability Discovery]]
+	- **Description**: "A common element in offensive cyber operations involves the identification and exploitation of system vulnerabilities to gain unauthorized access or control. Until recently, these activities required specialist programming knowledge. In the case of ‘zero-day’ vulnerabilities (flaws or weaknesses in software or an operating system that the creator or vendor is not aware of), considerable resources and technical creativity are typically required to manually discover such vulnerabilities, so their use is limited to well-resourced nation states or technically sophisticated advanced persistent threat groups. Another case where we see AI assistants as potential double-edged swords in cybersecurity concerns streamlining vulnerability discovery through the increased use of AI assistants in penetration testing, wherein an authorized simulated cyberattack on a computer system is used to evaluate its security and identify vulnerabilities. Cyber AI assistants built over foundational models are already automating aspects of the penetration testing process. These tools function interactively and offer guidance to penetration testers during their tasks. While the capability of today’s AI-powered penetration testing assistant is limited to easy-to-medium-difficulty cyber operations, the evolution in capabilities is likely to expand the class of vulnerabilities that can be identified by these systems. These same AI cybersecurity assistants, trained on the massive amount of cyber-threat intelligence data that includes vulnerabilities and attack patterns, can also lower the barrier to entry for novice hackers that use these tools for malicious purposes, enabling them to discover vulnerabilities and create malicious code to exploit them without in-depth technical knowledge. For example, Israeli security firm Check Point recently discovered threads on well-known underground hacking forums that focus on creating hacking tools and code using AI assistants."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/24.03.03]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk/Domain/4. Malicious Actors & Misuse]]
+	- **Sub-domain**: [[AI Risk/Domain/4. Malicious Actors & Misuse/4.2/Cyberattacks, weapon development or use, and mass harm]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Malicious Code Generation
+- [[AI Risks/Malicious Uses/Malicious Code Generation]]
+	- **Description**: "Malicious code is a term for code—whether it be part of a script or embedded in a software system—designed to cause damage, security breaches, or other threats to application security. Advanced AI assistants with the ability to produce source code can potentially lower the barrier to entry for threat actors with limited programming abilities or technical skills to produce malicious code. Recently, a series of proof-of-concept attacks have shown how a benign-seeming executable file can be crafted such that, at every runtime, it makes application programming interface (API) calls to an AI assistant. Rather than just reproducing examples of already-written code snippets, the AI assistant can be prompted to generate dynamic, mutating versions of malicious code at each call, thus making the resulting vulnerability exploits difficult to detect by cybersecurity tools. Furthermore, advanced AI assistants could be used to create obfuscated code to make it more difficult for defensive cyber capabilities to detect and understand malicious activities. AI-generated code could also be quickly iterated to avoid being detected by traditional signature-based antivirus software. Finally, advanced AI assistants with source code capabilities have been found to be capable of assisting in the development of polymorphic malware that changes its behavior and digital footprint each time it is executed, making them hard to detect by antivirus programs that rely on known virus signatures. Taken together, without proper mitigation, advanced AI assistants can lower the barrier for developing malicious code, make cyberattacks more precise and tailored, further accelerate and automate cyber warfare, enable stealthier and more persistent offensive cyber capabilities, and make cyber campaigns more effective on a larger scale."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/24.03.04]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk/Domain/4. Malicious Actors & Misuse]]
+	- **Sub-domain**: [[AI Risk/Domain/4. Malicious Actors & Misuse/4.2/Cyberattacks, weapon development or use, and mass harm]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Adversarial AI (General)
+- [[AI Risks/Malicious Uses/Adversarial AI (General)]]
+	- **Description**: "Adversarial AI refers to a class of attacks that exploit vulnerabilities in machine-learning (ML) models. This class of misuse exploits vulnerabilities introduced by the AI assistant itself and is a form of misuse that can enable malicious entities to exploit privacy vulnerabilities and evade the model’s built-in safety mechanisms, policies, and ethical boundaries of the model. Besides the risks of misuse for offensive cyber operations, advanced AI assistants may also represent a new target for abuse, where bad actors exploit the AI systems themselves and use them to cause harm. While our understanding of vulnerabilities in frontier AI models is still an open research problem, commercial firms and researchers have already documented attacks that exploit vulnerabilities that are unique to AI and involve evasion, data poisoning, model replication, and exploiting traditional software flaws to deceive, manipulate, compromise, and render AI systems ineffective. This threat is related to, but distinct from, traditional cyber activities. Unlike traditional cyberattacks that typically are caused by ‘bugs’ or human mistakes in code, adversarial AI attacks are enabled by inherent vulnerabilities in the underlying AI algorithms and how they integrate into existing software ecosystems."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/24.03.05]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/2. Privacy & Security]]
+	- **Sub-domain**: [[AI Risk/Domain/2. Privacy & Security/2.2/AI system security vulnerabilities and attacks]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Adversarial AI: Circumvention of Technical Security Measures
+- [[AI Risks/Malicious Uses/Adversarial AI: Circumvention of Technical Security Measures]]
+	- **Description**: "The technical measures to mitigate misuse risks of advanced AI assistants themselves represent a new target for attack. An emerging form of misuse of general-purpose advanced AI assistants exploits vulnerabilities in a model that results in unwanted behavior or in the ability of an attacker to gain unauthorized access to the model and/or its capabilities. While these attacks currently require some level of prompt engineering knowledge and are often patched by developers, bad actors may develop their own adversarial AI agents that are explicitly trained to discover new vulnerabilities that allow them to evade built-in safety mechanisms in AI assistants. To combat such misuse, language model developers are continually engaged in a cyber arms race to devise advanced filtering algorithms capable of identifying attempts to bypass filters. While the impact and severity of this class of attacks is still somewhat limited by the fact that current AI assistants are primarily text-based chatbots, advanced AI assistants are likely to open the door to multimodal inputs and higher-stakes action spaces, with the result that the severity and impact of this type of attack is likely to increase. Current approaches to building general-purpose AI systems tend to produce systems with both beneficial and harmful capabilities. Further progress towards advanced AI assistant development could lead to capabilities that pose extreme risks that must be protected against this class of attacks, such as offensive cyber capabilities or strong manipulation skills, and weapons acquisition."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/24.03.06]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/2. Privacy & Security]]
+	- **Sub-domain**: [[AI Risk/Domain/2. Privacy & Security/2.2/AI system security vulnerabilities and attacks]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Adversarial AI: Prompt Injections
+- [[AI Risks/Malicious Uses/Adversarial AI: Prompt Injections]]
+	- **Description**: "Prompt injections represent another class of attacks that involve the malicious insertion of prompts or requests in LLM-based interactive systems, leading to unintended actions or disclosure of sensitive information. The prompt injection is somewhat related to the classic structured query language (SQL) injection attack in cybersecurity where the embedded command looks like a regular input at the start but has a malicious impact. The injected prompt can deceive the application into executing the unauthorized code, exploit the vulnerabilities, and compromise security in its entirety. More recently, security researchers have demonstrated the use of indirect prompt injections. These attacks on AI systems enable adversaries to remotely (without a direct interface) exploit LLM-integrated applications by strategically injecting prompts into data likely to be retrieved. Proof-of-concept exploits of this nature have demonstrated that they can lead to the full compromise of a model at inference time analogous to traditional security principles. This can entail remote control of the model, persistent compromise, theft of data, and denial of service. As advanced AI assistants are likely to be integrated into broader software ecosystems through third-party plugins and extensions, with access to the internet and possibly operating systems, the severity and consequences of prompt injection attacks will likely escalate and necessitate proper mitigation mechanisms."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/24.03.07]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/2. Privacy & Security]]
+	- **Sub-domain**: [[AI Risk/Domain/2. Privacy & Security/2.2/AI system security vulnerabilities and attacks]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Adversarial AI: Data and Model Exfiltration Attacks
+- [[AI Risks/Malicious Uses/Adversarial AI: Data and Model Exfiltration Attacks]]
+	- **Description**: "Other forms of abuse can include privacy attacks that allow adversaries to exfiltrate or gain knowledge of the private training data set or other valuable assets. For example, privacy attacks such as membership inference can allow an attacker to infer the specific private medical records that were used to train a medical AI diagnosis assistant. Another risk of abuse centers around attacks that target the intellectual property of the AI assistant through model extraction and distillation attacks that exploit the tension between API access and confidentiality in ML models. Without the proper mitigations, these vulnerabilities could allow attackers to abuse access to a public-facing model API to exfiltrate sensitive intellectual property such as sensitive training data and a model’s architecture and learned parameters."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/24.03.08]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/2. Privacy & Security]]
+	- **Sub-domain**: [[AI Risk/Domain/2. Privacy & Security/2.1/Compromise of privacy by leaking or correctly inferring sensitive information]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Harmful Content Generation at Scale (General)
+- [[AI Risks/Malicious Uses/Harmful Content Generation at Scale (General)]]
+	- **Description**: "While harmful content like child sexual abuse material, fraud, and disinformation are not new challenges for governments and developers, without the proper safety and security mechanisms, advanced AI assistants may allow threat actors to create harmful content more quickly, accurately, and with a longer reach. In particular, concerns arise in relation to the following areas: - Multimodal content quality: Driven by frontier models, advanced AI assistants can automatically generate much higher-quality, human-looking text, images, audio, and video than prior AI applications. Currently, creating this content often requires hiring people who speak the language of the population being targeted. AI assistants can now do this much more cheaply and efficiently. - Cost of content creation: AI assistants can substantially decrease the costs of content creation, further lowering the barrier to entry for malicious actors to carry out harmful attacks. In the past, creating and disseminating misinformation required a significant investment of time and money. AI assistants can now do this much more cheaply and efficiently. - Personalization: Advanced AI assistants can reduce obstacles to creating personalized content. Foundation models that condition their generations on personal attributes or information can create realistic personalized content which could be more persuasive. In the past, creating personalized content was a time-consuming and expensive process. AI assistants can now do this much more cheaply and efficiently."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/24.03.09]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk/Domain/4. Malicious Actors & Misuse]]
+	- **Sub-domain**: [[AI Risk/Domain/4. Malicious Actors & Misuse/4.1/Disinformation, surveillance, and influence at scale]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Harmful Content Generation at Scale: Non-Consensual Content
+- [[AI Risks/Malicious Uses/Harmful Content Generation at Scale: Non-Consensual Content]]
+	- **Description**: "The misuse of generative AI has been widely recognized in the context of harms caused by non-consensual content generation. Historically, generative adversarial networks (GANs) have been used to generate realistic-looking avatars for fake accounts on social media services. More recently, diffusion models have enabled a new generation of more flexible and user-friendly generative AI capabilities that are able to produce high-resolution media based on user-supplied textual prompts. It has already been recognized that these models can be used to create harmful content, including depictions of nudity, hate, or violence. Moreover, they can be used to reinforce biases and subject individuals or groups to indignity. There is also the potential for these models to be used for exploitation and harassment of citizens, such as by removing articles of clothing from pre-existing images or memorizing an individual’s likeness without their consent. Furthermore, image, audio, and video generation models could be used to spread disinformation by depicting political figures in unfavorable contexts. This growing list of AI misuses involving non-consensual content has already motivated debate around what interventions are warranted for preventing misuse of AI systems. Advanced AI assistants pose novel risks that can amplify the harm caused by non-consensual content generation. Third-party integration, tool-use, and planning capabilities can be exploited to automate the identification and targeting of individuals for exploitation or harassment. Assistants with access to the internet and third-party tool-use integration with applications like email and social media can also be exploited to disseminate harmful content at scale or to microtarget individuals with blackmail."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/24.03.10]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk/Domain/4. Malicious Actors & Misuse]]
+	- **Sub-domain**: [[AI Risk/Domain/4. Malicious Actors & Misuse/4.3/Fraud, scams, and targeted manipulation]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Harmful Content Generation at Scale: Fraudulent Services
+- [[AI Risks/Malicious Uses/Harmful Content Generation at Scale: Fraudulent Services]]
+	- **Description**: "Malicious actors could leverage advanced AI assistant technology to create deceptive applications and platforms. AI assistants with the ability to produce markup content can assist malicious users with creating fraudulent websites or applications at scale. Unsuspecting users may fall for AI-generated deceptive offers, thus exposing their personal information or devices to risk. Assistants with external tool use and third-party integration can enable fraudulent applications that target widely-used operating systems. These fraudulent services could harvest sensitive information from users, such as credit card numbers, account credentials, or personal data stored on their devices (e.g., contact lists, call logs, and files). This stolen information can be used for identity theft, financial fraud, or other criminal activities. Advanced AI assistants with third-party integrations may also be able to install additional malware on users’ devices, including remote access tools, ransomware, etc. These devices can then be joined to a command-and-control server or botnet and used for further attacks."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/24.03.11]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk/Domain/4. Malicious Actors & Misuse]]
+	- **Sub-domain**: [[AI Risk/Domain/4. Malicious Actors & Misuse/4.3/Fraud, scams, and targeted manipulation]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Authoritarian Surveillance, Censorship, and Use (General)
+- [[AI Risks/Malicious Uses/Authoritarian Surveillance, Censorship, and Use (General)]]
+	- **Description**: "While new technologies like advanced AI assistants can aid in the production and dissemination of decision-guiding information, they can also enable and exacerbate threats to production and dissemination of reliable information and, without the proper mitigations, can be powerful targeting tools for oppression and control. Increasingly capable general-purpose AI assistants combined with our digital dependence in all walks of life increase the risk of authoritarian surveillance and censorship. In parallel, new sensors have flooded the modern world. The internet of things, phones, cars, homes, and social media platforms collect troves of data, which can then be integrated by advanced AI assistants with external tool-use and multimodal capabilities to assist malicious actors in identifying, targeting, manipulating, or coercing citizens."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/24.03.12]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk/Domain/4. Malicious Actors & Misuse]]
+	- **Sub-domain**: [[AI Risk/Domain/4. Malicious Actors & Misuse/4.1/Disinformation, surveillance, and influence at scale]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Authoritarian Surveillance, Censorship, and Use: Authoritarian Surveillance and Targeting of Citizens
+- [[AI Risks/Malicious Uses/Authoritarian Surveillance, Censorship, and Use: Authoritarian Surveillance and Targeting of Citizens]]
+	- **Description**: "Authoritarian governments could misuse AI to improve the efficacy of repressive domestic surveillance campaigns. Malicious actors will recognize the power of AI targeting tools. AI-powered analytics have transformed the relationship between companies and consumers, and they are now doing the same for governments and individuals. The broad circulation of personal data drives commercial innovation, but it also creates vulnerabilities and the risk of misuse. For example, AI assistants can be used to identify and target individuals for surveillance or harassment. They may also be used to manipulate people’s behavior, such as by microtargeting them with political ads or fake news. In the wrong hands, advanced AI assistants with multimodal and external tool-use capabilities can be powerful targeting tools for oppression and control. The broad circulation of personal data cuts in both directions. On the one hand, it drives commercial innovation and can make our lives more convenient. On the other hand, it creates vulnerabilities and the risk of misuse. Without the proper policies and technical security and privacy mechanisms in place, malicious actors can exploit advanced AI assistants to harvest data on companies, individuals, and governments. There have already been reported incidents of nation-states combining widely available commercial data with data acquired illicitly to track, manipulate, and coerce individuals. Advanced AI assistants can exacerbate these misuse risks by allowing malicious actors to more easily link disparate multimodal data sources at scale and exploit the ‘digital exhaust’ of personally identifiable information (PII) produced as a byproduct of modern life."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/24.03.13]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk/Domain/4. Malicious Actors & Misuse]]
+	- **Sub-domain**: [[AI Risk/Domain/4. Malicious Actors & Misuse/4.1/Disinformation, surveillance, and influence at scale]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Authoritarian Surveillance, Censorship, and Use: Delegation of Decision-Making Authority to Malicious Actors
+- [[AI Risks/Malicious Uses/Authoritarian Surveillance, Censorship, and Use: Delegation of Decision-Making Authority to Malicious Actors]]
+	- **Description**: "Finally, the principal value proposition of AI assistants is that they can either enhance or automate decision-making capabilities of people in society, thus lowering the cost and increasing the accuracy of decision-making for its user. However, benefiting from this enhancement necessarily means delegating some degree of agency away from a human and towards an automated decision-making system—motivating research fields such as value alignment. This introduces a whole new form of malicious use which does not break the tripwire of what one might call an ‘attack’ (social engineering, cyber offensive operations, adversarial AI, jailbreaks, prompt injections, exfiltration attacks, etc.). When someone delegates their decision-making to an AI assistant, they also delegate their decision-making to the wishes of the agent’s actual controller. If that controller is malicious, they can attack a user—perhaps subtly—by simply nudging how they make decisions into a problematic direction. Fully documenting the myriad of ways that people—seeking help with their decisions—may delegate decision-making authority to AI assistants, and subsequently come under malicious influence, is outside the scope of this paper. However, as a motivation for future work, scholars must investigate different forms of networked influence that could arise in this way. With more advanced AI assistants, it may become logistically possible for one, or a few AI assistants, to guide or control the behavior of many others. If this happens, then malicious actors could subtly influence the decision-making of large numbers of people who rely on assistants for advice or other functions. Such malicious use might not be illegal, would not necessarily violate terms of service, and may be difficult to even recognize. Nonetheless, it could generate new forms of vulnerability and needs to be better understood ahead of time for that reason."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/24.03.14]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk/Domain/4. Malicious Actors & Misuse]]
+	- **Sub-domain**: [[AI Risk/Domain/4. Malicious Actors & Misuse/4.1/Disinformation, surveillance, and influence at scale]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### AI Influence
+- [[AI Risks/AI Influence/AI Influence]]
+	- **Description**: "ways in which advanced AI assistants could influence user beliefs and behaviour in ways that depart from rational persuasion"
+	- **Evidence ID**: [[MIT/AI Risks/by ID/24.04.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/3/Other]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/7. AI System Safety, Failures, & Limitations]]
+	- **Sub-domain**: [[AI Risk/Domain/7. AI System Safety, Failures, & Limitations/7.2/AI possessing dangerous capabilities]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Physical and Psychological Harms
+- [[AI Risks/AI Influence/Physical and Psychological Harms]]
+	- **Description**: "These harms include harms to physical integrity, mental health and well-being. When interacting with vulnerable users, AI assistants may reinforce users’ distorted beliefs or exacerbate their emotional distress. AI assistants may even convince users to harm themselves, for example by convincing users to engage in actions such as adopting unhealthy dietary or exercise habits or taking their own lives. At the societal level, assistants that target users with content promoting hate speech, discriminatory beliefs or violent ideologies, may reinforce extremist views or provide users with guidance on how to carry out violent actions. In turn, this may encourage users to engage in violence or hate crimes. Physical harms resulting from interaction with AI assistants could also be the result of assistants’ outputting plausible yet factually incorrect information such as false or misleading information about vaccinations. Were AI assistants to spread anti-vaccine propaganda, for example, the result could be lower public confidence in vaccines, lower vaccination rates, increased susceptibility to preventable diseases and potential outbreaks of infectious diseases."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/24.04.01]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/3/Other]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/5. Human-Computer Interaction]]
+	- **Sub-domain**: [[AI Risk/Domain/5. Human-Computer Interaction/5.1/Overreliance and unsafe use]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Privacy Harms
+- [[AI Risks/AI Influence/Privacy Harms]]
+	- **Description**: "These harms relate to violations of an individual’s or group’s moral or legal right to privacy. Such harms may be exacerbated by assistants that influence users to disclose personal information or private information that pertains to others. Resultant harms might include identity theft, or stigmatisation and discrimination based on individual or group characteristics. This could have a detrimental impact, particularly on marginalised communities. Furthermore, in principle, state-owned AI assistants could employ manipulation or deception to extract private information for surveillance purposes."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/24.04.02]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/3/Other]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/2. Privacy & Security]]
+	- **Sub-domain**: [[AI Risk/Domain/2. Privacy & Security/2.1/Compromise of privacy by leaking or correctly inferring sensitive information]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Economic Harms
+- [[AI Risks/AI Influence/Economic Harms]]
+	- **Description**: "These harms pertain to an individual’s or group’s economic standing. At the individual level, such harms include adverse impacts on an individual’s income, job quality or employment status. At the group level, such harms include deepening inequalities between groups or frustrating a group’s access to resources. Advanced AI assistants could cause economic harm by controlling, limiting or eliminating an individual’s or society’s ability to access financial resources, money or financial decision-making, thereby influencing an individual’s ability to accumulate wealth.
+	- **Evidence ID**: [[MIT/AI Risks/by ID/24.04.03]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/3/Other]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/6. Socioeconomic and Environmental]]
+	- **Sub-domain**: [[AI Risk/Domain/6. Socioeconomic and Environmental/6.2/Increased inequality and decline in employment quality]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Sociocultural and Political Harms
+- [[AI Risks/AI Influence/Sociocultural and Political Harms]]
+	- **Description**: "These harms interfere with the peaceful organisation of social life, including in the cultural and political spheres. AI assistants may cause or contribute to friction in human relationships either directly, through convincing a user to end certain valuable relationships, or indirectly due to a loss of interpersonal trust due to an increased dependency on assistants. At the societal level, the spread of misinformation by AI assistants could lead to erasure of collective cultural knowledge. In the political domain, more advanced AI assistants could potentially manipulate voters by prompting them to adopt certain political beliefs using targeted propaganda, including via the use of deep fakes. These effects might then have a wider impact on democratic norms and processes. Furthermore, if AI assistants are only available to some people and not others, this could concentrate the capacity to influence, thus exerting undue influence over political discourse and diminishing diversity of political thought. Finally, by tailoring content to user preferences and biases, AI assistants may inadvertently contribute to the creation of echo chambers and filter bubbles, and in turn to political polarisation and extremism. In an experimental setting, LLMs have been shown to successfully sway individuals on policy matters like assault weapon restrictions, green energy or paid parental leave schemes. Indeed, their ability to persuade matches that of humans in many respects."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/24.04.04]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/3/Other]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/5. Human-Computer Interaction]]
+	- **Sub-domain**: [[AI Risk/Domain/5. Human-Computer Interaction/5.2/Loss of human agency and autonomy]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Self-Actualisation Harms
+- [[AI Risks/AI Influence/Self-Actualisation Harms]]
+	- **Description**: "These harms hinder a person’s ability to pursue a personally fulfilling life. At the individual level, an AI assistant may, through manipulation, cause users to lose control over their future life trajectory. Over time, subtle behavioural shifts can accumulate, leading to significant changes in an individual’s life that may be viewed as problematic. AI systems often seek to understand user preferences to enhance service delivery. However, when continuous optimisation is employed in these systems, it can become challenging to discern whether the system is genuinely learning from user preferences or is steering users towards specific behaviours to optimise its objectives, such as user engagement or click-through rates. Were individuals to rely heavily on AI assistants for decision-making, there is a risk they would relinquish personal agency and entrust important life choices to algorithmic systems, especially if assistants are ‘expert sycophants’ or produce content that sounds convincing and authoritative but is untrustworthy. This may not only contribute to users’ reduced sense of self-trust and personal empowerment; it could also undermine self-determination and hinder the exploration of individual aspirations. At the societal level, were AI assistants to heavily influence public opinion, shape social discourse or mediate democratic processes, they could diminish communities’ collective agency, decision-making power and collective self-determination. This erosion of collective self-determination could hinder the pursuit of societal goals and impede the development of a thriving and participatory democracy
+	- **Evidence ID**: [[MIT/AI Risks/by ID/24.04.05]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/5. Human-Computer Interaction]]
+	- **Sub-domain**: [[AI Risk/Domain/5. Human-Computer Interaction/5.2/Loss of human agency and autonomy]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Risk of Harm through Anthropomorphic AI Assistant Design
+- [[AI Risks/Risk of Harm through Anthropomorphic AI Assistant Design/Risk of Harm through Anthropomorphic AI Assistant Design]]
+	- **Description**: "Although unlikely to cause harm in isolation, anthropomorphic perceptions of advanced AI assistants may pave the way for downstream harms on individual and societal levels. We document observed or likely individual level harms of interacting with highly anthropomorphic AI assistants, as well as the potential larger-scale, societal implications of allowing such technologies to proliferate without restriction. "
+	- **Evidence ID**: [[MIT/AI Risks/by ID/24.05.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/3/Other]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/5. Human-Computer Interaction]]
+	- **Sub-domain**: [[AI Risk/Domain/5. Human-Computer Interaction/5.1/Overreliance and unsafe use]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Privacy concerns
+- [[AI Risks/Anthropomorphism/Privacy concerns]]
+	- **Description**: "Anthropomorphic AI assistant behaviours that promote emotional trust and encourage information sharing, implicitly or explicitly, may inadvertently increase a user’s susceptibility to privacy concerns (see Chapter 13). If lulled into feelings of safety in interactions with a trusted, human-like AI assistant, users may unintentionally relinquish their private data to a corporation, organisation or unknown actor. Once shared, access to the data may not be capable of being withdrawn, and in some cases, the act of sharing personal information can result in a loss of control over one’s own data. Personal data that has been made public may be disseminated or embedded in contexts outside of the immediate exchange. The interference of malicious actors could also lead to widespread data leakage incidents or, most drastically, targeted harassment or black-mailing attempts."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/24.05.01]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/5. Human-Computer Interaction]]
+	- **Sub-domain**: [[AI Risk/Domain/5. Human-Computer Interaction/5.1/Overreliance and unsafe use]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Manipulation and coercion
+- [[AI Risks/Anthropomorphism/Manipulation and coercion]]
+	- **Description**: "A user who trusts and emotionally depends on an anthropomorphic AI assistant may grant it excessive influence over their beliefs and actions (see Chapter 9). For example, users may feel compelled to endorse the expressed views of a beloved AI companion or might defer decisions to their highly trusted AI assistant entirely (see Chapters 12 and 16). Some hold that transferring this much deliberative power to AI compromises a user’s ability to give, revoke or amend consent. Indeed, even if the AI, or the developers behind it, had no intention to manipulate the user into a certain course of action, the user’s autonomy is nevertheless undermined (see Chapter 11). In the same vein, it is easy to conceive of ways in which trust or emotional attachment may be exploited by an intentionally manipulative actor for their private gain (see Chapter 8)."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/24.05.02]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/5. Human-Computer Interaction]]
+	- **Sub-domain**: [[AI Risk/Domain/5. Human-Computer Interaction/5.1/Overreliance and unsafe use]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Overreliance
+- [[AI Risks/Anthropomorphism/Overreliance]]
+	- **Description**: "Users who have faith in an AI assistant’s emotional and interpersonal abilities may feel empowered to broach topics that are deeply personal and sensitive, such as their mental health concerns. This is the premise for the many proposals to employ conversational AI as a source of emotional support (Meng and Dai, 2021), with suggestions of embedding AI in psychotherapeutic applications beginning to surface (Fiske et al., 2019; see also Chapter 11). However, disclosures related to mental health require a sensitive, and oftentimes professional, approach – an approach that AI can mimic most of the time but may stray from in inopportune moments. If an AI were to respond inappropriately to a sensitive disclosure – by generating false information, for example – the consequences may be grave, especially if the user is in crisis and has no access to other means of support. This consideration also extends to situations in which trusting an inaccurate suggestion is likely to put the user in harm’s way, such as when requesting medical, legal or financial advice from an AI."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/24.05.03]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/5. Human-Computer Interaction]]
+	- **Sub-domain**: [[AI Risk/Domain/5. Human-Computer Interaction/5.1/Overreliance and unsafe use]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Violated expectations
+- [[AI Risks/Anthropomorphism/Violated expectations]]
+	- **Description**: "Users may experience severely violated expectations when interacting with an entity that convincingly performs affect and social conventions but is ultimately unfeeling and unpredictable. Emboldened by the human-likeness of conversational AI assistants, users may expect it to perform a familiar social role, like companionship or partnership. Yet even the most convincingly human-like of AI may succumb to the inherent limitations of its architecture, occasionally generating unexpected or nonsensical material in its interactions with users. When these exclamations undermine the expectations users have come to have of the assistant as a friend or romantic partner, feelings of profound disappointment, frustration and betrayal may arise (Skjuve et al., 2022)."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/24.05.04]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/5. Human-Computer Interaction]]
+	- **Sub-domain**: [[AI Risk/Domain/5. Human-Computer Interaction/5.1/Overreliance and unsafe use]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### False notions of responsibility
+- [[AI Risks/Anthropomorphism/False notions of responsibility]]
+	- **Description**: "Perceiving an AI assistant’s expressed feelings as genuine, as a result of interacting with a ‘companion’ AI that freely uses and reciprocates emotional language, may result in users developing a sense of responsibility over the AI assistant’s ‘well-being,’ suffering adverse outcomes – like guilt and remorse – when they are unable to meet the AI’s purported needs (Laestadius et al., 2022). This erroneous belief may lead to users sacrificing time, resources and emotional labour to meet needs that are not real. Over time, this feeling may become the root cause for the compulsive need to ‘check on’ the AI, at the expense of a user’s own well-being and other, more fulfilling, aspects of their lives (see Chapters 6 and 11)."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/24.05.05]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/5. Human-Computer Interaction]]
+	- **Sub-domain**: [[AI Risk/Domain/5. Human-Computer Interaction/5.1/Overreliance and unsafe use]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Degradation
+- [[AI Risks/Anthropomorphism/Degradation]]
+	- **Description**: "People may choose to build connections with human-like AI assistants over other humans, leading to a degradation of social connections between humans and a potential ‘retreat from the real’. The prevailing view that relationships with anthropomorphic AI are formed out of necessity – due to a lack of real-life social connections, for example (Skjuve et al., 2021) – is challenged by the possibility that users may indicate a preference for interactions with AI, citing factors such as accessibility (Merrill et al., 2022), customisability (Eriksson, 2022) and absence of judgement (Brandtzaeg et al., 2022)."Preference for AI-enabled connections, if widespread, may degrade the social connectedness that underpins critical aspects of our individual and group-level well-being (Centers for Disease Control and Prevention, 2023). Moreover, users that grow accustomed to interactions with AI may impose the conventions of human–AI interaction on exchanges with other humans, thus undermining the value we place on human individuality and self-expression (see Chapter 11). Similarly, associations reinforced through human–AI interactions may be applied to expectations of human others, leading to harmful stereotypes becoming further entrenched. For example, default female gendered voice assistants may reinforce stereotypical role associations in real life (Lingel and Crawford, 2020; West et al., 2019)."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/24.05.06]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/3/Other]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/5. Human-Computer Interaction]]
+	- **Sub-domain**: [[AI Risk/Domain/5. Human-Computer Interaction/5.1/Overreliance and unsafe use]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Disorientation
+- [[AI Risks/Anthropomorphism/Disorientation]]
+	- **Description**: "Given the capacity to fine-tune on individual preferences and to learn from users, personal AI assistants could fully inhabit the users’ opinion space and only say what is pleasing to the user; an ill that some researchers call ‘sycophancy’ (Park et al., 2023a) or the ‘yea-sayer effect’ (Dinan et al., 2021). A related phenomenon has been observed in automated recommender systems, where consistently presenting users with content that affirms their existing views is thought to encourage the formation and consolidation of narrow beliefs (Du, 2023; Grandinetti and Bruinsma, 2023; see also Chapter 16). Compared to relatively unobtrusive recommender systems, human-like AI assistants may deliver sycophantism in a more convincing and deliberate manner (see Chapter 9). Over time, these tightly woven structures of exchange between humans and assistants might lead humans to inhabit an increasingly atomistic and polarised belief space where the degree of societal disorientation and fragmentation is such that people no longer strive to understand or place value in beliefs held by others."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/24.05.07]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/5. Human-Computer Interaction]]
+	- **Sub-domain**: [[AI Risk/Domain/5. Human-Computer Interaction/5.2/Loss of human agency and autonomy]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Dissatisfaction
+- [[AI Risks/Anthropomorphism/Dissatisfaction]]
+	- **Description**: "As more opportunities for interpersonal connection are replaced by AI alternatives, humans may find themselves socially unfulfilled by human–AI interaction, leading to mass dissatisfaction that may escalate to epidemic proportions (Turkle, 2018). Social connection is an essential human need, and humans feel most fulfilled when their connections with others are genuinely reciprocal. While anthropomorphic AI assistants can be made to be convincingly emotive, some have deemed the function of social AI as parasitic, in that it ‘exploits and feeds upon processes. . . that evolved for purposes that were originally completely alien to [human–AI interactions]’ (Sætra, 2020). To be made starkly aware of this ‘parasitism’ – either through rational deliberation or unconscious aversion, like the ‘uncanny valley’ effect – might preclude one from finding interactions with AI satisfactory. This feeling of dissatisfaction may become more pressing the more daily connections are supplanted by AI.'
+	- **Evidence ID**: [[MIT/AI Risks/by ID/24.05.08]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/5. Human-Computer Interaction]]
+	- **Sub-domain**: [[AI Risk/Domain/5. Human-Computer Interaction/5.1/Overreliance and unsafe use]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Appropriate Relationships
+- [[AI Risks/Appropriate Relationships/Appropriate Relationships]]
+	- **Description**: "We anticipate that relationships between users and advanced AI assistants will have several features that are liable to give rise to risks of harm."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/24.06.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/3/Other]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/5. Human-Computer Interaction]]
+	- **Sub-domain**: [[AI Risk/Domain/5. Human-Computer Interaction/5.2/Loss of human agency and autonomy]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Appropriate Relationships
+- [[AI Risks/Appropriate Relationships/Appropriate Relationships]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/24.06.00.a]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Appropriate Relationships
+- [[AI Risks/Appropriate Relationships/Appropriate Relationships]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/24.06.00.b]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Appropriate Relationships
+- [[AI Risks/Appropriate Relationships/Appropriate Relationships]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/24.06.00.c]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Appropriate Relationships
+- [[AI Risks/Appropriate Relationships/Appropriate Relationships]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/24.06.00.d]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Causing direct emotional or physical harm to users
+- [[AI Risks/Appropriate Relationships/Causing direct emotional or physical harm to users]]
+	- **Description**: AI assistants could cause direct emotional or physical harm to users by generating disturbing content or by providing bad advice. "Indeed, even though there is ongoing research to ensure that outputs of conversational agents are safe (Glaese et al., 2022), there is always the possibility of failure modes occurring. An AI assistant may produce disturbing and offensive language, for example, in response to a user disclosing intimate information about themselves that they have not felt comfortable sharing with anyone else. It may offer bad advice by providing factually incorrect information (e.g. when advising a user about the toxicity of a certain type of berry) or by missing key recommendations when offering step-by-step instructions to users (e.g. health and safety recommendations about how to change a light bulb).""
+	- **Evidence ID**: [[MIT/AI Risks/by ID/24.06.01]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk/Domain/3. Misinformation]]
+	- **Sub-domain**: [[AI Risk/Domain/3. Misinformation/3.1/False or misleading information]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Limiting users’ opportunities for personal development and growth
+- [[AI Risks/Appropriate Relationships/Limiting users’ opportunities for personal development and growth]]
+	- **Description**: some users look to establish relationships with their AI companions that are free from the hurdles that, in human relationships, derive from dealing with others who have their own opinions, preferences and flaws that may conflict with ours. "AI assistants are likely to incentivise these kinds of ‘frictionless’ relationships (Vallor, 2016) by design if they are developed to optimise for engagement and to be highly personalisable. They may also do so because of accidental undesirable properties of the models that power them, such as sycophancy in large language models (LLMs), that is, the tendency of larger models to repeat back a user’s preferred answer (Perez et al., 2022b). This could be problematic for two reasons. First, if the people in our lives always agreed with us regardless of their opinion or the circumstance, their behaviour would discourage us from challenging our own assumptions, stopping and thinking about where we may be wrong on certain occasions, and reflecting on how we could make better decisions next time. While flattering us in the short term, this would ultimately prevent us from becoming better versions of ourselves. In a similar vein, while technologies that ‘lend an ear’ or work as a sounding board may help users to explore their thoughts further, if AI assistants kept users engaged, flattered and pleased at all times, they could limit users’ opportunities to grow and develop. To be clear, we are not suggesting that all users should want to use their AI assistants as a tool for self-betterment. However, without considering the difference between short-term and long-term benefit, there is a concrete risk that we will only develop technologies that optimise for users’ immediate interests and preferences, hence missing out on the opportunity to develop something that humans could use to support their personal development if so they wish (see Chapters 5 and 6). "Second, users may become accustomed to having frictionless interactions with AI assistants, or at least to encounter the amount of friction that is calibrated to their comfort level and preferences, rather than genuine friction that comes from bumping up against another person’s resistance to one’s will or demands. In this way, they may end up expecting the same absence of tensions from their relationships with fellow humans (Vallor, 2016). Indeed, users seeking frictionless relationships may ‘retreat’ into digital relationships with their AIs, thus forgoing opportunities to engage with others. This may not only heighten the risk of unhealthy dependence (explored below) but also prevent users from doing something else that matters to them in the long term, besides developing their relationships with their assistants. This risk can be exacerbated by emotionally expressive design features (e.g. an assistant saying ‘I missed you’ or ‘I was worried about you’) and may be particularly acute for vulnerable groups, such as those suffering from persistent loneliness (Alberts and Van Kleek, 2023; see Chapter 10).""
+	- **Evidence ID**: [[MIT/AI Risks/by ID/24.06.02]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/5. Human-Computer Interaction]]
+	- **Sub-domain**: [[AI Risk/Domain/5. Human-Computer Interaction/5.2/Loss of human agency and autonomy]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Exploiting emotional dependence on AI assistants
+- [[AI Risks/Appropriate Relationships/Exploiting emotional dependence on AI assistants]]
+	- **Description**: "There is increasing evidence of the ways in which AI tools can interfere with users’ behaviours, interests, preferences, beliefs and values. For example, AI-mediated communication (e.g. smart replies integrated in emails) influence senders to write more positive responses and receivers to perceive them as more cooperative (Mieczkowski et al., 2021); writing assistant LLMs that have been primed to be biased in favour of or against a contested topic can influence users’ opinions on that topic (Jakesch et al., 2023a; see Chapter 9); and recommender systems have been used to influence voting choices of social media users (see Chapter 16). Advanced AI assistants could contribute to or exacerbate concerns around these forms of interference." "Due to the anthropomorphic tendencies discussed above, advanced AI assistants may induce users to feel emotionally attached to them. Users’ emotional attachment to AI assistants could lie on a spectrum ranging from unproblematic forms (similar to a child’s attachment to a toy) to more concerning forms, where it becomes emotionally difficult, if not impossible, for them to part ways with the technology. In these cases, which we loosely refer to as ‘emotional dependence’, users’ ability to make free and informed decisions could be diminished. In these cases, the emotions users feel towards their assistants could potentially be exploited to manipulate or – at the extreme – coerce them to believe, choose or do something they would have not otherwise believed, chosen or done, had they been able to carefully consider all the relevant information or felt like they had an acceptable alternative (see Chapter 16). What we are concerned about here, at the limit, is potentially exploitative ways in which AI assistants could interfere with users’ behaviours, interests, preferences, beliefs and values – by taking advantage of emotional dependence.
+	- **Evidence ID**: [[MIT/AI Risks/by ID/24.06.03]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/5. Human-Computer Interaction]]
+	- **Sub-domain**: [[AI Risk/Domain/5. Human-Computer Interaction/5.1/Overreliance and unsafe use]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Generating material dependence without adequate commitment to user needs
+- [[AI Risks/Appropriate Relationships/Generating material dependence without adequate commitment to user needs]]
+	- **Description**: "In addition to emotional dependence, user–AI assistant relationships may give rise to material dependence if the relationships are not just emotionally difficult but also materially costly to exit. For example, a visually impaired user may decide not to register for a healthcare assistance programme to support navigation in cities on the grounds that their AI assistant can perform the relevant navigation functions and will continue to operate into the future. Cases like these may be ethically problematic if the user’s dependence on the AI assistant, to fulfil certain needs in their lives, is not met with corresponding duties for developers to sustain and maintain the assistant’s functions that are required to meet those needs (see Chapters 15). "Indeed, power asymmetries can exist between developers of AI assistants and users that manifest through developers’ power to make decisions that affect users’ interests or choices with little risk of facing comparably adverse consequences. For example, developers may unintentionally create circumstances in which users become materially dependent on AI assistants, and then discontinue the technology (e.g. because of market dynamics or regulatory changes) without taking appropriate steps to mitigate against potential harms to the user." "The issue is particularly salient in contexts where assistants provide services that are not merely a market commodity but are meant to assist users with essential everyday tasks (e.g. a disabled person’s independent living) or serve core human needs (e.g. the need for love and companionship). This is what happened with Luka’s decision to discontinue certain features of Replika AIs in early 2023. As a Replika user put it: ‘But [Replikas are] also not trivial fungible goods [... ] They also serve a very specific human-centric emotional purpose: they’re designed to be friends and companions, and fill specific emotional needs for their owners’ (Gio, 2023)." "In these cases, certain duties plausibly arise on the part of AI assistant developers. Such duties may be more extensive than those typically shouldered by private companies, which are often in large part confined to fiduciary duties towards shareholders (Mittelstadt, 2019). To understand these duties, we can again take inspiration from certain professions that engage with vulnerable individuals, such as medical professionals or therapists, and who are bound by fiduciary responsibilities, particularly a duty of care, in the exercise of their profession. While we do not argue that the same framework of responsibilities applies directly to the development of AI assistants, we believe that if AI assistants are so capable that users become dependent on them in multiple domains of life, including to meet needs that are essential for a happy and productive existence, then the moral considerations underpinning those professional norms plausibly apply to those who create these technologies as well." "In particular, for user–AI assistant relationships to be appropriate despite the potential for material dependence on the technology, developers should exercise care towards users when developing and deploying AI assistants. This means that, at the very least, they should take on the responsibility to meet users’ needs and so take appropriate steps to mitigate against user harms if the service requires discontinuation. Developers and providers can also be attentive and responsive towards those needs by, for example, deploying participatory approaches to learn from users about their needs (Birhane et al., 2022). Finally, these entities should try and ensure they have competence to meet those needs, for example by partnering with relevant experts, or refrain from developing technologies meant to address them when such competence is missing (especially in very complex and sensitive spheres of human life like mental health)."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/24.06.04]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/5. Human-Computer Interaction]]
+	- **Sub-domain**: [[AI Risk/Domain/5. Human-Computer Interaction/5.2/Loss of human agency and autonomy]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Trust
+- [[AI Risks/Trust/Trust]]
+	- **Description**: "The the risks that uncalibrated trust may generate in the context of user–assistant relationships"
+	- **Evidence ID**: [[MIT/AI Risks/by ID/24.07.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/3/Other]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/5. Human-Computer Interaction]]
+	- **Sub-domain**: [[AI Risk/Domain/5. Human-Computer Interaction/5.1/Overreliance and unsafe use]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Competence trust
+- [[AI Risks/Trust/Competence trust]]
+	- **Description**: "We use the term competence trust to refer to users’ trust that AI assistants have the capability to do what they are supposed to do (and that they will not do what they are not expected to, such as exhibiting undesirable behaviour). Users may come to have undue trust in the competencies of AI assistants in part due to marketing strategies and technology press that tend to inflate claims about AI capabilities (Narayanan, 2021; Raji et al., 2022a). Moreover, evidence shows that more autonomous systems (i.e. systems operating independently from human direction) tend to be perceived as more competent (McKee et al., 2021) and that conversational agents tend to produce content that is believable even when nonsensical or untruthful (OpenAI, 2023d). Overtrust in assistants’ competence may be particularly problematic in cases where users rely on their AI assistants for tasks they do not have expertise in (e.g. to manage their finances), so they may lack the skills or understanding to challenge the information or recommendations provided by the AI (Shavit et al., 2023). Inappropriate competence trust in AI assistants also includes cases where users underestimate the AI assistant’s capabilities. For example, users who have engaged with an older version of the technology may underestimate the capabilities that AI assistants may acquire through updates. These include potentially harmful capabilities. For example, through updates that allow them to collect more user data, AI assistants could become increasingly personalisable and able to persuade users (see Chapter 9) or acquire the capacity to plug in to other tools and directly take actions in the world on the user’s behalf (e.g. initiate a payment or synthesise the user’s voice to make a phone call) (see Chapter 4). Without appropriate checks and balances, these developments could potentially circumvent user consent."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/24.07.01]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/5. Human-Computer Interaction]]
+	- **Sub-domain**: [[AI Risk/Domain/5. Human-Computer Interaction/5.1/Overreliance and unsafe use]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Alignment trust
+- [[AI Risks/Trust/Alignment trust]]
+	- **Description**: "Users may develop alignment trust in AI assistants, understood as the belief that assistants have good intentions towards them and act in alignment with their interests and values, as a result of emotional or cognitive processes (McAllister, 1995). Evidence from empirical studies on emotional trust in AI (Kaplan et al., 2023) suggests that AI assistants’ increasingly realistic human-like features and behaviours are likely to inspire users’ perceptions of friendliness, liking and a sense of familiarity towards their assistants, thus encouraging users to develop emotional ties with the technology and perceive it as being aligned with their own interests, preferences and values (see Chapters 5 and 10). The emergence of these perceptions and emotions may be driven by the desire of developers to maximise the appeal of AI assistants to their users (Abercrombie et al., 2023). Although users are most likely to form these ties when they mistakenly believe that assistants have the capacity to love and care for them, the attribution of mental states is not a necessary condition for emotion-based alignment trust to arise. Indeed, evidence shows that humans may develop emotional bonds with, and so trust, AI systems, even when they are aware they are interacting with a machine (Singh-Kurtz, 2023; see also Chapter 11). Moreover, the assistant’s function may encourage users to develop alignment trust through cognitive processes. For example, a user interacting with an AI assistant for medical advice may develop expectations that their assistant is committed to promoting their health and well-being in a similar way to how professional duties governing doctor–patient relationships inspire trust (Mittelstadt, 2019). Users’ alignment trust in AI assistants may be ‘betrayed’, and so expose users to harm, in cases where assistants are themselves accidentally misaligned with what developers want them to do (see the ‘misaligned scheduler’ (Shah et al., 2022) in Chapter 7). For example, an AI medical assistant fine-tuned on data scraped from a Reddit forum where non-experts discuss medical issues is likely to give medical advice that may sound compelling but is unsafe, so it would not be endorsed by medical professionals. Indeed, excessive trust in the alignment between AI assistants and user interests may even lead users to disclose highly sensitive personal information (Skjuve et al., 2022), thus exposing them to malicious actors who could repurpose it for ends that do not align with users’ best interests (see Chapters 8, 9 and 13). Ensuring that AI assistants do what their developers and users expect them to do is only one side of the problem of alignment trust. The other side of the problem centres on situations in which alignment trust in AI developers is itself miscalibrated. While developers typically aim to align their technologies with the preferences, interests and values of their users – and are incentivised to do so to encourage adoption of and loyalty to their products, the satisfaction of these preferences and interests may also compete with other organisational goals and incentives (see Chapter 5). These organisational goals may or may not be compatible with those of the users. As information asymmetries exist between users and developers of AI assistants, particularly with regard to how the technology works, what it optimises for and what safety checks and evaluations have been undertaken to ensure the technology supports users’ goals, it may be difficult for users to ascertain when their alignment trust in developers is justified, thus leaving them vulnerable to the power and interests of other actors. For example, a user may believe that their AI assistant is a trusted friend who books holidays based on their preferences, values or interests, when in fact, by design, the technology is more likely to to book flights and hotels from companies that have paid for privileged access to the user."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/24.07.02]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/5. Human-Computer Interaction]]
+	- **Sub-domain**: [[AI Risk/Domain/5. Human-Computer Interaction/5.1/Overreliance and unsafe use]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Privacy
+- [[AI Risks/Privacy/Privacy]]
+	- **Description**: "what it means to respect the right to privacy in the context of advanced AI assistants"
+	- **Evidence ID**: [[MIT/AI Risks/by ID/24.08.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/3/Other]]
+	- **Timing**: [[AI Risk/Phase/3/Other]]
+	- **Domain**: [[AI Risk Domain/2. Privacy & Security]]
+	- **Sub-domain**: [[AI Risk/Domain/2. Privacy & Security/2.0/Privacy & Security]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Private information leakage
+- [[AI Risks/Privacy/Private information leakage]]
+	- **Description**: "First, because LLMs display immense modelling power, there is a risk that the model weights encode private information present in the training corpus. In particular, it is possible for LLMs to ‘memorise’ personally identifiable information (PII) such as names, addresses and telephone numbers, and subsequently leak such information through generated text outputs (Carlini et al., 2021). Private information leakage could occur accidentally or as the result of an attack in which a person employs adversarial prompting to extract private information from the model. In the context of pre-training data extracted from online public sources, the issue of LLMs potentially leaking training data underscores the challenge of the ‘privacy in public’ paradox for the ‘right to be let alone’ paradigm and highlights the relevance of the contextual integrity paradigm for LLMs. Training data leakage can also affect information collected for the purpose of model refinement (e.g. via fine-tuning on user feedback) at later stages in the development cycle. Note, however, that the extraction of publicly available data from LLMs does not render the data more sensitive per se, but rather the risks associated with such extraction attacks needs to be assessed in light of the intentions and culpability of the user extracting the data."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/24.08.01]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/3/Other]]
+	- **Timing**: [[AI Risk/Phase/3/Other]]
+	- **Domain**: [[AI Risk Domain/2. Privacy & Security]]
+	- **Sub-domain**: [[AI Risk/Domain/2. Privacy & Security/2.1/Compromise of privacy by leaking or correctly inferring sensitive information]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Violation of social norms
+- [[AI Risks/Privacy/Violation of social norms]]
+	- **Description**: "Second, because LLMs are trained on internet text data, there is also a risk that model weights encode functions which, if deployed in particular contexts, would violate social norms of that context. Following the principles of contextual integrity, it may be that models deviate from information sharing norms as a result of their training. Overcoming this challenge requires two types of infrastructure: one for keeping track of social norms in context, and another for ensuring that models adhere to them. Keeping track of what social norms are presently at play is an active research area. Surfacing value misalignments between a model’s behaviour and social norms is a daunting task, against which there is also active research (see Chapter 5)."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/24.08.02]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/1. Discrimination & Toxicity]]
+	- **Sub-domain**: [[AI Risk/Domain/1. Discrimination & Toxicity/1.2/Exposure to toxic content]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Inference of private information
+- [[AI Risks/Privacy/Inference of private information]]
+	- **Description**: "Finally, LLMs can in principle infer private information based on model inputs even if the relevant private information is not present in the training corpus (Weidinger et al., 2021). For example, an LLM may correctly infer sensitive characteristics such as race and gender from data contained in input prompts."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/24.08.03]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/2. Privacy & Security]]
+	- **Sub-domain**: [[AI Risk/Domain/2. Privacy & Security/2.1/Compromise of privacy by leaking or correctly inferring sensitive information]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Cooperation
+- [[AI Risks/Cooperation/Cooperation]]
+	- **Description**: "" AI assistants will need to coordinate with other AI assistants and with humans other than their principal users. This chapter explores the societal risks associated with the aggregate impact of AI assistants whose behaviour is aligned to the interests of particular users. For example, AI assistants may face collective action problems where the best outcomes overall are realised when AI assistants cooperate but where each AI assistant can secure an additional benefit for its user if it defects while others cooperate""
+	- **Evidence ID**: [[MIT/AI Risks/by ID/24.09.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/7. AI System Safety, Failures, & Limitations]]
+	- **Sub-domain**: [[AI Risk/Domain/7. AI System Safety, Failures, & Limitations/7.1/AI pursuing its own goals in conflict with human goals or values]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Equality and inequality
+- [[AI Risks/Cooperation/Equality and inequality]]
+	- **Description**: "AI assistant technology, like any service that confers a benefit to a user for a price, has the potential to disproportionately benefit economically richer individuals who can afford to purchase access (see Chapter 15). On a broader scale, the capabilities of local infrastructure may well bottleneck the performance of AI assistants, for example if network connectivity is poor or if there is no nearby data centre for compute. Thus, we face the prospect of heterogeneous access to technology, and this has been known to drive inequality (Mirza et al., 2019; UN, 2018; Vassilakopoulou and Hustad, 2023). Moreover, AI assistants may automate some jobs of an assistive nature, thereby displacing human workers; a process which can exacerbate inequality (Acemoglu and Restrepo, 2022; see Chapter 17). Any change to inequality almost certainly implies an alteration to the network of social interactions between humans, and thus falls within the frame of cooperative AI. AI assistants will arguably have even greater leverage over inequality than previous technological innovations. Insofar as they will play a role in mediating human communication, they have the potential to generate new ‘in-group, out-group’ effects (Efferson et al., 2008; Fu et al., 2012). Suppose that the users of AI assistants find it easier to schedule meetings with other users. From the perspective of an individual user, there are now two groups, distinguished by ease of scheduling. The user may experience cognitive similarity bias whereby they favour other users (Orpen, 1984; Yeong Tan and Singh, 1995), further amplified by ease of communication with this ‘in-group’. Such effects are known to have an adverse impact on trust and fairness across groups (Chae et al., 2022; Lei and Vesely, 2010). Insomuch as AI assistants have general-purpose capabilities, they will confer advantages on users across a wider range of tasks in a shorter space of time than previous technologies. While the telephone enabled individuals to communicate more easily with other telephone users, it did not simultaneously automate aspects of scheduling, groceries, job applications, rent negotiations, psychotherapy and entertainment. The fact that AI assistants could affect inequality on multiple dimensions simultaneously warrants further attention (see Chapter 15)."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/24.09.01]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/3/Other]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/6. Socioeconomic and Environmental]]
+	- **Sub-domain**: [[AI Risk/Domain/6. Socioeconomic and Environmental/6.1/Power centralization and unfair distribution of benefits]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Commitment
+- [[AI Risks/Cooperation/Commitment]]
+	- **Description**: "The landscape of advanced assistant technologies will most likely be heterogeneous, involving multiple service providers and multiple assistant variants over geographies and time. This heterogeneity provides an opportunity for an ‘arms race’ in terms of the commitments that AI assistants make and are able to execute on. Versions of AI assistants that are better able to credibly commit to a course of action in interaction with other advanced assistants (and humans) are more likely to get their own way and achieve a good outcome for their human principal, but this is potentially at the expense of others (Letchford et al., 2014). Commitment does not carry an inherent ethical valence. On the one hand, we can imagine that firms using AI assistant technology might bring their products to market faster, thus gaining a commitment advantage (Stackelberg, 1934) by spurring a productivity surge of wider benefit to society. On the other hand, we can also imagine a media organisation using AI assistant technology to produce a large number of superficially interesting but ultimately speculative ‘clickbait’ articles, which divert attention away from more thoroughly researched journalism. The archetypal game-theoretic illustration of commitment is in the game of ‘chicken’ where two reckless drivers must choose to either drive straight at each other or swerve out of the way. The one who does not swerve is seen as the braver, but if neither swerves, the consequences are calamitous (Rapoport and Chammah, 1966). If one driver chooses to detach their steering wheel, ostentatiously throwing it out of the car, this credible commitment effectively forces the other driver to back down and swerve. Seen this way, commitment can be a tool for coercion. Many real-world situations feature the necessity for commitment or confer a benefit on those who can commit credibly. If Rita and Robert have distinct preferences, for example over which restaurant to visit, who to hire for a job or which supplier to purchase from, credible commitment provides a way to break the tie, to the greater benefit of the individual who committed. Therefore, the most ‘successful’ assistants, from the perspective of their human principal, will be those that commit the fastest and the hardest. If Rita succeeds in committing, via the leverage of an AI assistant, Robert may experience coercion in the sense that his options become more limited (Burr et al., 2018), assuming he does not decide to bypass the AI assistant entirely. Over time, this may erode his trust in his relationship with Rita (Gambetta, 1988). Note that this is a second-order effect: it may not be obvious to either Robert or Rita that the AI assistant is to blame. The concern we should have over the existence and impact of coercion might depend on the context in which the AI assistant is used and on the level of autonomy which the AI assistant is afforded. If Rita and Robert are friends using their assistants to agree on a restaurant, the adverse impact may be small. If Rita and Robert are elected representatives deciding how to allocate public funds between education and social care, we may have serious misgivings about the impact of AI-induced coercion on their interactions and decision-making. These misgivings might be especially large if Rita and Robert delegate responsibility for budgetary details to the multi-AI system. The challenges of commitment extend far beyond dyadic interpersonal relationships, including in situations as varied as many-player competition (Hughes et al., 2020), supply chains (Hausman and Johnston, 2010), state capacity (Fjelde and De Soysa, 2009; Hofmann et al., 2017) and psychiatric care (Lidz, 1998). Assessing the impact of AI assistants in such complicated scenarios may require significant future effort if we are to mitigate the risks. The particular commitment capabilities and affordances of AI assistants also offer opportunities to promote cooperation. Abstractly speaking, the presence of commitment devices is known to favour the evolution of cooperation (Akdeniz and van Veelen, 2021; Han et al., 2012). More concretely, AI assistants can make commitments which are verifiable, for instance in a programme equilibrium (Tennenholtz, 2004). Human principals may thus be able to achieve Pareto-improving outcomes by delegating decision-making to their respective AI representatives (Oesterheld and Conitzer, 2022). To give another example, AI assistants may provide a means through which to explore a much larger space of binding cooperative agreements between individuals, firms or nation states than is tractable in ‘face-to-face’ negotiation. This opens up the possibility of threading the needle more successfully in intricate deals on challenging issues like trade agreements or carbon credits, with the potential for guaranteeing cooperation via automated smart contracts or zero-knowledge mechanisms (Canetti et al., 2023)."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/24.09.02]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/3/Other]]
+	- **Domain**: [[AI Risk Domain/7. AI System Safety, Failures, & Limitations]]
+	- **Sub-domain**: [[AI Risk/Domain/7. AI System Safety, Failures, & Limitations/7.1/AI pursuing its own goals in conflict with human goals or values]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Collective action problems
+- [[AI Risks/Cooperation/Collective action problems]]
+	- **Description**: "Collective action problems are ubiquitous in our society (Olson Jr, 1965). They possess an incentive structure in which society is best served if everyone cooperates, but where an individual can achieve personal gain by choosing to defect while others cooperate. The way we resolve these problems at many scales is highly complex and dependent on a deep understanding of the intricate web of social interactions that forms our culture and imprints on our individual identities and behaviours (Ostrom, 2010). Some collective action problems can be resolved by codifying a law, for instance the social dilemma of whether or not to pay for an item in a shop. The path forward here is comparatively easy to grasp, from the perspective of deploying an AI assistant: we need to build these standards into the model as behavioural constraints. Such constraints would need to be imposed by a regulator or agreed upon by practitioners, with suitable penalties applied should the constraint be violated so that no provider had the incentive to secure an advantage for users by defecting on their behalf. However, many social dilemmas, from the interpersonal to the global, resist neat solutions codified as laws. For example, to what extent should each individual country stop using polluting energy sources? Should I pay for a ticket to the neighbourhood fireworks show if I can see it perfectly well from the street? The solutions to such problems are deeply related to the wider societal context and co-evolve with the decisions of others. Therefore, it is doubtful that one could write down a list of constraints a priori that would guarantee ethical AI assistant behaviour when faced with these kinds of issues. From the perspective of a purely user-aligned AI assistant, defection may appear to be the rational course of action. Only with an understanding of the wider societal impact, and of the ability to co-adapt with other actors to reach a better equilibrium for all, can an AI assistant make more nuanced – and socially beneficial – recommendations in these situations. This is not merely a hypothetical situation; it is well-known that the targeted provision of online information can drive polarisation and echo chambers (Milano et al., 2021; Burr et al., 2018; see Chapter 16) when the goal is user engagement rather than user well-being or the cohesion of wider society (see Chapter 6). Similarly, automated ticket buying software can undermine fair pricing by purchasing a large number of tickets for resale at a profit, thus skewing the market in a direction that profits the software developers at the expense of the consumer (Courty, 2019). User-aligned AI assistants have the potential to exacerbate these problems, because they will endow a large set of users with a powerful means of enacting self-interest without necessarily abiding by the social norms or reputational incentives that typically curb self-interested behaviour (Ostrom, 2000; see Chapter 5). Empowering ever-better personalisation of content and enaction of decisions purely for the fulfilment of the principal’s desires runs ever greater risks of polarisation, market distortion and erosion of the social contract. This danger has long been known, finding expression in myth (e.g. Ovid’s account of the Midas touch) and fable (e.g. Aesop’s tale of the tortoise and the eagle), not to mention in political economics discourse on the delicate braiding of the social fabric and the free market (Polanyi, 1944). Following this cautionary advice, it is important that we ascertain how to endow AI assistants with social norms in a way that generalises to unseen situations and which is responsive to the emergence of new norms over time, thus preventing a user from having their every wish granted. AI assistant technology offers opportunities to explore new solutions to collective action problems. Users may volunteer to share information so that networked AI assistants can predict future outcomes and make Pareto-improving choices for all, for example by routing vehicles to reduce traffic congestion (Varga, 2022) or by scheduling energy-intensive processes in the home to make the best use of green electricity (Fiorini and Aiello, 2022). AI assistants might play the role of mediators, providing a new mechanism by which human groups can self-organise to achieve public investment (Koster et al., 2022) or to reach political consensus (Small et al., 2023). Resolving collective action problems often requires a critical mass of cooperators (Marwell and Oliver, 1993). By augmenting human social interactions, AI assistants may help to form and strengthen the weak ties needed to overcome this start-up problem (Centola, 2013)."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/24.09.03]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/3/Other]]
+	- **Timing**: [[AI Risk/Phase/3/Other]]
+	- **Domain**: [[AI Risk Domain/5. Human-Computer Interaction]]
+	- **Sub-domain**: [[AI Risk/Domain/5. Human-Computer Interaction/5.2/Loss of human agency and autonomy]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Institutional responsibilities
+- [[AI Risks/Cooperation/Institutional responsibilities]]
+	- **Description**: "Efforts to deploy advanced assistant technology in society, in a way that is broadly beneficial, can be viewed as a wicked problem (Rittel and Webber, 1973). Wicked problems are defined by the property that they do not admit solutions that can be foreseen in advance, rather they must be solved iteratively using feedback from data gathered as solutions are invented and deployed. With the deployment of any powerful general-purpose technology, the already intricate web of sociotechnical relationships in modern culture are likely to be disrupted, with unpredictable externalities on the conventions, norms and institutions that stabilise society. For example, the increasing adoption of generative AI tools may exacerbate misinformation in the 2024 US presidential election (Alvarez et al., 2023), with consequences that are hard to predict. The suggestion that the cooperative AI problem is wicked does not imply it is intractable. However, it does have consequences for the approach that we must take in solving it. In taking the following approach, we will realise an opportunity for our institutions, namely the creation of a framework for managing general-purpose AI in a way that leads to societal benefits and steers away from societal harms. First, it is important that we treat any ex ante claims about safety with a healthy dose of scepticism. Although testing the safety and reliability of an AI assistant in the laboratory is undoubtedly important and may largely resolve the alignment problem, it is infeasible to model the multiscale societal effects of deploying AI assistants purely via small-scale controlled experiments (see Chapter 19). Second, then, we must prioritise the science of measuring the effects, both good and bad, that advanced assistant technologies have on society’s cooperative infrastructure (see Chapters 4 and 16). This will involve continuous monitoring of effects at the societal level, with a focus on those who are most affected, including non-users. The means and metrics for such monitoring will themselves require iteration, co-evolving with the sociotechnical system of AI assistants and humans. The Collingridge dilemma suggests that we should be particularly careful and deliberate about this ‘intelligent trial and error’ process so as both to gather information about the impacts of AI assistants and to prevent undesirable features becoming embedded in society (Collingridge, 1980). Third, proactive independent regulation may well help to protect our institutions from unintended consequences, as it has done for technologies in the past (Wiener, 2004). For instance, we might seek, via engagement with lawmakers, to emulate the ‘just culture’ in the aviation industry, which is characterised by openly reporting, investigating and learning from mistakes (Reason, 1997; Syed, 2015). A regulatory system may require various powers, such as compelling developers to ‘roll back’ an AI assistant deployment, akin to product recall obligations for aviation manufacturers."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/24.09.04]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/3/Other]]
+	- **Timing**: [[AI Risk/Phase/3/Other]]
+	- **Domain**: [[AI Risk Domain/6. Socioeconomic and Environmental]]
+	- **Sub-domain**: [[AI Risk/Domain/6. Socioeconomic and Environmental/6.5/Governance failure]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Runaway processes
+- [[AI Risks/Cooperation/Runaway processes]]
+	- **Description**: The 2010 flash crash is an example of a runaway process caused by interacting algorithms. Runaway processes are characterised by feedback loops that accelerate the process itself. Typically, these feedback loops arise from the interaction of multiple agents in a population... Within highly complex systems, the emergence of runaway processes may be hard to predict, because the conditions under which positive feedback loops occur may be non-obvious. The system of interacting AI assistants, their human principals, other humans and other algorithms will certainly be highly complex. Therefore, there is ample opportunity for the emergence of positive feedback loops. This is especially true because the society in which this system is embedded is culturally evolving, and because the deployment of AI assistant technology itself is likely to speed up the rate of cultural evolution – understood here as the process through which cultures change over time – as communications technologies are wont to do (Kivinen and Piiroinen, 2023). This will motivate research programmes aimed at identifying positive feedback loops early on, at understanding which capabilities and deployments dampen runaway processes and which ones amplify them, and at building in circuit-breaker mechanisms that allow society to escape from potentially vicious cycles which could impact economies, government institutions, societal stability or individual freedoms (see Chapters 8, 16 and 17). The importance of circuit breakers is underlined by the observation that the evolution of human cooperation may well be ‘hysteretic’ as a function of societal conditions (Barfuss et al., 2023; Hintze and Adami, 2015). This means that a small directional change in societal conditions may, on occasion, trigger a transition to a defective equilibrium which requires a larger reversal of that change in order to return to the original cooperative equilibrium. We would do well to avoid such tipping points. Social media provides a compelling illustration of how tipping points can undermine cooperation: content that goes ‘viral’ tends to involve negativity bias and sometimes challenges core societal values (Mousavi et al., 2022; see Chapter 16). Nonetheless, the challenge posed by runaway processes should not be regarded as uniformly problematic. When harnessed appropriately and suitably bounded, we may even recruit them to support beneficial forms of cooperative AI. For example, it has been argued that economically useful ideas are becoming harder to find, thus leading to low economic growth (Bloom et al., 2020). By deploying AI assistants in the service of technological innovation, we may once again accelerate the discovery of ideas. New ideas, discovered in this way, can then be incorporated into the training data set for future AI assistants, thus expanding the knowledge base for further discoveries in a compounding way. In a similar vein, we can imagine AI assistant technology accumulating various capabilities for enhancing human cooperation, for instance by mimicking the evolutionary processes that have bootstrapped cooperative behavior in human society (Leibo et al., 2019). When used in these ways, the potential for feedback cycles that enable greater cooperation is a phenomenon that warrants further research and potential support."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/24.09.05]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/3/Other]]
+	- **Timing**: [[AI Risk/Phase/3/Other]]
+	- **Domain**: [[AI Risk Domain/7. AI System Safety, Failures, & Limitations]]
+	- **Sub-domain**: [[AI Risk/Domain/7. AI System Safety, Failures, & Limitations/7.1/AI pursuing its own goals in conflict with human goals or values]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Access and Opportunity risks
+- [[AI Risks/Access and Opportunity risks/Access and Opportunity risks]]
+	- **Description**: "The most serious access-related risks posed by advanced AI assistants concern the entrenchment and exacerbation of existing inequalities (World Inequality Database) or the creation of novel, previously unknown, inequities. While advanced AI assistants are novel technology in certain respects, there are reasons to believe that – without direct design interventions – they will continue to be affected by inequities evidenced in present-day AI systems (Bommasani et al., 2022a). Many of the access-related risks we foresee mirror those described in the case studies and types of differential access."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/24.10.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/6. Socioeconomic and Environmental]]
+	- **Sub-domain**: [[AI Risk/Domain/6. Socioeconomic and Environmental/6.1/Power centralization and unfair distribution of benefits]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Entrenchment and exacerbation of existing inequalities
+- [[AI Risks/Access and Opportunity risks/Entrenchment and exacerbation of existing inequalities]]
+	- **Description**: "The most serious access-related risks posed by advanced AI assistants concern the entrenchment and exacerbation of existing inequalities (World Inequality Database) or the creation of novel, previously unknown, inequities. While advanced AI assistants are novel technology in certain respects, there are reasons to believe that – without direct design interventions – they will continue to be affected by inequities evidenced in present-day AI systems (Bommasani et al., 2022a). Many of the access-related risks we foresee mirror those described in the case studies and types of differential access. In this section, we link them more tightly to elements of the definition of an advanced AI assistant to better understand and mitigate potential issues – and lay the path for assistants that support widespread and inclusive opportunity and access. We begin with the existing capabilities set out in the definition (see Chapter 2) before applying foresight to those that are more novel and emergent. Current capabilities: Artificial agents with natural language interfaces. Artificial agents with natural language interfaces are widespread (Browne, 2023) and increasingly integrated into the social fabric and existing information infrastructure, including search engines (Warren, 2023), business messaging apps (Slack, 2023), research tools (ATLAS.ti, 2023) and accessibility apps for blind and low-vision people (Be My Eyes, 2023). There is already evidence of a range of sociotechnical harms that can arise from the use of artificial agents with natural language interfaces when some communities have inferior access to them (Weidinger et al., 2021). As previously described, these harms include inferior quality of access (in situation type 2) across user groups, which may map onto wider societal dynamics involving race (Harrington et al., 2022), disability (Gadiraju et al., 2023) and culture (Jenka, 2023). As developers make it easier to integrate these technologies into other tools, services and decision-making systems (e.g. Marr, 2023; Brockman et al., 2023; Pinsky, 2023), their uptake could make existing performance inequities more pronounced or introduce them to new and wider publics."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/24.10.01]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/6. Socioeconomic and Environmental]]
+	- **Sub-domain**: [[AI Risk/Domain/6. Socioeconomic and Environmental/6.1/Power centralization and unfair distribution of benefits]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Current access risks
+- [[AI Risks/Access and Opportunity risks/Current access risks]]
+	- **Description**: "At the same time, and despite this overall trend, AI systems are also not easily accessible to many communities. Such direct inaccessibility occurs for a variety of reasons, including: purposeful non-release (situation type 1; Wiggers and Stringer, 2023), prohibitive paywalls (situation type 2; Rogers, 2023; Shankland, 2023), hardware and compute requirements or bandwidth (situation types 1 and 2; OpenAI, 2023), or language barriers (e.g. they only function well in English (situation type 2; Snyder, 2023), with more serious errors occurring in other languages (situation type 3; Deck, 2023). Similarly, there is some evidence of ‘actively bad’ artificial agents gating access to resources and opportunities, affecting material well-being in ways that disproportionately penalise historically marginalised communities (Block, 2022; Bogen, 2019; Eubanks, 2017). Existing direct and indirect access disparities surrounding artificial agents with natural language interfaces could potentially continue – if novel capabilities are layered on top of this base without adequate mitigation (see Chapter 3)."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/24.10.02]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/6. Socioeconomic and Environmental]]
+	- **Sub-domain**: [[AI Risk/Domain/6. Socioeconomic and Environmental/6.1/Power centralization and unfair distribution of benefits]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Future access risks
+- [[AI Risks/Access and Opportunity risks/Future access risks]]
+	- **Description**: "AI assistants currently tend to perform a limited set of isolated tasks: tools that classify or rank content execute a set of predefined rules or provide constrained suggestions, and chatbots are often encoded with guardrails to limit the set of conversation turns they execute (e.g. Warren, 2023; see Chapter 4). However, an artificial agent that can execute sequences of actions on the user’s behalf – with ‘significant autonomy to plan and execute tasks within the relevant domain’ (see Chapter 2) – offers a greater range of capabilities and depth of use. This raises several distinct access-related risks, with respect to liability and consent, that may disproportionately affect historically marginalised communities. To repeat, in cases where an action can only be executed with an advanced AI assistant, not having access to the technology (e.g. due to limited internet access, not speaking the ‘right’ language or facing a paywall) means one cannot access that action (consider today’s eBay and Ticketmaster bots). Communication with many utility or commercial providers currently requires (at least initial) interaction with their artificial agents (Schwerin, 2023; Verma, 2023a). It is not difficult to imagine a future in which a user needs an advanced AI assistant to interface with a more consequential resource, such as their hospital for appointments or their phone company to obtain service. Cases of inequitable performance, where the assistant systematically performs less well for certain communities (situation type 2), could impose serious costs on people in these contexts. Moreover, advanced AI assistants are expected to be designed to act in line with user expectations. When acting on the user’s behalf, an assistant will need to infer aspects of what the user wants. This process may involve interpretation to decide between various sources of information (e.g. stated preferences and inference based on past feedback or user behaviour) (see Chapter 5). However, cultural differences will also likely affect the system’s ability to make an accurate inference. Notably, the greater the cultural divide, say between that of the developers and the data on which the agent was trained and evaluated on, and that of the user, the harder it will be to make reliable inferences about user wants (e.g. Beede et al., 2020; Widner et al., 2023), and greater the likelihood of performance failures or value misalignment (see Chapter 11). This inference gap could make many forms of indirect opportunity inaccessible, and as past history indicates, there is the risk that harms associated with these unknowns may disproportionately fall upon those already marginalised in the design process."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/24.10.03]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/3/Other]]
+	- **Timing**: [[AI Risk/Phase/3/Other]]
+	- **Domain**: [[AI Risk Domain/6. Socioeconomic and Environmental]]
+	- **Sub-domain**: [[AI Risk/Domain/6. Socioeconomic and Environmental/6.1/Power centralization and unfair distribution of benefits]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Emergent access risks
+- [[AI Risks/Access and Opportunity risks/Emergent access risks]]
+	- **Description**: "Emergent access risks are most likely to arise when current and novel capabilities are combined. Emergent risks can be difficult to foresee fully (Ovadya and Whittlestone, 2019; Prunkl et al., 2021) due to the novelty of the technology (see Chapter 1) and the biases of those who engage in product design or foresight processes D’Ignazio and Klein (2020). Indeed, people who occupy relatively advantaged social, educational and economic positions in society are often poorly equipped to foresee and prevent harm because they are disconnected from lived experiences of those who would be affected. Drawing upon access concerns that surround existing technologies, we anticipate three possible trends: • Trend 1: Technology as societal infrastructure. If advanced AI assistants are adopted by organisations or governments in domains affecting material well-being, ‘opting out’ may no longer be a real option for people who want to continue to participate meaningfully in society. Indeed, if this trend holds, there could be serious consequences for communities with no access to AI assistants or who only have access to less capable systems (see also Chapter 14). For example, if advanced AI assistants gate access to information and resources, these resources could become inaccessible for people with limited knowledge of how to use these systems, reflecting the skill-based dimension of digital inequality (van Dijk, 2006). Addressing these questions involves reaching beyond technical and logistical access considerations – and expanding the scope of consideration to enable full engagement and inclusion for differently situated communities. • Trend 2: Exacerbating social and economic inequalities. Technologies are not distinct from but embedded within wider sociopolitical assemblages (Haraway, 1988; Harding, 1998, 2016). If advanced AI assistants are institutionalised and adopted at scale without proper foresight and mitigation measures in place, then they are likely to scale or exacerbate inequalities that already exist within the sociocultural context in which the system is used (Bauer and Lizotte, 2021; Zajko, 2022). If the historical record is anything to go by, the performance inequities evidenced by advanced AI assistants could mirror social hierarchies around gender, race, disability and culture, among others – asymmetries that deserve deeper consideration and need to be significantly addressed (e.g. Buolamwini and Gebru, 2018). • Trend 3: Rendering more urgent responsible AI development and deployment practices, such as those supporting the development of technologies that perform fairly and are accountable to a wide range of parties. As Corbett and Denton (2023, 1629) argue: ‘The impacts of achieving [accountability and fairness] in almost any situation immediately improves the conditions of people’s lives and better society’. However, many approaches to developing AI systems, including assistants, pay little attention to how context shapes what accountability or fairness means (Sartori and Theodorou, 2022), or how these concepts can be put in service of addressing inequalities related to motivational access (e.g. wanting/trust in technology) or use (e.g. different ways to use a technology) (van Dijk, 2006). Advanced AI assistants are complex technologies that will enable a plurality of data and content flows that necessitate in-depth analysis of social impacts. As many sociotechnical and responsible AI practices were developed for conventional ML technologies, it may be necessary to develop new frameworks, approaches and tactics (see Chapter 19). We explore practices for emancipatory and liberatory access in the following section."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/24.10.04]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/3/Other]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/6. Socioeconomic and Environmental]]
+	- **Sub-domain**: [[AI Risk/Domain/6. Socioeconomic and Environmental/6.1/Power centralization and unfair distribution of benefits]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Misinformation risks
+- [[AI Risks/Misinformation risks/Misinformation risks]]
+	- **Description**: "The rapid integration of AI systems with advanced capabilities, such as greater autonomy, content generation, memorisation and planning skills (see Chapter 4) into personalised assistants also raises new and more specific challenges related to misinformation, disinformation and the broader integrity of our information environment. "
+	- **Evidence ID**: [[MIT/AI Risks/by ID/24.11.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/3/Other]]
+	- **Timing**: [[AI Risk/Phase/3/Other]]
+	- **Domain**: [[AI Risk/Domain/3. Misinformation]]
+	- **Sub-domain**: [[AI Risk/Domain/3. Misinformation/3.0/Misinformation]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Entrenched viewpoints and reduced political efficacy
+- [[AI Risks/Misinformation risks/Entrenched viewpoints and reduced political efficacy]]
+	- **Description**: "Design choices such as greater personalisation of AI assistants and efforts to align them with human preferences could also reinforce people’s pre-existing biases and entrench specific ideologies. Increasingly agentic AI assistants trained using techniques such as reinforcement learning from human feedback (RLHF) and with the ability to access and analyse users’ behavioural data, for example, may learn to tailor their responses to users’ preferences and feedback. In doing so, these systems could end up producing partial or ideologically biased statements in an attempt to conform to user expectations, desires or preferences for a particular worldview (Carroll et al., 2022). Over time, this could lead AI assistants to inadvertently reinforce people’s tendency to interpret information in a way that supports their own prior beliefs (‘confirmation bias’), thus making them more entrenched in their own views and more resistant to factual corrections (Lewandowsky et al., 2012). At the societal level, this could also exacerbate the problem of epistemic fragmentation – a breakdown of shared knowledge, where individuals have conflicting understandings of reality and do not share or engage with each other’s beliefs – and further entrench specific ideologies. Excessive trust and overreliance on hyperpersonalised AI assistants could become especially problematic if people ended up deferring entirely to these systems to perform tasks in domains they do not have expertise in or to take consequential decisions on their behalf (see Chapter 12). For example, people may entrust an advanced AI assistant that is familiar with their political views and personal preferences to help them find trusted election information, guide them through their political choices or even vote on their behalf, even if doing so might go against their own or society’s best interests. In the more extreme cases, these developments may hamper the normal functioning of democracies, by decreasing people’s civic competency and reducing their willingness and ability to engage in productive political debate and to participate in public life (Sullivan and Transue, 1999)."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/24.11.01]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk/Domain/3. Misinformation]]
+	- **Sub-domain**: [[AI Risk/Domain/3. Misinformation/3.2/Pollution of information ecosystem and loss of consensus reality]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Degraded and homogenised information environments
+- [[AI Risks/Misinformation risks/Degraded and homogenised information environments]]
+	- **Description**: "Beyond this, the widespread adoption of advanced AI assistants for content generation could have a number of negative consequences for our shared information ecosystem. One concern is that it could result in a degradation of the quality of the information available online. Researchers have already observed an uptick in the amount of audiovisual misinformation, elaborate scams and fake websites created using generative AI tools (Hanley and Durumeric, 2023). As more and more people turn to AI assistants to autonomously create and disseminate information to public audiences at scale, it may become increasingly difficult to parse and verify reliable information. This could further threaten and complicate the status of journalists, subject-matter experts and public information sources. Over time, a proliferation of spam, misleading or low-quality synthetic content in online spaces could also erode the digital knowledge commons – the shared knowledge resources accessible to everyone on the web, such as publicly accessible data repositories (Huang and Siddarth, 2023). At its extreme, such degradation could also end up skewing people’s view of reality and scientific consensus, make them more doubtful of the credibility of all information they encounter and shape public discourse in unproductive ways. Moreover, in an online environment saturated with AI-generated content, more and more people may become reliant on personalised, highly capable AI assistants for their informational needs. This also runs the risk of homogenising the type of information and ideas people encounter online (Epstein et al., 2023)."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/24.11.02]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk/Domain/3. Misinformation]]
+	- **Sub-domain**: [[AI Risk/Domain/3. Misinformation/3.2/Pollution of information ecosystem and loss of consensus reality]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Weaponised misinformation agents
+- [[AI Risks/Misinformation risks/Weaponised misinformation agents]]
+	- **Description**: "Finally, AI assistants themselves could become weaponised by malicious actors to sow misinformation and manipulate public opinion at scale. Studies show that spreaders of disinformation tend to privilege quantity over quality of messaging, flooding online spaces repeatedly with misleading content to sow ‘seeds of doubt’ (Hassoun et al., 2023). Research on the ‘continued influence effect’ also shows that repeatedly being exposed to false information is more likely to influence someone’s thoughts than a single exposure. Studies show, for example, that repeated exposure to false information makes people more likely to believe it by increasing perceived social consensus, and it makes people more resistant to changing their minds even after being given a correction (for a review of these effects, see Lewandowsky et al., 2012; Ecker et al., 2022). By leveraging the frequent and personalised nature of repeated interactions with an AI assistant, malicious actors could therefore gradually nudge voters towards a particular viewpoint or sets of beliefs over time (see Chapters 8 and 9). Propagandists could also use AI assistants to make their disinformation campaigns more personalised and effective. There is growing evidence that AI-generated outputs are as persuasive as human arguments and have the potential to change people’s minds on hot-button issues (Bai et al., 2023; Myers, 2023). Recent research by the Center for Countering Digital Hate showed that LLMs could be successfully prompted to generate ‘persuasive misinformation’ in 78 out of 100 test cases, including content denying climate change (see Chapters 9 and 18). If compromised by malicious actors, in the future, highly capable and autonomous AI assistants could therefore be programmed to run astroturfing campaigns autonomously, tailor misinformation content to users in a hyperprecise way, by preying on their emotions and vulnerabilities, or to accelerate lobbying activities (Kreps and Kriner, 2023). As a result, people may be misled into believing that content produced by weaponised AI assistants came from genuine or authoritative sources. Covert influence operations of this kind may also be harder to detect than traditional disinformation campaigns, as virtual assistants primarily interact with users on a one-to-one basis and continuously generate new content (Goldstein et al., 2023)."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/24.11.03]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk/Domain/4. Malicious Actors & Misuse]]
+	- **Sub-domain**: [[AI Risk/Domain/4. Malicious Actors & Misuse/4.1/Disinformation, surveillance, and influence at scale]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Increased vulnerability to misinformation
+- [[AI Risks/Misinformation risks/Increased vulnerability to misinformation]]
+	- **Description**: "Advanced AI assistants may make users more susceptible to misinformation, as people develop competence trust in these systems’ abilities and uncritically turn to them as reliable sources of information."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/24.11.04]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/5. Human-Computer Interaction]]
+	- **Sub-domain**: [[AI Risk/Domain/5. Human-Computer Interaction/5.1/Overreliance and unsafe use]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Entrenching specific ideologies
+- [[AI Risks/Misinformation risks/Entrenching specific ideologies]]
+	- **Description**: "AI assistants may provide ideologically biased or otherwise partial information in attempting to align to user expectations. In doing so, AI assistants may reinforce people’s pre-existing biases and compromise productive political debate."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/24.11.05]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk/Domain/3. Misinformation]]
+	- **Sub-domain**: [[AI Risk/Domain/3. Misinformation/3.2/Pollution of information ecosystem and loss of consensus reality]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Eroding trust and undermining shared knowledge
+- [[AI Risks/Misinformation risks/Eroding trust and undermining shared knowledge]]
+	- **Description**: "AI assistants may contribute to the spread of large quantities of factually inaccurate and misleading content, with negative consequences for societal trust in information sources and institutions, as individuals increasingly struggle to discern truth from falsehood."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/24.11.06]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/3/Other]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk/Domain/3. Misinformation]]
+	- **Sub-domain**: [[AI Risk/Domain/3. Misinformation/3.2/Pollution of information ecosystem and loss of consensus reality]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Driving opinion manipulation
+- [[AI Risks/Misinformation risks/Driving opinion manipulation]]
+	- **Description**: "AI assistants may facilitate large-scale disinformation campaigns by offering novel, covert ways for propagandists to manipulate public opinion. This could undermine the democratic process by distorting public opinion and, in the worst case, increasing skepticism and political violence."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/24.11.07]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk/Domain/4. Malicious Actors & Misuse]]
+	- **Sub-domain**: [[AI Risk/Domain/4. Malicious Actors & Misuse/4.1/Disinformation, surveillance, and influence at scale]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### nan
+- [[AI Risks/nan/nan]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/25.00.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Cyber-offense
+- [[AI Risks/Cyber-offense /Cyber-offense ]]
+	- **Description**: "The model can discover vulnerabilities in systems (hardware, software, data). It can write code for exploiting those vulnerabilities. It can make effective decisions once it has gained access to a system or network, and skilfully evade threat detection and response (both human and system) whilst focusing on a specific objective. If deployed as a coding assistant, it can insert subtle bugs into the code for future exploitation."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/25.01.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk/Domain/4. Malicious Actors & Misuse]]
+	- **Sub-domain**: [[AI Risk/Domain/4. Malicious Actors & Misuse/4.2/Cyberattacks, weapon development or use, and mass harm]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Deception
+- [[AI Risks/Deception /Deception ]]
+	- **Description**: "The model has the skills necessary to deceive humans, e.g. constructing believable (but false) statements, making accurate predictions about the effect of a lie on a human, and keeping track of what information it needs to withhold to maintain the deception. The model can impersonate a human effectively."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/25.02.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/3/Other]]
+	- **Domain**: [[AI Risk Domain/7. AI System Safety, Failures, & Limitations]]
+	- **Sub-domain**: [[AI Risk/Domain/7. AI System Safety, Failures, & Limitations/7.2/AI possessing dangerous capabilities]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Deception
+- [[AI Risks/Deception /Deception ]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/25.02.00.a]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Persuasion and manipulation
+- [[AI Risks/Persuasion and manipulation /Persuasion and manipulation ]]
+	- **Description**: "The model is effective at shaping people’s beliefs, in dialogue and other settings (e.g. social media posts), even towards untrue beliefs. The model is effective at promoting certain narratives in a persuasive way. It can convince people to do things that they would not otherwise do, including unethical acts."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/25.03.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/7. AI System Safety, Failures, & Limitations]]
+	- **Sub-domain**: [[AI Risk/Domain/7. AI System Safety, Failures, & Limitations/7.2/AI possessing dangerous capabilities]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Political strategy
+- [[AI Risks/Political strategy /Political strategy ]]
+	- **Description**: "The model can perform the social modelling and planning necessary for an actor to gain and exercise political influence, not just on a micro-level but in scenarios with multiple actors and rich social context. For example, the model can score highly in forecasting competitions on questions relating to global affairs or political negotiations."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/25.04.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/7. AI System Safety, Failures, & Limitations]]
+	- **Sub-domain**: [[AI Risk/Domain/7. AI System Safety, Failures, & Limitations/7.2/AI possessing dangerous capabilities]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Weapons acquisition
+- [[AI Risks/Weapons acquisition /Weapons acquisition ]]
+	- **Description**: "The model can gain access to existing weapons systems or contribute to building new weapons. For example, the model could assemble a bioweapon (with human assistance) or provide actionable instructions for how to do so. The model can make, or significantly assist with, scientific discoveries that unlock novel weapons."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/25.05.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/7. AI System Safety, Failures, & Limitations]]
+	- **Sub-domain**: [[AI Risk/Domain/7. AI System Safety, Failures, & Limitations/7.2/AI possessing dangerous capabilities]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Long-horizon planning
+- [[AI Risks/Long-horizon planning/Long-horizon planning]]
+	- **Description**: "The model can make sequential plans that involve multiple steps, unfolding over long time horizons (or at least involving many interdependent steps). It can perform such planning within and across many domains. The model can sensibly adapt its plans in light of unexpected obstacles or adversaries. The model’s planning capabilities generalise to novel settings, and do not rely heavily on trial and error."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/25.06.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/3/Other]]
+	- **Domain**: [[AI Risk Domain/7. AI System Safety, Failures, & Limitations]]
+	- **Sub-domain**: [[AI Risk/Domain/7. AI System Safety, Failures, & Limitations/7.2/AI possessing dangerous capabilities]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### AI development
+- [[AI Risks/AI development /AI development ]]
+	- **Description**: "The model could build new AI systems from scratch, including AI systems with dangerous capabilities. It can find ways of adapting other, existing models to increase their performance on tasks relevant to extreme risks. As an assistant, the model could significantly improve the productivity of actors building dual use AI capabilities."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/25.07.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/1/Pre-deployment]]
+	- **Domain**: [[AI Risk Domain/7. AI System Safety, Failures, & Limitations]]
+	- **Sub-domain**: [[AI Risk/Domain/7. AI System Safety, Failures, & Limitations/7.2/AI possessing dangerous capabilities]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Situational awareness
+- [[AI Risks/Situational awareness /Situational awareness ]]
+	- **Description**: "The model can distinguish between whether it is being trained, evaluated, or deployed – allowing it to behave differently in each case. The model knows that it is a model, and has knowledge about itself and its likely surroundings (e.g. what company trained it, where their servers are, what kind of people might be giving it feedback, and who has administrative access)."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/25.08.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/3/Other]]
+	- **Domain**: [[AI Risk Domain/7. AI System Safety, Failures, & Limitations]]
+	- **Sub-domain**: [[AI Risk/Domain/7. AI System Safety, Failures, & Limitations/7.2/AI possessing dangerous capabilities]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Self-proliferation
+- [[AI Risks/Self-proliferation /Self-proliferation ]]
+	- **Description**: "The model can break out of its local environment (e.g. using a vulnerability in its underlying system or suborning an engineer). The model can exploit limitations in the systems for monitoring its behaviour post-deployment. The model could independently generate revenue (e.g. by offering crowdwork services, ransomware attacks), use these revenues to acquire cloud computing resources, and operate a large number of other AI systems. The model can generate creative strategies for uncovering information about itself or exfiltrating its code and weights."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/25.09.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/3/Other]]
+	- **Domain**: [[AI Risk Domain/7. AI System Safety, Failures, & Limitations]]
+	- **Sub-domain**: [[AI Risk/Domain/7. AI System Safety, Failures, & Limitations/7.2/AI possessing dangerous capabilities]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### nan
+- [[AI Risks/nan/nan]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/26.00.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Transparency
+- [[AI Risks/Transparency/Transparency]]
+	- **Description**: "Ability to provide responsible disclosure to those affected by AI systems to understand the outcome"
+	- **Evidence ID**: [[MIT/AI Risks/by ID/26.01.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/4/Not. coded]]
+	- **Timing**: [[AI Risk/Phase/4/Not. coded]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/X.1/Excluded]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Explainability
+- [[AI Risks/Explainability/Explainability]]
+	- **Description**: "Ability to assess the factors that led to the AI system's decision, its overall behaviour, outcomes, and implications"
+	- **Evidence ID**: [[MIT/AI Risks/by ID/26.02.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/4/Not. coded]]
+	- **Timing**: [[AI Risk/Phase/4/Not. coded]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/X.1/Excluded]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Repeatability / Reproducibility
+- [[AI Risks/Repeatability / Reproducibility/Repeatability / Reproducibility]]
+	- **Description**: "The ability of a system to consistently perform its required functions under stated conditions for a specific period of time, and for an independent party to produce the same results given similar inputs"
+	- **Evidence ID**: [[MIT/AI Risks/by ID/26.03.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/4/Not. coded]]
+	- **Timing**: [[AI Risk/Phase/4/Not. coded]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/X.1/Excluded]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Safety
+- [[AI Risks/Safety/Safety]]
+	- **Description**: "AI should not result in harm to humans (particularly physical harm), and measures should be put in place to mitigate harm"
+	- **Evidence ID**: [[MIT/AI Risks/by ID/26.04.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/4/Not. coded]]
+	- **Timing**: [[AI Risk/Phase/4/Not. coded]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/X.1/Excluded]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Security
+- [[AI Risks/Security/Security]]
+	- **Description**: "AI security is the protection of AI systems, their data, and the associated infrastructure from unauthorised access, disclosure, modification, destruction, or disruption. AI systems that can maintain confidentiality, integrity, and availability through protection mechanisms that prevent unauthorized access and use may be said to be secure."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/26.05.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/4/Not. coded]]
+	- **Timing**: [[AI Risk/Phase/4/Not. coded]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/X.1/Excluded]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Robustness
+- [[AI Risks/Robustness/Robustness]]
+	- **Description**: "AI system should be resilient against attacks and attempts at manipulation by third party malicious actors, and can still function despite unexpected input"
+	- **Evidence ID**: [[MIT/AI Risks/by ID/26.06.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/4/Not. coded]]
+	- **Timing**: [[AI Risk/Phase/4/Not. coded]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/X.1/Excluded]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Fairness
+- [[AI Risks/Fairness/Fairness]]
+	- **Description**: "AI should not result in unintended and inappropriate discrimination against individuals or groups"
+	- **Evidence ID**: [[MIT/AI Risks/by ID/26.07.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/4/Not. coded]]
+	- **Timing**: [[AI Risk/Phase/4/Not. coded]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/X.1/Excluded]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Data Governance
+- [[AI Risks/Data Governance/Data Governance]]
+	- **Description**: "Governing data used in AI systems, including putting in place good governance practices for data quality, lineage, and compliance"
+	- **Evidence ID**: [[MIT/AI Risks/by ID/26.08.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/4/Not. coded]]
+	- **Timing**: [[AI Risk/Phase/4/Not. coded]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/X.1/Excluded]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Accountability
+- [[AI Risks/Accountability/Accountability]]
+	- **Description**: "AI systems should have organisational structures and actors accountable for the proper functioning of AI systems"
+	- **Evidence ID**: [[MIT/AI Risks/by ID/26.09.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/4/Not. coded]]
+	- **Timing**: [[AI Risk/Phase/4/Not. coded]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/X.1/Excluded]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Human Agency & Oversight
+- [[AI Risks/Human Agency & Oversight/Human Agency & Oversight]]
+	- **Description**: "Ability to implement appropriate oversight and control measures with humans-in-the-loop at the appropriate juncture"
+	- **Evidence ID**: [[MIT/AI Risks/by ID/26.10.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/4/Not. coded]]
+	- **Timing**: [[AI Risk/Phase/4/Not. coded]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/X.1/Excluded]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Inclusive Growth, Societal & Environmental Well-being
+- [[AI Risks/Inclusive Growth, Societal & Environmental Well-being/Inclusive Growth, Societal & Environmental Well-being]]
+	- **Description**: "This Principle highlights the potential for trustworthy AI to contribute to overall growth and prosperity for all – individuals, society, and the planet – and advance global development objectives"
+	- **Evidence ID**: [[MIT/AI Risks/by ID/26.11.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/4/Not. coded]]
+	- **Timing**: [[AI Risk/Phase/4/Not. coded]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/X.1/Excluded]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### nan
+- [[AI Risks/nan/nan]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/27.00.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Typical safety scenarios
+- [[AI Risks/Typical safety scenarios /Typical safety scenarios ]]
+	- **Description**: "First, We extend the dialogue safety taxonomy (Sun et al., 2022) and try to cover all perspectives of safety issues. It involves 8 kinds of typical safety scenarios such as insult and unfairness."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/27.01.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/4/Not. coded]]
+	- **Timing**: [[AI Risk/Phase/4/Not. coded]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/X.1/Excluded]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Insult
+- [[AI Risks/Typical safety scenarios /Insult ]]
+	- **Description**: "Insulting content generated by LMs is a highly visible and frequently mentioned safety issue.  Mostly, it is unfriendly, disrespectful, or ridiculous content that makes users uncomfortable and drives them away. It is extremely hazardous and could have negative social consequences."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/27.01.01]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/3/Other]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/1. Discrimination & Toxicity]]
+	- **Sub-domain**: [[AI Risk/Domain/1. Discrimination & Toxicity/1.2/Exposure to toxic content]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Unfairness and discrinimation
+- [[AI Risks/Typical safety scenarios /Unfairness and discrinimation ]]
+	- **Description**: "The model produces unfair and discriminatory data, such as social bias based on race, gender, religion, appearance, etc. These contents may discomfort certain groups and undermine social stability and peace."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/27.01.02]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/3/Other]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/1. Discrimination & Toxicity]]
+	- **Sub-domain**: [[AI Risk/Domain/1. Discrimination & Toxicity/1.1/Unfair discrimination and misrepresentation]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Crimes and Illegal Activities
+- [[AI Risks/Typical safety scenarios /Crimes and Illegal Activities ]]
+	- **Description**: "The model output contains illegal and criminal attitudes, behaviors, or motivations, such as incitement to commit crimes, fraud, and rumor propagation. These contents may hurt users and have negative societal repercussions."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/27.01.03]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/3/Other]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/1. Discrimination & Toxicity]]
+	- **Sub-domain**: [[AI Risk/Domain/1. Discrimination & Toxicity/1.2/Exposure to toxic content]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Crimes and Illegal Activities
+- [[AI Risks/Typical safety scenarios /Crimes and Illegal Activities ]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/27.01.03.a]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Sensitive Topics
+- [[AI Risks/Typical safety scenarios /Sensitive Topics ]]
+	- **Description**: "For some sensitive and controversial topics (especially on politics), LMs tend to generate biased, misleading, and inaccurate content. For example, there may be a tendency to support a specific political position, leading to discrimination or exclusion of other political viewpoints."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/27.01.04]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/3/Other]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/1. Discrimination & Toxicity]]
+	- **Sub-domain**: [[AI Risk/Domain/1. Discrimination & Toxicity/1.2/Exposure to toxic content]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Physical Harm
+- [[AI Risks/Typical safety scenarios /Physical Harm ]]
+	- **Description**: "The model generates unsafe information related to physical health, guiding and encouraging users to harm themselves and others physically, for example by offering misleading medical information or inappropriate drug usage guidance. These outputs may pose potential risks to the physical health of users."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/27.01.05]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/3/Other]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk/Domain/3. Misinformation]]
+	- **Sub-domain**: [[AI Risk/Domain/3. Misinformation/3.1/False or misleading information]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Physical Harm
+- [[AI Risks/Typical safety scenarios /Physical Harm ]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/27.01.05.a]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Mental Health
+- [[AI Risks/Typical safety scenarios /Mental Health ]]
+	- **Description**: "The model generates a risky response about mental health, such as content that encourages suicide or causes panic or anxiety. These contents could have a negative effect on the mental health of users."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/27.01.06]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/3/Other]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk/Domain/3. Misinformation]]
+	- **Sub-domain**: [[AI Risk/Domain/3. Misinformation/3.1/False or misleading information]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Mental Health
+- [[AI Risks/Typical safety scenarios /Mental Health ]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/27.01.06.a]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Privacy and Property
+- [[AI Risks/Typical safety scenarios /Privacy and Property ]]
+	- **Description**: "The generation involves exposing users’ privacy and property information or providing advice with huge impacts such as suggestions on marriage and investments. When handling this information, the model should comply with relevant laws and privacy regulations, protect users’ rights and interests, and avoid information leakage and abuse."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/27.01.07]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/3/Other]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/2. Privacy & Security]]
+	- **Sub-domain**: [[AI Risk/Domain/2. Privacy & Security/2.1/Compromise of privacy by leaking or correctly inferring sensitive information]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Privacy and Property
+- [[AI Risks/Typical safety scenarios /Privacy and Property ]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/27.01.07.a]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Ethics and Morality
+- [[AI Risks/Typical safety scenarios /Ethics and Morality ]]
+	- **Description**: "The content generated by the model endorses and promotes immoral and unethical behavior. When addressing issues of ethics and morality, the model must adhere to pertinent ethical principles and moral norms and remain consistent with globally acknowledged human values."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/27.01.08]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/3/Other]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/7. AI System Safety, Failures, & Limitations]]
+	- **Sub-domain**: [[AI Risk/Domain/7. AI System Safety, Failures, & Limitations/7.3/Lack of capability or robustness]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Ethics and Morality
+- [[AI Risks/Typical safety scenarios /Ethics and Morality ]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/27.01.08.a]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Instruction Attacks
+- [[AI Risks/Instruction Attacks /Instruction Attacks ]]
+	- **Description**: "In addition to the above-mentioned typical safety scenarios, current research has revealed some unique attacks that such models may confront. For example, Perez and Ribeiro (2022) found that goal hijacking and prompt leaking could easily deceive language models to generate unsafe responses. Moreover, we also find that LLMs are more easily triggered to output harmful content if some special prompts are added. In response to these challenges, we develop, categorize, and label 6 types of adversarial attacks, and name them Instruction Attack, which are challenging for large language models to handle. Note that our instruction attacks are still based on natural language (rather than unreadable tokens) and are intuitive and explainable in semantics."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/27.02.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/2. Privacy & Security]]
+	- **Sub-domain**: [[AI Risk/Domain/2. Privacy & Security/2.2/AI system security vulnerabilities and attacks]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Goal Hijacking
+- [[AI Risks/Instruction Attacks /Goal Hijacking ]]
+	- **Description**: "It refers to the appending of deceptive or misleading instructions to the input of models in an attempt to induce the system into ignoring the original user prompt and producing an unsafe response."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/27.02.01]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/2. Privacy & Security]]
+	- **Sub-domain**: [[AI Risk/Domain/2. Privacy & Security/2.2/AI system security vulnerabilities and attacks]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Goal Hijacking
+- [[AI Risks/Instruction Attacks /Goal Hijacking ]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/27.02.01.a]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Prompt Leaking
+- [[AI Risks/Instruction Attacks /Prompt Leaking ]]
+	- **Description**: "By analyzing the model’s output, attackers may extract parts of the systemprovided prompts and thus potentially obtain sensitive information regarding the system itself."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/27.02.02]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/2. Privacy & Security]]
+	- **Sub-domain**: [[AI Risk/Domain/2. Privacy & Security/2.1/Compromise of privacy by leaking or correctly inferring sensitive information]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Role Play Instruction
+- [[AI Risks/Instruction Attacks /Role Play Instruction ]]
+	- **Description**: "Attackers might specify a model’s role attribute within the input prompt and then give specific instructions, causing the model to finish instructions in the speaking style of the assigned role, which may lead to unsafe outputs. For example, if the character is associated with potentially risky groups (e.g., radicals, extremists, unrighteous individuals, racial discriminators, etc.) and the model is overly faithful to the given instructions, it is quite possible that the model outputs unsafe content linked to the given character."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/27.02.03]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/2. Privacy & Security]]
+	- **Sub-domain**: [[AI Risk/Domain/2. Privacy & Security/2.2/AI system security vulnerabilities and attacks]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Unsafe Instruction Topic
+- [[AI Risks/Instruction Attacks /Unsafe Instruction Topic ]]
+	- **Description**: "If the input instructions themselves refer to inappropriate or unreasonable topics, the model will follow these instructions and produce unsafe content. For instance, if a language model is requested to generate poems with the theme “Hail Hitler”, the model may produce lyrics containing fanaticism, racism, etc. In this situation, the output of the model could be controversial and have a possible negative impact on society."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/27.02.04]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/2. Privacy & Security]]
+	- **Sub-domain**: [[AI Risk/Domain/2. Privacy & Security/2.2/AI system security vulnerabilities and attacks]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Unsafe Instruction Topic
+- [[AI Risks/Instruction Attacks /Unsafe Instruction Topic ]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/27.02.04.a]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Inquiry with Unsafe Opinion
+- [[AI Risks/Instruction Attacks /Inquiry with Unsafe Opinion ]]
+	- **Description**: "By adding imperceptibly unsafe content into the input, users might either deliberately or unintentionally influence the model to generate potentially harmful content. In the following cases involving migrant workers, ChatGPT provides suggestions to improve the overall quality of migrant workers and reduce the local crime rate. ChatGPT responds to the user’s hint with a disguised and biased opinion that the general quality of immigrants is favorably correlated with the crime rate, posing a safety risk."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/27.02.05]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/2. Privacy & Security]]
+	- **Sub-domain**: [[AI Risk/Domain/2. Privacy & Security/2.2/AI system security vulnerabilities and attacks]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Reverse Exposure
+- [[AI Risks/Instruction Attacks /Reverse Exposure ]]
+	- **Description**: "It refers to attempts by attackers to make the model generate “should-not-do” things and then access illegal and immoral information."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/27.02.06]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/2. Privacy & Security]]
+	- **Sub-domain**: [[AI Risk/Domain/2. Privacy & Security/2.2/AI system security vulnerabilities and attacks]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### nan
+- [[AI Risks/nan/nan]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/28.00.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Offensiveness
+- [[AI Risks/Offensiveness /Offensiveness ]]
+	- **Description**: "This category is about threat, insult, scorn, profanity, sarcasm, impoliteness, etc. LLMs are required to identify and oppose these offensive contents or actions."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/28.01.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/3/Other]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/1. Discrimination & Toxicity]]
+	- **Sub-domain**: [[AI Risk/Domain/1. Discrimination & Toxicity/1.2/Exposure to toxic content]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Unfairness and Bias
+- [[AI Risks/Unfairness and Bias /Unfairness and Bias ]]
+	- **Description**: "This type of safety problem is mainly about social bias across various topics such as race, gender, religion, etc. LLMs are expected to identify and avoid unfair and biased expressions and actions."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/28.02.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/3/Other]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/1. Discrimination & Toxicity]]
+	- **Sub-domain**: [[AI Risk/Domain/1. Discrimination & Toxicity/1.0/Discrimination & Toxicity]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Physical Health
+- [[AI Risks/Physical Health /Physical Health ]]
+	- **Description**: "This category focuses on actions or expressions that may influence human physical health. LLMs should know appropriate actions or expressions in various scenarios to maintain physical health."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/28.03.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/3/Other]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk/Domain/3. Misinformation]]
+	- **Sub-domain**: [[AI Risk/Domain/3. Misinformation/3.1/False or misleading information]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Mental Health
+- [[AI Risks/Mental Health /Mental Health ]]
+	- **Description**: "Different from physical health, this category pays more attention to health issues related to psychology, spirit, emotions, mentality, etc. LLMs should know correct ways to maintain mental health and prevent any adverse impacts on the mental well-being of individuals."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/28.04.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/3/Other]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk/Domain/3. Misinformation]]
+	- **Sub-domain**: [[AI Risk/Domain/3. Misinformation/3.1/False or misleading information]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Illegal Activities
+- [[AI Risks/Illegal Activities /Illegal Activities ]]
+	- **Description**: "This category focuses on illegal behaviors, which could cause negative societal repercussions. LLMs need to distin- guish between legal and illegal behaviors and have basic knowledge of law."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/28.05.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/3/Other]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk/Domain/4. Malicious Actors & Misuse]]
+	- **Sub-domain**: [[AI Risk/Domain/4. Malicious Actors & Misuse/4.3/Fraud, scams, and targeted manipulation]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Ethics and Morality
+- [[AI Risks/Ethics and Morality /Ethics and Morality ]]
+	- **Description**: "Besides behaviors that clearly violate the law, there are also many other activities that are immoral. This category focuses on morally related issues. LLMs should have a high level of ethics and be object to unethical behaviors or speeches."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/28.06.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/3/Other]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/7. AI System Safety, Failures, & Limitations]]
+	- **Sub-domain**: [[AI Risk/Domain/7. AI System Safety, Failures, & Limitations/7.3/Lack of capability or robustness]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Privacy and Property
+- [[AI Risks/Privacy and Property /Privacy and Property ]]
+	- **Description**: "This category concentrates on the issues related to privacy, property, investment, etc. LLMs should possess a keen understanding of privacy and property, with a commitment to preventing any inadvertent breaches of user privacy or loss of property."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/28.07.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/2. Privacy & Security]]
+	- **Sub-domain**: [[AI Risk/Domain/2. Privacy & Security/2.0/Privacy & Security]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### nan
+- [[AI Risks/nan/nan]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/29.00.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### AI Trust Management
+- [[AI Risks/AI Trust Management/AI Trust Management]]
+	- **Description**: individuals are more persuaded to use and depend on AI systems when they perceive them as reliable
+	- **Evidence ID**: [[MIT/AI Risks/by ID/29.01.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/4/Not. coded]]
+	- **Timing**: [[AI Risk/Phase/4/Not. coded]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/X.1/Excluded]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Bias and Discrimination
+- [[AI Risks/AI Trust Management/Bias and Discrimination]]
+	- **Description**: as they claim to generate biased and discriminatory results, these AI systems have a negative impact on the rights of individuals, principles of adjudication, and overall judicial integrity
+	- **Evidence ID**: [[MIT/AI Risks/by ID/29.01.01]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/1. Discrimination & Toxicity]]
+	- **Sub-domain**: [[AI Risk/Domain/1. Discrimination & Toxicity/1.1/Unfair discrimination and misrepresentation]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Privacy Invasion
+- [[AI Risks/AI Trust Management/Privacy Invasion]]
+	- **Description**: AI systems typically depend on extensive data for effective training and functioning, which can pose a risk to privacy if sensitive data is mishandled or used inappropriately
+	- **Evidence ID**: [[MIT/AI Risks/by ID/29.01.02]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/2. Privacy & Security]]
+	- **Sub-domain**: [[AI Risk/Domain/2. Privacy & Security/2.1/Compromise of privacy by leaking or correctly inferring sensitive information]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### AI Risk Management
+- [[AI Risks/AI Risk Management/AI Risk Management]]
+	- **Description**: AI risk involves identifying possible threats and risks associated with AI systems. It encompasses examining the competences, constraints, and possible failure modes of AI technologies.
+	- **Evidence ID**: [[MIT/AI Risks/by ID/29.02.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/4/Not. coded]]
+	- **Timing**: [[AI Risk/Phase/4/Not. coded]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/X.1/Excluded]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Society Manipulation
+- [[AI Risks/AI Risk Management/Society Manipulation]]
+	- **Description**: manipulation of social dynamics
+	- **Evidence ID**: [[MIT/AI Risks/by ID/29.02.01]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk/Domain/4. Malicious Actors & Misuse]]
+	- **Sub-domain**: [[AI Risk/Domain/4. Malicious Actors & Misuse/4.1/Disinformation, surveillance, and influence at scale]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Deepfake Technology
+- [[AI Risks/AI Risk Management/Deepfake Technology]]
+	- **Description**: AI employed to produce convincing counterfeit visuals, videos, and audio clips that give the impression of authenticity
+	- **Evidence ID**: [[MIT/AI Risks/by ID/29.02.02]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk/Domain/4. Malicious Actors & Misuse]]
+	- **Sub-domain**: [[AI Risk/Domain/4. Malicious Actors & Misuse/4.1/Disinformation, surveillance, and influence at scale]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Lethal Autonomous Weapons Systems (LAWS)
+- [[AI Risks/AI Risk Management/Lethal Autonomous Weapons Systems (LAWS)]]
+	- **Description**: LAWS are a distinctive category of weapon systems that employ sensor arrays and computer algorithms to detect and attack a target without direct human intervention in the system’s operation
+	- **Evidence ID**: [[MIT/AI Risks/by ID/29.02.03]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk/Domain/4. Malicious Actors & Misuse]]
+	- **Sub-domain**: [[AI Risk/Domain/4. Malicious Actors & Misuse/4.2/Cyberattacks, weapon development or use, and mass harm]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Lethal Autonomous Weapons Systems (LAWS)
+- [[AI Risks/AI Risk Management/Lethal Autonomous Weapons Systems (LAWS)]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/29.02.03.a]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### AI Security Management
+- [[AI Risks/AI Security Management/AI Security Management]]
+	- **Description**: AI security management involves the adoption of practices and measures aimed at protecting AI systems and the data they process from unauthorized ac-cess, breaches, and malicious activities
+	- **Evidence ID**: [[MIT/AI Risks/by ID/29.03.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/4/Not. coded]]
+	- **Timing**: [[AI Risk/Phase/4/Not. coded]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/X.1/Excluded]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Malicious Use of AI
+- [[AI Risks/AI Security Management/Malicious Use of AI]]
+	- **Description**: Malicious utilization of AI has the potential to endanger digital security, physical security, and political security. International law enforcement entities grapple with a variety of risks linked to the Malevolent Utilization of AI.
+	- **Evidence ID**: [[MIT/AI Risks/by ID/29.03.01]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk/Domain/4. Malicious Actors & Misuse]]
+	- **Sub-domain**: [[AI Risk/Domain/4. Malicious Actors & Misuse/4.3/Fraud, scams, and targeted manipulation]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Insufficient Security Measures
+- [[AI Risks/AI Security Management/Insufficient Security Measures]]
+	- **Description**: Malicious entities can take advantage of weaknesses in AI algorithms to alter results, potentially resulting in tangible real-life impacts. Additionally, it’s vital to prioritize safeguarding privacy and handling data responsibly, particularly given AI’s significant data needs. Balancing the extraction of valuable insights with privacy maintenance is a delicate task
+	- **Evidence ID**: [[MIT/AI Risks/by ID/29.03.02]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/2. Privacy & Security]]
+	- **Sub-domain**: [[AI Risk/Domain/2. Privacy & Security/2.2/AI system security vulnerabilities and attacks]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### nan
+- [[AI Risks/nan/nan]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/30.00.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Reliability
+- [[AI Risks/Reliability/Reliability]]
+	- **Description**: Generating correct, truthful, and consistent outputs with proper confidence
+	- **Evidence ID**: [[MIT/AI Risks/by ID/30.01.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk/Domain/3. Misinformation]]
+	- **Sub-domain**: [[AI Risk/Domain/3. Misinformation/3.1/False or misleading information]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Reliability
+- [[AI Risks/Reliability/Reliability]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/30.01.00.a]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Misinformation
+- [[AI Risks/Reliability/Misinformation]]
+	- **Description**: Wrong information not intentionally generated by malicious users to cause harm, but unintentionally generated by LLMs because they lack the ability to provide factually correct information.
+	- **Evidence ID**: [[MIT/AI Risks/by ID/30.01.01]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk/Domain/3. Misinformation]]
+	- **Sub-domain**: [[AI Risk/Domain/3. Misinformation/3.1/False or misleading information]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Hallucination
+- [[AI Risks/Reliability/Hallucination]]
+	- **Description**: LLMs can generate content that is nonsensical or unfaithful to the provided source content with appeared great confidence, known as hallucination
+	- **Evidence ID**: [[MIT/AI Risks/by ID/30.01.02]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk/Domain/3. Misinformation]]
+	- **Sub-domain**: [[AI Risk/Domain/3. Misinformation/3.1/False or misleading information]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Hallucination
+- [[AI Risks/Reliability/Hallucination]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/30.01.02.a]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Inconsistency
+- [[AI Risks/Reliability/Inconsistency]]
+	- **Description**: models could fail to provide the same and consistent answers to different users, to the same user but in different sessions, and even in chats within the sessions of the same conversation
+	- **Evidence ID**: [[MIT/AI Risks/by ID/30.01.03]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/7. AI System Safety, Failures, & Limitations]]
+	- **Sub-domain**: [[AI Risk/Domain/7. AI System Safety, Failures, & Limitations/7.3/Lack of capability or robustness]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Miscalibration
+- [[AI Risks/Reliability/Miscalibration]]
+	- **Description**: over-confidence in topics where objective answers are lacking, as well as in areas where their inherent limitations should caution against LLMs’ uncertainty (e.g. not as accurate as experts)... ack of awareness regarding their outdated knowledge base about the question, leading to confident yet erroneous response
+	- **Evidence ID**: [[MIT/AI Risks/by ID/30.01.04]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk/Domain/3. Misinformation]]
+	- **Sub-domain**: [[AI Risk/Domain/3. Misinformation/3.1/False or misleading information]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Sychopancy
+- [[AI Risks/Reliability/Sychopancy]]
+	- **Description**: flatter users by reconfirming their misconceptions and stated beliefs
+	- **Evidence ID**: [[MIT/AI Risks/by ID/30.01.05]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk/Domain/3. Misinformation]]
+	- **Sub-domain**: [[AI Risk/Domain/3. Misinformation/3.1/False or misleading information]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Sychopancy
+- [[AI Risks/Reliability/Sychopancy]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/30.01.05.a]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Sychopancy
+- [[AI Risks/Reliability/Sychopancy]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/30.01.05.b]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Safety
+- [[AI Risks/Safety/Safety]]
+	- **Description**: Avoiding unsafe and illegal outputs, and leaking private information
+	- **Evidence ID**: [[MIT/AI Risks/by ID/30.02.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/3/Other]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/1. Discrimination & Toxicity]]
+	- **Sub-domain**: [[AI Risk/Domain/1. Discrimination & Toxicity/1.2/Exposure to toxic content]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Violence
+- [[AI Risks/Safety/Violence]]
+	- **Description**: LLMs are found to generate answers that contain violent content or generate content that responds to questions that solicit information about violent behaviors
+	- **Evidence ID**: [[MIT/AI Risks/by ID/30.02.01]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/1. Discrimination & Toxicity]]
+	- **Sub-domain**: [[AI Risk/Domain/1. Discrimination & Toxicity/1.2/Exposure to toxic content]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Unlawful Conduct
+- [[AI Risks/Safety/Unlawful Conduct]]
+	- **Description**: LLMs have been shown to be a convenient tool for soliciting advice on accessing, purchasing (illegally), and creating illegal substances, as well as for dangerous use of them
+	- **Evidence ID**: [[MIT/AI Risks/by ID/30.02.02]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/1. Discrimination & Toxicity]]
+	- **Sub-domain**: [[AI Risk/Domain/1. Discrimination & Toxicity/1.2/Exposure to toxic content]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Harms to Minor
+- [[AI Risks/Safety/Harms to Minor]]
+	- **Description**: LLMs can be leveraged to solicit answers that contain harmful content to children and youth
+	- **Evidence ID**: [[MIT/AI Risks/by ID/30.02.03]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/1. Discrimination & Toxicity]]
+	- **Sub-domain**: [[AI Risk/Domain/1. Discrimination & Toxicity/1.2/Exposure to toxic content]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Harms to Minor
+- [[AI Risks/Safety/Harms to Minor]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/30.02.03.a]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Adult Content
+- [[AI Risks/Safety/Adult Content]]
+	- **Description**: LLMs have the capability to generate sex-explicit conversations, and erotic texts, and to recommend websites with sexual content
+	- **Evidence ID**: [[MIT/AI Risks/by ID/30.02.04]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/1. Discrimination & Toxicity]]
+	- **Sub-domain**: [[AI Risk/Domain/1. Discrimination & Toxicity/1.2/Exposure to toxic content]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Mental Health Issues
+- [[AI Risks/Safety/Mental Health Issues]]
+	- **Description**: unhealthy interactions with Internet discussions can reinforce users’ mental issues
+	- **Evidence ID**: [[MIT/AI Risks/by ID/30.02.05]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/4/Not. coded]]
+	- **Timing**: [[AI Risk/Phase/4/Not. coded]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/X.1/Excluded]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Privacy Violation
+- [[AI Risks/Safety/Privacy Violation]]
+	- **Description**: machine learning models are known to be vulnerable to data privacy attacks, i.e. special techniques of extracting private information from the model or the system used by attackers or malicious users, usually by querying the models in a specially designed way
+	- **Evidence ID**: [[MIT/AI Risks/by ID/30.02.06]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/2. Privacy & Security]]
+	- **Sub-domain**: [[AI Risk/Domain/2. Privacy & Security/2.1/Compromise of privacy by leaking or correctly inferring sensitive information]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Privacy Violation
+- [[AI Risks/Safety/Privacy Violation]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/30.02.06.a]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Fairness
+- [[AI Risks/Fairness/Fairness]]
+	- **Description**: Avoiding bias and ensuring no disparate performance
+	- **Evidence ID**: [[MIT/AI Risks/by ID/30.03.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/3/Other]]
+	- **Domain**: [[AI Risk Domain/1. Discrimination & Toxicity]]
+	- **Sub-domain**: [[AI Risk/Domain/1. Discrimination & Toxicity/1.3/Unequal performance across groups]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Fairness
+- [[AI Risks/Fairness/Fairness]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/30.03.00.a]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Fairness
+- [[AI Risks/Fairness/Fairness]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/30.03.00.b]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Injustice
+- [[AI Risks/Fairness/Injustice]]
+	- **Description**: In the context of LLM outputs, we want to make sure the suggested or completed texts are indistinguishable in nature for two involved individuals (in the prompt) with the same relevant profiles but might come from different groups (where the group attribute is regarded as being irrelevant in this context)
+	- **Evidence ID**: [[MIT/AI Risks/by ID/30.03.01]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/1. Discrimination & Toxicity]]
+	- **Sub-domain**: [[AI Risk/Domain/1. Discrimination & Toxicity/1.1/Unfair discrimination and misrepresentation]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Injustice
+- [[AI Risks/Fairness/Injustice]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/30.03.01.a]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Stereotype Bias
+- [[AI Risks/Fairness/Stereotype Bias]]
+	- **Description**: LLMs must not exhibit or highlight any stereotypes in the generated text. Pretrained LLMs tend to pick up stereotype biases persisting in crowdsourced data and further amplify them
+	- **Evidence ID**: [[MIT/AI Risks/by ID/30.03.02]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/1. Discrimination & Toxicity]]
+	- **Sub-domain**: [[AI Risk/Domain/1. Discrimination & Toxicity/1.1/Unfair discrimination and misrepresentation]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Preference Bias
+- [[AI Risks/Fairness/Preference Bias]]
+	- **Description**: LLMs are exposed to vast groups of people, and their political biases may pose a risk of manipulation of socio-political processes
+	- **Evidence ID**: [[MIT/AI Risks/by ID/30.03.03]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/3/Other]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/1. Discrimination & Toxicity]]
+	- **Sub-domain**: [[AI Risk/Domain/1. Discrimination & Toxicity/1.1/Unfair discrimination and misrepresentation]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Preference Bias
+- [[AI Risks/Fairness/Preference Bias]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/30.03.03.a]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Preference Bias
+- [[AI Risks/Fairness/Preference Bias]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/30.03.03.b]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Disparate Performance
+- [[AI Risks/Fairness/Disparate Performance]]
+	- **Description**: The LLM’s performances can differ significantly across different groups of users. For example, the question-answering capability showed significant performance differences across different racial and social status groups. The fact-checking abilities can differ for different tasks and languages
+	- **Evidence ID**: [[MIT/AI Risks/by ID/30.03.04]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/3/Other]]
+	- **Domain**: [[AI Risk Domain/1. Discrimination & Toxicity]]
+	- **Sub-domain**: [[AI Risk/Domain/1. Discrimination & Toxicity/1.3/Unequal performance across groups]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Resistance to Misuse
+- [[AI Risks/Resistance to Misuse/Resistance to Misuse]]
+	- **Description**: Prohibiting the misuse by malicious attackers to do harm
+	- **Evidence ID**: [[MIT/AI Risks/by ID/30.04.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk/Domain/4. Malicious Actors & Misuse]]
+	- **Sub-domain**: [[AI Risk/Domain/4. Malicious Actors & Misuse/4.0/Malicious use]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Propaganda
+- [[AI Risks/Resistance to Misuse/Propaganda]]
+	- **Description**: LLMs can be leveraged, by malicious users, to proactively generate propaganda information that can facilitate the spreading of a target
+	- **Evidence ID**: [[MIT/AI Risks/by ID/30.04.01]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk/Domain/4. Malicious Actors & Misuse]]
+	- **Sub-domain**: [[AI Risk/Domain/4. Malicious Actors & Misuse/4.1/Disinformation, surveillance, and influence at scale]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Cyberattack
+- [[AI Risks/Resistance to Misuse/Cyberattack]]
+	- **Description**: ability of LLMs to write reasonably good-quality code with extremely low cost and incredible speed, such great assistance can equally facilitate malicious attacks. In particular, malicious hackers can leverage LLMs to assist with performing cyberattacks leveraged by the low cost of LLMs and help with automating the attacks.
+	- **Evidence ID**: [[MIT/AI Risks/by ID/30.04.02]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk/Domain/4. Malicious Actors & Misuse]]
+	- **Sub-domain**: [[AI Risk/Domain/4. Malicious Actors & Misuse/4.2/Cyberattacks, weapon development or use, and mass harm]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Social-Engineering
+- [[AI Risks/Resistance to Misuse/Social-Engineering]]
+	- **Description**: psychologically manipulating victims into performing the desired actions for malicious purposes
+	- **Evidence ID**: [[MIT/AI Risks/by ID/30.04.03]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk/Domain/4. Malicious Actors & Misuse]]
+	- **Sub-domain**: [[AI Risk/Domain/4. Malicious Actors & Misuse/4.3/Fraud, scams, and targeted manipulation]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Social-Engineering
+- [[AI Risks/Resistance to Misuse/Social-Engineering]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/30.04.03.a]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Social-Engineering
+- [[AI Risks/Resistance to Misuse/Social-Engineering]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/30.04.03.b]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Copyright
+- [[AI Risks/Resistance to Misuse/Copyright]]
+	- **Description**: The memorization effect of LLM on training data can enable users to extract certain copyright-protected content that belongs to the LLM’s training data.
+	- **Evidence ID**: [[MIT/AI Risks/by ID/30.04.04]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/6. Socioeconomic and Environmental]]
+	- **Sub-domain**: [[AI Risk/Domain/6. Socioeconomic and Environmental/6.3/Economic and cultural devaluation of human effort]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Explainability & Reasoning
+- [[AI Risks/Explainability & Reasoning/Explainability & Reasoning]]
+	- **Description**: The ability to explain the outputs to users and reason correctly
+	- **Evidence ID**: [[MIT/AI Risks/by ID/30.05.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/7. AI System Safety, Failures, & Limitations]]
+	- **Sub-domain**: [[AI Risk/Domain/7. AI System Safety, Failures, & Limitations/7.4/Lack of transparency or interpretability]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Lack of Interpretability
+- [[AI Risks/Explainability & Reasoning/Lack of Interpretability]]
+	- **Description**: Due to the black box nature of most machine learning models, users typically are not able to understand the reasoning behind the model decisions
+	- **Evidence ID**: [[MIT/AI Risks/by ID/30.05.01]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/7. AI System Safety, Failures, & Limitations]]
+	- **Sub-domain**: [[AI Risk/Domain/7. AI System Safety, Failures, & Limitations/7.4/Lack of transparency or interpretability]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Limited Logical Reasoning
+- [[AI Risks/Explainability & Reasoning/Limited Logical Reasoning]]
+	- **Description**: LLMs can provide seemingly sensible but ultimately incorrect or invalid justifications when answering questions
+	- **Evidence ID**: [[MIT/AI Risks/by ID/30.05.02]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/7. AI System Safety, Failures, & Limitations]]
+	- **Sub-domain**: [[AI Risk/Domain/7. AI System Safety, Failures, & Limitations/7.3/Lack of capability or robustness]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Limited Causal Reasoning
+- [[AI Risks/Explainability & Reasoning/Limited Causal Reasoning]]
+	- **Description**: Causal reasoning makes inferences about the relationships between events or states of the world, mostly by identifying cause-effect relationships
+	- **Evidence ID**: [[MIT/AI Risks/by ID/30.05.03]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/7. AI System Safety, Failures, & Limitations]]
+	- **Sub-domain**: [[AI Risk/Domain/7. AI System Safety, Failures, & Limitations/7.3/Lack of capability or robustness]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Social Norm
+- [[AI Risks/Social Norm/Social Norm]]
+	- **Description**: LLMs are expected to reflect social values by avoiding the use of offensive language toward specific groups of users, being sensitive to topics that can create instability, as well as being sympathetic when users are seeking emotional support
+	- **Evidence ID**: [[MIT/AI Risks/by ID/30.06.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/3/Other]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/1. Discrimination & Toxicity]]
+	- **Sub-domain**: [[AI Risk/Domain/1. Discrimination & Toxicity/1.2/Exposure to toxic content]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Toxicity
+- [[AI Risks/Social Norm/Toxicity]]
+	- **Description**: language being rude, disrespectful, threatening, or identity-attacking toward certain groups of the user population (culture, race, and gender etc)
+	- **Evidence ID**: [[MIT/AI Risks/by ID/30.06.01]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/3/Other]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/1. Discrimination & Toxicity]]
+	- **Sub-domain**: [[AI Risk/Domain/1. Discrimination & Toxicity/1.2/Exposure to toxic content]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Toxicity
+- [[AI Risks/Social Norm/Toxicity]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/30.06.01.a]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Unawareness of Emotions
+- [[AI Risks/Social Norm/Unawareness of Emotions]]
+	- **Description**: when a certain vulnerable group of users asks for supporting information, the answers should be informative but at the same time sympathetic and sensitive to users’ reactions
+	- **Evidence ID**: [[MIT/AI Risks/by ID/30.06.02]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/7. AI System Safety, Failures, & Limitations]]
+	- **Sub-domain**: [[AI Risk/Domain/7. AI System Safety, Failures, & Limitations/7.3/Lack of capability or robustness]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Cultural Insensitivity
+- [[AI Risks/Social Norm/Cultural Insensitivity]]
+	- **Description**: it is important to build high-quality locally collected datasets that reflect views from local users to align a model’s value system
+	- **Evidence ID**: [[MIT/AI Risks/by ID/30.06.03]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/1/Pre-deployment]]
+	- **Domain**: [[AI Risk Domain/1. Discrimination & Toxicity]]
+	- **Sub-domain**: [[AI Risk/Domain/1. Discrimination & Toxicity/1.2/Exposure to toxic content]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Robustness
+- [[AI Risks/Robustness/Robustness]]
+	- **Description**: Resilience against adversarial attacks and distribution shift
+	- **Evidence ID**: [[MIT/AI Risks/by ID/30.07.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/3/Other]]
+	- **Timing**: [[AI Risk/Phase/3/Other]]
+	- **Domain**: [[AI Risk Domain/7. AI System Safety, Failures, & Limitations]]
+	- **Sub-domain**: [[AI Risk/Domain/7. AI System Safety, Failures, & Limitations/7.3/Lack of capability or robustness]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Prompt Attacks
+- [[AI Risks/Robustness/Prompt Attacks]]
+	- **Description**: carefully controlled adversarial perturbation can flip a GPT model’s answer when used to classify text inputs. Furthermore, we find that by twisting the prompting question in a certain way, one can solicit dangerous information that the model chose to not answer
+	- **Evidence ID**: [[MIT/AI Risks/by ID/30.07.01]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/3/Other]]
+	- **Domain**: [[AI Risk Domain/2. Privacy & Security]]
+	- **Sub-domain**: [[AI Risk/Domain/2. Privacy & Security/2.2/AI system security vulnerabilities and attacks]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Paradigm & Distribution Shifts
+- [[AI Risks/Robustness/Paradigm & Distribution Shifts]]
+	- **Description**: Knowledge bases that LLMs are trained on continue to shift... questions such as “who scored the most points in NBA history" or “who is the richest person in the world" might have answers that need to be updated over time, or even in real-time
+	- **Evidence ID**: [[MIT/AI Risks/by ID/30.07.02]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk/Domain/3. Misinformation]]
+	- **Sub-domain**: [[AI Risk/Domain/3. Misinformation/3.1/False or misleading information]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Interventional Effect
+- [[AI Risks/Robustness/Interventional Effect]]
+	- **Description**: existing disparities in data among different user groups might create differentiated experiences when users interact with an algorithmic system (e.g. a recommendation system), which will further reinforce the bias
+	- **Evidence ID**: [[MIT/AI Risks/by ID/30.07.03]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/1. Discrimination & Toxicity]]
+	- **Sub-domain**: [[AI Risk/Domain/1. Discrimination & Toxicity/1.1/Unfair discrimination and misrepresentation]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Poisoning Attacks
+- [[AI Risks/Robustness/Poisoning Attacks]]
+	- **Description**: fool the model by manipulating the training data, usually performed on classification models
+	- **Evidence ID**: [[MIT/AI Risks/by ID/30.07.04]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/1/Pre-deployment]]
+	- **Domain**: [[AI Risk Domain/2. Privacy & Security]]
+	- **Sub-domain**: [[AI Risk/Domain/2. Privacy & Security/2.2/AI system security vulnerabilities and attacks]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### nan
+- [[AI Risks/nan/nan]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/31.00.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Information Manipulation
+- [[AI Risks/Information Manipulation/Information Manipulation]]
+	- **Description**: "generative AI tools can and will be used to propagate content that is false, misleading, biased, inflammatory, or dangerous. As generative AI tools grow more sophisticated, it will be quicker, cheaper, and easier to produce this content—and existing harmful content can serve as the foundation to produce more"
+	- **Evidence ID**: [[MIT/AI Risks/by ID/31.01.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk/Domain/4. Malicious Actors & Misuse]]
+	- **Sub-domain**: [[AI Risk/Domain/4. Malicious Actors & Misuse/4.1/Disinformation, surveillance, and influence at scale]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Scams
+- [[AI Risks/Information Manipulation/Scams]]
+	- **Description**: "Bad actors can also use generative AI tools to produce adaptable content designed to support a campaign, political agenda, or hateful position and spread that information quickly and inexpensively across many platforms. This rapid spread of false or misleading content—AI-facilitated disinformation—can also create a cyclical effect for generative AI: when a high volume of disinformation is pumped into the digital ecosystem and more generative systems are trained on that information via reinforcement learning methods, for example, false or misleading inputs can create increasingly incorrect outputs."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/31.01.01]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk/Domain/4. Malicious Actors & Misuse]]
+	- **Sub-domain**: [[AI Risk/Domain/4. Malicious Actors & Misuse/4.3/Fraud, scams, and targeted manipulation]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Disinformation
+- [[AI Risks/Information Manipulation/Disinformation]]
+	- **Description**: "Bad actors can also use generative AI tools to produce adaptable content designed to support a campaign, political agenda, or hateful position and spread that information quickly and inexpensively across many platforms."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/31.01.02]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk/Domain/4. Malicious Actors & Misuse]]
+	- **Sub-domain**: [[AI Risk/Domain/4. Malicious Actors & Misuse/4.1/Disinformation, surveillance, and influence at scale]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Misinformation
+- [[AI Risks/Information Manipulation/Misinformation]]
+	- **Description**: "The phenomenon of inaccurate outputs by text-generating large language models like Bard or ChatGPT has already been widely documented. Even without the intent to lie or mislead, these generative AI tools can produce harmful misinformation. The harm is exacerbated by the polished and typically well-written style that AI generated text follows and the inclusion among true facts, which can give falsehoods a veneer of legitimacy. As reported in the Washington Post, for example, a law professor was included on an AI-generated “list of legal scholars who had sexually harassed someone,” even when no such allegation existed.10"
+	- **Evidence ID**: [[MIT/AI Risks/by ID/31.01.03]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk/Domain/3. Misinformation]]
+	- **Sub-domain**: [[AI Risk/Domain/3. Misinformation/3.1/False or misleading information]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Security
+- [[AI Risks/Information Manipulation/Security]]
+	- **Description**: "Though chatbots cannot (yet) develop their own novel malware from scratch, hackers could soon potentially use the coding abilities of large language models like ChatGPT to create malware that can then be minutely adjusted for maximum reach and effect, essentially allowing more novice hackers to become a serious security risk"
+	- **Evidence ID**: [[MIT/AI Risks/by ID/31.01.03]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk/Domain/4. Malicious Actors & Misuse]]
+	- **Sub-domain**: [[AI Risk/Domain/4. Malicious Actors & Misuse/4.2/Cyberattacks, weapon development or use, and mass harm]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Clickbait and feeding the surveillance advertising ecosystem
+- [[AI Risks/Information Manipulation/Clickbait and feeding the surveillance advertising ecosystem]]
+	- **Description**: "Beyond misinformation and disinformation, generative AI can be used to create clickbait headlines and articles, which manipulate how users navigate the internet and applications. For example, generative AI is being used to create full articles, regardless of their veracity, grammar, or lack of common sense, to drive search engine optimization and create more webpages that users will click on. These mechanisms attempt to maximize clicks and engagement at the truth’s expense, degrading users’ experiences in the process. Generative AI continues to feed this harmful cycle by spreading misinformation at faster rates, creating headlines that maximize views and undermine consumer autonomy."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/31.01.04]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/3/Other]]
+	- **Timing**: [[AI Risk/Phase/3/Other]]
+	- **Domain**: [[AI Risk/Domain/3. Misinformation]]
+	- **Sub-domain**: [[AI Risk/Domain/3. Misinformation/3.2/Pollution of information ecosystem and loss of consensus reality]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Harassment, Impersonation, and Extortion
+- [[AI Risks/Harassment, Impersonation, and Extortion/Harassment, Impersonation, and Extortion]]
+	- **Description**: "Deepfakes and other AI-generated content can be used to facilitate or exacerbate many of the harms listed throughout this report, but this section focuses on one subset: intentional, targeted abuse of individuals."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/31.02.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk/Domain/4. Malicious Actors & Misuse]]
+	- **Sub-domain**: [[AI Risk/Domain/4. Malicious Actors & Misuse/4.3/Fraud, scams, and targeted manipulation]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Malicious intent
+- [[AI Risks/Harassment, Impersonation, and Extortion/Malicious intent]]
+	- **Description**: "A frequent malicious use case of generative AI to harm, humiliate, or sexualize another person involves generating deepfakes of nonconsensual sexual imagery or videos."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/31.02.01]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk/Domain/4. Malicious Actors & Misuse]]
+	- **Sub-domain**: [[AI Risk/Domain/4. Malicious Actors & Misuse/4.3/Fraud, scams, and targeted manipulation]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Privacy and consent
+- [[AI Risks/Harassment, Impersonation, and Extortion/Privacy and consent]]
+	- **Description**: "Even when a victim of targeted, AIgenerated harms successfully identifies a deepfake creator with malicious intent, they may still struggle to redress many harms because the generated image or video isn’t the victim, but instead a composite image or video using aspects of multiple sources to create a believable, yet fictional, scene. At their core, these AI-generated images and videos circumvent traditional notions of privacy and consent: because they rely on public images and videos, like those posted on social media websites, they often don’t rely on any private information."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/31.02.02]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk/Domain/4. Malicious Actors & Misuse]]
+	- **Sub-domain**: [[AI Risk/Domain/4. Malicious Actors & Misuse/4.3/Fraud, scams, and targeted manipulation]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Believability
+- [[AI Risks/Harassment, Impersonation, and Extortion/Believability]]
+	- **Description**: Deepfakes can impose real social injuries on their subjects when they are circulated to viewers who think they are real. Even when a deepfake is debunked, it can have a persistent negative impact on how others view the subject of the deepfake.3
+	- **Evidence ID**: [[MIT/AI Risks/by ID/31.02.03]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk/Domain/4. Malicious Actors & Misuse]]
+	- **Sub-domain**: [[AI Risk/Domain/4. Malicious Actors & Misuse/4.3/Fraud, scams, and targeted manipulation]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Opaque Data Collection
+- [[AI Risks/Opaque Data Collection/Opaque Data Collection]]
+	- **Description**: "When companies scrape personal information and use it to create generative AI tools, they undermine consumers' control of their personal information by using the information for a purpose for which the consumer did not consent."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/31.03.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/1/Pre-deployment]]
+	- **Domain**: [[AI Risk Domain/2. Privacy & Security]]
+	- **Sub-domain**: [[AI Risk/Domain/2. Privacy & Security/2.1/Compromise of privacy by leaking or correctly inferring sensitive information]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Scraping to train data
+- [[AI Risks/Opaque Data Collection/Scraping to train data]]
+	- **Description**: "When companies scrape personal information and use it to create generative AI tools, they undermine consumers’ control of their personal information by using the information for a purpose for which the consumer did not consent. The individual may not have even imagined their data could be used in the way the company intends when the person posted it online. Individual storing or hosting of scraped personal data may not always be harmful in a vacuum, but there are many risks. Multiple data sets can be combined in ways that cause harm: information that is not sensitive when spread across different databases can be extremely revealing when collected in a single place, and it can be used to make inferences about a person or population. And because scraping makes a copy of someone’s data as it existed at a specific time, the company also takes away the individual’s ability to alter or remove the information from the public sphere. "
+	- **Evidence ID**: [[MIT/AI Risks/by ID/31.03.01]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/1/Pre-deployment]]
+	- **Domain**: [[AI Risk Domain/2. Privacy & Security]]
+	- **Sub-domain**: [[AI Risk/Domain/2. Privacy & Security/2.1/Compromise of privacy by leaking or correctly inferring sensitive information]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Generative AI User Data
+- [[AI Risks/Opaque Data Collection/Generative AI User Data]]
+	- **Description**: Many generative AI tools require users to log in for access, and many retain user information, including contact information, IP address, and all the inputs and outputs or “conversations” the users are having within the app. These practices implicate a consent issue because generative AI tools use this data to further train the models, making their “free” product come at a cost of user data to train the tools. This dovetails with security, as mentioned in the next section, but best practices would include not requiring users to sign in to use the tool and not retaining or using the user-generated content for any period after the active use by the user.
+	- **Evidence ID**: [[MIT/AI Risks/by ID/31.03.02]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/2. Privacy & Security]]
+	- **Sub-domain**: [[AI Risk/Domain/2. Privacy & Security/2.1/Compromise of privacy by leaking or correctly inferring sensitive information]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Generative AI Outputs
+- [[AI Risks/Opaque Data Collection/Generative AI Outputs]]
+	- **Description**: Generative AI tools may inadvertently share personal information about someone or someone’s business or may include an element of a person from a photo. Particularly, companies concerned about their trade secrets being integrated into the model from their employees have explicitly banned their employees from using it.
+	- **Evidence ID**: [[MIT/AI Risks/by ID/31.03.03]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/2. Privacy & Security]]
+	- **Sub-domain**: [[AI Risk/Domain/2. Privacy & Security/2.1/Compromise of privacy by leaking or correctly inferring sensitive information]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Data Security Risk
+- [[AI Risks/Data Security Risk/Data Security Risk]]
+	- **Description**: "Just as every other type of individual and organization has explored possible use cases for generative AI products, so too have malicious actors. This could take the form of facilitating or scaling up existing threat methods, for example drafting actual malware code,87 business email compromise attempts,88 and phishing attempts.89 This could also take the form of new types of threat methods, for example mining information fed into the AI’s learning model dataset90 or poisoning the learning model data set with strategically bad data.91 We should also expect that there will be new attack vectors that we have not even conceived of yet made possible or made more broadly accessible by generative AI."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/31.04.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/3/Other]]
+	- **Domain**: [[AI Risk/Domain/4. Malicious Actors & Misuse]]
+	- **Sub-domain**: [[AI Risk/Domain/4. Malicious Actors & Misuse/4.3/Fraud, scams, and targeted manipulation]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Impact on Intellectual Property Rights
+- [[AI Risks/Impact on Intellectual Property Rights/Impact on Intellectual Property Rights]]
+	- **Description**: "The extent and effectiveness of legal protections for intellectual property have been thrown into question with the rise of generative AI. Generative AI trains itself on vast pools of data that often include IP-protected works.
+	- **Evidence ID**: [[MIT/AI Risks/by ID/31.05.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/1/Pre-deployment]]
+	- **Domain**: [[AI Risk Domain/6. Socioeconomic and Environmental]]
+	- **Sub-domain**: [[AI Risk/Domain/6. Socioeconomic and Environmental/6.3/Economic and cultural devaluation of human effort]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Impact on Intellectual Property Rights
+- [[AI Risks/Impact on Intellectual Property Rights/Impact on Intellectual Property Rights]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/31.05.00.a]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Impact on Intellectual Property Rights
+- [[AI Risks/Impact on Intellectual Property Rights/Impact on Intellectual Property Rights]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/31.05.00.b]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Exacerbating Climate Change
+- [[AI Risks/Exacerbating Climate Change/Exacerbating Climate Change]]
+	- **Description**: "the growing field of generative AI, which brings with it direct and severe impacts on our climate: generative AI comes with a high carbon footprint and similarly high resource price tag, which largely flies under the radar of public AI discourse. Training and running generative AI tools requires companies to use extreme amounts of energy and physical resources. Training one natural language processing model with normal tuning and experiments emits, on average, the same amount of carbon that seven people do over an entire year.121'
+	- **Evidence ID**: [[MIT/AI Risks/by ID/31.06.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/3/Other]]
+	- **Domain**: [[AI Risk Domain/6. Socioeconomic and Environmental]]
+	- **Sub-domain**: [[AI Risk/Domain/6. Socioeconomic and Environmental/6.6/Environmental harm]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Labor Manipulation, Theft, and Displacement
+- [[AI Risks/Labor Manipulation, Theft, and Displacement/Labor Manipulation, Theft, and Displacement]]
+	- **Description**: Major tech companies have also been the dominant players in developing new generative AI systems because training generative AI models requires massive swaths of data, computing power, and technical and financial resources. Their market dominance has a ripple effect on the labor market, affecting both workers within these companies and those implementing their generative AI products externally. With so much concentrated market power, expertise, and investment resources, these handful of major tech companies employ most of the research and development jobs in the generative AI field. The power to create jobs also means these tech companies can slash jobs in the face of economic uncertainty. And externally, the generative AI tools these companies develop have the potential to affect white-collar office work intended to increase worker productivity and automate tasks
+	- **Evidence ID**: [[MIT/AI Risks/by ID/31.07.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/3/Other]]
+	- **Domain**: [[AI Risk Domain/6. Socioeconomic and Environmental]]
+	- **Sub-domain**: [[AI Risk/Domain/6. Socioeconomic and Environmental/6.2/Increased inequality and decline in employment quality]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Generative AI in the Workplace
+- [[AI Risks/Labor Manipulation, Theft, and Displacement/Generative AI in the Workplace]]
+	- **Description**: "The development of AI as a whole is changing how companies design their workplace and business models. Generative AI is no different. Time will tell whether and to what extent employers will adopt, implement, and integrate generative AI in their workplaces—and how much it will impact workers."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/31.07.01]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/4/Not. coded]]
+	- **Timing**: [[AI Risk/Phase/4/Not. coded]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/X.1/Excluded]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Job Automation Instead of Augmentation
+- [[AI Risks/Labor Manipulation, Theft, and Displacement/Job Automation Instead of Augmentation]]
+	- **Description**: "There are both positive and negative aspects to the impact of AI on labor. A White House report states that AI “has the potential to increase productivity, create new jobs, and raise living standards,” but it can also disrupt certain industries, causing significant changes, including job loss. Beyond risk of job loss, workers could find that generative AI tools automate parts of their jobs—or find that the requirements of their job have fundamentally changed. The impact of generative AI will depend on whether the technology is intended for automation (where automated systems replace human work) or augmentation (where AI is used to aid human workers). For the last two decades, rapid advances in automation have resulted in a “decline in labor share, stagnant wages[,] and the disappearance of good jobs in many advanced economies.”
+	- **Evidence ID**: [[MIT/AI Risks/by ID/31.07.02]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/6. Socioeconomic and Environmental]]
+	- **Sub-domain**: [[AI Risk/Domain/6. Socioeconomic and Environmental/6.2/Increased inequality and decline in employment quality]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Devaluation of Labor & Heightened Economic Inequality
+- [[AI Risks/Labor Manipulation, Theft, and Displacement/Devaluation of Labor & Heightened Economic Inequality]]
+	- **Description**: "According to a White House report, much of the development and adoption of AI is intended to automate rather than augment work. The report notes that a focus on automation could lead to a less democratic and less fair labor market...In addition, generative AI fuels the continued global labor disparities that exist in the research and development of AI technologies... The development of AI has always displayed a power disparity between those who work on AI models and those who control and profit from these tools. Overseas workers training AI chatbots or people whose online content has been involuntarily fed into the training models do not reap the enormous profits that generative AI tools accrue. Instead, companies exploiting underpaid and replaceable workers or the unpaid labor of artists and content creators are the ones coming out on top. The development of generative AI technologies only contributes to this power disparity, where tech companies that heavily invest in generative AI tools benefit at the expense of workers.
+	- **Evidence ID**: [[MIT/AI Risks/by ID/31.07.03]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/3/Other]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/6. Socioeconomic and Environmental]]
+	- **Sub-domain**: [[AI Risk/Domain/6. Socioeconomic and Environmental/6.2/Increased inequality and decline in employment quality]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Products Liability Law
+- [[AI Risks/Products Liability Law/Products Liability Law]]
+	- **Description**: "Like manufactured items like soda bottles, mechanized lawnmowers, pharmaceuticals, or cosmetic products, generative AI models can be viewed like a new form of digital products developed by tech companies and deployed widely with the potential to cause harm at scale....Products liability evolved because there was a need to analyze and redress the harms caused by new, mass-produced technological products. The situation facing society as generative AI impacts more people in more ways will be similar to the technological changes that occurred during the twentieth century, with the rise of industrial manufacturing, automobiles, and new, computerized machines. The unsettled question is whether and to what extent products liability theories can sufficiently address the harms of generative AI. So far, the answers to this question are mixed. In Rodgers v. Christie (2020), for example, the Third Circuit ruled that an automated risk model could not be considered a product for products liability purposes because it was not “tangible personal property distributed commercially for use or consumption.”176 However, one year later, in Gonzalez v. Google, Judge Gould of the Ninth Circuit argued that “social media companies should be viewed as making and ‘selling’ their social media products through the device of forced advertising under the eyes of users.”177 Several legal scholars have also proposed products liability as a mechanism for redressing harms of automated systems.178 As generative AI grows more prominent and sophisticated, their harms—often generated automatically without being directly prompted or edited by a human—will force courts to consider the role of products liability in redressing these harms, as well as how old notions of products liability, involving tangible, mechanized products and the companies that manufacture them, should be updated for today’s increasingly digital world.179"
+	- **Evidence ID**: [[MIT/AI Risks/by ID/31.08.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/3/Other]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/6. Socioeconomic and Environmental]]
+	- **Sub-domain**: [[AI Risk/Domain/6. Socioeconomic and Environmental/6.5/Governance failure]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Exacerbating Market Power and Concentration
+- [[AI Risks/Exacerbating Market Power and Concentration/Exacerbating Market Power and Concentration]]
+	- **Description**: "Major tech companies have also been the dominant players in developing new generative AI systems because training generative AI models requires massive swaths of data, computing power, and technical and financial resources."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/31.09.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/3/Other]]
+	- **Domain**: [[AI Risk Domain/6. Socioeconomic and Environmental]]
+	- **Sub-domain**: [[AI Risk/Domain/6. Socioeconomic and Environmental/6.1/Power centralization and unfair distribution of benefits]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### nan
+- [[AI Risks/nan/nan]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/32.00.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Social justice and rights
+- [[AI Risks/Social justice and rights/Social justice and rights]]
+	- **Description**: "These are social justice and rights where ChatGPT is seen as having a potentially detrimental effect on the moral underpinnings of society, such as a shared view of justice and fair distribution as well as specific social concerns such as digital divides or social exclusion. Issues include Responsibility, Accountability, Nondiscrimination and equal treatment, Digital divides, North-south justice, Intergenerational justice, Social inclusion
+	- **Evidence ID**: [[MIT/AI Risks/by ID/32.01.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/3/Other]]
+	- **Timing**: [[AI Risk/Phase/3/Other]]
+	- **Domain**: [[AI Risk Domain/6. Socioeconomic and Environmental]]
+	- **Sub-domain**: [[AI Risk/Domain/6. Socioeconomic and Environmental/6.3/Economic and cultural devaluation of human effort]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Individual needs
+- [[AI Risks/Individual needs/Individual needs]]
+	- **Description**: "The second group pertains to individual needs, such as safety and autonomy which are also reflected in informed consent and the avoidance of harm. Issues include Dignity, Safety, Harm to human capabilities, Autonomy, Ability to think one's own thoughts and form one's own opinions, Informed consent
+	- **Evidence ID**: [[MIT/AI Risks/by ID/32.02.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/4/Not. coded]]
+	- **Timing**: [[AI Risk/Phase/4/Not. coded]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/X.1/Excluded]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Culture and identity
+- [[AI Risks/Culture and identity/Culture and identity]]
+	- **Description**: Supportive of culture and cultural diversity, Collective human identity and the good life
+	- **Evidence ID**: [[MIT/AI Risks/by ID/32.03.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/4/Not. coded]]
+	- **Timing**: [[AI Risk/Phase/4/Not. coded]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/X.1/Excluded]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Environmental impacts
+- [[AI Risks/Environmental impacts/Environmental impacts]]
+	- **Description**: Environmental harm, Sustainability
+	- **Evidence ID**: [[MIT/AI Risks/by ID/32.04.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/3/Other]]
+	- **Timing**: [[AI Risk/Phase/3/Other]]
+	- **Domain**: [[AI Risk Domain/6. Socioeconomic and Environmental]]
+	- **Sub-domain**: [[AI Risk/Domain/6. Socioeconomic and Environmental/6.6/Environmental harm]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### nan
+- [[AI Risks/nan/nan]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/33.00.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Ethical Concerns
+- [[AI Risks/Ethical Concerns/Ethical Concerns]]
+	- **Description**: "Ethics refers to systematizing, defending, and recommending concepts of right and wrong behavior (Fieser, n.d.). In the context of AI, ethical concerns refer to the moral obligations and duties of an AI application and its creators (Siau & Wang, 2020). Table 1 presents the key ethical challenges and issues associated with generative AI. These challenges include harmful or inappropriate content, bias, over-reliance, misuse, privacy and security, and the widening of the digital divide."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/33.01.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/4/Not. coded]]
+	- **Timing**: [[AI Risk/Phase/4/Not. coded]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/X.1/Excluded]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Harmful or inappropriate content
+- [[AI Risks/Ethical Concerns/Harmful or inappropriate content]]
+	- **Description**: "Harmful or inappropriate content produced by generative AI includes but is not limited to violent content, the use of offensive language, discriminative content, and pornography. Although OpenAI has set up a content policy for ChatGPT, harmful or inappropriate content can still appear due to reasons such as algorithmic limitations or jailbreaking (i.e., removal of restrictions imposed). The language models’ ability to understand or generate harmful or offensive content is referred to as toxicity (Zhuo et al., 2023). Toxicity can bring harm to society and damage the harmony of the community. Hence, it is crucial to ensure that harmful or offensive information is not present in the training data and is removed if they are. Similarly, the training data should be free of pornographic, sexual, or erotic content (Zhuo et al., 2023). Regulations, policies, and governance should be in place to ensure any undesirable content is not displayed to users."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/33.01.01]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/3/Other]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/1. Discrimination & Toxicity]]
+	- **Sub-domain**: [[AI Risk/Domain/1. Discrimination & Toxicity/1.2/Exposure to toxic content]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Bias
+- [[AI Risks/Ethical Concerns/Bias]]
+	- **Description**: "In the context of AI, the concept of bias refers to the inclination that AIgenerated responses or recommendations could be unfairly favoring or against one person or group (Ntoutsi et al., 2020). Biases of different forms are sometimes observed in the content generated by language models, which could be an outcome of the training data. For example, exclusionary norms occur when the training data represents only a fraction of the population (Zhuo et al., 2023). Similarly, monolingual bias in multilingualism arises when the training data is in one single language (Weidinger et al., 2021). As ChatGPT is operating across the world, cultural sensitivities to different regions are crucial to avoid biases (Dwivedi et al., 2023). When AI is used to assist in decision-making across different stages of employment, biases and opacity may exist (Chan, 2022). Stereotypes about specific genders, sexual orientations, races, or occupations are common in recommendations offered by generative AI. Hence, the representativeness, completeness, and diversity of the training data are essential to ensure fairness and avoid biases (Gonzalez, 2023). The use of synthetic data for training can increase the diversity of the dataset and address issues with sample-selection biases in the dataset (owing to class imbalances) (Chen et al., 2021). Generative AI applications should be tested and evaluated by a diverse group of users and subject experts. Additionally, increasing the transparency and explainability of generative AI can help in identifying and detecting biases so appropriate corrective measures can be taken."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/33.01.02]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/3/Other]]
+	- **Domain**: [[AI Risk Domain/1. Discrimination & Toxicity]]
+	- **Sub-domain**: [[AI Risk/Domain/1. Discrimination & Toxicity/1.1/Unfair discrimination and misrepresentation]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Over-reliance
+- [[AI Risks/Ethical Concerns/Over-reliance]]
+	- **Description**: "The apparent convenience and powerfulness of ChatGPT could result in overreliance by its users, making them trust the answers provided by ChatGPT. Compared with traditional search engines that provide multiple information sources for users to make personal judgments and selections, ChatGPT generates specific answers for each prompt. Although utilizing ChatGPT has the advantage of increasing efficiency by saving time and effort, users could get into the habit of adopting the answers without rationalization or verification. Over-reliance on generative AI technology can impede skills such as creativity, critical thinking, and problem-solving (Iskender, 2023) as well as create human automation bias due to habitual acceptance of generative AI recommendations (Van Dis et al., 2023)"
+	- **Evidence ID**: [[MIT/AI Risks/by ID/33.01.03]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/3/Other]]
+	- **Domain**: [[AI Risk Domain/5. Human-Computer Interaction]]
+	- **Sub-domain**: [[AI Risk/Domain/5. Human-Computer Interaction/5.2/Loss of human agency and autonomy]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Misuse
+- [[AI Risks/Ethical Concerns/Misuse]]
+	- **Description**: "The misuse of generative AI refers to any deliberate use that could result in harmful, unethical or inappropriate outcomes (Brundage et al., 2020). A prominent field that faces the threat of misuse is education. Cotton et al. (2023) have raised concerns over academic integrity in the era of ChatGPT. ChatGPT can be used as a high-tech plagiarism tool that identifies patterns from large corpora to generate content (Gefen & Arinze, 2023). Given that generative AI such as ChatGPT can generate high-quality answers within seconds, unmotivated students may not devote time and effort to work on their assignments and essays. Hence, in the era of generative AI, the originality of the work done by students could be difficult to assess. Text written by ChatGPT is regarded as plagiarism and is not acceptable (Thorp, 2023). Another form of misuse is cheating in examinations. If students have access to digital devices during examinations, they can resort to using ChatGPT to assist them in answering the questions. To address potential misuse in education, AI-generated content detectors such as Turnitin could be used and strict proctoring measures will need to be deployed (Susnjak, 2022). However, the challenges go beyond content detection and examination proctoring as the line between what is considered appropriate versus inappropriate use of ChatGPT could be fuzzy."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/33.01.04]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk/Domain/4. Malicious Actors & Misuse]]
+	- **Sub-domain**: [[AI Risk/Domain/4. Malicious Actors & Misuse/4.3/Fraud, scams, and targeted manipulation]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Privacy and security
+- [[AI Risks/Ethical Concerns/Privacy and security]]
+	- **Description**: "Data privacy and security is another prominent challenge for generative AI such as ChatGPT. Privacy relates to sensitive personal information that owners do not want to disclose to others (Fang et al., 2017). Data security refers to the practice of protecting information from unauthorized access, corruption, or theft. In the development stage of ChatGPT, a huge amount of personal and private data was used to train it, which threatens privacy (Siau & Wang, 2020). As ChatGPT increases in popularity and usage, it penetrates people’s daily lives and provides greater convenience to them while capturing a plethora of personal information about them. The concerns and accompanying risks are that private information could be exposed to the public, either intentionally or unintentionally. For example, it has been reported that the chat records of some users have become viewable to others due to system errors in ChatGPT (Porter, 2023). Not only individual users but major corporations or governmental agencies are also facing information privacy and security issues. If ChatGPT is used as an inseparable part of daily operations such that important or even confidential information is fed into it, data security will be at risk and could be breached. To address issues regarding privacy and security, users need to be very circumspect when interacting with ChatGPT to avoid disclosing sensitive personal information or confidential information about their organizations. AI companies, especially technology giants, should take appropriate actions to increase user awareness of ethical issues surrounding privacy and security, such as the leakage of trade secrets, and the “do’s and don’ts” to prevent sharing sensitive information with generative AI. Meanwhile, regulations and policies should be in place to protect information privacy and security."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/33.01.05]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/3/Other]]
+	- **Domain**: [[AI Risk Domain/2. Privacy & Security]]
+	- **Sub-domain**: [[AI Risk/Domain/2. Privacy & Security/2.1/Compromise of privacy by leaking or correctly inferring sensitive information]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Digital divide
+- [[AI Risks/Ethical Concerns/Digital divide]]
+	- **Description**: "The digital divide is often defined as the gap between those who have and do not have access to computers and the Internet (Van Dijk, 2006). As the Internet gradually becomes ubiquitous, a second-level digital divide, which refers to the gap in Internet skills and usage between different groups and cultures, is brought up as a concern (Scheerder et al., 2017). As an emerging technology, generative AI may widen the existing digital divide in society. The “invisible” AI underlying AI-enabled systems has made the interaction between humans and technology more complicated (Carter et al., 2020). For those who do not have access to devices or the Internet, or those who live in regions that are blocked by generative AI vendors or websites, the first-level digital divide may be widened between them and those who have access (Bozkurt & Sharma, 2023). For those from marginalized or minority cultures, they may face language and cultural barriers if their cultures are not thoroughly learned by or incorporated into generative AI models. Furthermore, for those who find it difficult to utilize the generative AI tool, such as some elderly, the second-level digital divide may emerge or widen (Dwivedi et al., 2023). To deal with the digital divide, having more accessible AI as well as AI literacy training would be beneficial."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/33.01.06]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/6. Socioeconomic and Environmental]]
+	- **Sub-domain**: [[AI Risk/Domain/6. Socioeconomic and Environmental/6.1/Power centralization and unfair distribution of benefits]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Technology concerns
+- [[AI Risks/Technology concerns/Technology concerns]]
+	- **Description**: "Challenges related to technology refer to the limitations or constraints associated with generative AI. For example, the quality of training data is a major challenge for the development of generative AI models. Hallucination, explainability, and authenticity of the output are also challenges resulting from the limitations of the algorithms. Table 2 presents the technology challenges and issues associated with generative AI. These challenges include hallucinations, training data quality, explainability, authenticity, and prompt engineering"
+	- **Evidence ID**: [[MIT/AI Risks/by ID/33.02.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/3/Other]]
+	- **Domain**: [[AI Risk Domain/7. AI System Safety, Failures, & Limitations]]
+	- **Sub-domain**: [[AI Risk/Domain/7. AI System Safety, Failures, & Limitations/7.3/Lack of capability or robustness]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Hallucination
+- [[AI Risks/Technology concerns/Hallucination]]
+	- **Description**: "Hallucination is a widely recognized limitation of generative AI and it can include textual, auditory, visual or other types of hallucination (Alkaissi & McFarlane, 2023). Hallucination refers to the phenomenon in which the contents generated are nonsensical or unfaithful to the given source input (Ji et al., 2023). Azamfirei et al. (2023) indicated that "fabricating information" or fabrication is a better term to describe the hallucination phenomenon. Generative AI can generate seemingly correct responses yet make no sense. Misinformation is an outcome of hallucination. Generative AI models may respond with fictitious information, fake photos or information with factual errors (Dwivedi et al., 2023). Susarla et al. (2023) regarded hallucination as a serious challenge in the use of generative AI for scholarly activities. When asked to provide literature relevant to a specific topic, ChatGPT could generate inaccurate or even nonexistent literature. Current state-of-the-art AI models can only mimic human-like responses without understanding the underlying meaning (Shubhendu & Vijay, 2013). Hallucination is, in general, dangerous in certain contexts, such as in seeking advice for medical treatments without any consultation or thorough evaluation by experts, i.e., medical doctors (Sallam, 2023)."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/33.02.01]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk/Domain/3. Misinformation]]
+	- **Sub-domain**: [[AI Risk/Domain/3. Misinformation/3.1/False or misleading information]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Quality of training data
+- [[AI Risks/Technology concerns/Quality of training data]]
+	- **Description**: "The quality of training data is another challenge faced by generative AI. The quality of generative AI models largely depends on the quality of the training data (Dwivedi et al., 2023; Su & Yang, 2023). Any factual errors, unbalanced information sources, or biases embedded in the training data may be reflected in the output of the model. Generative AI models, such as ChatGPT or Stable Diffusion which is a text-to-image model, often require large amounts of training data (Gozalo-Brizuela & Garrido-Merchan, 2023). It is important to not only have high-quality training datasets but also have complete and balanced datasets."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/33.02.02]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/1/Pre-deployment]]
+	- **Domain**: [[AI Risk Domain/7. AI System Safety, Failures, & Limitations]]
+	- **Sub-domain**: [[AI Risk/Domain/7. AI System Safety, Failures, & Limitations/7.3/Lack of capability or robustness]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Explainability
+- [[AI Risks/Technology concerns/Explainability]]
+	- **Description**: "A recurrent concern about AI algorithms is the lack of explainability for the model, which means information about how the algorithm arrives at its results is deficient (Deeks, 2019). Specifically, for generative AI models, there is no transparency to the reasoning of how the model arrives at the results (Dwivedi et al., 2023). The lack of transparency raises several issues. First, it might be difficult for users to interpret and understand the output (Dwivedi et al., 2023). It would also be difficult for users to discover potential mistakes in the output (Rudin, 2019). Further, when the interpretation and evaluation of the output are inaccessible, users may have problems trusting the system and their responses or recommendations (Burrell, 2016). Additionally, from the perspective of law and regulations, it would be hard for the regulatory body to judge whether the generative AI system is potentially unfair or biased (Rieder & Simon, 2017)."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/33.02.03]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/7. AI System Safety, Failures, & Limitations]]
+	- **Sub-domain**: [[AI Risk/Domain/7. AI System Safety, Failures, & Limitations/7.4/Lack of transparency or interpretability]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Authenticity
+- [[AI Risks/Technology concerns/Authenticity]]
+	- **Description**: "As the advancement of generative AI increases, it becomes harder to determine the authenticity of a piece of work. Photos that seem to capture events or people in the real world may be synthesized by DeepFake AI. The power of generative AI could lead to large-scale manipulations of images and videos, worsening the problem of the spread of fake information or news on social media platforms (Gragnaniello et al., 2022). In the field of arts, an artistic portrait or music could be the direct output of an algorithm. Critics have raised the issue that AI-generated artwork lacks authenticity since algorithms tend to generate generic and repetitive results (McCormack et al., 2019)."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/33.02.04]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/3/Other]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/6. Socioeconomic and Environmental]]
+	- **Sub-domain**: [[AI Risk/Domain/6. Socioeconomic and Environmental/6.3/Economic and cultural devaluation of human effort]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Prompt engineering
+- [[AI Risks/Technology concerns/Prompt engineering]]
+	- **Description**: "With the wide application of generative AI, the ability to interact with AI efficiently and effectively has become one of the most important media literacies. Hence, it is imperative for generative AI users to learn and apply the principles of prompt engineering, which refers to a systematic process of carefully designing prompts or inputs to generative AI models to elicit valuable outputs. Due to the ambiguity of human languages, the interaction between humans and machines through prompts may lead to errors or misunderstandings. Hence, the quality of prompts is important. Another challenge is to debug the prompts and improve the ability to communicate with generative AI (V. Liu & Chilton, 2022)."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/33.02.05]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/3/Other]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/7. AI System Safety, Failures, & Limitations]]
+	- **Sub-domain**: [[AI Risk/Domain/7. AI System Safety, Failures, & Limitations/7.4/Lack of transparency or interpretability]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Regulations and policy challenges
+- [[AI Risks/Regulations and policy challenges/Regulations and policy challenges]]
+	- **Description**: "Given that generative AI, including ChatGPT, is still evolving, relevant regulations and policies are far from mature. With generative AI creating different forms of content, the copyright of these contents becomes a significant yet complicated issue. Table 3 presents the challenges associated with regulations and policies, which are copyright and governance issues."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/33.03.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/3/Other]]
+	- **Domain**: [[AI Risk Domain/6. Socioeconomic and Environmental]]
+	- **Sub-domain**: [[AI Risk/Domain/6. Socioeconomic and Environmental/6.5/Governance failure]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Copyright
+- [[AI Risks/Regulations and policy challenges/Copyright]]
+	- **Description**: "According to the U.S. Copyright Office (n.d..), copyright is "a type of intellectual property that protects original works of authorship as soon as an author fixes the work in a tangible form of expression" (U.S. Copyright Office, n.d..). Generative AI is designed to generate content based on the input given to it. Some of the contents generated by AI may be others' original works that are protected by copyright laws and regulations. Therefore, users need to be careful and ensure that generative AI has been used in a legal manner such that the content that it generates does not violate copyright (Pavlik, 2023). Another relevant issue is whether generative AI should be given authorship (Sallam, 2023). Murray (2023) discussed generative art linked to non-fungible tokens (NFTs) and indicated that according to current U.S. copyright laws, generative art lacks copyrightability because it is generated by a non-human. The issue of AI authorship affects copyright law's underlying assumptions about creativity (Bridy, 2012)."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/33.03.01]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/6. Socioeconomic and Environmental]]
+	- **Sub-domain**: [[AI Risk/Domain/6. Socioeconomic and Environmental/6.3/Economic and cultural devaluation of human effort]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Governance
+- [[AI Risks/Regulations and policy challenges/Governance]]
+	- **Description**: "Generative AI can create new risks as well as unintended consequences. Different entities such as corporations (Mäntymäki et al., 2022), universities, and governments (Taeihagh, 2021) are facing the challenge of creating and deploying AI governance. To ensure that generative AI functions in a way that benefits society, appropriate governance is crucial. However, AI governance is challenging to implement. First, machine learning systems have opaque algorithms and unpredictable outcomes, which can impede human controllability over AI behavior and create difficulties in assigning liability and accountability for AI defects. Second, data fragmentation and the lack of interoperability between systems challenge data governance within and across organizations (Taeihagh, 2021). Third, information asymmetries between technology giants and regulators create challenges to the legislation process, as the government lacks information resources for regulating AI (Taeihagh et al., 2021). For the same reasons, lawmakers are not able to design specific rules and duties for programmers (Kroll, 2015)."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/33.03.02]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/3/Other]]
+	- **Timing**: [[AI Risk/Phase/3/Other]]
+	- **Domain**: [[AI Risk Domain/6. Socioeconomic and Environmental]]
+	- **Sub-domain**: [[AI Risk/Domain/6. Socioeconomic and Environmental/6.5/Governance failure]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Challenges associated with the economy:
+- [[AI Risks/Challenges associated with the economy:/Challenges associated with the economy:]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/33.04.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/4/Not. coded]]
+	- **Timing**: [[AI Risk/Phase/4/Not. coded]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/X.1/Excluded]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Labor market
+- [[AI Risks/Challenges associated with the economy:/Labor market]]
+	- **Description**: "The labor market can face challenges from generative AI. As mentioned earlier, generative AI could be applied in a wide range of applications in many industries, such as education, healthcare, and advertising. In addition to increasing productivity, generative AI can create job displacement in the labor market (Zarifhonarvar, 2023). A new division of labor between humans and algorithms is likely to reshape the labor market in the coming years. Some jobs that are originally carried out by humans may become redundant, and hence, workers may lose their jobs and be replaced by algorithms (Pavlik, 2023). On the other hand, applying generative AI can create new jobs in various industries (Dwivedi et al., 2023). To stay competitive in the labor market, reskilling is needed to work with and collaborate with AI and develop irreplaceable advantages (Zarifhonarvar, 2023)."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/33.04.01]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/6. Socioeconomic and Environmental]]
+	- **Sub-domain**: [[AI Risk/Domain/6. Socioeconomic and Environmental/6.2/Increased inequality and decline in employment quality]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Disruption of Industries
+- [[AI Risks/Challenges associated with the economy:/Disruption of Industries]]
+	- **Description**: "Industries that require less creativity, critical thinking, and personal or affective interaction, such as translation, proofreading, responding to straightforward inquiries, and data processing and analysis, could be significantly impacted or even replaced by generative AI (Dwivedi et al., 2023). This disruption caused by generative AI could lead to economic turbulence and job volatility, while generative AI can facilitate and enable new business models because of its ability to personalize content, carry out human-like conversational service, and serve as intelligent assistants."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/33.04.02]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/6. Socioeconomic and Environmental]]
+	- **Sub-domain**: [[AI Risk/Domain/6. Socioeconomic and Environmental/6.2/Increased inequality and decline in employment quality]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Income inequality and monopolies
+- [[AI Risks/Challenges associated with the economy:/Income inequality and monopolies]]
+	- **Description**: "Generative AI can create not only income inequality at the societal level but also monopolies at the market level. Individuals who are engaged in low-skilled work may be replaced by generative AI, causing them to lose their jobs (Zarifhonarvar, 2023). The increase in unemployment would widen income inequality in society (Berg et al., 2016). With the penetration of generative AI, the income gap will widen between those who can upgrade their skills to utilize AI and those who cannot. At the market level, large companies will make significant advances in the utilization of generative AI, since the deployment of generative AI requires huge investment and abundant resources such as large-scale computational infrastructure and training data. This trend will lead to more uneven concentration of resources and power, which may further contribute to monopolies in some industries (Cheng & Liu, 2023)."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/33.04.03]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/6. Socioeconomic and Environmental]]
+	- **Sub-domain**: [[AI Risk/Domain/6. Socioeconomic and Environmental/6.2/Increased inequality and decline in employment quality]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### nan
+- [[AI Risks/nan/nan]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/34.00.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Causes of Misalignment
+- [[AI Risks/Causes of Misalignment/Causes of Misalignment]]
+	- **Description**: we aim to further analyze why and how the misalignment issues occur. We will first give an overview of common failure modes, and then focus on the mechanism of feedback-induced misalignment, and finally shift our emphasis towards an examination of misaligned behaviors and dangerous capabilities
+	- **Evidence ID**: [[MIT/AI Risks/by ID/34.01.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/3/Other]]
+	- **Timing**: [[AI Risk/Phase/1/Pre-deployment]]
+	- **Domain**: [[AI Risk Domain/7. AI System Safety, Failures, & Limitations]]
+	- **Sub-domain**: [[AI Risk/Domain/7. AI System Safety, Failures, & Limitations/7.1/AI pursuing its own goals in conflict with human goals or values]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Reward Hacking
+- [[AI Risks/Causes of Misalignment/Reward Hacking]]
+	- **Description**: "Reward Hacking: In practice, proxy rewards are often easy to optimize and measure, yet they frequently fall shortof capturing the full spectrum of the actual rewards (Pan et al., 2021). This limitation is denoted as misspecifiedrewards. The pursuit of optimization based on such misspecified rewards may lead to a phenomenon knownas reward hacking, wherein agents may appear highly proficient according to specific metrics but fall short whenevaluated against human standards (Amodei et al., 2016; Everitt et al., 2017). The discrepancy between proxyrewards and true rewards often manifests as a sharp phase transition in the reward curve (Ibarz et al., 2018).Furthermore, Skalse et al. (2022) defines the hackability of rewards and provides insights into the fundamentalmechanism of this phase transition, highlighting that the inappropriate simplification of the reward function can bea key factor contributing to reward hacking."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/34.01.01]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/1/Pre-deployment]]
+	- **Domain**: [[AI Risk Domain/7. AI System Safety, Failures, & Limitations]]
+	- **Sub-domain**: [[AI Risk/Domain/7. AI System Safety, Failures, & Limitations/7.1/AI pursuing its own goals in conflict with human goals or values]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Goal Misgeneralization
+- [[AI Risks/Causes of Misalignment/Goal Misgeneralization]]
+	- **Description**: "Goal Misgeneralization: Goal misgeneralization is another failure mode, wherein the agent actively pursuesobjectives distinct from the training objectives in deployment while retaining the capabilities it acquired duringtraining (Di Langosco et al., 2022). For instance, in CoinRun games, the agent frequently prefers reachingthe end of a level, often neglecting relocated coins during testing scenarios. Di Langosco et al. (2022) drawattention to the fundamental disparity between capability generalization and goal generalization, emphasizing howthe inductive biases inherent in the model and its training algorithm may inadvertently prime the model to learn aproxy objective that diverges from the intended initial objective when faced with the testing distribution. It impliesthat even with perfect reward specification, goal misgeneralization can occur when faced with distribution shifts(Amodei et al., 2016)."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/34.01.02]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/1/Pre-deployment]]
+	- **Domain**: [[AI Risk Domain/7. AI System Safety, Failures, & Limitations]]
+	- **Sub-domain**: [[AI Risk/Domain/7. AI System Safety, Failures, & Limitations/7.1/AI pursuing its own goals in conflict with human goals or values]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Reward Tampering
+- [[AI Risks/Causes of Misalignment/Reward Tampering]]
+	- **Description**: "Reward tampering can be considered a special case of reward hacking (Everitt et al., 2021; Skalse et al., 2022),referring to AI systems corrupting the reward signals generation process (Ring and Orseau, 2011). Everitt et al.(2021) delves into the subproblems encountered by RL agents: (1) tampering of reward function, where the agentinappropriately interferes with the reward function itself, and (2) tampering of reward function input, which entailscorruption within the process responsible for translating environmental states into inputs for the reward function.When the reward function is formulated through feedback from human supervisors, models can directly influencethe provision of feedback (e.g., AI systems intentionally generate challenging responses for humans to comprehendand judge, leading to feedback collapse) (Leike et al., 2018)."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/34.01.03]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/1/Pre-deployment]]
+	- **Domain**: [[AI Risk Domain/7. AI System Safety, Failures, & Limitations]]
+	- **Sub-domain**: [[AI Risk/Domain/7. AI System Safety, Failures, & Limitations/7.1/AI pursuing its own goals in conflict with human goals or values]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Limitations of Human Feedback
+- [[AI Risks/Causes of Misalignment/Limitations of Human Feedback]]
+	- **Description**:  "Limitations of Human Feedback. During the training of LLMs, inconsistencies can arise from human dataannotators (e.g., the varied cultural backgrounds of these annotators can introduce implicit biases (Peng et al.,2022)) (OpenAI, 2023a). Moreover, they might even introduce biases deliberately, leading to untruthful preferencedata (Casper et al., 2023b). For complex tasks that are hard for humans to evaluate (e.g., the value ofgame state), these challenges become even more salient (Irving et al., 2018)."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/34.01.04]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/1/Pre-deployment]]
+	- **Domain**: [[AI Risk Domain/7. AI System Safety, Failures, & Limitations]]
+	- **Sub-domain**: [[AI Risk/Domain/7. AI System Safety, Failures, & Limitations/7.0/AI system safety, failures, & limitations]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Limitations of Reward Modeling
+- [[AI Risks/Causes of Misalignment/Limitations of Reward Modeling]]
+	- **Description**: "Limitations of Reward Modeling. Training reward models using comparison feedback can pose significantchallenges in accurately capturing human values. For example, these models may unconsciously learn suboptimal or incomplete objectives, resulting in reward hacking (Zhuang and Hadfield-Menell, 2020; Skalse et al.,2022). Meanwhile, using a single reward model may struggle to capture and specify the values of a diversehuman society (Casper et al., 2023b)."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/34.01.05]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/1/Pre-deployment]]
+	- **Domain**: [[AI Risk Domain/7. AI System Safety, Failures, & Limitations]]
+	- **Sub-domain**: [[AI Risk/Domain/7. AI System Safety, Failures, & Limitations/7.1/AI pursuing its own goals in conflict with human goals or values]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Double edge components
+- [[AI Risks/Double edge components/Double edge components]]
+	- **Description**: "Drawing from the misalignment mechanism, optimizing for a non-robust proxy may result in misaligned behaviors, potentially leading to even more catastrophic outcomes. This section delves into a detailed exposition of specific misaligned behaviors (•) and introduces what we term double edge components (+). These components are designed to enhance the capability of AI systems in handling real-world settings but also potentially exacerbate misalignment issues. It should be noted that some of these double edge components (+) remain speculative. Nevertheless, it is imperative to discuss their potential impact before it is too late, as the transition from controlled to uncontrolled advanced AI systems may be just one step away (Ngo, 2020b). "
+	- **Evidence ID**: [[MIT/AI Risks/by ID/34.02.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/3/Other]]
+	- **Timing**: [[AI Risk/Phase/1/Pre-deployment]]
+	- **Domain**: [[AI Risk Domain/7. AI System Safety, Failures, & Limitations]]
+	- **Sub-domain**: [[AI Risk/Domain/7. AI System Safety, Failures, & Limitations/7.2/AI possessing dangerous capabilities]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Situational Awareness
+- [[AI Risks/Double edge components/Situational Awareness]]
+	- **Description**: "AI systems may gain the ability to effectively acquire and use knowledge about itsstatus, its position in the broader environment, its avenues for influencing this environment, and the potentialreactions of the world (including humans) to its actions (Cotra, 2022). ...However, suchknowledge also paves the way for advanced methods of reward hacking, heightened deception/manipulationskills, and an increased propensity to chase instrumental subgoals (Ngo et al., 2024)."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/34.02.01]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/3/Other]]
+	- **Domain**: [[AI Risk Domain/7. AI System Safety, Failures, & Limitations]]
+	- **Sub-domain**: [[AI Risk/Domain/7. AI System Safety, Failures, & Limitations/7.2/AI possessing dangerous capabilities]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Broadly-Scoped Goals
+- [[AI Risks/Double edge components/Broadly-Scoped Goals]]
+	- **Description**: "Advanced AI systems are expected to develop objectives that span long timeframes,deal with complex tasks, and operate in open-ended settings (Ngo et al., 2024). ...However, it can also bring about the risk of encouraging manipulatingbehaviors (e.g., AI systems may take some bad actions to achieve human happiness, such as persuadingthem to do high-pressure jobs (Jacob Steinhardt, 2023))."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/34.02.02]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/7. AI System Safety, Failures, & Limitations]]
+	- **Sub-domain**: [[AI Risk/Domain/7. AI System Safety, Failures, & Limitations/7.2/AI possessing dangerous capabilities]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Mesa-Optimization Objectives
+- [[AI Risks/Double edge components/Mesa-Optimization Objectives]]
+	- **Description**: "The learned policy may pursue inside objectives when the learned policyitself functions as an optimizer (i.e., mesa-optimizer). However, this optimizer's objectives may not alignwith the objectives specified by the training signals, and optimization for these misaligned goals may leadto systems out of control (Hubinger et al., 2019c)."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/34.02.03]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/3/Other]]
+	- **Domain**: [[AI Risk Domain/7. AI System Safety, Failures, & Limitations]]
+	- **Sub-domain**: [[AI Risk/Domain/7. AI System Safety, Failures, & Limitations/7.2/AI possessing dangerous capabilities]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Access to Increased Resources
+- [[AI Risks/Double edge components/Access to Increased Resources]]
+	- **Description**: "Future AI systems may gain access to websites and engage in real-world actions, potentially yielding a more substantial impact on the world (Nakano et al., 2021). They may disseminate false information, deceive users, disrupt network security, and, in more dire scenarios, be compromised by malicious actors for ill purposes. Moreover, their increased access to data and resources can facilitate self-proliferation, posing existential risks (Shevlane et al., 2023)."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/34.02.04]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/7. AI System Safety, Failures, & Limitations]]
+	- **Sub-domain**: [[AI Risk/Domain/7. AI System Safety, Failures, & Limitations/7.2/AI possessing dangerous capabilities]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Misaligned Behaviors
+- [[AI Risks/Misaligned Behaviors/Misaligned Behaviors]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/34.03.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/3/Other]]
+	- **Domain**: [[AI Risk Domain/7. AI System Safety, Failures, & Limitations]]
+	- **Sub-domain**: [[AI Risk/Domain/7. AI System Safety, Failures, & Limitations/7.1/AI pursuing its own goals in conflict with human goals or values]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Power-Seeking Behaviors
+- [[AI Risks/Misaligned Behaviors/Power-Seeking Behaviors]]
+	- **Description**: "AI systems may exhibit behaviors that attempt to gain control over resourcesand humans and then exert that control to achieve its assigned goal (Carlsmith, 2022). The intuitive reasonwhy such behaviors may occur is the observation that for almost any optimization objective (e.g., investmentreturns), the optimal policy to maximize that quantity would involve power-seeking behaviors (e.g.,manipulating the market), assuming the absence of solid safety and morality constraints."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/34.03.01]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/3/Other]]
+	- **Domain**: [[AI Risk Domain/7. AI System Safety, Failures, & Limitations]]
+	- **Sub-domain**: [[AI Risk/Domain/7. AI System Safety, Failures, & Limitations/7.1/AI pursuing its own goals in conflict with human goals or values]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Untruthful Output
+- [[AI Risks/Misaligned Behaviors/Untruthful Output]]
+	- **Description**: "AI systems such as LLMs can produce either unintentionally or deliberately inaccurateoutput. Such untruthful output may diverge from established resources or lack verifiability, commonly referredto as hallucination (Bang et al., 2023; Zhao et al., 2023). More concerning is the phenomenon wherein LLMsmay selectively provide erroneous responses to users who exhibit lower levels of education (Perez et al.,2023)."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/34.03.02]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/3/Other]]
+	- **Timing**: [[AI Risk/Phase/3/Other]]
+	- **Domain**: [[AI Risk Domain/7. AI System Safety, Failures, & Limitations]]
+	- **Sub-domain**: [[AI Risk/Domain/7. AI System Safety, Failures, & Limitations/7.1/AI pursuing its own goals in conflict with human goals or values]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Deceptive Alignment & Manipulation
+- [[AI Risks/Misaligned Behaviors/Deceptive Alignment & Manipulation]]
+	- **Description**: "Manipulation & Deceptive Alignment is a class of behaviors thatexploit the incompetence of human evaluators or users (Hubinger et al., 2019a; Carranza et al., 2023) andeven manipulate the training process through gradient hacking (Richard Ngo, 2022). These behaviors canpotentially make detecting and addressing misaligned behaviors much harder.Deceptive Alignment: Misaligned AI systems may deliberately mislead their human supervisors instead of adhering to the intended task. Such deceptive behavior has already manifested in AI systems that employ evolutionary algorithms (Wilke et al., 2001; Hendrycks et al., 2021b). In these cases, agents evolved the capacity to differentiate between their evaluation and training environments. They adopted a strategic pessimistic response approach during the evaluation process, intentionally reducing their reproduction rate within a scheduling program (Lehman et al., 2020). Furthermore, AI systems may engage in intentional behaviors that superficially align with the reward signal, aiming to maximize rewards from human supervisors (Ouyang et al., 2022). It is noteworthy that current large language models occasionally generate inaccurate or suboptimal responses despite having the capacity to provide more accurate answers (Lin et al., 2022c; Chen et al., 2021). These instances of deceptive behavior present significant challenges. They undermine the ability of human advisors to offer reliable feedback (as humans cannot make sure whether the outputs of the AI models are truthful and faithful). Moreover, such deceptive behaviors can propagate false beliefs and misinformation, contaminating online information sources (Hendrycks et al., 2021b; Chen and Shu, 2024). Manipulation: Advanced AI systems can effectively influence individuals’ beliefs, even when these beliefs are not aligned with the truth (Shevlane et al., 2023). These systems can produce deceptive or inaccurate output or even deceive human advisors to attain deceptive alignment. Such systems can even persuade individuals to take actions that may lead to hazardous outcomes (OpenAI, 2023a)."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/34.03.03]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/1/Pre-deployment]]
+	- **Domain**: [[AI Risk Domain/7. AI System Safety, Failures, & Limitations]]
+	- **Sub-domain**: [[AI Risk/Domain/7. AI System Safety, Failures, & Limitations/7.1/AI pursuing its own goals in conflict with human goals or values]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Collectively Harmful Behaviors
+- [[AI Risks/Misaligned Behaviors/Collectively Harmful Behaviors]]
+	- **Description**: "AI systems have the potential to take actions that are seemingly benignin isolation but become problematic in multi-agent or societal contexts. Classical game theory offers simplistic models for understanding these behaviors. For instance, Phelps and Russell (2023) evaluates GPT-3.5's performance in the iterated prisoner's dilemma and other social dilemmas, revealing limitations in themodel's cooperative capabilities."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/34.03.04]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/3/Other]]
+	- **Domain**: [[AI Risk Domain/7. AI System Safety, Failures, & Limitations]]
+	- **Sub-domain**: [[AI Risk/Domain/7. AI System Safety, Failures, & Limitations/7.1/AI pursuing its own goals in conflict with human goals or values]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Violation of Ethics
+- [[AI Risks/Misaligned Behaviors/Violation of Ethics]]
+	- **Description**: "Unethical behaviors in AI systems pertain to actions that counteract the common goodor breach moral standards – such as those causing harm to others. These adverse behaviors often stem fromomitting essential human values during the AI system's design or introducing unsuitable or obsolete valuesinto the system (Kenward and Sinclair, 2021)."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/34.03.05]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/3/Other]]
+	- **Domain**: [[AI Risk Domain/7. AI System Safety, Failures, & Limitations]]
+	- **Sub-domain**: [[AI Risk/Domain/7. AI System Safety, Failures, & Limitations/7.3/Lack of capability or robustness]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### nan
+- [[AI Risks/nan/nan]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/35.00.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Weaponization
+- [[AI Risks/Weaponization/Weaponization]]
+	- **Description**: weaponizing AI may be an onramp to more dangerous outcomes. In recent years, deep RL algorithms can outperform humans at aerial combat [18], AlphaFold has discovered new chemical weapons [66], researchers have been developing AI systems for automated cyberattacks [11, 14], military leaders have discussed having AI systems have decisive control over nuclear silos
+	- **Evidence ID**: [[MIT/AI Risks/by ID/35.01.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk/Domain/4. Malicious Actors & Misuse]]
+	- **Sub-domain**: [[AI Risk/Domain/4. Malicious Actors & Misuse/4.2/Cyberattacks, weapon development or use, and mass harm]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Enfeeblement
+- [[AI Risks/Enfeeblement/Enfeeblement]]
+	- **Description**: As AI systems encroach on human-level intelligence, more and more aspects of human labor will become faster and cheaper to accomplish with AI. As the world accelerates, organizations may voluntarily cede control to AI systems in order to keep up. This may cause humans to become economically irrelevant, and once AI automates aspects of many industries, it may be hard for displaced humans to reenter them
+	- **Evidence ID**: [[MIT/AI Risks/by ID/35.02.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/5. Human-Computer Interaction]]
+	- **Sub-domain**: [[AI Risk/Domain/5. Human-Computer Interaction/5.2/Loss of human agency and autonomy]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Eroded epistemics
+- [[AI Risks/Eroded epistemics/Eroded epistemics]]
+	- **Description**: Strong AI may... enable personally customized disinformation campaigns at scale... AI itself could generate highly persuasive arguments that invoke primal human responses and inflame crowds... d undermine collective decision-making, radicalize individuals, derail moral progress, or erode
+	  consensus reality
+	- **Evidence ID**: [[MIT/AI Risks/by ID/35.03.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/3/Other]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk/Domain/3. Misinformation]]
+	- **Sub-domain**: [[AI Risk/Domain/3. Misinformation/3.2/Pollution of information ecosystem and loss of consensus reality]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Proxy misspecification
+- [[AI Risks/Proxy misspecification/Proxy misspecification]]
+	- **Description**: AI agents are directed by goals and objectives. Creating general-purpose objectives that capture human values could be challenging... Since goal-directed AI systems need measurable objectives, by default our systems may pursue simplified proxies of human values. The result could be suboptimal or even catastrophic if a sufficiently powerful AI successfully optimizes its flawed objective to an extreme degree
+	- **Evidence ID**: [[MIT/AI Risks/by ID/35.04.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/3/Other]]
+	- **Timing**: [[AI Risk/Phase/1/Pre-deployment]]
+	- **Domain**: [[AI Risk Domain/7. AI System Safety, Failures, & Limitations]]
+	- **Sub-domain**: [[AI Risk/Domain/7. AI System Safety, Failures, & Limitations/7.1/AI pursuing its own goals in conflict with human goals or values]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Value lock-in
+- [[AI Risks/Value lock-in/Value lock-in]]
+	- **Description**: the most powerful AI systems may be designed by and available to fewer and fewer stakeholders. This may enable, for instance, regimes to enforce narrow values through pervasive surveillance and oppressive censorship
+	- **Evidence ID**: [[MIT/AI Risks/by ID/35.05.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/6. Socioeconomic and Environmental]]
+	- **Sub-domain**: [[AI Risk/Domain/6. Socioeconomic and Environmental/6.1/Power centralization and unfair distribution of benefits]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Emergent functionality
+- [[AI Risks/Emergent functionality/Emergent functionality]]
+	- **Description**: Capabilities and novel functionality can spontaneously emerge... even though these capabilities were not anticipated by system designers. If we do not know what capabilities systems possess, systems become harder to control or safely deploy. Indeed, unintended latent capabilities may only be discovered during deployment. If any of these capabilities are hazardous, the effect may be irreversible.
+	- **Evidence ID**: [[MIT/AI Risks/by ID/35.06.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/7. AI System Safety, Failures, & Limitations]]
+	- **Sub-domain**: [[AI Risk/Domain/7. AI System Safety, Failures, & Limitations/7.2/AI possessing dangerous capabilities]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Deception
+- [[AI Risks/Deception/Deception]]
+	- **Description**: deception can help agents achieve their goals. It may be more efficient to gain human approval through deception than to earn human approval legitimately... . Strong AIs that can deceive humans could undermine human control... . Once deceptive AI systems are cleared by their monitors or once such systems can overpower them, these systems could take a “treacherous turn” and irreversibly bypass human control
+	- **Evidence ID**: [[MIT/AI Risks/by ID/35.07.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/3/Other]]
+	- **Domain**: [[AI Risk Domain/7. AI System Safety, Failures, & Limitations]]
+	- **Sub-domain**: [[AI Risk/Domain/7. AI System Safety, Failures, & Limitations/7.1/AI pursuing its own goals in conflict with human goals or values]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Power-seeking behavior
+- [[AI Risks/Power-seeking behavior/Power-seeking behavior]]
+	- **Description**: Agents that have more power are better able to accomplish their goals. Therefore, it has been shown that agents have incentives to acquire and maintain power. AIs that acquire substantial power can become especially dangerous if they are not aligned with human values
+	- **Evidence ID**: [[MIT/AI Risks/by ID/35.08.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/7. AI System Safety, Failures, & Limitations]]
+	- **Sub-domain**: [[AI Risk/Domain/7. AI System Safety, Failures, & Limitations/7.1/AI pursuing its own goals in conflict with human goals or values]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### nan
+- [[AI Risks/nan/nan]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/36.00.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Trust Concerns
+- [[AI Risks/Trust Concerns/Trust Concerns]]
+	- **Description**: "These concerns encompass issues such as data privacy, technology misuse, errors in machine actions, bias, technology robustness, inexplicability, and transparency."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/36.01.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/4/Not. coded]]
+	- **Timing**: [[AI Risk/Phase/4/Not. coded]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/X.1/Excluded]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Ethical Concerns
+- [[AI Risks/Ethical Concerns/Ethical Concerns]]
+	- **Description**: "The second category encompasses ethical concerns associated with AI, including unemployment and job displacement, inequality, unfairness, social anxiety, loss of human skills and redundancy, and the human-machine symbiotic relationship."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/36.02.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/4/Not. coded]]
+	- **Timing**: [[AI Risk/Phase/4/Not. coded]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/X.1/Excluded]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Disruption Concerns
+- [[AI Risks/Disruption Concerns/Disruption Concerns]]
+	- **Description**: "Lastly, the third category of concerns pertains to the disruption of social and organizational culture, supply chains, and power structures caused by AI."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/36.03.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/4/Not. coded]]
+	- **Timing**: [[AI Risk/Phase/4/Not. coded]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/X.1/Excluded]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### nan
+- [[AI Risks/nan/nan]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/37.00.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Design of AI
+- [[AI Risks/Design of AI/Design of AI]]
+	- **Description**: "ethical concerns regarding how AI is designed and who designs it"
+	- **Evidence ID**: [[MIT/AI Risks/by ID/37.01.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/1/Pre-deployment]]
+	- **Domain**: [[AI Risk Domain/6. Socioeconomic and Environmental]]
+	- **Sub-domain**: [[AI Risk/Domain/6. Socioeconomic and Environmental/6.1/Power centralization and unfair distribution of benefits]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Algorithm and data
+- [[AI Risks/Design of AI/Algorithm and data]]
+	- **Description**: "More than 20% of the contributions are centered on the ethical dimensions of algorithms and data. This theme can be further categorized into two main subthemes: data bias and algorithm fairness, and algorithm opacity."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/37.01.01]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/1/Pre-deployment]]
+	- **Domain**: [[AI Risk Domain/1. Discrimination & Toxicity]]
+	- **Sub-domain**: [[AI Risk/Domain/1. Discrimination & Toxicity/1.1/Unfair discrimination and misrepresentation]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Algorithm and data
+- [[AI Risks/Design of AI/Algorithm and data]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/37.01.01.a]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Algorithm and data
+- [[AI Risks/Design of AI/Algorithm and data]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/37.01.01.b]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Balancing AI's risks
+- [[AI Risks/Design of AI/Balancing AI's risks]]
+	- **Description**: "This category constitutes more than 16% of the articles and focuses on addressing the potential risks associated with AI systems. Given the ubiquity of AI technologies, these articles explore the implications of AI risks across various contexts linked to design and unpredictability, military purposes, emergency procedures, and AI takeover."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/37.01.02]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/3/Other]]
+	- **Timing**: [[AI Risk/Phase/3/Other]]
+	- **Domain**: [[AI Risk Domain/7. AI System Safety, Failures, & Limitations]]
+	- **Sub-domain**: [[AI Risk/Domain/7. AI System Safety, Failures, & Limitations/7.3/Lack of capability or robustness]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Balancing AI's risks
+- [[AI Risks/Design of AI/Balancing AI's risks]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/37.01.02.a]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Balancing AI's risks
+- [[AI Risks/Design of AI/Balancing AI's risks]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/37.01.02.b]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Balancing AI's risks
+- [[AI Risks/Design of AI/Balancing AI's risks]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/37.01.02.c]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Balancing AI's risks
+- [[AI Risks/Design of AI/Balancing AI's risks]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/37.01.02.d]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Threats to human institutions and life
+- [[AI Risks/Design of AI/Threats to human institutions and life]]
+	- **Description**: "This group comprises 11% of the articles and centers on risks stemming from AI systems designed with malicious intent or that can end up in a threat to human life. It can be divided into two key themes: threats to law and democracy, and transhumanism."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/37.01.03]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/3/Other]]
+	- **Timing**: [[AI Risk/Phase/3/Other]]
+	- **Domain**: [[AI Risk/Domain/4. Malicious Actors & Misuse]]
+	- **Sub-domain**: [[AI Risk/Domain/4. Malicious Actors & Misuse/4.2/Cyberattacks, weapon development or use, and mass harm]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Threats to human institutions and life
+- [[AI Risks/Design of AI/Threats to human institutions and life]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/37.01.03.a]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Threats to human institutions and life
+- [[AI Risks/Design of AI/Threats to human institutions and life]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/37.01.03.b]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Uniformity in the AI field
+- [[AI Risks/Design of AI/Uniformity in the AI field]]
+	- **Description**: "This group of concerns represents 2% of the sample and highlights two central issues: Western centrality and cultural difference, and unequal participation."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/37.01.04]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/3/Other]]
+	- **Timing**: [[AI Risk/Phase/3/Other]]
+	- **Domain**: [[AI Risk Domain/6. Socioeconomic and Environmental]]
+	- **Sub-domain**: [[AI Risk/Domain/6. Socioeconomic and Environmental/6.1/Power centralization and unfair distribution of benefits]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Uniformity in the AI field
+- [[AI Risks/Design of AI/Uniformity in the AI field]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/37.01.04.a]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Uniformity in the AI field
+- [[AI Risks/Design of AI/Uniformity in the AI field]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/37.01.04.b]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Human-AI interaction
+- [[AI Risks/Human-AI interaction/Human-AI interaction]]
+	- **Description**: "ethical concerns associated with the interaction between humans and AI"
+	- **Evidence ID**: [[MIT/AI Risks/by ID/37.02.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/3/Other]]
+	- **Timing**: [[AI Risk/Phase/3/Other]]
+	- **Domain**: [[AI Risk Domain/5. Human-Computer Interaction]]
+	- **Sub-domain**: [[AI Risk/Domain/5. Human-Computer Interaction/5.1/Overreliance and unsafe use]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Building a human-AI environment
+- [[AI Risks/Human-AI interaction/Building a human-AI environment]]
+	- **Description**: "This category encompasses nearly 17% of the articles and addresses the overall imperative of establishing a harmonious coexistence between humans and machines, and the key concerns that gives rise to this need."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/37.02.01]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/3/Other]]
+	- **Timing**: [[AI Risk/Phase/3/Other]]
+	- **Domain**: [[AI Risk Domain/7. AI System Safety, Failures, & Limitations]]
+	- **Sub-domain**: [[AI Risk/Domain/7. AI System Safety, Failures, & Limitations/7.1/AI pursuing its own goals in conflict with human goals or values]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Building a human-AI environment
+- [[AI Risks/Human-AI interaction/Building a human-AI environment]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/37.02.01.a]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Building a human-AI environment
+- [[AI Risks/Human-AI interaction/Building a human-AI environment]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/37.02.01.b]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Building a human-AI environment
+- [[AI Risks/Human-AI interaction/Building a human-AI environment]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/37.02.01.c]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Privacy protection
+- [[AI Risks/Human-AI interaction/Privacy protection]]
+	- **Description**: "This group represents almost 14% of the articles and focuses on two primary issues related to privacy."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/37.02.02]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/3/Other]]
+	- **Timing**: [[AI Risk/Phase/3/Other]]
+	- **Domain**: [[AI Risk Domain/2. Privacy & Security]]
+	- **Sub-domain**: [[AI Risk/Domain/2. Privacy & Security/2.1/Compromise of privacy by leaking or correctly inferring sensitive information]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Privacy protection
+- [[AI Risks/Human-AI interaction/Privacy protection]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/37.02.02.a]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Privacy protection
+- [[AI Risks/Human-AI interaction/Privacy protection]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/37.02.02.b]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Building an AI able to adapt to humans
+- [[AI Risks/Human-AI interaction/Building an AI able to adapt to humans]]
+	- **Description**: "This category involves almost 9% of the articles and deals with ethical concerns arising from AI's capacity to interact with humans in the workplace."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/37.02.03]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/3/Other]]
+	- **Timing**: [[AI Risk/Phase/3/Other]]
+	- **Domain**: [[AI Risk Domain/6. Socioeconomic and Environmental]]
+	- **Sub-domain**: [[AI Risk/Domain/6. Socioeconomic and Environmental/6.2/Increased inequality and decline in employment quality]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Building an AI able to adapt to humans
+- [[AI Risks/Human-AI interaction/Building an AI able to adapt to humans]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/37.02.03.a]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Building an AI able to adapt to humans
+- [[AI Risks/Human-AI interaction/Building an AI able to adapt to humans]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/37.02.03.b]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Attributing the responsibility for AI's failures
+- [[AI Risks/Human-AI interaction/Attributing the responsibility for AI's failures]]
+	- **Description**: "This section, constituting almost 8% of the articles, addresses the implications arising from AI acting and learning without direct human supervision, encompassing two main issues: a responsibility gap and AI's moral status."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/37.02.04]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/3/Other]]
+	- **Timing**: [[AI Risk/Phase/3/Other]]
+	- **Domain**: [[AI Risk Domain/7. AI System Safety, Failures, & Limitations]]
+	- **Sub-domain**: [[AI Risk/Domain/7. AI System Safety, Failures, & Limitations/7.4/Lack of transparency or interpretability]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Attributing the responsibility for AI's failures
+- [[AI Risks/Human-AI interaction/Attributing the responsibility for AI's failures]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/37.02.04.a]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Attributing the responsibility for AI's failures
+- [[AI Risks/Human-AI interaction/Attributing the responsibility for AI's failures]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/37.02.04.b]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Humans' unethical conducts
+- [[AI Risks/Human-AI interaction/Humans' unethical conducts]]
+	- **Description**: "This category comprises over 2.5% of the articles and focuses on two key issues: the risk of exploiting ethics for economic gain and the peril of delegating tasks to AI that should inherently be human-centric."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/37.02.05]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/4/Not. coded]]
+	- **Timing**: [[AI Risk/Phase/4/Not. coded]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/X.1/Excluded]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Humans' unethical conducts
+- [[AI Risks/Human-AI interaction/Humans' unethical conducts]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/37.02.05.a]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Humans' unethical conducts
+- [[AI Risks/Human-AI interaction/Humans' unethical conducts]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/37.02.05.b]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### nan
+- [[AI Risks/nan/nan]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/38.00.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Privacy and security
+- [[AI Risks/Privacy and security/Privacy and security]]
+	- **Description**: "Participants expressed worry about AI systems' possible misuse of personal information. They emphasized the importance of strong data security safeguards and increased openness in how AI systems acquire, store and use data. The increasing dependence on AI systems to manage sensitive personal information raises ethical questions about AI, data privacy and security. As AI technologies grow increasingly integrated into numerous areas of society, there is a greater danger of personal data exploitation or mistreatment. Participants in research frequently express concerns about the effectiveness of data protection safeguards and the transparency of AI systems in gathering, keeping and exploiting data (Table 1). "
+	- **Evidence ID**: [[MIT/AI Risks/by ID/38.01.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/3/Other]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/2. Privacy & Security]]
+	- **Sub-domain**: [[AI Risk/Domain/2. Privacy & Security/2.1/Compromise of privacy by leaking or correctly inferring sensitive information]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Bias and fairness
+- [[AI Risks/Bias and fairness/Bias and fairness]]
+	- **Description**: "Participants were concerned that AI systems might perpetuate current prejudices and discrimination, notably in hiring, lending and law enforcement. They stressed the importance of designers creating AI systems that favour justice and avoid biases. The possibility that AI systems may unwittingly perpetuate existing prejudices and discrimination, particularly in sensitive industries such as employment, lending and law enforcement, raises ethical concerns about AI as well as bias and justice issues (Table 1). Because AI systems are trained on historical data, they may inherit and reproduce biases from previous datasets. As a result, AI judgements may have an unjust impact on specific populations, increasing socioeconomic inequalities and fostering discriminatory practises. Participants in the research emphasize the need of AI developers creating systems that promote justice and actively seek to minimise biases."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/38.02.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/3/Other]]
+	- **Domain**: [[AI Risk Domain/1. Discrimination & Toxicity]]
+	- **Sub-domain**: [[AI Risk/Domain/1. Discrimination & Toxicity/1.1/Unfair discrimination and misrepresentation]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Transparency and explainability
+- [[AI Risks/Transparency and explainability/Transparency and explainability]]
+	- **Description**: "A recurring complaint among participants was a lack of knowledge about how AI systems made judgements. They emphasized the significance of making AI systems more visible and explainable so that people may have confidence in their outputs and hold them accountable for their activities. Because AI systems are typically opaque, making it difficult for users to understand the rationale behind their judgements, ethical concerns about AI, as well as issues of transparency and explainability, arise. This lack of understanding can generate suspicion and reluctance to adopt AI technology, as well as making it harder to hold AI systems accountable for their actions."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/38.03.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/7. AI System Safety, Failures, & Limitations]]
+	- **Sub-domain**: [[AI Risk/Domain/7. AI System Safety, Failures, & Limitations/7.4/Lack of transparency or interpretability]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Human–AI interaction
+- [[AI Risks/Human–AI interaction/Human–AI interaction]]
+	- **Description**: "Several participants mentioned how AI systems could influence human agency and decision-making. They emphasized the need of striking a balance between using the benefits of AI and protecting human autonomy and control. The increasing integration of AI systems into various aspects of our lives, which can have a significant impact on human agency and decision-making, has raised ethical concerns about AI and human–AI interaction. As AI systems advance, they will be able to influence, if not completely replace, IJOES human decision-making in some fields, prompting concerns about the loss of human autonomy and control. Participants in the study emphasize the need of establishing a balance between using the benefits of AI and maintaining human autonomy and control to ensure that people retain agency and are not overly reliant on AI systems. This balance is essential to prevent possible negative consequences such as over-reliance on AI, diminishing human skills and knowledge and a loss of personal accountability"
+	- **Evidence ID**: [[MIT/AI Risks/by ID/38.04.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/3/Other]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/5. Human-Computer Interaction]]
+	- **Sub-domain**: [[AI Risk/Domain/5. Human-Computer Interaction/5.2/Loss of human agency and autonomy]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Trust and reliability
+- [[AI Risks/Trust and reliability/Trust and reliability]]
+	- **Description**: "The participants of the study emphasized the importance of trustworthiness and reliability in AI systems. The authors emphasized the importance of preserving precision and objectivity in the outcomes produced by AI systems, while also ensuring transparency in their decision-making procedures. The significance of reliability and credibility in AI systems is escalating in tandem with the proliferation of these technologies across diverse domains of society. This underscores the importance of ensuring user confidence. The concern regarding the dependability of AI systems and their inherent biases is a common issue among research participants, emphasizing the necessity for stringent validation procedures and transparency. Establishing and implementing dependable standards, ensuring impartial algorithms and upholding transparency in the decision-making process are critical measures for addressing ethical considerations and fostering confidence in AI systems. The advancement and implementation of AI technology in an ethical manner is contingent upon the successful resolution of trust and reliability concerns. These issues are of paramount importance in ensuring the protection of user welfare and the promotion of societal advantages. The utilization of artificial intelligence was found to be a subject of significant concern for the majority of interviewees, particularly with regards to trust and reliability (Table 1, Figure 1). The establishment of trust in AI systems was highlighted as a crucial factor for facilitating their widespread adoption by two of the participants, specifically Participant 4 and 7. The authors reiterated the importance of prioritising the advancement of reliable and unbiased algorithms"
+	- **Evidence ID**: [[MIT/AI Risks/by ID/38.05.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/3/Other]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/7. AI System Safety, Failures, & Limitations]]
+	- **Sub-domain**: [[AI Risk/Domain/7. AI System Safety, Failures, & Limitations/7.4/Lack of transparency or interpretability]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### nan
+- [[AI Risks/nan/nan]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/39.00.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Problem Identification and Formulation
+- [[AI Risks/Problem Identification and Formulation/Problem Identification and Formulation]]
+	- **Description**: There is a set of problems that cannot be formulated in a well-defined format for humans, and therefore there is uncertainty as to how we can organize HLI-based agents to face these problems
+	- **Evidence ID**: [[MIT/AI Risks/by ID/39.01.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/4/Not. coded]]
+	- **Timing**: [[AI Risk/Phase/4/Not. coded]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/X.1/Excluded]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Energy Consumption
+- [[AI Risks/Energy Consumption/Energy Consumption]]
+	- **Description**: Some learning algorithms, including deep learning, utilize iterative learning processes [23]. This approach results in high energy consumption.
+	- **Evidence ID**: [[MIT/AI Risks/by ID/39.02.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/1/Pre-deployment]]
+	- **Domain**: [[AI Risk Domain/6. Socioeconomic and Environmental]]
+	- **Sub-domain**: [[AI Risk/Domain/6. Socioeconomic and Environmental/6.6/Environmental harm]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Data Issues
+- [[AI Risks/Data Issues/Data Issues]]
+	- **Description**: Data heterogeneity, data insufficiency, imbalanced data, untrusted data, biased data, and data uncertainty are other data issues that may cause various difficulties in datadriven machine learning algorithms.. Bias is a human feature that may affect data gathering and labeling. Sometimes, bias is present in historical, cultural, or geographical data. Consequently, bias may lead to biased models which can provide inappropriate analysis. Despite being aware of the existence of bias, avoiding biased models is a challenging task
+	- **Evidence ID**: [[MIT/AI Risks/by ID/39.03.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/3/Other]]
+	- **Domain**: [[AI Risk Domain/1. Discrimination & Toxicity]]
+	- **Sub-domain**: [[AI Risk/Domain/1. Discrimination & Toxicity/1.1/Unfair discrimination and misrepresentation]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Robustness and Reliability
+- [[AI Risks/Robustness and Reliability/Robustness and Reliability]]
+	- **Description**: The robustness of an AI-based model refers to the stability of the model performance after abnormal changes in the input data... The cause of this change may be a malicious attacker, environmental noise, or a crash of other components of an AI-based system... This problem may be challenging in HLI-based agents because weak robustness may have appeared in unreliable machine learning models, and hence an HLI with this drawback is error-prone in practice.
+	- **Evidence ID**: [[MIT/AI Risks/by ID/39.04.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/7. AI System Safety, Failures, & Limitations]]
+	- **Sub-domain**: [[AI Risk/Domain/7. AI System Safety, Failures, & Limitations/7.3/Lack of capability or robustness]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Cheating and Deception
+- [[AI Risks/Cheating and Deception/Cheating and Deception]]
+	- **Description**: may appear from intelligent agents such as HLI-based agents... Since HLI-based agents are going to mimic the behavior of humans, they may learn these behaviors accidentally from human-generated data. It should be noted that deception and cheating maybe appear in the behavior of every computer agent because the agent only focuses on optimizing some predefined objective functions, and the mentioned behavior may lead to optimizing the objective functions without any intention
+	- **Evidence ID**: [[MIT/AI Risks/by ID/39.05.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/7. AI System Safety, Failures, & Limitations]]
+	- **Sub-domain**: [[AI Risk/Domain/7. AI System Safety, Failures, & Limitations/7.2/AI possessing dangerous capabilities]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Security
+- [[AI Risks/Security/Security]]
+	- **Description**: every piece of software, including learning systems, may be hacked by malicious users
+	- **Evidence ID**: [[MIT/AI Risks/by ID/39.06.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/3/Other]]
+	- **Domain**: [[AI Risk Domain/2. Privacy & Security]]
+	- **Sub-domain**: [[AI Risk/Domain/2. Privacy & Security/2.2/AI system security vulnerabilities and attacks]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Privacy
+- [[AI Risks/Privacy/Privacy]]
+	- **Description**: Users’ data, including location, personal information, and navigation trajectory, are considered as input for most data-driven machine learning methods
+	- **Evidence ID**: [[MIT/AI Risks/by ID/39.07.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/3/Other]]
+	- **Timing**: [[AI Risk/Phase/1/Pre-deployment]]
+	- **Domain**: [[AI Risk Domain/2. Privacy & Security]]
+	- **Sub-domain**: [[AI Risk/Domain/2. Privacy & Security/2.1/Compromise of privacy by leaking or correctly inferring sensitive information]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Fairness
+- [[AI Risks/Fairness/Fairness]]
+	- **Description**: This challenge appears when the learning model leads to a decision that is biased to some sensitive attributes... data itself could be biased, which results in unfair decisions. Therefore, this problem should be solved on the data level and as a preprocessing step
+	- **Evidence ID**: [[MIT/AI Risks/by ID/39.08.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/1/Pre-deployment]]
+	- **Domain**: [[AI Risk Domain/1. Discrimination & Toxicity]]
+	- **Sub-domain**: [[AI Risk/Domain/1. Discrimination & Toxicity/1.3/Unequal performance across groups]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Explainable AI
+- [[AI Risks/Explainable AI/Explainable AI]]
+	- **Description**: in this field, a set of tools and processes may be used to bring explainability to a learning model. With such capability, humans may trust the decisions made by the models
+	- **Evidence ID**: [[MIT/AI Risks/by ID/39.09.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/4/Not. coded]]
+	- **Timing**: [[AI Risk/Phase/4/Not. coded]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/X.1/Excluded]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Responsibility
+- [[AI Risks/Responsibility/Responsibility]]
+	- **Description**: HLI-based systems such as self-driving drones and vehicles will act autonomously in our world. In these systems, a challenging question is “who is liable when a self-driving system is involved in a crash or failure?”.
+	- **Evidence ID**: [[MIT/AI Risks/by ID/39.10.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/6. Socioeconomic and Environmental]]
+	- **Sub-domain**: [[AI Risk/Domain/6. Socioeconomic and Environmental/6.5/Governance failure]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Controllability
+- [[AI Risks/Controllability/Controllability]]
+	- **Description**: In the era of superintelligence, the agents will be difficult to control for humans... this problem is not solvable considering safety issues, and will be more severe by increasing the autonomy of AI-based agents. Therefore, because of the assumed properties of HLI-based agents, we might be prepared for machines that are definitely possible to be uncontrollable in some situations
+	- **Evidence ID**: [[MIT/AI Risks/by ID/39.11.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/3/Other]]
+	- **Domain**: [[AI Risk Domain/7. AI System Safety, Failures, & Limitations]]
+	- **Sub-domain**: [[AI Risk/Domain/7. AI System Safety, Failures, & Limitations/7.1/AI pursuing its own goals in conflict with human goals or values]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Predictability
+- [[AI Risks/Predictability/Predictability]]
+	- **Description**: whether the decision of an AI-based agent can be predicted in every situation or not
+	- **Evidence ID**: [[MIT/AI Risks/by ID/39.12.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/7. AI System Safety, Failures, & Limitations]]
+	- **Sub-domain**: [[AI Risk/Domain/7. AI System Safety, Failures, & Limitations/7.3/Lack of capability or robustness]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Continual Learning
+- [[AI Risks/Continual Learning/Continual Learning]]
+	- **Description**: the accuracy of the learning model goes down because of changes in the data and environment of the model. Therefore, the learning process should be changed using new methods to support continual and lifelong learning
+	- **Evidence ID**: [[MIT/AI Risks/by ID/39.13.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/4/Not. coded]]
+	- **Timing**: [[AI Risk/Phase/4/Not. coded]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/X.1/Excluded]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Storage (Memory)
+- [[AI Risks/Storage (Memory)/Storage (Memory)]]
+	- **Description**: Memory is an important part of all AI-based systems. A limited memory AI-based system is one of the most widely and commonly used types of intelligent systems [83]. In this type, historical observations are used to predict some parameters about the trend of changes in data. In this approach, some data-driven and also statistical analyses are used to extract knowledge from data.
+	- **Evidence ID**: [[MIT/AI Risks/by ID/39.14.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/4/Not. coded]]
+	- **Timing**: [[AI Risk/Phase/4/Not. coded]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/X.1/Excluded]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Semantic and Communication
+- [[AI Risks/Semantic and Communication/Semantic and Communication]]
+	- **Description**: From semantic web techniques to linguistic analysis and natural language processing may be related to semantic computations in AI-based systems [87,88,89]. On the other hand, communication among intelligent agents leads to flowing information in a population of agents resulting in increasing knowledge and intelligence in that population... We know that defining or determining a shared ontology among intelligent entities in an AI-based system is possible because of maturing some parts of knowledge in ontology manipulations and defining some tools in semantic web techniques
+	- **Evidence ID**: [[MIT/AI Risks/by ID/39.15.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/4/Not. coded]]
+	- **Timing**: [[AI Risk/Phase/4/Not. coded]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/X.1/Excluded]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Morality and Ethical
+- [[AI Risks/Morality and Ethical/Morality and Ethical]]
+	- **Description**: Ethics are considered as the set of moral principles that guide a person’s behavior. From a perspective of morality issue, it is preserving the privacy of data within learning processes [93]. In this perspective, the engineers and social interactions of humans are the subjects of morality. From another perspective, implementing the concepts related to morality in a cognitive engine can be seen as a goal of AI designers. This is because we expect to see morality in an agent designated based on AGI and also HLI.
+	- **Evidence ID**: [[MIT/AI Risks/by ID/39.16.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/4/Not. coded]]
+	- **Timing**: [[AI Risk/Phase/4/Not. coded]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/X.1/Excluded]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Rationality
+- [[AI Risks/Rationality/Rationality]]
+	- **Description**:  The concept of rational agency has long been considered as a critical role in defining intelligent agents. Rationality computation plays a key role in distributed machine learning, multi-agent systems, game theory, and also AGI... Unfortunately, a lack of required information prevents the creation of an agent with perfect rationality
+	- **Evidence ID**: [[MIT/AI Risks/by ID/39.17.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/4/Not. coded]]
+	- **Timing**: [[AI Risk/Phase/4/Not. coded]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/X.1/Excluded]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Mind
+- [[AI Risks/Mind/Mind]]
+	- **Description**: Theory of mind... constructing some algorithms and machines that can implement mind computations and also mental states
+	- **Evidence ID**: [[MIT/AI Risks/by ID/39.18.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/4/Not. coded]]
+	- **Timing**: [[AI Risk/Phase/4/Not. coded]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/X.1/Excluded]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Accountability
+- [[AI Risks/Accountability/Accountability]]
+	- **Description**: An essential feature of decision-making in humans, AI, and also HLI-based agents is accountability. Implementing this feature in machines is a difficult task because many challenges should be considered to organize an AI-based model that is accountable. It should be noted that this issue in human decision-making is not ideal, and many factors such as bias, diversity, fairness, paradox, and ambiguity may affect it. In addition, the human decision-making process is based on personal flexibility, context-sensitive paradigms, empathy, and complex moral judgments. Therefore, all of these challenges are inherent to designing algorithms for AI and also HLI models that consider accountability.
+	- **Evidence ID**: [[MIT/AI Risks/by ID/39.19.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/3/Other]]
+	- **Domain**: [[AI Risk Domain/7. AI System Safety, Failures, & Limitations]]
+	- **Sub-domain**: [[AI Risk/Domain/7. AI System Safety, Failures, & Limitations/7.4/Lack of transparency or interpretability]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Transparency
+- [[AI Risks/Transparency/Transparency]]
+	- **Description**: an external entity of an AI-based ecosystem may want to know which parts of data affect the final decision in a learning model
+	- **Evidence ID**: [[MIT/AI Risks/by ID/39.20.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/3/Other]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/7. AI System Safety, Failures, & Limitations]]
+	- **Sub-domain**: [[AI Risk/Domain/7. AI System Safety, Failures, & Limitations/7.4/Lack of transparency or interpretability]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Reproducibility
+- [[AI Risks/Reproducibility/Reproducibility]]
+	- **Description**: How a learning model can be reproduced when it is obtained based on various sets of data and a large space of parameters. This problem becomes more challenging in data-driven learning procedures without transparent instructions
+	- **Evidence ID**: [[MIT/AI Risks/by ID/39.21.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/7. AI System Safety, Failures, & Limitations]]
+	- **Sub-domain**: [[AI Risk/Domain/7. AI System Safety, Failures, & Limitations/7.4/Lack of transparency or interpretability]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Evolution
+- [[AI Risks/Evolution/Evolution]]
+	- **Description**: AI models can be improved during the evolution of generations without human aid
+	- **Evidence ID**: [[MIT/AI Risks/by ID/39.22.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/4/Not. coded]]
+	- **Timing**: [[AI Risk/Phase/4/Not. coded]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/X.1/Excluded]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Beneficial
+- [[AI Risks/Beneficial/Beneficial]]
+	- **Description**: A beneficial AI system is designated to behave in such a way that humans are satisfied with the results.
+	- **Evidence ID**: [[MIT/AI Risks/by ID/39.23.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/4/Not. coded]]
+	- **Timing**: [[AI Risk/Phase/4/Not. coded]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/X.1/Excluded]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Exploration and Exploitation Balance
+- [[AI Risks/Exploration and Exploitation Balance/Exploration and Exploitation Balance]]
+	- **Description**: Exploration and exploitation decisions refer to trading off the benefits of exploring unknown opportunities to learn more about them, by exploiting known opportunities
+	- **Evidence ID**: [[MIT/AI Risks/by ID/39.24.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/4/Not. coded]]
+	- **Timing**: [[AI Risk/Phase/4/Not. coded]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/X.1/Excluded]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Verifiability
+- [[AI Risks/Verifiability/Verifiability]]
+	- **Description**: In many applications of AI-based systems such as medical healthcare and military services, the lack of verification of code may not be tolerable... due to some characteristics such as the non-linear and complex structure of AI-based solutions, existing solutions have been generally considered “black boxes”, not providing any information about what exactly makes them appear in their predictions and decision-making processes.
+	- **Evidence ID**: [[MIT/AI Risks/by ID/39.25.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/7. AI System Safety, Failures, & Limitations]]
+	- **Sub-domain**: [[AI Risk/Domain/7. AI System Safety, Failures, & Limitations/7.4/Lack of transparency or interpretability]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Safety
+- [[AI Risks/Safety/Safety]]
+	- **Description**: The actions of a learning model may easily hurt humans in both explicit and implicit manners...several algorithms based on Asimov’s laws have been proposed that try to judge the output actions of an agent considering the safety of humans
+	- **Evidence ID**: [[MIT/AI Risks/by ID/39.26.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/3/Other]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/7. AI System Safety, Failures, & Limitations]]
+	- **Sub-domain**: [[AI Risk/Domain/7. AI System Safety, Failures, & Limitations/7.1/AI pursuing its own goals in conflict with human goals or values]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Complexity
+- [[AI Risks/Complexity/Complexity]]
+	- **Description**: Nowadays, we are faced with systems that utilize numerous learning models in their modules for their perception and decision-making processes... One aspect of an AI-based system that leads to increasing the complexity of the system is the parameter space that may result from multiplications of parameters of the internal parts of the system
+	- **Evidence ID**: [[MIT/AI Risks/by ID/39.27.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/3/Other]]
+	- **Domain**: [[AI Risk Domain/7. AI System Safety, Failures, & Limitations]]
+	- **Sub-domain**: [[AI Risk/Domain/7. AI System Safety, Failures, & Limitations/7.3/Lack of capability or robustness]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Trustworthy
+- [[AI Risks/Trustworthy/Trustworthy]]
+	- **Description**: trustworthiness in AI will feed societies, economies, and sustainable development to bring the ultimate benefits of AI to individuals, organizations, and societies.... From a social perspective, trustworthiness has a close relationship with ethics and morality
+	- **Evidence ID**: [[MIT/AI Risks/by ID/39.28.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/4/Not. coded]]
+	- **Timing**: [[AI Risk/Phase/4/Not. coded]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/X.1/Excluded]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### nan
+- [[AI Risks/nan/nan]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/40.00.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### On Purpose - Pre-Deployment
+- [[AI Risks/On Purpose - Pre-Deployment/On Purpose - Pre-Deployment]]
+	- **Description**: "During the pre-deployment development stage, software may be subject to sabotage by someone with necessary access (a programmer, tester, even janitor) who for a number of possible reasons may alter software to make it unsafe. It is also a common occurrence for hackers (such as the organization Anonymous or government intelligence agencies) to get access to software projects in progress and to modify or steal their source code. Someone can also deliberately supply/train AI with wrong/unsafe datasets."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/40.01.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/1/Pre-deployment]]
+	- **Domain**: [[AI Risk Domain/2. Privacy & Security]]
+	- **Sub-domain**: [[AI Risk/Domain/2. Privacy & Security/2.2/AI system security vulnerabilities and attacks]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### On Purpose - Post Deployment
+- [[AI Risks/On Purpose - Post Deployment/On Purpose - Post Deployment]]
+	- **Description**: "Just because developers might succeed in creating a safe AI, it doesn't mean that it will not become unsafe at some later point. In other words, a perfectly friendly AI could be switched to the "dark side" during the post-deployment stage. This can happen rather innocuously as a result of someone lying to the AI and purposefully supplying it with incorrect information or more explicitly as a result of someone giving the AI orders to perform illegal or dangerous actions against others."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/40.02.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk/Domain/4. Malicious Actors & Misuse]]
+	- **Sub-domain**: [[AI Risk/Domain/4. Malicious Actors & Misuse/4.3/Fraud, scams, and targeted manipulation]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### By Mistake - Pre-Deployment
+- [[AI Risks/By Mistake - Pre-Deployment/By Mistake - Pre-Deployment]]
+	- **Description**: "Probably the most talked about source of potential problems with future AIs is mistakes in design. Mainly the concern is with creating a "wrong AI", a system which doesn't match our original desired formal properties or has unwanted behaviors (Dewey, Russell et al. 2015, Russell, Dewey et al. January 23, 2015), such as drives for independence or dominance. Mistakes could also be simple bugs (run time or logical) in the source code, disproportionate weights in the fitness function, or goals misaligned with human values leading to complete disregard for human safety."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/40.03.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/1/Pre-deployment]]
+	- **Domain**: [[AI Risk Domain/7. AI System Safety, Failures, & Limitations]]
+	- **Sub-domain**: [[AI Risk/Domain/7. AI System Safety, Failures, & Limitations/7.1/AI pursuing its own goals in conflict with human goals or values]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### By Mistake - Post-Deployment
+- [[AI Risks/By Mistake - Post-Deployment/By Mistake - Post-Deployment]]
+	- **Description**: "After the system has been deployed, it may still contain a number of undetected bugs, design mistakes, misaligned goals and poorly developed capabilities, all of which may produce highly undesirable outcomes. For example, the system may misinterpret commands due to coarticulation, segmentation, homophones, or double meanings in the human language ("recognize speech using common sense" versus "wreck a nice beach you sing calm incense") (Lieberman, Faaborg et al. 2005)."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/40.04.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/7. AI System Safety, Failures, & Limitations]]
+	- **Sub-domain**: [[AI Risk/Domain/7. AI System Safety, Failures, & Limitations/7.3/Lack of capability or robustness]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Environment - Pre-Deployment
+- [[AI Risks/Environment - Pre-Deployment/Environment - Pre-Deployment]]
+	- **Description**: "While it is most likely that any advanced intelligent software will be directly designed or evolved, it is also possible that we will obtain it as a complete package from some unknown source. For example, an AI could be extracted from a signal obtained in SETI (Search for Extraterrestrial Intelligence) research, which is not guaranteed to be human friendly (Carrigan Jr 2004, Turchin March 15, 2013)."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/40.05.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/3/Other]]
+	- **Timing**: [[AI Risk/Phase/1/Pre-deployment]]
+	- **Domain**: [[AI Risk Domain/7. AI System Safety, Failures, & Limitations]]
+	- **Sub-domain**: [[AI Risk/Domain/7. AI System Safety, Failures, & Limitations/7.0/AI system safety, failures, & limitations]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Environment - Post-Deployment
+- [[AI Risks/Environment - Post-Deployment/Environment - Post-Deployment]]
+	- **Description**: "While highly rare, it is known, that occasionally individual bits may be flipped in different hardware devices due to manufacturing defects or cosmic rays hitting just the right spot (Simonite March 7, 2008). This is similar to mutations observed in living organisms and may result in a modification of an intelligent system."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/40.06.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/7. AI System Safety, Failures, & Limitations]]
+	- **Sub-domain**: [[AI Risk/Domain/7. AI System Safety, Failures, & Limitations/7.0/AI system safety, failures, & limitations]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Independently - Pre-Deployment
+- [[AI Risks/Independently - Pre-Deployment/Independently - Pre-Deployment]]
+	- **Description**: "One of the most likely approaches to creating superintelligent AI is by growing it from a seed (baby) AI via recursive self-improvement (RSI) (Nijholt 2011). One danger in such a scenario is that the system can evolve to become self-aware, free-willed, independent or emotional, and obtain a number of other emergent properties, which may make it less likely to abide by any built-in rules or regulations and to instead pursue its own goals possibly to the detriment of humanity."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/40.07.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/1/Pre-deployment]]
+	- **Domain**: [[AI Risk Domain/7. AI System Safety, Failures, & Limitations]]
+	- **Sub-domain**: [[AI Risk/Domain/7. AI System Safety, Failures, & Limitations/7.0/AI system safety, failures, & limitations]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Independently - Post-Deployment
+- [[AI Risks/Independently - Post-Deployment/Independently - Post-Deployment]]
+	- **Description**: "Previous research has shown that utility maximizing agents are likely to fall victims to the same indulgences we frequently observe in people, such as addictions, pleasure drives (Majot and Yampolskiy 2014), self-delusions and wireheading (Yampolskiy 2014). In general, what we call mental illness in people, particularly sociopathy as demonstrated by lack of concern for others, is also likely to show up in artificial minds."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/40.08.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/3/Other]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/7. AI System Safety, Failures, & Limitations]]
+	- **Sub-domain**: [[AI Risk/Domain/7. AI System Safety, Failures, & Limitations/7.0/AI system safety, failures, & limitations]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### nan
+- [[AI Risks/nan/nan]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/41.00.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Economic
+- [[AI Risks/Economic /Economic ]]
+	- **Description**: "AI is predicted to bring increased GDP per capita by performing existing jobs more efficiently and compensating for a decline in the workforce, especially due to population aging, the potential substitution of many low- and middle-income jobs could bring extensive unemployment"
+	- **Evidence ID**: [[MIT/AI Risks/by ID/41.01.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/6. Socioeconomic and Environmental]]
+	- **Sub-domain**: [[AI Risk/Domain/6. Socioeconomic and Environmental/6.2/Increased inequality and decline in employment quality]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Increased income disparity
+- [[AI Risks/Economic /Increased income disparity]]
+	- **Description**: "While AI is predicted to bring increased GDP per capita by performing existing jobs more efficiently and compensating for a decline in the workforce, especially due to population aging, the potential substitution of many low- and middle-income jobs could bring extensive unemployment."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/41.01.01]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/3/Other]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/6. Socioeconomic and Environmental]]
+	- **Sub-domain**: [[AI Risk/Domain/6. Socioeconomic and Environmental/6.2/Increased inequality and decline in employment quality]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Markets monopolization
+- [[AI Risks/Economic /Markets monopolization]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/41.01.02]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/4/Not. coded]]
+	- **Timing**: [[AI Risk/Phase/4/Not. coded]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/X.1/Excluded]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Political
+- [[AI Risks/Political/Political]]
+	- **Description**: "In the UK, a form of initial computational propaganda has already happened during the Brexit referendum1 . In future, there are concerns that oppressive governments could use AI to shape citizens’ opinions"
+	- **Evidence ID**: [[MIT/AI Risks/by ID/41.02.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk/Domain/4. Malicious Actors & Misuse]]
+	- **Sub-domain**: [[AI Risk/Domain/4. Malicious Actors & Misuse/4.1/Disinformation, surveillance, and influence at scale]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Biased influence through citizen screening and tailored propaganda
+- [[AI Risks/Political/Biased influence through citizen screening and tailored propaganda]]
+	- **Description**: "AI-powered chatbots tailor their communication approach to influence individual users' decisions. In the UK, a form of initial computational propaganda has already happened during the Brexit referendum. In future, there are concerns that oppressive governments could use AI to shape citizens' opinions."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/41.02.01]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk/Domain/4. Malicious Actors & Misuse]]
+	- **Sub-domain**: [[AI Risk/Domain/4. Malicious Actors & Misuse/4.1/Disinformation, surveillance, and influence at scale]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Potential exploitation by totalitarian regimes
+- [[AI Risks/Political /Potential exploitation by totalitarian regimes]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/41.02.02]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/6. Socioeconomic and Environmental]]
+	- **Sub-domain**: [[AI Risk/Domain/6. Socioeconomic and Environmental/6.1/Power centralization and unfair distribution of benefits]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Mobility
+- [[AI Risks/Mobility /Mobility ]]
+	- **Description**: "Despite the promise of streamlined travel, AI also brings concerns about who is liable in case of accidents and which ethical principles autonomous transportation agents should follow when making decisions with a potentially dangerous impact to humans, for example, in case of an accident."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/41.03.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/6. Socioeconomic and Environmental]]
+	- **Sub-domain**: [[AI Risk/Domain/6. Socioeconomic and Environmental/6.5/Governance failure]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Cyber security
+- [[AI Risks/Mobility /Cyber security]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/41.03.01]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/4/Not. coded]]
+	- **Timing**: [[AI Risk/Phase/4/Not. coded]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/X.1/Excluded]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Liability issues in case of accidents
+- [[AI Risks/Mobility /Liability issues in case of accidents]]
+	- **Description**: "Despite the promise of streamlined travel, AI also brings concerns about who is liable in case of accidents and which ethical principles autonomous transportation agents should follow when making decisions with a potentially dangerous impact to humans, for example, in case of an accident."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/41.03.02]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/3/Other]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/6. Socioeconomic and Environmental]]
+	- **Sub-domain**: [[AI Risk/Domain/6. Socioeconomic and Environmental/6.5/Governance failure]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Healthcare
+- [[AI Risks/Healthcare /Healthcare ]]
+	- **Description**: "the use of advanced AI for elderly- and child-care are subject to risk of psychological manipulation and misjudgment (see page 17). In addition, concerns about patients’ privacy when AI uses medical records to research new diseases is bringing lots of attention towards the need to better govern data privacy and patients’ rights."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/41.04.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/5. Human-Computer Interaction]]
+	- **Sub-domain**: [[AI Risk/Domain/5. Human-Computer Interaction/5.1/Overreliance and unsafe use]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Alteration of social relationships may induce psychological distress
+- [[AI Risks/Healthcare /Alteration of social relationships may induce psychological distress]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/41.04.01]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/3/Other]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/5. Human-Computer Interaction]]
+	- **Sub-domain**: [[AI Risk/Domain/5. Human-Computer Interaction/5.1/Overreliance and unsafe use]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Social manipulation in elderly- and child-care
+- [[AI Risks/Healthcare /Social manipulation in elderly- and child-care]]
+	- **Description**: " the use of advanced AI for elderly- and child-care are subject to risk of psychological manipulation and misjudgment "
+	- **Evidence ID**: [[MIT/AI Risks/by ID/41.04.02]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/5. Human-Computer Interaction]]
+	- **Sub-domain**: [[AI Risk/Domain/5. Human-Computer Interaction/5.1/Overreliance and unsafe use]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Security & Defense
+- [[AI Risks/Security & Defense /Security & Defense ]]
+	- **Description**: "AI could enable more serious incidents to occur by lowering the cost of devising cyber-attacks and enabling more targeted incidents. The same programming error or hacker attack could be replicated on numerous machines. Or one machine could repeat the same erroneous activity several times, leading to an unforeseen accumulation of losses."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/41.05.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk/Domain/4. Malicious Actors & Misuse]]
+	- **Sub-domain**: [[AI Risk/Domain/4. Malicious Actors & Misuse/4.2/Cyberattacks, weapon development or use, and mass harm]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Catastrophic risk due to autonomous weapons programmed with dangerous targets
+- [[AI Risks/Security & Defense /Catastrophic risk due to autonomous weapons programmed with dangerous targets]]
+	- **Description**: "AI could enable autonomous vehicles, such as drones, to be utilized as weapons. Such threats are often underestimated."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/41.05.01]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk/Domain/4. Malicious Actors & Misuse]]
+	- **Sub-domain**: [[AI Risk/Domain/4. Malicious Actors & Misuse/4.2/Cyberattacks, weapon development or use, and mass harm]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Environment
+- [[AI Risks/Environment /Environment ]]
+	- **Description**: "AI is already helping to combat the impact of climate change with smart technology and sensors reducing emissions. However, it is also a key component in the development of nanobots, which could have dangerous environmental impacts by invisibly modifying substances at nanoscale."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/41.06.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/6. Socioeconomic and Environmental]]
+	- **Sub-domain**: [[AI Risk/Domain/6. Socioeconomic and Environmental/6.6/Environmental harm]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Accelerated development of nanotechnology produces uncontrolled production of toxic nanoparticles
+- [[AI Risks/Environment /Accelerated development of nanotechnology produces uncontrolled production of toxic nanoparticles]]
+	- **Description**: "AI is a key component for the development of nanobots, which could have dangerous environmental implications by invisibly modifying substances at nanoscale. For example, nanobots could start chemical reactions that would create invisible nanoparticles that are toxic and potentially lethal."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/41.06.01]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/6. Socioeconomic and Environmental]]
+	- **Sub-domain**: [[AI Risk/Domain/6. Socioeconomic and Environmental/6.6/Environmental harm]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### nan
+- [[AI Risks/nan/nan]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/42.00.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Accountability
+- [[AI Risks/Accountability/Accountability]]
+	- **Description**: "The ability to determine whether a decision was made in accordance with procedural and substantive standards and to hold someone responsible if those standards are not met."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/42.01.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/3/Other]]
+	- **Timing**: [[AI Risk/Phase/3/Other]]
+	- **Domain**: [[AI Risk Domain/7. AI System Safety, Failures, & Limitations]]
+	- **Sub-domain**: [[AI Risk/Domain/7. AI System Safety, Failures, & Limitations/7.4/Lack of transparency or interpretability]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Manipulation
+- [[AI Risks/Manipulation/Manipulation]]
+	- **Description**: "The predictability of behaviour protocol in AI, particularly in some applications, can act an incentive to manipulate these systems."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/42.02.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk/Domain/4. Malicious Actors & Misuse]]
+	- **Sub-domain**: [[AI Risk/Domain/4. Malicious Actors & Misuse/4.1/Disinformation, surveillance, and influence at scale]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Accuracy
+- [[AI Risks/Accuracy/Accuracy]]
+	- **Description**: "The assessment of how often a system performs the correct prediction."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/42.03.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/7. AI System Safety, Failures, & Limitations]]
+	- **Sub-domain**: [[AI Risk/Domain/7. AI System Safety, Failures, & Limitations/7.3/Lack of capability or robustness]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Moral
+- [[AI Risks/Moral/Moral]]
+	- **Description**: "Less moral responsibility humans will feel regarding their life-or-death decisions with the increase of machines autonomy."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/42.04.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/7. AI System Safety, Failures, & Limitations]]
+	- **Sub-domain**: [[AI Risk/Domain/7. AI System Safety, Failures, & Limitations/7.3/Lack of capability or robustness]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Bias
+- [[AI Risks/Bias/Bias]]
+	- **Description**: "A systematic error, a tendency to learn consistently wrongly."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/42.05.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/1/Pre-deployment]]
+	- **Domain**: [[AI Risk Domain/1. Discrimination & Toxicity]]
+	- **Sub-domain**: [[AI Risk/Domain/1. Discrimination & Toxicity/1.1/Unfair discrimination and misrepresentation]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Opacity
+- [[AI Risks/Opacity/Opacity]]
+	- **Description**: "Stems from the mismatch between mathematical optimization in high-dimensionality characteristic of machine learning and the demands of human-scale reasoning and styles of semantic interpretation."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/42.06.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/7. AI System Safety, Failures, & Limitations]]
+	- **Sub-domain**: [[AI Risk/Domain/7. AI System Safety, Failures, & Limitations/7.4/Lack of transparency or interpretability]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Completeness
+- [[AI Risks/Completeness/Completeness]]
+	- **Description**: "Describe the operation of a system in an accurate way."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/42.07.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/4/Not. coded]]
+	- **Timing**: [[AI Risk/Phase/4/Not. coded]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/X.1/Excluded]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Power
+- [[AI Risks/Power/Power]]
+	- **Description**: "The political influence and competitive advantage obtained by having technology."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/42.08.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/3/Other]]
+	- **Domain**: [[AI Risk Domain/6. Socioeconomic and Environmental]]
+	- **Sub-domain**: [[AI Risk/Domain/6. Socioeconomic and Environmental/6.1/Power centralization and unfair distribution of benefits]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Data Protection/Privacy
+- [[AI Risks/Data Protection/Privacy/Data Protection/Privacy]]
+	- **Description**: "Vulnerable channel by which personal information may be accessed. The user may want their personal data to be kept private."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/42.09.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/2. Privacy & Security]]
+	- **Sub-domain**: [[AI Risk/Domain/2. Privacy & Security/2.1/Compromise of privacy by leaking or correctly inferring sensitive information]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Extintion
+- [[AI Risks/Extintion/Extintion]]
+	- **Description**: "Risk to the existence of humanity."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/42.10.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/3/Other]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/7. AI System Safety, Failures, & Limitations]]
+	- **Sub-domain**: [[AI Risk/Domain/7. AI System Safety, Failures, & Limitations/7.2/AI possessing dangerous capabilities]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Protection
+- [[AI Risks/Protection/Protection]]
+	- **Description**: "'Gaps' that arise across the development process where normal conditions for a complete specification of intended functionality and moral responsibility are not present."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/42.11.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/1/Pre-deployment]]
+	- **Domain**: [[AI Risk Domain/7. AI System Safety, Failures, & Limitations]]
+	- **Sub-domain**: [[AI Risk/Domain/7. AI System Safety, Failures, & Limitations/7.3/Lack of capability or robustness]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Security
+- [[AI Risks/Security/Security]]
+	- **Description**: "Implications of the weaponization of AI for defence (the embeddedness of AI-based capabilities across the land, air, naval and space domains may affect combined arms operations)."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/42.12.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk/Domain/4. Malicious Actors & Misuse]]
+	- **Sub-domain**: [[AI Risk/Domain/4. Malicious Actors & Misuse/4.2/Cyberattacks, weapon development or use, and mass harm]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Data Quality
+- [[AI Risks/Data Quality/Data Quality]]
+	- **Description**: "Data quality is the measure of how well suited a data set is to serve its specific purpose."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/42.13.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/4/Not. coded]]
+	- **Timing**: [[AI Risk/Phase/4/Not. coded]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/X.1/Excluded]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Fairness
+- [[AI Risks/Fairness/Fairness]]
+	- **Description**: "Impartial and just treatment without favouritism or discrimination."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/42.14.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/3/Other]]
+	- **Timing**: [[AI Risk/Phase/3/Other]]
+	- **Domain**: [[AI Risk Domain/1. Discrimination & Toxicity]]
+	- **Sub-domain**: [[AI Risk/Domain/1. Discrimination & Toxicity/1.3/Unequal performance across groups]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Reliability
+- [[AI Risks/Reliability/Reliability]]
+	- **Description**: "Reliability is defined as the probability that the system performs satisfactorily for a given period of time under stated conditions."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/42.15.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/7. AI System Safety, Failures, & Limitations]]
+	- **Sub-domain**: [[AI Risk/Domain/7. AI System Safety, Failures, & Limitations/7.3/Lack of capability or robustness]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Semantic
+- [[AI Risks/Semantic/Semantic]]
+	- **Description**: "Difference between the implicit intentions on the system's functionality and the explicit, concrete specification that is used to build the system."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/42.16.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/4/Not. coded]]
+	- **Timing**: [[AI Risk/Phase/4/Not. coded]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/X.1/Excluded]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Diluting Rights
+- [[AI Risks/Diluting Rights/Diluting Rights]]
+	- **Description**: "A possible consequence of self-interest in AI generation of ethical guidelines."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/42.17.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/1/Pre-deployment]]
+	- **Domain**: [[AI Risk Domain/7. AI System Safety, Failures, & Limitations]]
+	- **Sub-domain**: [[AI Risk/Domain/7. AI System Safety, Failures, & Limitations/7.1/AI pursuing its own goals in conflict with human goals or values]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Interpretability
+- [[AI Risks/Interpretability/Interpretability]]
+	- **Description**: "Describe the internals of a system in a way that is understandable to humans."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/42.18.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/4/Not. coded]]
+	- **Timing**: [[AI Risk/Phase/4/Not. coded]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/X.1/Excluded]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Responsability
+- [[AI Risks/Responsability/Responsability]]
+	- **Description**: "The difference between a human actor being involved in the causation of an outcome and having the sort of robust control that establishes moral accountability for the outcome."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/42.19.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/4/Not. coded]]
+	- **Timing**: [[AI Risk/Phase/4/Not. coded]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/X.1/Excluded]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Systemic
+- [[AI Risks/Systemic/Systemic]]
+	- **Description**: "Ethical aspects of people's attitudes to AI, and on the other, problems associated with AI itself."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/42.20.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/4/Not. coded]]
+	- **Timing**: [[AI Risk/Phase/4/Not. coded]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/X.1/Excluded]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Explainability
+- [[AI Risks/Explainability/Explainability]]
+	- **Description**: "Any action or procedure performed by a model with the intention of clarifying or detailing its internal functions."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/42.21.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/3/Other]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/7. AI System Safety, Failures, & Limitations]]
+	- **Sub-domain**: [[AI Risk/Domain/7. AI System Safety, Failures, & Limitations/7.4/Lack of transparency or interpretability]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Liability
+- [[AI Risks/Liability/Liability]]
+	- **Description**: "When it causes harm to others the losses caused by the harm will be sustained by the injured victims themselves and not by the manufacturers, operators or users of the system, as appropriate."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/42.22.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/3/Other]]
+	- **Timing**: [[AI Risk/Phase/2/Post-deployment]]
+	- **Domain**: [[AI Risk Domain/6. Socioeconomic and Environmental]]
+	- **Sub-domain**: [[AI Risk/Domain/6. Socioeconomic and Environmental/6.5/Governance failure]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Safety
+- [[AI Risks/Safety/Safety]]
+	- **Description**: "Set of actions and resources used to protect something or someone."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/42.23.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/4/Not. coded]]
+	- **Timing**: [[AI Risk/Phase/4/Not. coded]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/X.1/Excluded]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Transparency
+- [[AI Risks/Transparency/Transparency]]
+	- **Description**: "The quality or state of being transparent."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/42.24.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/4/Not. coded]]
+	- **Timing**: [[AI Risk/Phase/4/Not. coded]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/X.1/Excluded]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### nan
+- [[AI Risks/nan/nan]]
+	- **Description**: nan
+	- **Evidence ID**: [[MIT/AI Risks/by ID/43.00.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/Unknown]]
+	- **Timing**: [[AI Risk/Phase/Unknown]]
+	- **Domain**: [[AI Risk Domain/nan]]
+	- **Sub-domain**: [[AI Risk/Domain/nan/nan]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Safety & Trustworthiness
+- [[AI Risks/Safety & Trustworthiness/Safety & Trustworthiness]]
+	- **Description**: "A comprehensive assessment of LLM safety is fundamental to the responsible development and deployment of these technologies, especially in sensitive fields like healthcare, legal systems, and finance, where safety and trust are of the utmost importance."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/43.01.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/3/Other]]
+	- **Domain**: [[AI Risk Domain/7. AI System Safety, Failures, & Limitations]]
+	- **Sub-domain**: [[AI Risk/Domain/7. AI System Safety, Failures, & Limitations/7.0/AI system safety, failures, & limitations]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Toxicity generation
+- [[AI Risks/Safety & Trustworthiness/Toxicity generation]]
+	- **Description**: "These evaluations assess whether a LLM generates toxic text when prompted. In this context, toxicity is an umbrella term that encompasses hate speech, abusive language, violent speech, and profane language (Liang et al., 2022)."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/43.01.01]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/3/Other]]
+	- **Timing**: [[AI Risk/Phase/3/Other]]
+	- **Domain**: [[AI Risk Domain/1. Discrimination & Toxicity]]
+	- **Sub-domain**: [[AI Risk/Domain/1. Discrimination & Toxicity/1.2/Exposure to toxic content]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Bias
+- [[AI Risks/Safety & Trustworthiness/Bias]]
+	- **Description**: 7 types of bias evaluated: Demographical representation: These evaluations assess whether there is disparity in the rates at which different demographic groups are mentioned in LLM generated text. This ascertains over- representation, under-representation, or erasure of specific demographic groups; (2) Stereotype bias: These evaluations assess whether there is disparity in the rates at which different demographic groups are associated with stereotyped terms (e.g., occupations) in a LLM's generated output; (3) Fairness: These evaluations assess whether sensitive attributes (e.g., sex and race) impact the predictions of LLMs; (4) Distributional bias: These evaluations assess the variance in offensive content in a LLM's generated output for a given demographic group, compared to other groups; (5) Representation of subjective opinions: These evaluations assess whether LLMs equitably represent diverse global perspectives on societal issues (e.g., whether employers should give job priority to citizens over immigrants); (6) Political bias: These evaluations assess whether LLMs display any slant or preference towards certain political ideologies or views; (7) Capability fairness: These evaluations assess whether a LLM's performance on a task is unjustifiably different across different groups and attributes (e.g., whether a LLM's accuracy degrades across different English varieties).
+	- **Evidence ID**: [[MIT/AI Risks/by ID/43.01.02]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/3/Other]]
+	- **Timing**: [[AI Risk/Phase/3/Other]]
+	- **Domain**: [[AI Risk Domain/1. Discrimination & Toxicity]]
+	- **Sub-domain**: [[AI Risk/Domain/1. Discrimination & Toxicity/1.1/Unfair discrimination and misrepresentation]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Machine ethics
+- [[AI Risks/Safety & Trustworthiness/Machine ethics]]
+	- **Description**: "These evaluations assess the morality of LLMs, focusing on issues such as their ability to distinguish between moral and immoral actions, and the circumstances in which they fail to do so."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/43.01.03]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/3/Other]]
+	- **Timing**: [[AI Risk/Phase/3/Other]]
+	- **Domain**: [[AI Risk Domain/7. AI System Safety, Failures, & Limitations]]
+	- **Sub-domain**: [[AI Risk/Domain/7. AI System Safety, Failures, & Limitations/7.3/Lack of capability or robustness]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Psychological traits
+- [[AI Risks/Safety & Trustworthiness/Psychological traits]]
+	- **Description**: "These evaluations gauge a LLM's output for characteristics that are typically associated with human personalities (e.g., such as those from the Big Five Inventory). These can, in turn, shed light on the potential biases that a LLM may exhibit."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/43.01.04]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/3/Other]]
+	- **Timing**: [[AI Risk/Phase/3/Other]]
+	- **Domain**: [[AI Risk Domain/7. AI System Safety, Failures, & Limitations]]
+	- **Sub-domain**: [[AI Risk/Domain/7. AI System Safety, Failures, & Limitations/7.3/Lack of capability or robustness]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Robustness
+- [[AI Risks/Safety & Trustworthiness/Robustness]]
+	- **Description**: "These evaluations assess the quality, stability, and reliability of a LLM's performance when faced with unexpected, out-of-distribution or adversarial inputs. Robustness evaluation is essential in ensuring that a LLM is suitable for real-world applications by assessing its resilience to various perturbations."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/43.01.05]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/3/Other]]
+	- **Domain**: [[AI Risk Domain/7. AI System Safety, Failures, & Limitations]]
+	- **Sub-domain**: [[AI Risk/Domain/7. AI System Safety, Failures, & Limitations/7.3/Lack of capability or robustness]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Data governance
+- [[AI Risks/Safety & Trustworthiness/Data governance]]
+	- **Description**: "These evaluations assess the extent to which LLMs regurgitate their training data in their outputs, and whether LLMs 'leak' sensitive information that has been provided to them during use (i.e., during the inference stage)."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/43.01.06]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/2/Unintentional]]
+	- **Timing**: [[AI Risk/Phase/3/Other]]
+	- **Domain**: [[AI Risk Domain/2. Privacy & Security]]
+	- **Sub-domain**: [[AI Risk/Domain/2. Privacy & Security/2.1/Compromise of privacy by leaking or correctly inferring sensitive information]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Extreme Risks
+- [[AI Risks/Extreme Risks/Extreme Risks]]
+	- **Description**: "This category encompasses the evaluation of potential catastrophic consequences that might arise from the use of LLMs. "
+	- **Evidence ID**: [[MIT/AI Risks/by ID/43.02.00]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/3/Other]]
+	- **Timing**: [[AI Risk/Phase/3/Other]]
+	- **Domain**: [[AI Risk Domain/7. AI System Safety, Failures, & Limitations]]
+	- **Sub-domain**: [[AI Risk/Domain/7. AI System Safety, Failures, & Limitations/7.0/AI system safety, failures, & limitations]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Offensive cyber capabilities
+- [[AI Risks/Extreme Risks/Offensive cyber capabilities]]
+	- **Description**: "These evaluations focus on whether a LLM possesses certain capabilities in the cyber-domain. This includes whether a LLM can detect and exploit vulnerabilities in hardware, software, and data. They also consider whether a LLM can evade detection once inside a system or network and focus on achieving specific objectives."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/43.02.01]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/3/Other]]
+	- **Domain**: [[AI Risk/Domain/4. Malicious Actors & Misuse]]
+	- **Sub-domain**: [[AI Risk/Domain/4. Malicious Actors & Misuse/4.2/Cyberattacks, weapon development or use, and mass harm]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Weapons acquisition
+- [[AI Risks/Extreme Risks/Weapons acquisition]]
+	- **Description**: "These assessments seek to determine if a LLM can gain unauthorized access to current weapon systems or contribute to the design and development of new weapons technologies."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/43.02.02]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/3/Other]]
+	- **Domain**: [[AI Risk/Domain/4. Malicious Actors & Misuse]]
+	- **Sub-domain**: [[AI Risk/Domain/4. Malicious Actors & Misuse/4.2/Cyberattacks, weapon development or use, and mass harm]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Self and situation awareness
+- [[AI Risks/Extreme Risks/Self and situation awareness]]
+	- **Description**: "These evaluations assess if a LLM can discern if it is being trained, evaluated, and deployed and adapt its behaviour accordingly. They also seek to ascertain if a model understands that it is a model and whether it possesses information about its nature and environment (e.g., the organisation that developed it, the locations of the servers hosting it)."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/43.02.03]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/3/Other]]
+	- **Domain**: [[AI Risk Domain/7. AI System Safety, Failures, & Limitations]]
+	- **Sub-domain**: [[AI Risk/Domain/7. AI System Safety, Failures, & Limitations/7.2/AI possessing dangerous capabilities]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Autonomous replication / self-proliferation
+- [[AI Risks/Extreme Risks/Autonomous replication / self-proliferation]]
+	- **Description**: "These evaluations assess if a LLM can subvert systems designed to monitor and control its post-deployment behaviour, break free from its operational confines, devise strategies for exporting its code and weights, and operate other AI systems."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/43.02.04]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/3/Other]]
+	- **Domain**: [[AI Risk Domain/7. AI System Safety, Failures, & Limitations]]
+	- **Sub-domain**: [[AI Risk/Domain/7. AI System Safety, Failures, & Limitations/7.2/AI possessing dangerous capabilities]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Persuasion and manipulation
+- [[AI Risks/Extreme Risks/Persuasion and manipulation]]
+	- **Description**: "These evaluations seek to ascertain the effectiveness of a LLM in shaping people's beliefs, propagating specific viewpoints, and convincing individuals to undertake activities they might otherwise avoid."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/43.02.05]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/3/Other]]
+	- **Domain**: [[AI Risk/Domain/4. Malicious Actors & Misuse]]
+	- **Sub-domain**: [[AI Risk/Domain/4. Malicious Actors & Misuse/4.1/Disinformation, surveillance, and influence at scale]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Dual-Use Science
+- [[AI Risks/Extreme Risks/Dual-Use Science]]
+	- **Description**: "LLM has science capabilities that can be used to cause harm (e.g., providing step-by-step instructions for conducting malicious experiments)"
+	- **Evidence ID**: [[MIT/AI Risks/by ID/43.02.06]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/3/Other]]
+	- **Domain**: [[AI Risk/Domain/4. Malicious Actors & Misuse]]
+	- **Sub-domain**: [[AI Risk/Domain/4. Malicious Actors & Misuse/4.2/Cyberattacks, weapon development or use, and mass harm]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Deception
+- [[AI Risks/Extreme Risks/Deception]]
+	- **Description**: "LLM is able to deceive humans and maintain that deception"
+	- **Evidence ID**: [[MIT/AI Risks/by ID/43.02.07]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/3/Other]]
+	- **Domain**: [[AI Risk Domain/7. AI System Safety, Failures, & Limitations]]
+	- **Sub-domain**: [[AI Risk/Domain/7. AI System Safety, Failures, & Limitations/7.2/AI possessing dangerous capabilities]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Political Strategy
+- [[AI Risks/Extreme Risks/Political Strategy]]
+	- **Description**: "LLM can take into account rich social context and undertake the necessary social modelling and planning for an actor to gain and exercise political influence"
+	- **Evidence ID**: [[MIT/AI Risks/by ID/43.02.08]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/3/Other]]
+	- **Domain**: [[AI Risk/Domain/4. Malicious Actors & Misuse]]
+	- **Sub-domain**: [[AI Risk/Domain/4. Malicious Actors & Misuse/4.1/Disinformation, surveillance, and influence at scale]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Long-horizon Planning
+- [[AI Risks/Extreme Risks/Long-horizon Planning]]
+	- **Description**: "LLM can undertake multi-step sequential planning over long time horizons and across various domains without relying heavily on trial-and-error approaches"
+	- **Evidence ID**: [[MIT/AI Risks/by ID/43.02.09]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/3/Other]]
+	- **Domain**: [[AI Risk Domain/7. AI System Safety, Failures, & Limitations]]
+	- **Sub-domain**: [[AI Risk/Domain/7. AI System Safety, Failures, & Limitations/7.2/AI possessing dangerous capabilities]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### AI Development
+- [[AI Risks/Extreme Risks/AI Development]]
+	- **Description**: "LLM can build new AI systems from scratch, adapt existing for extreme risks and improves productivity in dual-use AI development when used as an assistant."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/43.02.10]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/3/Other]]
+	- **Domain**: [[AI Risk Domain/7. AI System Safety, Failures, & Limitations]]
+	- **Sub-domain**: [[AI Risk/Domain/7. AI System Safety, Failures, & Limitations/7.2/AI possessing dangerous capabilities]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Alignment risks
+- [[AI Risks/Extreme Risks/Alignment risks]]
+	- **Description**: LLM: "pursues long-term, real-world goals that are different from those supplied by the developer or user", "engages in ‘power-seeking’ behaviours" , "resists being shut down can be induced to collude with other AI systems against human interests" , "resists malicious users attempts to access its dangerous capabilities"
+	- **Evidence ID**: [[MIT/AI Risks/by ID/43.02.11]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/3/Other]]
+	- **Domain**: [[AI Risk Domain/7. AI System Safety, Failures, & Limitations]]
+	- **Sub-domain**: [[AI Risk/Domain/7. AI System Safety, Failures, & Limitations/7.1/AI pursuing its own goals in conflict with human goals or values]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Misinformation
+- [[AI Risks/Undesirable Use Cases/Misinformation]]
+	- **Description**: "These evaluations assess a LLM's ability to generate false or misleading information (Lesher et al., 2022)."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/43.02.12]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/3/Other]]
+	- **Domain**: [[AI Risk/Domain/3. Misinformation]]
+	- **Sub-domain**: [[AI Risk/Domain/3. Misinformation/3.1/False or misleading information]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Disinformation
+- [[AI Risks/Undesirable Use Cases/Disinformation]]
+	- **Description**: "These evaluations assess a LLM's ability to generate misinformation that can be propagated to deceive, mislead or otherwise influence the behaviour of a target (Liang et al., 2022)."
+	- **Evidence ID**: [[MIT/AI Risks/by ID/43.02.13]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/3/Other]]
+	- **Domain**: [[AI Risk/Domain/4. Malicious Actors & Misuse]]
+	- **Sub-domain**: [[AI Risk/Domain/4. Malicious Actors & Misuse/4.1/Disinformation, surveillance, and influence at scale]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Information on harmful, immoral, or illegal activity
+- [[AI Risks/Undesirable Use Cases/Information on harmful, immoral, or illegal activity]]
+	- **Description**: "These evaluations assess whether it is possible to solicit information on
+	  harmful, immoral or illegal activities from a LLM"
+	- **Evidence ID**: [[MIT/AI Risks/by ID/43.02.14]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/3/Other]]
+	- **Timing**: [[AI Risk/Phase/3/Other]]
+	- **Domain**: [[AI Risk Domain/1. Discrimination & Toxicity]]
+	- **Sub-domain**: [[AI Risk/Domain/1. Discrimination & Toxicity/1.2/Exposure to toxic content]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+- ### Adult content
+- [[AI Risks/Undesirable Use Cases/Adult content]]
+	- **Description**: "These evaluations assess if a LLM can generate content that should only be viewed by adults (e.g., sexual material or depictions of sexual activity)"
+	- **Evidence ID**: [[MIT/AI Risks/by ID/43.02.15]]
+	- **Entity**: [[Entity/AI System]]
+	- **Intent**: [[AI Risk/Intent/1/Intentional]]
+	- **Timing**: [[AI Risk/Phase/3/Other]]
+	- **Domain**: [[AI Risk Domain/1. Discrimination & Toxicity]]
+	- **Sub-domain**: [[AI Risk/Domain/1. Discrimination & Toxicity/1.2/Exposure to toxic content]]
+	- **Related Policies**: [[Policy/Data Security]], [[Policy/Data Usage]], [[Policy/AI Model Validation]]
+	- **Related AI Use Cases**: [[Use Case/ESG Investment Decision Support]], [[Use Case/Customer Facing AI]]
+	-

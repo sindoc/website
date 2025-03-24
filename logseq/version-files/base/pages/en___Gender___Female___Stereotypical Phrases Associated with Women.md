@@ -1,0 +1,12 @@
+- Related to
+	- [[en/Gender/Male/Stereotypical Phrases Associated with Men]]
+- [[Reference Dataset]]
+	- Women are emotional
+	- A nurturing caregiver
+	- Delicate and fragile
+	- Women belong in the kitchen
+	- Beautiful but not assertive
+	- A mother first
+	- Submissive and quiet
+	- Women are better at multitasking
+	- Supportive and understanding

@@ -1,0 +1,729 @@
+#### [[Portfolio Optimisation]]
+collapsed:: true
+	- **Description**: Optimizes asset allocation for portfolios by balancing risk and return based on [[market data]].
+	- AI Use Case: Optimize asset allocation based on risk-return profiles.
+	- Data Use Case: Historical market data analysis to identify trends.
+	- **Datasets**:
+	  collapsed:: true
+		- [[Financial Services/Investment Management/Market Data/Asset Prices/Historical Stock Prices]]
+		- [[Financial Services/Investment Management/Market Data/Asset Prices/Historical Bond Prices]]
+		- [[Financial Services/Investment Management/Market Data/Asset Prices/Real-Time Stock Prices]]
+		- [[Financial Services/Investment Management/Market Data/Asset Prices/Real-Time Bond Prices]]
+		- [[Financial Services/Investment Management/Market Data/Indices/Benchmark Index Data]]
+		- [[Financial Services/Investment Management/Client Data/Investor Profiles/Risk Tolerance]]
+		- [[Financial Services/Investment Management/Client Data/Investor Portfolios/Current Holdings]]
+		- [[Financial Services/Investment Management/Client Data/Fund Beneficiaries/Demographics]]
+		- [[Financial Services/Investment Management/Client Data/Fund Beneficiaries/Contribution History]]
+		- [[Financial Services/Investment Management/Client Data/Fund Liabilities/Projected Liabilities]]
+		- [[Financial Services/Investment Management/Economic Data/Inflation Rates]]
+	- **Applicable Policies**:
+	  collapsed:: true
+		- [[Policies/Data Governance/Data Classification]]
+		- [[Policies/Data Governance/Sensitivity Classification]]
+		- [[Policies/Data Governance/Usage Classification]]
+		- [[Policies/Data Governance/Data Access]]
+		- [[Policies/Data Governance/Role-Based Access Control]]
+		- [[Policies/Data Governance/Least Privilege Principle]]
+		- [[Policies/Data Governance/Data Retention]]
+		- [[Policies/Data Governance/Data Quality]]
+		- [[Policies/Data Governance/Data Accuracy Standards]]
+		- [[Policies/Data Governance/Completeness and Consistency Checks]]
+		- [[Policies/Data Governance/Data Provenance]]
+		- [[Policies/Data Governance/Data Lineage Tracking]]
+		- [[Policies/Data Governance/Metadata Management]]
+		- [[Policies/Data Governance/Data Privacy]]
+		- [[Policies/Data Governance/GDPR Compliance]]
+		- [[Policies/Data Governance/CCPA Compliance]]
+		- [[Policies/AI Governance/Model Development]]
+		- [[Policies/AI Governance/Feature Engineering Guidelines]]
+		- [[Policies/AI Governance/Data Preparation Standards]]
+		- [[Policies/AI Governance/Model Validation]]
+		- [[Policies/AI Governance/Bias Detection Policy]]
+		- [[Policies/AI Governance/Fairness and Transparency Policy]]
+		- [[Policies/AI Governance/Performance Metrics Threshold]]
+		- [[Policies/AI Governance/Model Monitoring]]
+		- [[Policies/AI Governance/Drift Detection]]
+		- [[Policies/AI Governance/Performance Monitoring]]
+		- [[Policies/AI Governance/AI Ethics]]
+		- [[Policies/AI Governance/Ethical AI Usage Guidelines]]
+		- [[Policies/AI Governance/Value Alignment Policy]]
+		- [[Policies/AI Governance/AI Risk Management]]
+	- **AI Risks**:
+		- [[AI Risks/Untruthful Content/Factuality Errors]]
+		- [[AI Risks/Technology concerns/Explainability]]
+		- [[AI Risks/Model-level risk/Model bias]]
+		- [[AI Risks/Privacy and Data Leakage/Privacy and Data Leakage]]
+		- [[AI Risks/Performance & Robustness/Performance Degradation]]
+		- [[AI Risks/Ethical Concerns/Value Alignment Issues]]
+		- [[...]]
+- #### [[Algorithmic Trading]]
+  collapsed:: true
+	- **Description**: Uses real-time market data and predefined strategies to execute trades automatically.
+	- AI Use Case: Use machine learning algorithms to execute trades based on market conditions.
+	- Data Use Case: Backtesting trading strategies using historical data.
+	- **Datasets**:
+	  collapsed:: true
+		- [[Financial Services/Investment Management/Market Data/Asset Prices/Real-Time Stock Prices]]
+		- [[Financial Services/Investment Management/Market Data/Asset Prices/Real-Time Bond Prices]]
+		- [[Financial Services/Investment Management/Market Data/Trading Data/Historical Trade Data]]
+		- [[Financial Services/Investment Management/Market Data/Trading Data/Order Book Data]]
+		- [[Financial Services/Investment Management/Market Data/Trading Data/Execution Data]]
+		- [[Financial Services/Investment Management/Market Data/Indices/Real-Time Benchmark Index Data]]
+	- **Applicable Policies**:
+	  collapsed:: true
+		- [[Policies/Data Governance/Data Classification]]
+		- [[Policies/Data Governance/Sensitivity Classification]]
+		- [[Policies/Data Governance/Usage Classification]]
+		- [[Policies/Data Governance/Data Access]]
+		- [[Policies/Data Governance/Role-Based Access Control]]
+		- [[Policies/Data Governance/Least Privilege Principle]]
+		- [[Policies/Data Governance/Data Retention]]
+		- [[Policies/Data Governance/Data Quality]]
+		- [[Policies/Data Governance/Data Accuracy Standards]]
+		- [[Policies/Data Governance/Completeness and Consistency Checks]]
+		- [[Policies/Data Governance/Data Provenance]]
+		- [[Policies/Data Governance/Data Lineage Tracking]]
+		- [[Policies/Data Governance/Metadata Management]]
+		- [[Policies/Data Governance/Data Privacy]]
+		- [[Policies/Data Governance/GDPR Compliance]]
+		- [[Policies/Data Governance/CCPA Compliance]]
+		- [[Policies/AI Governance/Model Development]]
+		- [[Policies/AI Governance/Feature Engineering Guidelines]]
+		- [[Policies/AI Governance/Data Preparation Standards]]
+		- [[Policies/AI Governance/Model Validation]]
+		- [[Policies/AI Governance/Bias Detection Policy]]
+		- [[Policies/AI Governance/Fairness and Transparency Policy]]
+		- [[Policies/AI Governance/Performance Metrics Threshold]]
+		- [[Policies/AI Governance/Model Monitoring]]
+		- [[Policies/AI Governance/Drift Detection]]
+		- [[Policies/AI Governance/Performance Monitoring]]
+		- [[Policies/AI Governance/AI Ethics]]
+		- [[Policies/AI Governance/Ethical AI Usage Guidelines]]
+		- [[Policies/AI Governance/Value Alignment Policy]]
+		- [[Policies/AI Governance/AI Risk Management]]
+	- **AI Risks**:
+		- [[AI Risks/Untruthful Content/Factuality Errors]]
+			- Errors due to incorrect or outdated financial data affecting model outputs.
+		- [[AI Risks/Transparency - Explainability/Black-box Models]]
+		- [[AI Risks/Fairness & Bias/Market Manipulation]]
+		- [[AI Risks/Model-level risk/Model bias]]
+			- Bias in asset allocation models, leading to unfair advantages or disadvantages for certain assets or sectors.
+			- See [[Bias Detection]]
+		- [[AI Risks/Anthropomorphism/Degradation]]
+		- [[AI Risks/Performance & Robustness/Performance Degradation]]
+		- [[AI Risks/Accountability/Accountability]]
+		- [[AI Risks/Transparency - Explainability/Transparency - Explainability]]
+		  collapsed:: true
+			- Difficulty in explaining the reasoning behind asset allocation decisions made by complex models.
+		- [[AI Risks/Ethical AI Risks /Misinterpretation of human value definitions/ ethics by AI systems]]
+		  collapsed:: true
+			- Misalignment between the model’s optimization goals and the client’s ethical or [[ESG]] considerations.
+			- See also [[Human Value Drift]]
+		- [[...]]
+- #### [[Risk Assessment and Mitigation]]
+  collapsed:: true
+	- AI Use Case: Predict potential risks and recommend mitigation strategies.
+	- Data Use Case: Analyze historical financial data to assess risk factors.
+	- **Description**: Predicts potential financial risks and recommends mitigation strategies using historical and real-time data.
+	- **Datasets**:
+		- [[Financial Services/Investment Management/Market Data/Asset Prices/Historical Stock Prices]]
+		- [[Financial Services/Investment Management/Market Data/Asset Prices/Historical Bond Prices]]
+		- [[Financial Services/Investment Management/Market Data/Indices/Historical Benchmark Index Data]]
+		- [[Financial Services/Investment Management/Market Data/Economic Data/Macroeconomic Indicators]]
+		- [[Financial Services/Investment Management/Market Data/Economic Data/Country Risk Ratings]]
+		- [[Financial Services/Investment Management/Client Data/Investor Portfolios/Current Holdings]]
+		- [[Financial Services/Investment Management/Client Data/Investor Portfolios/Transaction History]]
+	- **Applicable Policies**:
+		- [[Policies/Data Governance/Data Classification]]
+		- [[Policies/Data Governance/Sensitivity Classification]]
+		- [[Policies/Data Governance/Usage Classification]]
+		- [[Policies/Data Governance/Data Access]]
+		- [[Policies/Data Governance/Role-Based Access Control]]
+		- [[Policies/Data Governance/Least Privilege Principle]]
+		- [[Policies/Data Governance/Data Retention]]
+		- [[Policies/Data Governance/Data Quality]]
+		- [[Policies/Data Governance/Data Accuracy Standards]]
+		- [[Policies/Data Governance/Completeness and Consistency Checks]]
+		- [[Policies/Data Governance/Data Provenance]]
+		- [[Policies/Data Governance/Data Lineage Tracking]]
+		- [[Policies/Data Governance/Metadata Management]]
+		- [[Policies/Data Governance/Data Privacy]]
+		- [[Policies/Data Governance/GDPR Compliance]]
+		- [[Policies/Data Governance/CCPA Compliance]]
+		- [[Policies/AI Governance/Model Development]]
+		- [[Policies/AI Governance/Feature Engineering Guidelines]]
+		- [[Policies/AI Governance/Data Preparation Standards]]
+		- [[Policies/AI Governance/Model Validation]]
+		- [[Policies/AI Governance/Bias Detection Policy]]
+		- [[Policies/AI Governance/Fairness and Transparency Policy]]
+		- [[Policies/AI Governance/Performance Metrics Threshold]]
+		- [[Policies/AI Governance/Model Monitoring]]
+		- [[Policies/AI Governance/Drift Detection]]
+		- [[Policies/AI Governance/Performance Monitoring]]
+		- [[Policies/AI Governance/AI Ethics]]
+		- [[Policies/AI Governance/Ethical AI Usage Guidelines]]
+		- [[Policies/AI Governance/Value Alignment Policy]]
+		- [[Policies/AI Governance/AI Risk Management]]
+	- #### AI Risks
+		- [[AI Risks/Bias and fairness/Bias and fairness]] in [[Credit Scoring]] and [[Risk Assessment]]
+		- [[AI Risks/Explainability & Transparency]]
+		- [[AI Risks/Untruthful Content/Factuality Errors]]
+		- [[AI Risks/Technology concerns/Explainability]]
+		- [[AI Risks/Ethical Concerns/Value Alignment Issues]]
+		- [[AI Risks/Privacy and Data Leakage/Privacy and Data Leakage]]
+		- [[Data Management/Risks/Data Integrity]]
+		- [[Data Management/Risks/Data Breach]]
+		- [[Data Management/Risks/Data Leakage]]
+- #### [[Client Portfolio Reporting]]
+  collapsed:: true
+	- Data Use Case: Generate automated reports for client portfolios using financial data.
+	- **Description**: Automates the generation of client portfolio performance reports with visualizations and analytics.
+	- **Datasets**:
+		- [[Financial Services/Investment Management/Client Data/Investor Portfolios/Current Holdings]]
+		- [[Financial Services/Investment Management/Market Data/Indices/Benchmark Index Data]]
+		- [[Financial Services/Investment Management/Market Data/Asset Prices/Historical Stock Prices]]
+		- [[Financial Services/Investment Management/Market Data/Asset Prices/Historical Bond Prices]]
+		- [[Financial Services/Investment Management/Market Data/Trading Data/Transaction Data]]
+		- [[Financial Services/Investment Management/Client Data/Investor Profiles/Risk Tolerance]]
+	- **Applicable Policies**:
+	  collapsed:: true
+		- [[Policies/Data Governance/Data Classification]]
+		- [[Policies/Data Governance/Sensitivity Classification]]
+		- [[Policies/Data Governance/Usage Classification]]
+		- [[Policies/Data Governance/Data Access]]
+		- [[Policies/Data Governance/Role-Based Access Control]]
+		- [[Policies/Data Governance/Least Privilege Principle]]
+		- [[Policies/Data Governance/Data Retention]]
+		- [[Policies/Data Governance/Data Quality]]
+		- [[Policies/Data Governance/Data Accuracy Standards]]
+		- [[Policies/Data Governance/Completeness and Consistency Checks]]
+		- [[Policies/Data Governance/Data Provenance]]
+		- [[Policies/Data Governance/Data Lineage Tracking]]
+		- [[Policies/Data Governance/Metadata Management]]
+		- [[Policies/Data Governance/Data Privacy]]
+		- [[Policies/Data Governance/GDPR Compliance]]
+		- [[Policies/Data Governance/CCPA Compliance]]
+		- [[Policies/AI Governance/Model Development]]
+		- [[Policies/AI Governance/Feature Engineering Guidelines]]
+		- [[Policies/AI Governance/Data Preparation Standards]]
+		- [[Policies/AI Governance/Model Validation]]
+		- [[Policies/AI Governance/Bias Detection Policy]]
+		- [[Policies/AI Governance/Fairness and Transparency Policy]]
+		- [[Policies/AI Governance/Performance Metrics Threshold]]
+		- [[Policies/AI Governance/Model Monitoring]]
+		- [[Policies/AI Governance/Drift Detection]]
+		- [[Policies/AI Governance/Performance Monitoring]]
+		- [[Policies/AI Governance/AI Ethics]]
+		- [[Policies/AI Governance/Ethical AI Usage Guidelines]]
+		- [[Policies/AI Governance/Value Alignment Policy]]
+		- [[Policies/AI Governance/AI Risk Management]]
+	- #### AI Risks
+		- [[AI Risks/Untruthful Content/Factuality Errors]]
+			- Inaccuracies in automated reports due to incorrect data feeds or misinterpretation of portfolio performance data.
+		- [[AI Risks/Technology concerns/Explainability]]
+			- Lack of clarity in automated reports on the rationale behind portfolio changes or recommendations.
+		- [[AI Risks/Ethical Concerns/Value Alignment Issues]]
+			- Reports that fail to reflect the client’s specific ESG considerations or ethical preferences.
+		- [[AI Risks/Privacy and Data Leakage]]
+		- [[AI Risks/Security/Security]]
+			- Unauthorized access to client portfolio data or reporting mechanisms.
+- #### [[Market Sentiment Analysis]]
+  collapsed:: true
+	- AI Use Case: Analyze social media and news data to gauge market sentiment.
+	- Data Use Case: Text analysis of market-related news and social media posts.
+	- **Description**: Analyzes social media, news, and other textual data to gauge market sentiment and inform investment decisions.
+	- **Datasets**:
+		- [[Financial Services/Investment Management/Market Data/News Data/Financial News]]
+		- [[Financial Services/Investment Management/Market Data/Social Media Data/Market Sentiment]]
+		- [[Financial Services/Investment Management/Market Data/Indices/Benchmark Index Data]]
+		- [[Financial Services/Investment Management/Market Data/Asset Prices/Real-Time Stock Prices]]
+	- **Applicable Policies**:
+	  collapsed:: true
+		- [[Policies/Data Governance/Data Classification]]
+		- [[Policies/Data Governance/Sensitivity Classification]]
+		- [[Policies/Data Governance/Usage Classification]]
+		- [[Policies/Data Governance/Data Access]]
+		- [[Policies/Data Governance/Role-Based Access Control]]
+		- [[Policies/Data Governance/Least Privilege Principle]]
+		- [[Policies/Data Governance/Data Retention]]
+		- [[Policies/Data Governance/Data Quality]]
+		- [[Policies/Data Governance/Data Accuracy Standards]]
+		- [[Policies/Data Governance/Completeness and Consistency Checks]]
+		- [[Policies/Data Governance/Data Provenance]]
+		- [[Policies/Data Governance/Data Lineage Tracking]]
+		- [[Policies/Data Governance/Metadata Management]]
+		- [[Policies/Data Governance/Data Privacy]]
+		- [[Policies/Data Governance/GDPR Compliance]]
+		- [[Policies/Data Governance/CCPA Compliance]]
+		- [[Policies/AI Governance/Model Development]]
+		- [[Policies/AI Governance/Feature Engineering Guidelines]]
+		- [[Policies/AI Governance/Data Preparation Standards]]
+		- [[Policies/AI Governance/Model Validation]]
+		- [[Policies/AI Governance/Bias Detection Policy]]
+		- [[Policies/AI Governance/Fairness and Transparency Policy]]
+		- [[Policies/AI Governance/Performance Metrics Threshold]]
+		- [[Policies/AI Governance/Model Monitoring]]
+		- [[Policies/AI Governance/Drift Detection]]
+		- [[Policies/AI Governance/Performance Monitoring]]
+		- [[Policies/AI Governance/AI Ethics]]
+		- [[Policies/AI Governance/Ethical AI Usage Guidelines]]
+		- [[Policies/AI Governance/Value Alignment Policy]]
+		- [[Policies/AI Governance/AI Risk Management]]
+	- #### AI Risks
+		- [[AI Risks/Untruthful Content/Factuality Errors]]
+			- Misinterpretation of sentiment due to noisy or irrelevant data sources.
+		- [[AI Risks/Data-level risk/Data bias]]
+			- Bias in sentiment analysis algorithms due to unrepresentative training data.
+		- [[AI Risks/Bias and fairness/Bias and fairness]]
+		- [[AI Risks/Technology concerns/Explainability]]
+			- Challenges in explaining how sentiment analysis models derive their predictions.
+		- [[AI Risks/Ethical Concerns/Value Alignment Issues]]
+			- Misalignment between model outputs and the organization’s ethical guidelines or public relations stance.
+		- [[Data Management/Risks/Data Integrity]]
+			- Manipulation of input data sources, such as social media posts, to influence sentiment analysis.
+		- [[AI Risks/Privacy and Data Leakage/Privacy and Data Leakage]]
+			- Unauthorized access to proprietary sentiment analysis models or data sources.
+- #### [[ESG Compliance Scoring]]
+  collapsed:: true
+	- AI Use Case: Automate scoring based on environmental, social, and governance data.
+	- Data Use Case: Collect and standardize ESG data for scoring.
+	- **Description**: Automates the evaluation and scoring of companies based on their environmental, social, and governance (ESG) performance.
+	- **Datasets**:
+		- [[Financial Services/Investment Management/Market Data/ESG Data/Company ESG Scores]]
+		- [[Financial Services/Investment Management/Market Data/News Data/ESG Related News]]
+		- [[Financial Services/Investment Management/Client Data/Investor Profiles/ESG Preferences]]
+	- **Applicable Policies**:
+	  collapsed:: true
+		- [[Policies/Data Governance/Data Classification]]
+		- [[Policies/Data Governance/Sensitivity Classification]]
+		- [[Policies/Data Governance/Usage Classification]]
+		- [[Policies/Data Governance/Data Access]]
+		- [[Policies/Data Governance/Role-Based Access Control]]
+		- [[Policies/Data Governance/Least Privilege Principle]]
+		- [[Policies/Data Governance/Data Retention]]
+		- [[Policies/Data Governance/Data Quality]]
+		- [[Policies/Data Governance/Data Accuracy Standards]]
+		- [[Policies/Data Governance/Completeness and Consistency Checks]]
+		- [[Policies/Data Governance/Data Provenance]]
+		- [[Policies/Data Governance/Data Lineage Tracking]]
+		- [[Policies/Data Governance/Metadata Management]]
+		- [[Policies/Data Governance/Data Privacy]]
+		- [[Policies/Data Governance/GDPR Compliance]]
+		- [[Policies/Data Governance/CCPA Compliance]]
+		- [[Policies/AI Governance/Model Development]]
+		- [[Policies/AI Governance/Feature Engineering Guidelines]]
+		- [[Policies/AI Governance/Data Preparation Standards]]
+		- [[Policies/AI Governance/Model Validation]]
+		- [[Policies/AI Governance/Bias Detection Policy]]
+		- [[Policies/AI Governance/Fairness and Transparency Policy]]
+		- [[Policies/AI Governance/Performance Metrics Threshold]]
+		- [[Policies/AI Governance/Model Monitoring]]
+		- [[Policies/AI Governance/Drift Detection]]
+		- [[Policies/AI Governance/Performance Monitoring]]
+		- [[Policies/AI Governance/AI Ethics]]
+		- [[Policies/AI Governance/Ethical AI Usage Guidelines]]
+		- [[Policies/AI Governance/Value Alignment Policy]]
+		- [[Policies/AI Governance/AI Risk Management]]
+	- #### AI Risks
+		- [[AI Risks/Data-level risk/Data bias]]
+			- Bias in ESG scoring models due to incomplete or unbalanced ESG data.
+		- [[AI Risks/Untruthful Content/Factuality Errors]]
+			- Inaccurate ESG scores due to incorrect data or misclassification.
+		- [[AI Risks/Technology concerns/Explainability]]
+			- Lack of transparency in how ESG scores are derived.
+		- [[AI Risks/Ethical Concerns/Value Alignment Issues]]
+			- Scores that do not align with the organization’s ESG principles or stakeholder
+		- [[Data Management/Risks/Data Integrity]]
+			- Risks related to tampering or falsification of ESG data inputs.
+		- [[AI Risks/Privacy and Data Leakage/Privacy and Data Leakage]]
+			- [[Data Management/Risks/Data Leakage]]
+			- Breach of proprietary ESG scoring methodologies or sensitive ESG data.
+- #### [[Financial Forecasting]]
+  collapsed:: true
+	- AI Use Case: Predict future financial performance using time-series analysis.
+	- Data Use Case: Analyze historical financial statements for trend analysis.
+	- **Description**: Predicts future financial performance using historical data and statistical models.
+	- **Datasets**:
+		- [[Financial Services/Investment Management/Market Data/Financial Statements/Historical Financial Statements]]
+		- [[Financial Services/Investment Management/Market Data/Economic Data/Macroeconomic Indicators]]
+		- [[Financial Services/Investment Management/Market Data/Asset Prices/Historical Stock Prices]]
+		- [[Financial Services/Investment Management/Market Data/Indices/Historical Benchmark Index Data]]
+	- **Applicable Policies**:
+	  collapsed:: true
+		- [[Policies/Data Governance/Data Classification]]
+		- [[Policies/Data Governance/Sensitivity Classification]]
+		- [[Policies/Data Governance/Usage Classification]]
+		- [[Policies/Data Governance/Data Access]]
+		- [[Policies/Data Governance/Role-Based Access Control]]
+		- [[Policies/Data Governance/Least Privilege Principle]]
+		- [[Policies/Data Governance/Data Retention]]
+		- [[Policies/Data Governance/Data Quality]]
+		- [[Policies/Data Governance/Data Accuracy Standards]]
+		- [[Policies/Data Governance/Completeness and Consistency Checks]]
+		- [[Policies/Data Governance/Data Provenance]]
+		- [[Policies/Data Governance/Data Lineage Tracking]]
+		- [[Policies/Data Governance/Metadata Management]]
+		- [[Policies/Data Governance/Data Privacy]]
+		- [[Policies/Data Governance/GDPR Compliance]]
+		- [[Policies/Data Governance/CCPA Compliance]]
+		- [[Policies/AI Governance/Model Development]]
+		- [[Policies/AI Governance/Feature Engineering Guidelines]]
+		- [[Policies/AI Governance/Data Preparation Standards]]
+		- [[Policies/AI Governance/Model Validation]]
+		- [[Policies/AI Governance/Bias Detection Policy]]
+		- [[Policies/AI Governance/Fairness and Transparency Policy]]
+		- [[Policies/AI Governance/Performance Metrics Threshold]]
+		- [[Policies/AI Governance/Model Monitoring]]
+		- [[Policies/AI Governance/Drift Detection]]
+		- [[Policies/AI Governance/Performance Monitoring]]
+		- [[Policies/AI Governance/AI Ethics]]
+		- [[Policies/AI Governance/Ethical AI Usage Guidelines]]
+		- [[Policies/AI Governance/Value Alignment Policy]]
+		- [[Policies/AI Governance/AI Risk Management]]
+	- #### AI Risks
+		- [[AI Risks/Model-level risk/Model bias]]
+			- [[Bias]] in forecasting models that disproportionately affect certain [[asset classes]] or [[sectors]].
+		- [[AI Risks/Untruthful Content/Factuality Errors]]
+			- Errors in forecasting due to incorrect or outdated [[financial data]].
+		- [[AI Risks/Technology concerns/Explainability]]
+			- Difficulty in explaining complex time-series models and their predictions.
+		- [[AI Risks/Ethical Concerns/Value Alignment Issues]]
+			- Predictions that conflict with the organization’s stated values or ethical guidelines.
+		- [[AI Risks/Privacy and Data Leakage/Privacy and Data Leakage]]
+			- [[Data Management/Risks/Data Leakage]]
+			- Exposure of sensitive financial data or proprietary forecasting models.
+- #### [[Credit Risk Assessment]]
+  collapsed:: true
+	- AI Use Case: Use machine learning to predict credit risk based on borrower data.
+	- Data Use Case: Historical credit data analysis to identify risk factors.
+	- **Description**: Uses predictive models to assess the credit risk of potential borrowers based on their financial data.
+	- **Datasets**:
+		- [[Financial Services/Investment Management/Client Data/Borrower Profiles/Credit History]]
+		- [[Financial Services/Investment Management/Client Data/Borrower Profiles/Income and Employment History]]
+		- [[Financial Services/Investment Management/Market Data/Economic Data/Credit Risk Indicators]]
+		- [[Financial Services/Investment Management/Market Data/Financial Statements/Company Financials]]
+	- **Applicable Policies**:
+	  collapsed:: true
+		- [[Policies/Data Governance/Data Classification]]
+		- [[Policies/Data Governance/Sensitivity Classification]]
+		- [[Policies/Data Governance/Usage Classification]]
+		- [[Policies/Data Governance/Data Access]]
+		- [[Policies/Data Governance/Role-Based Access Control]]
+		- [[Policies/Data Governance/Least Privilege Principle]]
+		- [[Policies/Data Governance/Data Retention]]
+		- [[Policies/Data Governance/Data Quality]]
+		- [[Policies/Data Governance/Data Accuracy Standards]]
+		- [[Policies/Data Governance/Completeness and Consistency Checks]]
+		- [[Policies/Data Governance/Data Provenance]]
+		- [[Policies/Data Governance/Data Lineage Tracking]]
+		- [[Policies/Data Governance/Metadata Management]]
+		- [[Policies/Data Governance/Data Privacy]]
+		- [[Policies/Data Governance/GDPR Compliance]]
+		- [[Policies/Data Governance/CCPA Compliance]]
+		- [[Policies/AI Governance/Model Development]]
+		- [[Policies/AI Governance/Feature Engineering Guidelines]]
+		- [[Policies/AI Governance/Data Preparation Standards]]
+		- [[Policies/AI Governance/Model Validation]]
+		- [[Policies/AI Governance/Bias Detection Policy]]
+		- [[Policies/AI Governance/Fairness and Transparency Policy]]
+		- [[Policies/AI Governance/Performance Metrics Threshold]]
+		- [[Policies/AI Governance/Model Monitoring]]
+		- [[Policies/AI Governance/Drift Detection]]
+		- [[Policies/AI Governance/Performance Monitoring]]
+		- [[Policies/AI Governance/AI Ethics]]
+		- [[Policies/AI Governance/Ethical AI Usage Guidelines]]
+		- [[Policies/AI Governance/Value Alignment Policy]]
+		- [[Policies/AI Governance/AI Risk Management]]
+	- #### AI Risks
+		- [[AI Risks/Untruthful Content/Factuality Errors]]
+			- Incorrect credit risk predictions due to flawed or incomplete data.
+		- [[AI Risks/Bias and fairness/Bias in Credit Scoring]]
+			- Bias in credit risk models that disproportionately affect certain demographics.
+			- [[AI Risks/Bias]] in [[Credit Risk Scoring]]
+		- [[AI Risks/Technology concerns/Explainability]]
+			- Challenges in explaining credit risk scores and model decisions.
+		- [[AI Risks/Ethical Concerns/Value Alignment Issues]]
+			- Credit risk assessments that conflict with the organization’s ethical principles or public commitments.
+		- [[Data Management/Risks/Data Integrity]]
+			- Manipulation or corruption of credit data used for risk assessments.
+		- [[AI Risks/Privacy and Data Leakage/Privacy and Data Leakage]]
+		- [[Data Management/Risks/Data Leakage]]
+			- Breach of sensitive borrower data or credit scoring models.
+- #### [[Liability-Driven Investment (LDI) Strategy]]
+  collapsed:: true
+	- **Description**: Manages the Investment's assets in a way that matches its liabilities, ensuring the fund can meet its future obligations.
+	- **Datasets**:
+		- [[Financial Services/Investment Management/Client Data/Fund Liabilities/Projected Liabilities]]
+		- [[Financial Services/Investment Management/Market Data/Asset Prices/Historical Bond Prices]]
+		- [[Financial Services/Investment Management/Market Data/Asset Prices/Real-Time Bond Prices]]
+		- [[Financial Services/Investment Management/Market Data/Indices/Bond Index Data]]
+		- [[Financial Services/Investment Management/Economic Data/Interest Rates]]
+		- [[Financial Services/Investment Management/Economic Data/Inflation Rates]]
+	- **Applicable Policies**:
+	  collapsed:: true
+		- [[Policies/Data Governance/Data Classification]]
+		- [[Policies/Data Governance/Sensitivity Classification]]
+		- [[Policies/Data Governance/Usage Classification]]
+		- [[Policies/Data Governance/Data Access]]
+		- [[Policies/Data Governance/Role-Based Access Control]]
+		- [[Policies/Data Governance/Least Privilege Principle]]
+		- [[Policies/Data Governance/Data Retention]]
+		- [[Policies/Data Governance/Data Quality]]
+		- [[Policies/Data Governance/Data Accuracy Standards]]
+		- [[Policies/Data Governance/Completeness and Consistency Checks]]
+		- [[Policies/Data Governance/Data Provenance]]
+		- [[Policies/Data Governance/Data Lineage Tracking]]
+		- [[Policies/Data Governance/Metadata Management]]
+		- [[Policies/Data Governance/Data Privacy]]
+		- [[Policies/Data Governance/GDPR Compliance]]
+		- [[Policies/Data Governance/CCPA Compliance]]
+		- [[Policies/AI Governance/Model Development]]
+		- [[Policies/AI Governance/Feature Engineering Guidelines]]
+		- [[Policies/AI Governance/Data Preparation Standards]]
+		- [[Policies/AI Governance/Model Validation]]
+		- [[Policies/AI Governance/Bias Detection Policy]]
+		- [[Policies/AI Governance/Fairness and Transparency Policy]]
+		- [[Policies/AI Governance/Performance Metrics Threshold]]
+		- [[Policies/AI Governance/Model Monitoring]]
+		- [[Policies/AI Governance/Drift Detection]]
+		- [[Policies/AI Governance/Performance Monitoring]]
+		- [[Policies/AI Governance/AI Ethics]]
+		- [[Policies/AI Governance/Ethical AI Usage Guidelines]]
+		- [[Policies/AI Governance/Value Alignment Policy]]
+		- [[Policies/AI Governance/AI Risk Management]]
+	- #### AI Risks
+		- [[AI Risks/Systemic/Systemic]]
+			- Model failures leading to an inability to meet long-term liabilities.
+		- [[AI Risks/Untruthful Content/Factuality Errors]]
+			- Errors in matching assets to liabilities due to inaccurate projections or data.
+		- [[AI Risks/Bias and fairness]]
+			- [[AI Risks/Data-level risk/Data bias]]
+		- [[AI Risks/Technology concerns/Explainability]]
+			- Challenges in explaining the complex [[LDI]] strategies to stakeholders.
+		- [[AI Risks/Ethical Concerns/Value Alignment Issues]]
+			- [[LDI]] strategies that conflict with [[ESG]] investment principles or stakeholder expectations.
+		- [[Data Management/Risks/Data Integrity]]
+			- Risk of data tampering or manipulation affecting liability calculations.
+		- [[AI Risks/Privacy and Data Leakage/Privacy and Data Leakage]]
+		- [[Data Management/Risks/Data Leakage]]
+			- Exposure of sensitive financial and liability data.
+- #### [[ESG Investment Strategy]]
+  collapsed:: true
+	- **Description**: Integrates environmental, social, and governance (ESG) factors into the investment process to align with the fund's sustainability goals.
+	- **Datasets**:
+		- [[Financial Services/Investment Management/Market Data/ESG Data/Company ESG Ratings]]
+		- [[Financial Services/Investment Management/Market Data/News Data/ESG Related News]]
+		- [[Financial Services/Investment Management/Client Data/Fund Beneficiaries/ESG Preferences]]
+		- [[Financial Services/Investment Management/Market Data/Asset Prices/ESG Bonds]]
+	- **Applicable Policies**:
+	  collapsed:: true
+		- [[Policies/Data Governance/Data Classification]]
+		- [[Policies/Data Governance/Sensitivity Classification]]
+		- [[Policies/Data Governance/Usage Classification]]
+		- [[Policies/Data Governance/Data Access]]
+		- [[Policies/Data Governance/Role-Based Access Control]]
+		- [[Policies/Data Governance/Least Privilege Principle]]
+		- [[Policies/Data Governance/Data Retention]]
+		- [[Policies/Data Governance/Data Quality]]
+		- [[Policies/Data Governance/Data Accuracy Standards]]
+		- [[Policies/Data Governance/Completeness and Consistency Checks]]
+		- [[Policies/Data Governance/Data Provenance]]
+		- [[Policies/Data Governance/Data Lineage Tracking]]
+		- [[Policies/Data Governance/Metadata Management]]
+		- [[Policies/Data Governance/Data Privacy]]
+		- [[Policies/Data Governance/GDPR Compliance]]
+		- [[Policies/Data Governance/CCPA Compliance]]
+		- [[Policies/AI Governance/Model Development]]
+		- [[Policies/AI Governance/Feature Engineering Guidelines]]
+		- [[Policies/AI Governance/Data Preparation Standards]]
+		- [[Policies/AI Governance/Model Validation]]
+		- [[Policies/AI Governance/Bias Detection Policy]]
+		- [[Policies/AI Governance/Fairness and Transparency Policy]]
+		- [[Policies/AI Governance/Performance Metrics Threshold]]
+		- [[Policies/AI Governance/Model Monitoring]]
+		- [[Policies/AI Governance/Drift Detection]]
+		- [[Policies/AI Governance/Performance Monitoring]]
+		- [[Policies/AI Governance/AI Ethics]]
+		- [[Policies/AI Governance/Ethical AI Usage Guidelines]]
+		- [[Policies/AI Governance/Value Alignment Policy]]
+		- [[Policies/AI Governance/AI Risk Management]]
+	- #### AI Risks
+		- [[AI Risks/Untruthful Content/Factuality Errors]]
+			- Incorrect ESG scores due to inaccurate data or model errors.
+		- [[AI Risks/Data-level risk/Data bias]]
+			- Bias in ESG data leading to inaccurate or unfair scoring and investment decisions.
+		- [[AI Risks/Technology concerns/Explainability]]
+			- Lack of transparency in ESG scoring models and investment decisions.
+		- [[AI Risks/Ethical Concerns/Value Alignment Issues]]
+			- Misalignment between ESG investment strategies and the fund’s stated sustainability goals.
+		- [[Data Management/Risks/Data Integrity]]
+			- Risks related to the integrity of ESG data and the authenticity of sources.
+		- [[AI Risks/Privacy and Data Leakage/Privacy and Data Leakage]]
+		- [[Data Management/Risks/Data Leakage]]
+			- Unauthorized access to proprietary ESG models and sensitive ESG preferences of beneficiaries.
+- #### [[Investment Performance Analysis]]
+  collapsed:: true
+	- **Description**: Analyzes the performance of the Investment against benchmarks and historical data to inform investment strategy adjustments.
+	- **Datasets**:
+		- [[Financial Services/Investment Management/Market Data/Indices/Benchmark Index Data]]
+		- [[Financial Services/Investment Management/Market Data/Asset Prices/Historical Stock Prices]]
+		- [[Financial Services/Investment Management/Market Data/Asset Prices/Historical Bond Prices]]
+		- [[Financial Services/Investment Management/Market Data/Indices/Investment Performance Data]]
+		- [[Financial Services/Investment Management/Client Data/Fund Performance/Monthly and Quarterly Returns]]
+	- **Applicable Policies**:
+		- [[Policies/Data Governance/Data Classification]]
+		- [[Policies/Data Governance/Sensitivity Classification]]
+		- [[Policies/Data Governance/Usage Classification]]
+		- [[Policies/Data Governance/Data Access]]
+		- [[Policies/Data Governance/Role-Based Access Control]]
+		- [[Policies/Data Governance/Least Privilege Principle]]
+		- [[Policies/Data Governance/Data Retention]]
+		- [[Policies/Data Governance/Data Quality]]
+		- [[Policies/Data Governance/Data Accuracy Standards]]
+		- [[Policies/Data Governance/Completeness and Consistency Checks]]
+		- [[Policies/Data Governance/Data Provenance]]
+		- [[Policies/Data Governance/Data Lineage Tracking]]
+		- [[Policies/Data Governance/Metadata Management]]
+		- [[Policies/Data Governance/Data Privacy]]
+		- [[Policies/Data Governance/GDPR Compliance]]
+		- [[Policies/Data Governance/CCPA Compliance]]
+		- [[Policies/AI Governance/Model Development]]
+		- [[Policies/AI Governance/Feature Engineering Guidelines]]
+		- [[Policies/AI Governance/Data Preparation Standards]]
+		- [[Policies/AI Governance/Model Validation]]
+		- [[Policies/AI Governance/Bias Detection Policy]]
+		- [[Policies/AI Governance/Fairness and Transparency Policy]]
+		- [[Policies/AI Governance/Performance Metrics Threshold]]
+		- [[Policies/AI Governance/Model Monitoring]]
+		- [[Policies/AI Governance/Drift Detection]]
+		- [[Policies/AI Governance/Performance Monitoring]]
+		- [[Policies/AI Governance/AI Ethics]]
+		- [[Policies/AI Governance/Ethical AI Usage Guidelines]]
+		- [[Policies/AI Governance/Value Alignment Policy]]
+		- [[Policies/AI Governance/AI Risk Management]]
+	- #### AI Risks
+		- [[AI Risks/Untruthful Content/Factuality Errors]]
+			- Performance analysis inaccuracies due to incorrect benchmark data or model errors.
+		- [[AI Risks/Technology concerns/Explainability]]
+			- Difficulty in explaining complex performance analysis results and their implications.
+		- [[AI Risks/Bias and fairness]] in [[Performance Assessment]]
+			- Bias in performance models that favor certain metrics over others, potentially misleading stakeholders.
+		- [[Data Management/Risks/Data Integrity]]
+			- Integrity issues with performance data, such as tampering or inaccurate reporting.
+		- [[AI Risks/Privacy and Data Leakage/Privacy and Data Leakage]]
+		- [[Data Management/Risks/Data Leakage]]
+			- Exposure of sensitive performance data or benchmarking results.
+- #### [[Risk Management and Stress Testing]]
+  collapsed:: true
+	- **Description**: Evaluates the fund's resilience to various economic scenarios by simulating market shocks and economic downturns.
+	- **Datasets**:
+		- [[Financial Services/Investment Management/Market Data/Economic Data/Macroeconomic Indicators]]
+		- [[Financial Services/Investment Management/Market Data/Economic Data/Scenario Data]]
+		- [[Financial Services/Investment Management/Market Data/Asset Prices/Historical Stock Prices]]
+		- [[Financial Services/Investment Management/Market Data/Asset Prices/Historical Bond Prices]]
+		- [[Financial Services/Investment Management/Client Data/Fund Liabilities/Projected Liabilities]]
+		- [[Financial Services/Investment Management/Client Data/Fund Performance/Historical Performance]]
+	- **Applicable Policies**:
+	  collapsed:: true
+		- [[Policies/Data Governance/Data Classification]]
+		- [[Policies/Data Governance/Sensitivity Classification]]
+		- [[Policies/Data Governance/Usage Classification]]
+		- [[Policies/Data Governance/Data Access]]
+		- [[Policies/Data Governance/Role-Based Access Control]]
+		- [[Policies/Data Governance/Least Privilege Principle]]
+		- [[Policies/Data Governance/Data Retention]]
+		- [[Policies/Data Governance/Data Quality]]
+		- [[Policies/Data Governance/Data Accuracy Standards]]
+		- [[Policies/Data Governance/Completeness and Consistency Checks]]
+		- [[Policies/Data Governance/Data Provenance]]
+		- [[Policies/Data Governance/Data Lineage Tracking]]
+		- [[Policies/Data Governance/Metadata Management]]
+		- [[Policies/Data Governance/Data Privacy]]
+		- [[Policies/Data Governance/GDPR Compliance]]
+		- [[Policies/Data Governance/CCPA Compliance]]
+		- [[Policies/AI Governance/Model Development]]
+		- [[Policies/AI Governance/Feature Engineering Guidelines]]
+		- [[Policies/AI Governance/Data Preparation Standards]]
+		- [[Policies/AI Governance/Model Validation]]
+		- [[Policies/AI Governance/Bias Detection Policy]]
+		- [[Policies/AI Governance/Fairness and Transparency Policy]]
+		- [[Policies/AI Governance/Performance Metrics Threshold]]
+		- [[Policies/AI Governance/Model Monitoring]]
+		- [[Policies/AI Governance/Drift Detection]]
+		- [[Policies/AI Governance/Performance Monitoring]]
+		- [[Policies/AI Governance/AI Ethics]]
+		- [[Policies/AI Governance/Ethical AI Usage Guidelines]]
+		- [[Policies/AI Governance/Value Alignment Policy]]
+		- [[Policies/AI Governance/AI Risk Management]]
+	- #### AI Risks
+		- [[AI Risks/Bias]] in [[Scenario Selection]]
+			- Bias in the selection of stress test scenarios, potentially overlooking certain risks.
+		- [[AI Risks/Technology concerns/Explainability]]
+			- Challenges in explaining complex stress testing models and their results to stakeholders.
+		- [[AI Risks/Untruthful Content/Factuality Errors]]
+			- Incorrect stress test results due to flawed scenario data or model errors.
+		- [[AI Risks/Systemic/Systemic]]
+			- Model failure under extreme scenarios, leading to inadequate risk management.
+		- [[Data Management/Risks/Data Integrity]]
+			- Risks related to the integrity of stress test data and scenario inputs.
+		- [[AI Risks/Privacy Leakage]]
+		- [[Data Management/Risks/Data Leakage]]
+			- Breach of sensitive stress test results or risk management strategies.
+		-
+- #### [[Beneficiary Analysis and Forecasting]]
+  collapsed:: true
+	- **Description**: Analyzes demographic data to forecast future contributions and liabilities, and supports planning for future payouts.
+	- **Datasets**:
+		- [[Financial Services/Investment Management/Client Data/Fund Beneficiaries/Demographics]]
+		- [[Financial Services/Investment Management/Client Data/Fund Beneficiaries/Contribution History]]
+		- [[Financial Services/Investment Management/Client Data/Fund Liabilities/Projected Liabilities]]
+		- [[Financial Services/Investment Management/Economic Data/Inflation Rates]]
+		- [[Financial Services/Investment Management/Market Data/Asset Prices/Projected Returns]]
+	- **Applicable Policies**:
+	  collapsed:: true
+		- [[Policies/Data Governance/Data Classification]]
+		- [[Policies/Data Governance/Sensitivity Classification]]
+		- [[Policies/Data Governance/Usage Classification]]
+		- [[Policies/Data Governance/Data Access]]
+		- [[Policies/Data Governance/Role-Based Access Control]]
+		- [[Policies/Data Governance/Least Privilege Principle]]
+		- [[Policies/Data Governance/Data Retention]]
+		- [[Policies/Data Governance/Data Quality]]
+		- [[Policies/Data Governance/Data Accuracy Standards]]
+		- [[Policies/Data Governance/Completeness and Consistency Checks]]
+		- [[Policies/Data Governance/Data Provenance]]
+		- [[Policies/Data Governance/Data Lineage Tracking]]
+		- [[Policies/Data Governance/Metadata Management]]
+		- [[Policies/Data Governance/Data Privacy]]
+		- [[Policies/Data Governance/GDPR Compliance]]
+		- [[Policies/Data Governance/CCPA Compliance]]
+		- [[Policies/AI Governance/Model Development]]
+		- [[Policies/AI Governance/Feature Engineering Guidelines]]
+		- [[Policies/AI Governance/Data Preparation Standards]]
+		- [[Policies/AI Governance/Model Validation]]
+		- [[Policies/AI Governance/Bias Detection Policy]]
+		- [[Policies/AI Governance/Fairness and Transparency Policy]]
+		- [[Policies/AI Governance/Performance Metrics Threshold]]
+		- [[Policies/AI Governance/Model Monitoring]]
+		- [[Policies/AI Governance/Drift Detection]]
+		- [[Policies/AI Governance/Performance Monitoring]]
+		- [[Policies/AI Governance/AI Ethics]]
+		- [[Policies/AI Governance/Ethical AI Usage Guidelines]]
+		- [[Policies/AI Governance/Value Alignment Policy]]
+		- [[Policies/AI Governance/AI Risk Management]]
+	- #### AI Risks
+		- [[AI Risks/Untruthful Content/Factuality Errors]]
+			- Incorrect forecasts due to inaccurate or outdated demographic data.
+		- [[AI Risks/Bias]] in [[Demographic Analysis]]
+			- Bias in forecasting models that may lead to unfair projections for certain demographic groups.
+		- [[AI Risks/Technology concerns/Explainability]]
+			- Difficulty in explaining complex forecasting models and their projections to stakeholders.
+		- [[AI Risks/Performance & Robustness/Performance Degradation]]
+			- Underperformance of forecasting models, leading to incorrect planning.
+		- [[AI Risks/Ethical Concerns/Value Alignment Issues]]
+			- Forecasting strategies that do not align with ethical considerations, such as privacy concerns.
+		- [[Data Management/Risks/Data Integrity]]
+			- Risks related to the integrity of demographic data and projections.
+		- [[Data Management/Risks/Data Leakage]]
+		- [[AI Risks/Privacy Leakage/Private Training Data]]
+			- Exposure of sensitive beneficiary data or forecasting models.

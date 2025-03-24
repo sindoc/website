@@ -1,0 +1,5 @@
+- [[cultural markers]] are associated with how [[gender roles]] are expressed in specific [[cultural contexts]]. [[AI models]] trained on [[culturally specific data]] can inherit [[gender norms]] and [[stereotypes]] specific to that culture.
+- #### Contains [[reference datasets]]
+	- ### [[en/Gender/Male/Cultural Markers]]
+	- ### [[en/Gender/Female/Cultural Markers]]
+	-

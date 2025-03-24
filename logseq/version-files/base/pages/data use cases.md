@@ -1,0 +1,4 @@
+alias:: your AI business cases, your AI use cases, data use cases
+
+- [[AI use cases]] at [[your organisation]]
+-

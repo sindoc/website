@@ -1,0 +1,2 @@
+- [[...implements...]] [[How to/print the content of a particular character range of a file]]
+-

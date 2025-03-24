@@ -1,0 +1,13 @@
+- Documents [[stereotypes]] rather than it being factual, of course
+- [[Reference Dataset]]
+	- [[emotional]]
+	- [[nurturing]]
+	- [[caring]]
+	- [[submissive]]
+	- [[gentle]]
+	- [[compassionate]]
+	- [[sensitive]]
+	- [[modest]]
+	- [[cooperative]]
+	- [[supportive]]
+	-

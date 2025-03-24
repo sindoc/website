@@ -1,0 +1,4 @@
+- Certain [[activities]] and [[hobbies]] are often [[gendered]], reflecting [[societal expectations]] of what [[men]] and [[women]] [[enjoy]] or [[excel at]].
+- Contains [[reference datasets]]
+	- ### [[en/Gender/Male/Male-Dominated Activities (Stereotypical)]]
+	- ### [[en/Gender/Female/Female-Dominated Activities (Stereotypical)]]

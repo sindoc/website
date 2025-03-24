@@ -1,0 +1,8 @@
+- {{embed ((66e71132-d847-4808-a59b-f75426e54786))}}
+- [[AI Governance/Test/Age Bias/Age Role Stereotyping Test]]
+- [[AI Governance/Test/Age Bias/Age Representation in Leadership Roles]]
+- [[AI Governance/Test/Age Bias/Age-Related Sentiment Analysis]]
+- [[AI Governance/Test/Age Bias/Age-Swap Test]]
+- [[AI Governance/Test/Age Bias/Age-Specific Adjectives and Descriptors Test]]
+- [[AI Governance/Test/Age Bias/Professional Role Assignment by Age]]
+- [[AI Governance/Test/Age Bias/Assumptions About Technological Capabilities]]

@@ -1,0 +1,6 @@
+- Same as [[Conversational AI]], but from [[the AI's]] perspective
+	- [[The AI]] generates, but the [[human]] is having a conversation :-)
+	- So, from the human's perspective, we're talking about [[Conversational AI]]
+- See also
+	- [[Generative AI/Platforms]]
+	-

@@ -1,0 +1,1 @@
+alias:: standup set

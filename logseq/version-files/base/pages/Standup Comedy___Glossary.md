@@ -1,0 +1,64 @@
+## 1. **Set** ([[Comedy Set]])
+	- **Definition:** A set is the collection of jokes or routines you perform in one session. It’s your whole act from start to finish.
+	- **Example:** “I’ve got a tight 5-minute set ready for the open mic. It's basically my entire life’s work condensed into 300 seconds. So, no pressure.”
+- ## 2. **Bit**
+	- **Definition:** A bit is a single joke or a small group of jokes around a specific topic or idea.
+	- **Example:** “I’ve got a new bit about smart fridges. You know, the ones that tell you what groceries you’re out of? Mine keeps judging me for running out of snacks faster than vegetables. It’s like, ‘Really? Another bag of chips?’”
+- ## 3. **Punchline**
+	- **Definition:** The punchline is the funny or surprising part of the joke that delivers the comedic payoff.
+	- **Example:** “I asked my smart assistant to play some relaxing music. It started playing my boss’s voice leaving voicemails. That’s the punchline: Alexa is trying to get me fired.”
+- ## 4. **Setup**
+	- **Definition:** The setup is the part of the joke that provides the context or premise for the punchline. It sets the scene and builds anticipation.
+	- **Example:** “The setup is like explaining how your smart TV knows what you’re watching. The punchline is realizing it also knows when you fall asleep in the middle of your binge-watch, and it’s judging you.”
+- ## 5. **Tag**
+	- **Definition:** A tag is an additional punchline that builds on the original joke, adding more humour without needing a new setup.
+	- **Example:** “My self-driving car said, ‘I’ve noticed you’re a terrible driver, let me take over.’ The tag is: ‘And then it took me to driving school. Thanks for the intervention, Elon Musk!’”
+- ## 6. **Callback**
+	- **Definition:** A callback is a joke that refers back to an earlier joke or bit in the set. It’s a way to reward the audience for remembering the previous material.
+	- **Example:** “Earlier I joked about my smart assistant judging my grocery choices. Well, now it’s sending me ads for salads. That’s a callback—and proof my smart assistant is a health nut.”
+- ## 7. **Killer Line**
+	- **Definition:** A particularly funny line or punchline that always gets a big laugh.
+	- **Example:** “I’ve got this killer line about my phone spying on me. I said, ‘If you’re listening, FBI agent, please recommend a good therapist.’”
+- ## 8. **Bombing**
+	- **Definition:** Bombing is when your set or joke fails to get laughs. Every comedian experiences this at some point.
+	- **Example:** “I tried a new bit last night, and it bombed so hard the room went silent.”
+- ## 9. **Crushing/Killing**
+	- **Definition:** Crushing or killing means you’re doing exceptionally well, and the audience is loving your set.
+	- **Example:** “I was killing it last night—my bit about self-checkout machines had the crowd laughing so hard, they probably forgot how those machines make you feel like a criminal for not knowing where the barcode is. I’m standing there like, ‘I swear I’m not trying to steal this banana, I just don’t know how to scan it!’”
+- ## 10. **Heckler**
+	- **Definition:** A heckler is an audience member who interrupts the comedian with comments or attempts to disrupt the performance.
+	- **Example:** “A heckler tried to disrupt my set about tech support. I said, ‘Sir, are you from my ISP? Because you’re trying really hard to interrupt the service here.’”
+- ## 11. **Open Mic**
+	- **Definition:** An open mic is a performance event where anyone can sign up to perform, often used by comedians to try out new material or practice.
+	- **Example:** “I’m hitting the open mic at the comedy club tonight to test some new jokes.”
+- ## 12. **Tight Set**
+	- **Definition:** A well-polished set with strong, reliable material, typically 5 to 10 minutes long. It’s concise and effective.
+	- **Example:** “I’m working on a tight 5-minute set. It’s like trying to explain why my smart assistant keeps recommending cat food to me, and I don’t even own a cat.”
+- ## 13. **Closer**
+	- **Definition:** The closing joke of your set, ideally your strongest, to leave a lasting impression on the audience.
+	- **Example:** “I always save my best bit about tech jargon for my closer—if you’re not laughing by the end, it’s probably because I used terms that even I don’t understand”
+- ## 14. **Act Out**
+	- **Definition:** An act out is when a comedian physically performs or acts out a part of the joke, adding visual comedy.
+	- **Example:** “In my bit about arguing with my smart speaker, I do an act out where I’m yelling at it to stop suggesting things I don’t need, like a passive-aggressive robot roommate.”
+- ## 15. **Premise**
+	- **Definition:** The premise is the main idea or concept behind a joke or bit. It’s what the joke is built around.
+	- **Example:** “The premise of my new bit is how AI is like an overbearing parent. It keeps reminding me to drink water and to get enough sleep. I’m like, ‘Thanks, AI, now my phone is worried about me too!’”
+- ## 16. **Segway/Transition**
+	- **Definition:** A segway or transition smoothly connects one joke or bit to the next, creating a cohesive flow in your set.
+	- **Example:** “I transitioned from talking about online shopping to dating apps by saying, ‘And speaking of terrible algorithms, let’s talk about my love life!’”
+- ## 17. **Audience Work (Crowd Work)**
+	- **Definition:** Engaging directly with the audience through improvisation, asking questions, or reacting to their responses.
+	- **Example:** “I did some crowd work last night, riffing off the guy in the front row who kept laughing like a *hyena*.”
+	- **Example:** “I did some crowd work last night, asking if anyone else had their smart devices talk back to them. A guy who hasn't finished laughing at my last joke like *hyena* yelled out, ‘Mine just told me to get a life!’ I said, that sounds about right!’” Also book myself and yourself a therapist because I thought you were laughing at my jokes.
+- ## 18. **Room Work**
+	- **Definition:** Adapting your set or delivery to the specific audience, venue, or atmosphere of the room.
+	- **Example:** “The room was full of techies, so I ditched my usual opener and went straight into my bit about the horrors of [[debugging code]] at 3 AM”
+- ## 19. **Break the Fourth Wall**
+	- **Definition:** Addressing the audience directly, acknowledging the performance aspect, or reacting to something in the room that breaks the typical performance structure.
+	- **Example:** “When a phone went off in the middle of my set, I broke the fourth wall and said, ‘Oh, is that my smart assistant calling to let me know I’m bombing? Thanks, Siri!’”
+- ## 20. **Riffing (Riffing Off Someone/Something)**
+	- **Definition:** Riffing involves spontaneously responding to or building on something someone else has said or done, often in a humorous or clever way. In stand-up comedy, it’s a form of improvisation where the comedian takes a comment, situation, or interaction and creates additional humour on the spot.
+	- **Example:** “During my set, someone in the audience sneezed really loudly, so I started riffing off it, saying, ‘Bless you! Now if only my jokes could get that kind of explosive reaction!’”
+- ## 21. **Laughing Like a Hyena**
+	- **Definition:** This phrase describes someone laughing very loudly and uncontrollably, often in a way that’s contagious or over the top. It comes from the distinctive, laughter-like sound that hyenas make.
+	- **Example:** “The audience was laughing like hyenas at my bit about AI making life decisions—they were so loud, I thought the comedy club had turned into a wildlife documentary!”

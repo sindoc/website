@@ -1,0 +1,209 @@
+- {{embed ((66e83921-7aec-45e6-9c41-4a0709e53317))}}
+- [[Data Engineering/Data Monitoring]]
+  collapsed:: true
+	- [[Data Engineering Tool/Soda]]
+	- [[Data Engineering Tool/Great Expectations]]
+	- [[Data Engineering Tool/Monte Carlo]]
+	- [[Data Engineering Tool/Datafold]]
+	- [[Data Engineering Tool/Databricks]]
+- [[Data Engineering/Data Movement]]
+  collapsed:: true
+	- [[Data Engineering Tool/Apache Airflow]]
+	- [[Data Engineering Tool/Apache Kafka]]
+	- [[Data Engineering Tool/Databricks]]
+	- [[Data Engineering Tool/Fivetran]]
+	- [[Data Engineering Tool/Matillion]]
+	- [[Data Engineering Tool/Conveyor by Dataminded]]
+	- [[Data Engineering Tool/Google Dataflow]]
+- [[Data Engineering/Data Warehousing]]
+  collapsed:: true
+	- [[Data Engineering Tool/Snowflake]]
+	- [[Data Engineering Tool/Google BigQuery]]
+	- [[Data Engineering Tool/Amazon Redshift]]
+	- [[Data Engineering Tool/Azure Synapse Analytics]]
+	- [[Data Engineering Tool/ClickHouse]]
+	- [[Data Engineering Tool/Databricks SQL]]
+- [[...]]
+- Flat list of data engineering tools
+	- [[Data Engineering Tool/Apache Airflow]]
+	  collapsed:: true
+		- **Company**: [[Apache]]
+		- **Country**: [[USA]]
+		- **Core Function**: Workflow orchestration for automating complex data pipelines.
+		- **Pricing**: Free (open source). Managed services available via cloud providers (e.g., Google Cloud Composer).
+		- **Cloud/On-Prem**:
+			- Open-source, fully on-prem capable.
+			- Available on GCP (Google Cloud Composer) and AWS.
+		- [[AI Features]]:
+			- Workflow orchestration with AI-powered scheduling optimization.
+			- Integration with AI models for automated task management.
+		- **Cancel Subscription**: Managed services canceled via respective cloud provider (e.g., GCP, AWS).
+	- [[Data Engineering Tool/Apache Kafka]]
+	  collapsed:: true
+		- **Company**: [[Apache]]
+		- **Country**: [[USA]]
+		- **Core Function**: Distributed event streaming platform for building real-time data pipelines.
+		- **Pricing**: Free (open source). Managed services available via cloud providers (e.g., Confluent Cloud).
+		- **Cloud/On-Prem**:
+			- Open-source, fully on-prem capable.
+			- Managed versions available on AWS, GCP, and Azure (via Confluent Cloud).
+		- [[AI Features]]:
+			- AI-driven stream processing for real-time data analytics.
+			- Automated fault detection using AI for real-time data flows.
+		- **Cancel Subscription**: Managed services canceled via respective cloud provider.
+	- [[Data Engineering Tool/Soda DQ]]
+		- **Company**: [[Soda]]
+		- **Country**: [[Belgium]], [[USA]]
+		- **Core Function**: Data quality monitoring and observability platform for testing and ensuring data reliability.
+		- **Pricing**: Custom pricing based on usage.
+		- **Cloud/On-Prem**:
+			- Available in the cloud. Can be integrated with AWS, GCP, and Azure.
+		- [[AI Features]]:
+			- See SodaGPT
+			- AI-driven anomaly detection for data quality.
+			- Automated data tests and monitoring using machine learning.
+	- [[Data Engineering Tool/Databricks]]
+	  collapsed:: true
+		- **Company**: [[Databricks]]
+		- **Country**: [[USA]]
+		- **Core Function**: Unified data analytics platform for ETL, data science, machine learning, and data pipelines.
+		- **Pricing**: Pay-per-use model starting at $0.07 per DBU (Databricks Unit)/hour.
+		- **Cloud/On-Prem**:
+			- Cloud-native. Available on AWS, Azure, and GCP via marketplace.
+		- [[AI Features]]:
+			- AI-driven data engineering workflows with built-in machine learning support.
+			- Automated machine learning model management and data quality assurance.
+	- [[Data Engineering Tool/Fivetran]]
+	  collapsed:: true
+		- **Company**: [[Fivetran]]
+		- **Country**: [[USA]]
+		- **Core Function**: Fully managed data pipelines for automated ETL and data integration.
+		- **Pricing**: Starts at $60/month for up to 5 million rows. Enterprise pricing based on data volume.
+		- **Cloud/On-Prem**:
+			- Cloud-native. Available on AWS, Azure, and GCP.
+		- [[AI Features]]:
+			- AI-driven automated data pipelines for data extraction and transformation.
+			- AI-based data optimization for large data flows.
+		- **Cancel Subscription**: [Cancel Fivetran Subscription](https://fivetran.com/legal)
+	- [[Data Engineering Tool/Matillion]]
+	  collapsed:: true
+		- **Company**: [[Matillion]]
+		- **Country**: [[UK]]
+		- **Core Function**: ETL tool designed for cloud-based data integration and transformation.
+		- **Pricing**: Starts at $2.00 per credit (compute usage). Enterprise pricing available.
+		- **Cloud/On-Prem**:
+			- Cloud-native. Available on AWS, GCP, and Azure.
+		- [[AI Features]]:
+			- AI-driven data transformation and ETL process automation.
+			- Machine learning models for optimizing ETL workflows.
+		- **Cancel Subscription**: [Cancel Matillion Subscription](https://www.matillion.com/legal/)
+	- [[Data Engineering Tool/Conveyor by Dataminded]]
+	  collapsed:: true
+		- **Company**: [[Dataminded]]
+		- **Country**: [[Belgium]]
+		- **Core Function**: Data engineering platform that automates ETL workflows and data pipelines.
+		- **Pricing**: Custom pricing based on usage and company size.
+		- **Cloud/On-Prem**:
+			- Cloud-first platform. Available on AWS, Azure, and GCP.
+			- Compatible with the **FOSS Data Product Portal**, which is fully open-source.
+		- [[AI Features]]:
+			- AI-powered pipeline automation for efficient data management.
+			- Data product lifecycle management using AI.
+		- **Cancel Subscription**: [Cancel Conveyor Subscription](https://www.dataminded.be/legal)
+	- [[Data Engineering Tool/Great Expectations]]
+	  collapsed:: true
+		- **Company**: [[Great Expectations]]
+		- **Country**: [[USA]]
+		- **Core Function**: Open-source data quality framework for validating, documenting, and monitoring data.
+		- **Pricing**: Free (open source). Managed services and enterprise support are available.
+		- **Cloud/On-Prem**:
+			- Fully on-prem capable and cloud-integrated. Used with AWS, Azure, and GCP.
+		- [[AI Features]]:
+			- AI-driven data validation and profiling.
+			- Machine learning models for predictive data quality management.
+		- **Cancel Subscription**: Managed services canceled via respective provider.
+	- [[Data Engineering Tool/Monte Carlo]]
+	  collapsed:: true
+		- **Company**: [[Monte Carlo]]
+		- **Country**: [[USA]]
+		- **Core Function**: Data observability platform that ensures data quality and integrity across pipelines.
+		- **Pricing**: Custom pricing based on usage and company size.
+		- **Cloud/On-Prem**:
+			- Cloud-native. Available on AWS, GCP, and Azure.
+		- [[AI Features]]:
+			- AI-powered anomaly detection for data quality issues.
+			- Automated pipeline monitoring with AI for detecting data integrity breaches.
+		- **Cancel Subscription**: [Cancel Monte Carlo Subscription](https://www.montecarlodata.com/legal)
+	- [[Data Engineering Tool/Datafold]]
+	  collapsed:: true
+		- **Company**: [[Datafold]]
+		- **Country**: [[USA]]
+		- **Core Function**: Data quality monitoring and regression testing for identifying discrepancies in data.
+		- **Pricing**: Custom pricing based on company size and data volume.
+		- **Cloud/On-Prem**:
+			- Available in cloud environments (AWS, GCP, Azure) with on-prem integration.
+		- [[AI Features]]:
+			- AI-powered regression testing for automated data quality checks.
+			- Data profiling with AI for early anomaly detection.
+		- **Cancel Subscription**: [Cancel Datafold Subscription](https://datafold.com/legal)
+	- [[Data Engineering Tool/Snowflake]]
+	  collapsed:: true
+		- **Company**: [[Snowflake Inc.]]
+		- **Country**: [[USA]]
+		- **Core Function**: Cloud-based data warehouse designed for scalability, data storage, and analysis.
+		- **Pricing**: On-demand pricing starts at $2/hour for compute. Custom enterprise pricing available.
+		- **Cloud/On-Prem**:
+			- Cloud-native. Available on AWS, GCP, and Azure.
+		- [[AI Features]]:
+			- AI-powered auto-scaling for optimal resource usage.
+			- Integrated AI/ML models for real-time analytics.
+		- **Cancel Subscription**: [Cancel Snowflake Subscription](https://www.snowflake.com/legal/terms/)
+	- [[Data Engineering Tool/Google BigQuery]]
+	  collapsed:: true
+		- **Company**: [[Google]]
+		- **Country**: [[USA]]
+		- **Core Function**: Serverless, highly scalable, and cost-effective multi-cloud data warehouse.
+		- **Pricing**: $5/TB for queries. Custom pricing for storage.
+		- **Cloud/On-Prem**:
+			- Cloud-native. Available primarily on GCP. Integrated with multi-cloud (AWS, Azure).
+		- [[AI Features]]:
+			- AI-powered query optimization for faster processing.
+			- Built-in support for machine learning models (AI/ML).
+		- **Cancel Subscription**: [Cancel Google BigQuery Subscription](https://cloud.google.com/bigquery)
+	- [[Data Engineering Tool/Amazon Redshift]]
+	  collapsed:: true
+		- **Company**: [[Amazon Web Services]]
+		- **Country**: [[USA]]
+		- **Core Function**: Fully managed data warehouse service for large datasets and analytics.
+		- **Pricing**: $0.25 per hour per node for compute. Custom pricing for storage and advanced analytics.
+		- **Cloud/On-Prem**:
+			- Cloud-native. Available exclusively on AWS.
+		- [[AI Features]]:
+			- AI-based query acceleration for high-performance analytics.
+			- Automated machine learning models for predictive analytics.
+		- **Cancel Subscription**: [Cancel Amazon Redshift Subscription](https://aws.amazon.com/redshift/)
+	- [[Data Engineering Tool/Azure Synapse Analytics]]
+	  collapsed:: true
+		- **Company**: [[Microsoft]]
+		- **Country**: [[USA]]
+		- **Core Function**: Cloud-based analytics service that integrates big data and data warehousing.
+		- **Pricing**: Starts at $5 per DWU (Data Warehouse Unit)/hour. Custom pricing for enterprise needs.
+		- **Cloud/On-Prem**:
+			- Cloud-native. Available exclusively on Azure.
+		- [[AI Features]]:
+			- AI-powered query acceleration and data integration.
+			- Integrated AI and machine learning models for big data analytics.
+		- **Cancel Subscription**: [Cancel Azure Synapse Subscription](https://azure.microsoft.com/en-us/services/synapse-analytics/)
+	- [[Data Engineering Tool/ClickHouse]]
+	  collapsed:: true
+		- **Company**: [[ClickHouse]]
+		- **Country**: [[Russia]]
+		- **Core Function**: Columnar database management system for real-time analytics and data warehousing.
+		- **Pricing**: Free (open source). Managed cloud service pricing starts at $250/month.
+		- **Cloud/On-Prem**:
+			- Fully on-prem capable and available as a cloud service on AWS.
+		- [[AI Features]]:
+			- AI-powered real-time analytics for faster query execution.
+			- Machine learning model integration for predictive data insights.
+		- **Cancel Subscription**: [Cancel ClickHouse Subscription](https://clickhouse.com/legal)
+	- [[...]]

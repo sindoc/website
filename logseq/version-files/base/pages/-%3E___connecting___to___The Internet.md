@@ -1,0 +1,5 @@
+- Typically happens via
+	- A [[WiFi connection]]
+- In the past, was common:
+	- [[->/connecting/to/The Internet/via/Dial-Up]]
+	-

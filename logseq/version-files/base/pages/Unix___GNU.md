@@ -1,0 +1,2 @@
+- GNU started in [[1985]] by [[Richard Stallman]] to create another [[Unix]] because he couldn't live without it, but he realised that Unix isn't Free --in the freedom sense. So he started creating a free clone of Unix from scratch. This bold move gave rise to [[GNU General Public License]], which was a genius move.
+- This term isn't actually used a lot, but it shows the [[causal relationship]] they have.

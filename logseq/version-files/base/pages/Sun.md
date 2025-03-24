@@ -1,0 +1,1 @@
+- Refers to either [[The Sun]] or [[Sun Microsystems]], depending on the [[lexical context]].

@@ -1,0 +1,4 @@
+- [[gender/declaration]]
+-
+- See also
+	- [[to assign gender]]

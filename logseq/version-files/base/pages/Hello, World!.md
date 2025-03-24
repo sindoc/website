@@ -1,0 +1,2 @@
+- I first saw this thing in [[The C Programming Language]]
+-

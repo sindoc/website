@@ -1,0 +1,2 @@
+- In [[business]], refers to representatives, for instance, sales rep means a sales representative, who turns out to be the owner of business in their domain.
+	- Domain can be territory, industry, or otherwise.

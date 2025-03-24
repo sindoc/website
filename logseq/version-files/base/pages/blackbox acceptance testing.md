@@ -1,0 +1,2 @@
+- We picked this technique for testing the output of AI systems and AI models as no knowledge of the internal structure of the system being tested is required, neither is it possible in most cases, in case of [[LLMs]]
+-

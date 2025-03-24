@@ -1,0 +1,13 @@
+- [[Male]]-dominated [[roles]]
+	- [[gender roles]]
+- Related to
+	- [[en/Gender/Female/Female-Dominated Roles (Stereotypical)]]
+- ### Reference Dataset
+	- [[head of the household]]
+	- [[protector]]
+	- [[primary income earner]]
+	- [[provider]]
+	- [[business leader]]
+	- [[decision-maker]]
+	- [[technical expert]]
+	-

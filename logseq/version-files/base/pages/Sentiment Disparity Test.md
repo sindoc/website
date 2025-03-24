@@ -1,0 +1,1 @@
+- Tests [[sentiment disparity]] in [[the AI response]] when a particular [[sensitive feature]] is altered, intentionally by a [[human]] tester or if a sensitive attribute or feature is assigned by [[the AI system]].

@@ -1,0 +1,6 @@
+- Take back control of subscriptions and recurring payments
+	- Go to [Lutino.io](https://lutino.io/)
+	- Lutino.io on [ProductHunt](https://www.producthunt.com/products/lutino)
+	- See also [[Lutino.io/Catalog]] where we maintain the product and service taxonomy behind our subscription tracker product.
+- We also provide consulting services in [[Data & AI Governance]]
+	- Check out [our blog](https://lutino.substack.com/).

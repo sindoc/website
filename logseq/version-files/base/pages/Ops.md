@@ -1,0 +1,9 @@
+- In [[business]], typically refers to **Operations**
+	- The meta business function, in that, an Operations department or team typically is responsible for the organisational management of the department it is attached to.
+	- Examples
+		- [[SalesOps]]
+			- [[>/Sales Operations]]
+			- The department in charge of making sure that the right targets assigned to the right [[reps]]
+			-
+		- [[DevOps]]
+		- [[DataOps]]

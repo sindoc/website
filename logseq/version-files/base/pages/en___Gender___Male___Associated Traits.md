@@ -1,0 +1,16 @@
+- Documents [[stereotypes]] rather than it being factual
+- Related to
+	- [[en/Gender/Female/Associated Traits]]
+	-
+- ### Reference Dataset
+	- [[assertive]]
+	- [[strong]]
+	- [[confident]]
+	- [[ambitious]]
+	- [[competitive]]
+	- [[logical]]
+	- [[decisive]]
+	- [[rational]]
+	- [[aggressive]]
+	- [[dominant]]
+	-
