@@ -1,8 +1,6 @@
 title:: Use Case/Verzuim Data Use Case for Financial Market Participants
-
 tags:: #verzuim #datamodel #infoset #pggm #financialparticipants #usecase #logseq
-
----
+alias:: Verzuim Test
 
 - ## 🧩 Objective
   
