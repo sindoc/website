@@ -1,0 +1,5 @@
+- Links [[context]] to the way in which a [[situation]] is judged
+- TODO Comment on
+	- {{video https://www.youtube.com/watch?v=xuzrju9aOtM&ab_channel=BBCPersian}}
+	-
+-

@@ -1,0 +1,2 @@
+- Only when you call something a self-imposed imperative, can you really commit to spending a portion of your day, taking care of business that your body doesn't directly benefit from.
+	- There's something about

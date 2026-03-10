@@ -1,0 +1,2 @@
+- Code running in production at any [[criticality level]], with a particular [[confidence level]] about the full coverage of the code.
+-

@@ -1,0 +1,7 @@
+- [[Redirect | IMAP | POP]]
+- [[Email Workflow is Important]]
+	- How can we represent the importance of the email workflow in terms of [[liabilities]]?
+	- The answer lies in the combination of the following
+	- [[The Policy w/accurate terms of reference]]
+	- A policy is the template for a scenario
+	-
