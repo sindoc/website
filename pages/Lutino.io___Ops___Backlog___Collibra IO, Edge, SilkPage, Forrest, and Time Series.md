@@ -1,5 +1,7 @@
 - #### [[Lutino.io/Ops/Backlog/Collibra IO, Edge, SilkPage, Forrest, and Time Series]]
   id:: 8df7ea8f-593f-4cf9-bbb7-b1d4387e3e79
+  Date:: $Date: 2026-03-26 $
+  Metadata:: $Metadata: typographed=silkpage; tidy=html; style=Eric Meyer + Norman Walsh; integration=ballerina+spring-boot+collibra; branch=main; surface=public-graph $
 	- **Description**: Public backlog page for the integration of [[Collibra]], [[Collibra Edge]], [[Singine]], [[SilkPage]], [[Apache Forrest]], [[Temporal Algebra]], and [[Time Series Analysis]] into one governed publication and execution surface.
 	- Status:: Active
 	- Parent:: [[Lutino.io/Ops/Backlog]]
@@ -86,3 +88,4 @@
 		- This page is intended to remain public, graph-friendly, and entry-rich.
 		- Sensitive credentials and private operational details stay out of this repository.
 		- The publication workflow is already attached to this repository, so adding pages here is the main delivery path.
+		- The broader integration direction includes [[Ballerina]], [[Zapier]], and [[Spring Boot]] patterns already present in the local workspace, to be replicated for future Edge-enabled work.

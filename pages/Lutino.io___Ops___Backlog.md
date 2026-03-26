@@ -1,5 +1,7 @@
 - #### [[Lutino.io/Ops/Backlog]]
   id:: 1f9bcf01-0e0d-4c17-b54c-9cfb89f78f60
+  Date:: $Date: 2026-03-26 $
+  Metadata:: $Metadata: typographed=silkpage; tidy=html; style=Eric Meyer + Norman Walsh; branch=main; surface=public-graph $
 	- Status:: Being Drafted, Constructive Feedback is Always Welcome
 	- This page is the public operational backlog for the graph-facing parts of [[Lutino.io]], especially where [[Collibra]], [[Singine]], [[SilkPage]], [[Apache Forrest]], and adjacent modeling work meet.
 	- Current focus areas:
