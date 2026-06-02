@@ -11,3 +11,8 @@ Current emphasis:
 - public concept notes that relate back to Singine and adjacent work
 
 Use the canonical path `~/ws/git/github/sindoc/website` when editing or publishing from the command line.
+
+# How to Access the Graph?
+
+By simply visiting [this URL](https://sindoc.github.io/website/)
+
